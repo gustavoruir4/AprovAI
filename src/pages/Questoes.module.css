@@ -120,3 +120,27 @@
 .btn:hover:not(:disabled) { background: #0C447C; }
 .btn:disabled { opacity: 0.4; cursor: not-allowed; }
 .counter { margin-left: auto; font-size: 12px; color: #6b7280; }
+
+/* Barra de progresso */
+.progressWrap { margin: 1rem 0 0; }
+.progressBar { height: 6px; background: rgba(0,0,0,0.07); border-radius: 3px; overflow: hidden; margin-bottom: 5px; }
+.progressFill { height: 100%; background: #185FA5; border-radius: 3px; transition: width 0.4s ease; }
+.progressText { font-size: 11px; color: #6b7280; }
+
+/* Tela de conclusão */
+.finishCard {
+  background: white;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.08);
+  padding: 2.5rem 1.5rem;
+  margin-top: 1.25rem;
+  text-align: center;
+}
+.finishIcon { font-size: 3rem; margin-bottom: 1rem; }
+.finishTitle { font-size: 18px; font-weight: 600; color: #1a1a1a; margin-bottom: 8px; }
+.finishSub { font-size: 13px; color: #6b7280; margin-bottom: 1.5rem; }
+.finishStats { display: flex; justify-content: center; gap: 2rem; margin-bottom: 1.25rem; }
+.finishStat { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.finishStatValue { font-size: 2rem; font-weight: 700; }
+.finishStatLabel { font-size: 12px; color: #6b7280; }
+.finishMsg { font-size: 14px; color: #6b7280; margin-bottom: 1.5rem; }
