@@ -62,37 +62,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 33,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Espaço Urbano",
-    "enunciado": "Os moradores de Andalsnes, na Noruega, poderiam se dar ao luxo de morar perto do trabalho nos dias úteis e de se refugiar na calmaria do bosque aos fins de semana. E sem sair da mesma casa. Bastaria achar uma vaga para estacionar o imóvel antes de curtir o novo endereço. [IMAGEM: casa móvel sobre trilhos]\n\nUma vez implementada, essa proposta afetaria a dinâmica do espaço urbano por reduzir a intensidade do seguinte processo:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Êxodo rural."
-      },
-      {
-        "letra": "B",
-        "texto": "Movimento pendular."
-      },
-      {
-        "letra": "C",
-        "texto": "Migração de retorno."
-      },
-      {
-        "letra": "D",
-        "texto": "Deslocamento sazonal."
-      },
-      {
-        "letra": "E",
-        "texto": "Ocupação de áreas centrais."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 34,
     "ano": 2016,
     "prova": "ENEM",
@@ -186,37 +155,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 37,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Sociologia - Gênero e Estereótipos",
-    "enunciado": "TEXTO I: [IMAGEM: Anúncio publicitário de 1968 com o texto \"As mulheres do futuro farão da Lua um lugar mais limpo para se viver\".]\n\nTEXTO II: Metade da nova equipe da Nasa é composta por mulheres. Até hoje, cerca de 350 astronautas americanos já estiveram no espaço, enquanto as mulheres não chegam a ser um terço desse número. Após o anúncio da turma composta 50% por mulheres, alguns internautas escreveram comentários machistas e desrespeitosos sobre a escolha nas redes sociais. (2016)\n\nA comparação entre o anúncio publicitário de 1968 e a repercussão da notícia de 2016 mostra a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "elitização da carreira científica."
-      },
-      {
-        "letra": "B",
-        "texto": "qualificação da atividade doméstica."
-      },
-      {
-        "letra": "C",
-        "texto": "ambição de indústrias patrocinadoras."
-      },
-      {
-        "letra": "D",
-        "texto": "manutenção de estereótipos de gênero."
-      },
-      {
-        "letra": "E",
-        "texto": "equiparação de papéis nas relações familiares."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 38,
     "ano": 2016,
     "prova": "ENEM",
@@ -308,37 +246,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  },
-  {
-    "id": 41,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "História - Patrimônio Cultural Imaterial",
-    "enunciado": "TEXTO I: [IMAGEM: Fotografia de mãos moldando argila — referência a ofício/saber tradicional registrado pelo IPHAN.]\n\nTEXTO II: A eleição dos novos bens, ou melhor, de novas formas de se conceber a condição do patrimônio cultural nacional, também permite que diferentes grupos sociais, utilizando as leis do Estado e o apoio de especialistas, revejam as imagens e alegorias do seu passado, do que querem guardar e definir como próprio e identitário. (ABREU, M.; SOIHET, R.; GONTIJO, R.)\n\nO texto chama a atenção para a importância da proteção de bens que, como aquele apresentado na imagem, se identificam como:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Artefatos sagrados."
-      },
-      {
-        "letra": "B",
-        "texto": "Heranças materiais."
-      },
-      {
-        "letra": "C",
-        "texto": "Objetos arqueológicos."
-      },
-      {
-        "letra": "D",
-        "texto": "Peças comercializáveis."
-      },
-      {
-        "letra": "E",
-        "texto": "Conhecimentos tradicionais."
-      }
-    ],
-    "correta": "E"
   },
   {
     "id": 42,
@@ -465,68 +372,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 46,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geopolítica - Blocos Econômicos",
-    "enunciado": "[IMAGEM: Mapa da Parceria Transpacífico com os países membros: Vietnã, Cingapura, Brunei Darussalam, Malásia, Austrália, Japão, Nova Zelândia, Chile, Peru, México, Estados Unidos, Canadá.]\n\nDentro das atuais redes produtivas, o referido bloco apresenta composição estratégica por se tratar de um conjunto de países com",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "elevado padrão social."
-      },
-      {
-        "letra": "B",
-        "texto": "sistema monetário integrado."
-      },
-      {
-        "letra": "C",
-        "texto": "alto desenvolvimento tecnológico."
-      },
-      {
-        "letra": "D",
-        "texto": "identidades culturais semelhantes."
-      },
-      {
-        "letra": "E",
-        "texto": "vantagens locacionais complementares."
-      }
-    ],
-    "correta": "E"
-  },
-  {
-    "id": 47,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Cartografia e Projeções",
-    "enunciado": "[IMAGEM: Logotipo da ONU com projeção cartográfica azimutal equidistante.]\n\nA ONU faz referência a uma projeção cartográfica em seu logotipo. A figura que ilustra o modelo dessa projeção é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A — projeção cônica]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B — projeção cilíndrica]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C — projeção azimutal polar]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D — projeção de Mercator]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E — projeção de Peters]"
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 48,
     "ano": 2016,
     "prova": "ENEM",
@@ -651,37 +496,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 52,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "História - Revolução Islâmica e Transformação Cultural",
-    "enunciado": "[IMAGEM: Quadrinho da obra Persépolis (SATRAPI, M.) com quatro painéis mostrando: (1) a autora com 10 anos em 1980; (2) sua turma de classe com meninas sem véu; (3) texto anunciando a Revolução Islâmica de 1979; (4) o primeiro ano em que o véu se tornou obrigatório nas escolas.]\n\nA memória recuperada pela autora apresenta a relação entre",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "conflito trabalhista e engajamento sindical."
-      },
-      {
-        "letra": "B",
-        "texto": "organização familiar e proteção à infância."
-      },
-      {
-        "letra": "C",
-        "texto": "centralização econômica e pregação religiosa."
-      },
-      {
-        "letra": "D",
-        "texto": "estrutura educacional e desigualdade de renda."
-      },
-      {
-        "letra": "E",
-        "texto": "transformação política e modificação de costumes."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 53,
     "ano": 2016,
     "prova": "ENEM",
@@ -770,37 +584,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "promoção da inclusão social."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 56,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "História do Brasil - Religiosidade Afro-brasileira",
-    "enunciado": "TEXTO I: [IMAGEM: Imagem de São Benedito — santo negro da tradição católica.]\n\nTEXTO II: Os santos tornaram-se grandes aliados da Igreja para atrair novos devotos, pois eram obedientes a Deus e ao poder clerical. Contando e estimulando o conhecimento sobre a vida dos santos, a Igreja transmitia aos fiéis os ensinamentos que julgava corretos e que deviam ser imitados por escravos que, em geral, traziam outras crenças de suas terras de origem, muito diferentes das que preconizava a fé católica. (OLIVEIRA, A. J.)\n\nPosteriormente ressignificados no interior de certas irmandades e no contato com outra matriz religiosa, o ícone e a prática mencionada no texto estiveram desde o século XVII relacionados a um esforço da Igreja Católica para",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "reduzir o poder das confrarias."
-      },
-      {
-        "letra": "B",
-        "texto": "cristianizar a população afro-brasileira."
-      },
-      {
-        "letra": "C",
-        "texto": "espoliar recursos materiais dos cativos."
-      },
-      {
-        "letra": "D",
-        "texto": "recrutar libertos para seu corpo eclesiástico."
-      },
-      {
-        "letra": "E",
-        "texto": "atender a demanda popular por padroeiros locais."
       }
     ],
     "correta": "B"
@@ -992,37 +775,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 63,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "História da África - Apartheid",
-    "enunciado": "[IMAGEM: Fuzileiros navais sul-africanos fiscalizando documentos de cidadãos negros durante o Apartheid.]\n\nO regime do Apartheid adotado de 1948 a 1994 na África do Sul fundamentava-se em ações estatais de segregacionismo racial. Na imagem, fuzileiros navais fazem valer a \"lei do passe\" que regulamentava o(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "concentração fundiária, impedindo os negros de tomar posse legítima do uso da terra."
-      },
-      {
-        "letra": "B",
-        "texto": "boicote econômico, proibindo os negros de consumir produtos ingleses sem resistência armada."
-      },
-      {
-        "letra": "C",
-        "texto": "sincretismo religioso, vetando os ritos sagrados dos negros nas cerimônias oficiais do Estado."
-      },
-      {
-        "letra": "D",
-        "texto": "controle sobre a movimentação, desautorizando os negros a transitar em determinadas áreas das cidades."
-      },
-      {
-        "letra": "E",
-        "texto": "exclusão do mercado de trabalho, negando à população negra o acesso aos bens de consumo."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 64,
     "ano": 2016,
     "prova": "ENEM",
@@ -1085,37 +837,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 66,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Recursos Hídricos e Dessalinização",
-    "enunciado": "[IMAGEM: Mapa-múndi com usinas de dessalinização, com destaque para: Arábia Saudita (6.879.869 m³/dia), Emirados Árabes Unidos (6.228.017 m³/dia), Estados Unidos (5.653.941 m³/dia), Espanha (2.588.658 m³/dia), Kuwait (2.111.558 m³/dia) e Japão (1.054.274 m³/dia).]\n\nConforme a análise do documento cartográfico, a área de concentração das usinas de dessalinização é explicada pelo(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "pioneirismo tecnológico."
-      },
-      {
-        "letra": "B",
-        "texto": "condição hidropedológica."
-      },
-      {
-        "letra": "C",
-        "texto": "escassez de água potável."
-      },
-      {
-        "letra": "D",
-        "texto": "efeito das mudanças climáticas."
-      },
-      {
-        "letra": "E",
-        "texto": "busca da sustentabilidade ambiental."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 67,
     "ano": 2016,
     "prova": "ENEM",
@@ -1142,37 +863,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "amplifica o sentimento de ansiedade."
-      }
-    ],
-    "correta": "D"
-  },
-  {
-    "id": 68,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "História do Brasil - Industrialização e Desigualdade Regional",
-    "enunciado": "[IMAGEM: Anúncio do carro Simca Chambord na revista O Cruzeiro, década de 1960, com o slogan \"Novo toque de elegância na moderna paisagem brasileira\".]\n\nNo anúncio, há referências a algumas das transformações ocorridas no Brasil nos anos 1950 e 1960. No entanto, tais referências omitem transformações que impactaram segmentos da população, como a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "exaltação da tradição colonial."
-      },
-      {
-        "letra": "B",
-        "texto": "redução da influência estrangeira."
-      },
-      {
-        "letra": "C",
-        "texto": "ampliação da imigração internacional."
-      },
-      {
-        "letra": "D",
-        "texto": "intensificação da desigualdade regional."
-      },
-      {
-        "letra": "E",
-        "texto": "desconcentração da produção industrial."
       }
     ],
     "correta": "D"
@@ -1302,37 +992,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 73,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "História do Brasil - Economia Cafeeira",
-    "enunciado": "[IMAGEM: Página da revista A Illustração Brazileira (1909) com a cena \"O Café do Brazil em Paris\", mostrando parisienses consumindo café brasileiro.]\n\nLegenda original: \"Uma scena franco-brazileira: 'franco' — pelo local e os personagens, o local que é Paris e os personagens que são pessôas do povo da grande capital; 'brazileira' pelo que ahi se está bebendo: café do Brazil. O Lettreiro diz a verdade apregoando que esse é o melhor de todos os cafés.\"\n\nA página do periódico do início do século XX documenta um importante elemento da cultura francesa, que é revelador do papel do Brasil na economia mundial, indicado no seguinte aspecto:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Prestador de serviços gerais."
-      },
-      {
-        "letra": "B",
-        "texto": "Exportador de bens industriais."
-      },
-      {
-        "letra": "C",
-        "texto": "Importador de padrões estéticos."
-      },
-      {
-        "letra": "D",
-        "texto": "Fornecedor de produtos agrícolas."
-      },
-      {
-        "letra": "E",
-        "texto": "Formador de padrões de consumo."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 74,
     "ano": 2016,
     "prova": "ENEM",
@@ -1362,37 +1021,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  },
-  {
-    "id": 75,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Transição Demográfica",
-    "enunciado": "[IMAGEM/GRÁFICO: Taxa de fecundidade total de 1970 a 2010 para Brasil, China, Coreia do Sul, Portugal, EUA e Japão. Tendência de queda geral. Em 2010, os valores convergem para próximo de 1,9 (Brasil) e valores menores para outros países.]\n\n\"O número de filhos por casal diminuiu rapidamente. Para a maioria dos economistas, isso representa um alerta para o futuro.\"\n\nUma consequência socioeconômica para os países que vivenciam o fenômeno demográfico ilustrado é a diminuição da",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "oferta de mão de obra nacional."
-      },
-      {
-        "letra": "B",
-        "texto": "média de expectativa de vida."
-      },
-      {
-        "letra": "C",
-        "texto": "disponibilidade de serviços de saúde."
-      },
-      {
-        "letra": "D",
-        "texto": "despesa de natureza previdenciária."
-      },
-      {
-        "letra": "E",
-        "texto": "imigração de trabalhadores qualificados."
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 76,
@@ -1488,37 +1116,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 79,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Efeito Doppler",
-    "enunciado": "Uma ambulância A em movimento retilíneo e uniforme aproxima-se de um observador O, em repouso. A sirene emite um som de frequência constante fA. O desenho ilustra as frentes de onda do som emitido pela ambulância. O observador possui um detector que consegue registrar, no esboço de um gráfico, a frequência da onda sonora detectada em função do tempo fO(t), antes e depois da passagem da ambulância por ele. [IMAGEM: Diagrama com ambulância, frentes de onda e observador.]\n\nQual esboço gráfico representa a frequência fO(t) detectada pelo observador?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A — frequência crescente ao longo do tempo]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B — frequência decrescente ao longo do tempo]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C — frequência constante durante toda a passagem]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D — frequência maior antes e menor depois da passagem, com queda brusca]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E — frequência menor antes e maior depois da passagem]"
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 80,
     "ano": 2016,
     "prova": "ENEM",
@@ -1581,37 +1178,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 82,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química Orgânica - Isomeria e Feromônios",
-    "enunciado": "Os feromônios são substâncias utilizadas na comunicação entre indivíduos de uma espécie. O primeiro feromônio isolado de um inseto foi o bombicol, substância produzida pela mariposa do bicho-da-seda. [IMAGEM: Estrutura química do bombicol com dupla ligação E/Z e função álcool.]\n\nO bombicol apresenta isomeria geométrica (cis-trans). Considerando as estruturas químicas dos feromônios no quadro, o tipo de estereoisomeria apresentada pelo bombicol é também apresentada pelo feromônio utilizado no controle do inseto\n\nTabela de feromônios por inseto e cultivo:\n- Scrobipalpuloides absoluta → Tomate\n- Migdolus fryanus → Cana-de-açúcar\n- Sitophilus spp → Milho\n- Anthonomus rubi → Morango\n- Grapholita molesta → Frutas",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Sitophilus spp."
-      },
-      {
-        "letra": "B",
-        "texto": "Migdolus fryanus."
-      },
-      {
-        "letra": "C",
-        "texto": "Anthonomus rubi."
-      },
-      {
-        "letra": "D",
-        "texto": "Grapholita molesta."
-      },
-      {
-        "letra": "E",
-        "texto": "Scrobipalpuloides absoluta."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 83,
     "ano": 2016,
     "prova": "ENEM",
@@ -1672,37 +1238,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 85,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Acústica e Intensidade Sonora",
-    "enunciado": "A Figura 1 apresenta o gráfico da intensidade (em dB) de uma onda sonora emitida por um alto-falante em repouso, medida por um microfone em função da frequência para diferentes distâncias: 3 mm, 25 mm, 51 mm e 60 mm. A Figura 2 apresenta as faixas do espectro de frequência sonora: Subgrave (20–63 Hz), Grave, Média baixa, Média, Média alta, Aguda (5k–20 kHz). [IMAGEM: Gráfico de resposta de frequência do alto-falante para várias distâncias.]\n\nRelacionando as informações presentes nas figuras 1 e 2, como a intensidade sonora percebida é afetada pelo aumento da distância do microfone ao alto-falante?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Aumenta na faixa das frequências médias."
-      },
-      {
-        "letra": "B",
-        "texto": "Diminui na faixa das frequências agudas."
-      },
-      {
-        "letra": "C",
-        "texto": "Diminui na faixa das frequências graves."
-      },
-      {
-        "letra": "D",
-        "texto": "Aumenta na faixa das frequências médias altas."
-      },
-      {
-        "letra": "E",
-        "texto": "Aumenta na faixa das frequências médias baixas."
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 86,
@@ -1796,37 +1331,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "E"
-  },
-  {
-    "id": 89,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Resistência Elétrica e Grafite",
-    "enunciado": "O grafite pode ser utilizado para simular resistores elétricos em circuitos desenhados no papel. Um estudante fez o desenho de um sorvete de casquinha utilizando três traçados com lápis 2H, HB e 6B, com os seguintes valores de resistência medidos com ohmímetro: [IMAGEM: Desenho de sorvete com valores de resistência em pontos A, B e C: RAB₁ = 5 kΩ (casquinha), RAB₂ = 10 kΩ (sorvete, parte 1), RBC = 5 kΩ (sorvete, parte 2) — valores aproximados conforme a figura original.]\n\nO estudante conectou o ohmímetro nos terminais A-B e depois nos terminais B-C. Ao estabelecer a razão R_AB / R_BC, qual resultado o estudante obteve?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1"
-      },
-      {
-        "letra": "B",
-        "texto": "4/7"
-      },
-      {
-        "letra": "C",
-        "texto": "10/27"
-      },
-      {
-        "letra": "D",
-        "texto": "14/81"
-      },
-      {
-        "letra": "E",
-        "texto": "4/81"
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 90,
@@ -2013,37 +1517,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "E"
-  },
-  {
-    "id": 96,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Engrenagens e Frequência de Rotação",
-    "enunciado": "Ao construir um pequeno cronômetro, um relojoeiro usa um sistema de engrenagens. Um motor é ligado ao eixo e movimenta as engrenagens fazendo o ponteiro girar. A frequência do motor é de 18 RPM, e o número de dentes das engrenagens é: A = 24, B = 72, C = 36, D = 108. As engrenagens estão acopladas na ordem: Motor → A → B → C → D → Ponteiro. [IMAGEM: Diagrama das engrenagens acopladas.]\n\nA frequência de giro do ponteiro, em RPM, é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "4"
-      },
-      {
-        "letra": "D",
-        "texto": "81"
-      },
-      {
-        "letra": "E",
-        "texto": "162"
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 97,
@@ -2261,68 +1734,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 104,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Circuitos Elétricos e Corrente",
-    "enunciado": "Três lâmpadas idênticas foram ligadas no circuito esquematizado. A bateria apresenta resistência interna desprezível e os fios possuem resistência nula. Um técnico fez uma análise do circuito para prever a corrente elétrica nos pontos A, B, C, D e E, rotuladas IA, IB, IC, ID e IE, respectivamente. [IMAGEM: Circuito com L1 em série com o paralelo de L2 e L3. Ponto A: antes de L1; B: entre L1 e o nó do paralelo; C: no ramo de L2; D: no ramo de L3; E: após a junção do paralelo.]\n\nO técnico concluiu que as correntes que apresentam o mesmo valor são",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "IA = IE e IC = ID."
-      },
-      {
-        "letra": "B",
-        "texto": "IA = IB = IE e IC = ID."
-      },
-      {
-        "letra": "C",
-        "texto": "IA = IB, apenas."
-      },
-      {
-        "letra": "D",
-        "texto": "IA = IB = IE, apenas."
-      },
-      {
-        "letra": "E",
-        "texto": "IC = IB, apenas."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 105,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Biologia - Seiva Xilêmica e Transpiração",
-    "enunciado": "[IMAGEM: Diagrama mostrando o movimento da seiva xilêmica em uma planta — da raiz absorvendo água do solo, pelo vaso xilêmico, até os estômatos nas folhas onde ocorre a perda de vapor de água.]\n\nMesmo que essa planta viesse a sofrer ação contínua do vento e sua copa crescesse voltada para baixo, essa seiva continuaria naturalmente seu percurso.\n\nO que garante o transporte dessa seiva é a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "gutação."
-      },
-      {
-        "letra": "B",
-        "texto": "gravidade."
-      },
-      {
-        "letra": "C",
-        "texto": "respiração."
-      },
-      {
-        "letra": "D",
-        "texto": "fotossíntese."
-      },
-      {
-        "letra": "E",
-        "texto": "transpiração."
-      }
-    ],
-    "correta": "E"
   },
   {
     "id": 106,
@@ -2604,68 +2015,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 115,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Tensoativos e Forças Intermoleculares",
-    "enunciado": "Os tensoativos são compostos capazes de interagir com substâncias polares e apolares. A parte iônica dos tensoativos interage com substâncias polares, e a parte lipofílica interage com as apolares. A estrutura orgânica de um tensoativo tem uma cabeça polar (iônica) e uma cauda apolar (cadeia carbônica longa).\n\nAo adicionar um tensoativo sobre a água, suas moléculas formam um arranjo ordenado. Esse arranjo é representado esquematicamente por qual opção? [IMAGEM: 5 opções de arranjos de tensoativos na interface água/ar.]",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A — cabeças polares apontando para o ar, caudas na água]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B — cabeças polares na água, caudas apontando para o ar]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C — moléculas dispostas aleatoriamente]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D — formação de micela submersa]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E — caudas polares na água e cabeças no ar]"
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 116,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Ondas Estacionárias e Micro-ondas",
-    "enunciado": "Um experimento comprova a natureza ondulatória da radiação de micro-ondas: retirou-se a plataforma giratória de um forno de micro-ondas e colocou-se uma travessa com manteiga. Ao ligar o forno por alguns segundos, observou-se que havia três pontos de manteiga derretida alinhados sobre toda a travessa. Parte da onda estacionária gerada no interior do forno é ilustrada na figura com os pontos I, II, III, IV e V. [IMAGEM: Onda estacionária com nós e ventres marcados.]\n\nDe acordo com a figura, quais posições correspondem a dois pontos consecutivos da manteiga derretida?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "I e III"
-      },
-      {
-        "letra": "B",
-        "texto": "I e V"
-      },
-      {
-        "letra": "C",
-        "texto": "II e III"
-      },
-      {
-        "letra": "D",
-        "texto": "II e IV"
-      },
-      {
-        "letra": "E",
-        "texto": "II e V"
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 117,
     "ano": 2016,
     "prova": "ENEM",
@@ -2726,37 +2075,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  },
-  {
-    "id": 119,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Aquecimento por Micro-ondas e Solventes",
-    "enunciado": "O aquecimento de um material por irradiação com micro-ondas ocorre por causa da interação da onda eletromagnética com o dipolo elétrico da molécula. O gráfico mostra a taxa de aquecimento de cinco solventes sob irradiação de micro-ondas: Água, Metanol, Etanol, Propanol e n-Hexano. [IMAGEM/GRÁFICO: Temperatura (°C) × Tempo (s) para os cinco solventes. O n-hexano permanece praticamente horizontal próximo da temperatura ambiente.]\n\nNo gráfico, qual solvente apresenta taxa média de aquecimento mais próxima de zero, no intervalo de 0 s a 40 s?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "H₂O"
-      },
-      {
-        "letra": "B",
-        "texto": "CH₃OH"
-      },
-      {
-        "letra": "C",
-        "texto": "CH₃CH₂OH"
-      },
-      {
-        "letra": "D",
-        "texto": "CH₃CH₂CH₂OH"
-      },
-      {
-        "letra": "E",
-        "texto": "CH₃CH₂CH₂CH₂CH₂CH₃"
-      }
-    ],
-    "correta": "E"
   },
   {
     "id": 120,
@@ -2883,37 +2201,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 124,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Inglês - Preparação para Emergências (cartaz)",
-    "enunciado": "[IMAGEM: Cartaz de preparação para emergências do estado de Connecticut (EUA) com os termos: GlobalFlu Pandemic, 9/11 Terrorism, Earthquake Haiti, Katrina Hurricane, Chernobyl Nuclear, Connecticut? — Would you know what to do if disaster struck here? Learn to live prepared. ct.gov/dph/prepare]\n\nOrientações à população são encontradas também em sites oficiais. Ao clicar no endereço eletrônico mencionado no cartaz disponível na internet, o leitor tem acesso aos(às)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "ações do governo local referentes a calamidades."
-      },
-      {
-        "letra": "B",
-        "texto": "relatos de sobreviventes em tragédias marcantes."
-      },
-      {
-        "letra": "C",
-        "texto": "tipos de desastres naturais possíveis de acontecer."
-      },
-      {
-        "letra": "D",
-        "texto": "informações sobre acidentes ocorridos em Connecticut."
-      },
-      {
-        "letra": "E",
-        "texto": "medidas de emergência a serem tomadas em catástrofes."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 125,
     "ano": 2016,
     "prova": "ENEM",
@@ -2974,37 +2261,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "D"
-  },
-  {
-    "id": 127,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Publicidade e Consumo Consciente",
-    "enunciado": "[IMAGEM: Infográfico \"A Água Invisível\" (National Geographic Brasil, 2012) mostrando a água virtual embutida em produtos: 1 kg de carne bovina = 15.000 L, 1 ovo = 3.340 L, 1 kg de pão = 1.600 L, 1 copo de cerveja = 75 L. Mensagem final: \"ECONOMIZAR BENS DE CONSUMO E EVITAR O DESPERDÍCIO TAMBÉM É POUPAR ÁGUA.\"]\n\nNessa campanha publicitária, para estimular a economia de água, o leitor é incitado a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "adotar práticas de consumo consciente."
-      },
-      {
-        "letra": "B",
-        "texto": "alterar hábitos de higienização pessoal e residencial."
-      },
-      {
-        "letra": "C",
-        "texto": "contrapor-se a formas indiretas de exportação de água."
-      },
-      {
-        "letra": "D",
-        "texto": "optar por vestuário produzido com matéria-prima reciclável."
-      },
-      {
-        "letra": "E",
-        "texto": "conscientizar produtores rurais sobre os custos de produção."
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 128,
@@ -3100,37 +2356,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 131,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Mosaico e Arte Pública",
-    "enunciado": "[IMAGEM: Obra \"Colcha de retalhos\", de C. Tozzi. Mosaico figurativo na Estação de Metrô Sé (São Paulo). A obra representa cenas do cotidiano popular brasileiro em azulejos coloridos que compõem painéis ao longo das paredes da estação.]\n\nColcha de retalhos representa a essência do mural e convida o público a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "apreciar a estética do cotidiano."
-      },
-      {
-        "letra": "B",
-        "texto": "interagir com os elementos da composição."
-      },
-      {
-        "letra": "C",
-        "texto": "refletir sobre elementos do inconsciente do artista."
-      },
-      {
-        "letra": "D",
-        "texto": "reconhecer a estética clássica das formas."
-      },
-      {
-        "letra": "E",
-        "texto": "contemplar a obra por meio da movimentação física."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 132,
     "ano": 2016,
     "prova": "ENEM",
@@ -3219,37 +2444,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "um tecido, visto que sua composição depende de elementos intrínsecos ao eu lírico."
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 135,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Gênero Textual: Campanha de Saúde",
-    "enunciado": "[IMAGEM: Campanha \"Qual é a segurança do sangue?\" do Pró-Sangue (SP)] — Texto da campanha destacando que apenas pessoas saudáveis e sem risco para doenças infecciosas (hepatites B e C, HIV, sífilis e Chagas) podem doar sangue; e que da honestidade do doador depende a vida de quem vai receber seu sangue. Alerta sobre o período de janela imunológica.\n\nNessa campanha, as informações apresentadas têm como objetivo principal",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "conscientizar o doador de sua corresponsabilidade pela qualidade do sangue."
-      },
-      {
-        "letra": "B",
-        "texto": "garantir a segurança de pessoas de grupos de risco durante a doação de sangue."
-      },
-      {
-        "letra": "C",
-        "texto": "esclarecer o público sobre a segurança do processo de captação do sangue."
-      },
-      {
-        "letra": "D",
-        "texto": "alertar os doadores sobre as dificuldades enfrentadas na coleta de sangue."
-      },
-      {
-        "letra": "E",
-        "texto": "ampliar o número de doadores para manter o banco de sangue."
       }
     ],
     "correta": "A"
@@ -3503,37 +2697,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 144,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Funções e Coeficiente Angular",
-    "enunciado": "Para uma feira de ciências, dois projéteis de foguetes, A e B, estão sendo construídos. O projétil A descreve trajetória parabólica e o B trajetória retilínea. O gráfico mostra as alturas alcançadas em função do tempo. [IMAGEM/GRÁFICO: Parábola do projétil A com vértice em aproximadamente (5, 20), e reta do projétil B com inclinação positiva. Os dois gráficos não se interceptam no ponto máximo de A.]\n\nCom base nas simulações, observou-se que a trajetória do projétil B deveria ser alterada para que o objetivo fosse alcançado. Para alcançar o objetivo, o coeficiente angular da reta que representa a trajetória de B deverá",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "diminuir em 2 unidades."
-      },
-      {
-        "letra": "B",
-        "texto": "diminuir em 4 unidades."
-      },
-      {
-        "letra": "C",
-        "texto": "aumentar em 2 unidades."
-      },
-      {
-        "letra": "D",
-        "texto": "aumentar em 4 unidades."
-      },
-      {
-        "letra": "E",
-        "texto": "aumentar em 8 unidades."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 145,
     "ano": 2016,
     "prova": "ENEM",
@@ -3563,99 +2726,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 146,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Leitura de Gráfico e Porcentagem (crescimento infantil)",
-    "enunciado": "A OMS criou tabelas de altura para acompanhar o crescimento de crianças. O gráfico apresenta o crescimento de meninas, com curvas percentis (p3, p15, p50, p85, p97) em função da idade entre 3 e 5 anos. [IMAGEM/GRÁFICO: Curvas de crescimento com a curva p50 passando por 95 cm aos 4 anos e 4 meses, aproximadamente.]\n\nUma menina aos 3 anos de idade tinha altura de 85 centímetros e aos 4 anos e 4 meses sua altura chegou a um valor que corresponde a um ponto exatamente sobre a curva p50.\n\nQual foi o aumento percentual da altura dessa menina, descrito com uma casa decimal, no período considerado?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "23,5%"
-      },
-      {
-        "letra": "B",
-        "texto": "21,2%"
-      },
-      {
-        "letra": "C",
-        "texto": "19,0%"
-      },
-      {
-        "letra": "D",
-        "texto": "11,8%"
-      },
-      {
-        "letra": "E",
-        "texto": "10,0%"
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 147,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Leitura de Gráfico com Duplo Eixo (floricultura)",
-    "enunciado": "O cultivo de uma flor rara só é viável se do mês do plantio para o mês subsequente o clima da região possuir as seguintes peculiaridades: variação da pluviosidade não superior a 50 mm; temperatura mínima superior a 15 °C; ocorrer leve aumento não superior a 5 °C na temperatura máxima. Um gráfico mostra pluviosidade (mm), temperatura máxima e temperatura mínima (°C) para os meses de maio/2012 a maio/2013. [IMAGEM/GRÁFICO: Gráfico de barras e linhas com duplo eixo, mostrando pluviosidade e temperaturas por mês.]\n\nCom base nas informações do gráfico, o mês escolhido para o plantio foi",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "janeiro."
-      },
-      {
-        "letra": "B",
-        "texto": "fevereiro."
-      },
-      {
-        "letra": "C",
-        "texto": "agosto."
-      },
-      {
-        "letra": "D",
-        "texto": "novembro."
-      },
-      {
-        "letra": "E",
-        "texto": "dezembro."
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 148,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Gráfico de Função Afim e Vazão",
-    "enunciado": "Uma cisterna de 6.000 L foi esvaziada em um período de 3 h. Na primeira hora foi utilizada apenas uma bomba, mas nas duas horas seguintes, a fim de reduzir o tempo de esvaziamento, outra bomba foi ligada junto com a primeira. O gráfico, formado por dois segmentos de reta, mostra o volume de água presente na cisterna em função do tempo. [IMAGEM/GRÁFICO: Volume (L) × Tempo (h). O gráfico parte de 6.000 L, desce com inclinação menor até t=1 h (ponto B ~5.000 L), depois desce mais rapidamente até 0 L em t=3 h.]\n\nQual é a vazão, em litro por hora, da bomba que foi ligada no início da segunda hora?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1.000"
-      },
-      {
-        "letra": "B",
-        "texto": "1.250"
-      },
-      {
-        "letra": "C",
-        "texto": "1.500"
-      },
-      {
-        "letra": "D",
-        "texto": "2.000"
-      },
-      {
-        "letra": "E",
-        "texto": "2.500"
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 149,
@@ -3718,37 +2788,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 151,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Função Linear e Reservatório de Água",
-    "enunciado": "O nível de água de um reservatório foi monitorado por um período, com resultado mostrado no gráfico. Supondo que essa tendência linear observada se prolongue pelos próximos meses. [IMAGEM/GRÁFICO: Nível do reservatório (%) × Mês. No mês 1, nível ~30%; no mês 6, nível ~5%. A reta decresce linearmente.]\n\nNas condições dadas, qual o tempo mínimo, após o sexto mês, para que o reservatório atinja o nível zero de sua capacidade?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "2 meses e meio."
-      },
-      {
-        "letra": "B",
-        "texto": "3 meses e meio."
-      },
-      {
-        "letra": "C",
-        "texto": "1 mês e meio."
-      },
-      {
-        "letra": "D",
-        "texto": "4 meses."
-      },
-      {
-        "letra": "E",
-        "texto": "1 mês."
-      }
-    ],
-    "correta": "E"
   },
   {
     "id": 152,
@@ -3842,37 +2881,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 155,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Probabilidade e Percursos em Grafo",
-    "enunciado": "Um adolescente vai a um parque de diversões tendo, prioritariamente, o desejo de ir a um brinquedo que se encontra na área IV, dentre as áreas I, II, III, IV e V existentes. O esquema ilustra o mapa do parque, com a localização da entrada, das cinco áreas e dos possíveis caminhos para se chegar a cada área. [IMAGEM: Mapa com bifurcações levando às áreas I-V.]\n\nSupondo que, relativamente a cada ramificação, as opções existentes de percurso apresentem iguais probabilidades de escolha, a probabilidade de ele chegar à área IV sem passar por outras áreas e sem retornar é igual a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1/96"
-      },
-      {
-        "letra": "B",
-        "texto": "1/64"
-      },
-      {
-        "letra": "C",
-        "texto": "5/24"
-      },
-      {
-        "letra": "D",
-        "texto": "1/4"
-      },
-      {
-        "letra": "E",
-        "texto": "5/12"
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 156,
@@ -4061,37 +3069,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 162,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Índice de Gini e Geometria Analítica",
-    "enunciado": "A distribuição de salários pagos em uma empresa pode ser analisada destacando-se a parcela do total da massa salarial paga aos 10% que recebem os maiores salários, representada num gráfico formado por dois segmentos de reta unidos no ponto P (abscissa = 90). O Índice de Gini é calculado pela razão A/(A + B), em que A e B são as medidas das áreas indicadas no gráfico. A empresa tem como meta tornar seu Índice de Gini igual ao do país, que é 0,3. Para tanto, precisa ajustar os salários de modo a alterar o percentual que representa a parcela recebida pelos 10% dos funcionários de maior salário em relação ao total da massa salarial. [IMAGEM/GRÁFICO: Gráfico de Lorenz com ponto P e regiões A e B.]\n\nPara atingir a meta desejada, o percentual deve ser",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "40%"
-      },
-      {
-        "letra": "B",
-        "texto": "20%"
-      },
-      {
-        "letra": "C",
-        "texto": "60%"
-      },
-      {
-        "letra": "D",
-        "texto": "30%"
-      },
-      {
-        "letra": "E",
-        "texto": "70%"
-      }
-    ],
-    "correta": "A"
-  },
-  {
     "id": 163,
     "ano": 2016,
     "prova": "ENEM",
@@ -4185,37 +3162,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 166,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Sistema de Numeração Posicional e Ábaco",
-    "enunciado": "O ábaco usa notação posicional de base dez para representar números naturais. Cada haste corresponde a uma posição no sistema decimal. Em geral, a disposição usual dos adesivos começa com U (unidades) na haste da direita e segue para a esquerda: D, C, M, DM, CM. Entretanto, no ábaco da figura, os adesivos não seguiram a disposição usual: a ordem dos adesivos nas hastes, da direita para esquerda, é: U, C, M, D, M, C, D, M. [IMAGEM: Ábaco com argolas — quantidade de argolas em cada haste: ver configuração original.]\n\nNessa disposição, o número que está representado na figura é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "46.171."
-      },
-      {
-        "letra": "B",
-        "texto": "147.016."
-      },
-      {
-        "letra": "C",
-        "texto": "171.064."
-      },
-      {
-        "letra": "D",
-        "texto": "460.171."
-      },
-      {
-        "letra": "E",
-        "texto": "610.741."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 167,
     "ano": 2016,
     "prova": "ENEM",
@@ -4245,37 +3191,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 168,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Funções Trigonométricas e Interseção de Gráficos",
-    "enunciado": "Em um exame, foi feito o monitoramento dos níveis de duas substâncias presentes (A e B) na corrente sanguínea de uma pessoa, durante um período de 24 h. Um nutricionista determinou que, para uma dieta semanal eficaz, deverá ser estabelecido um parâmetro cujo valor será dado pelo número de vezes em que os níveis de A e de B forem iguais, porém, maiores que o nível mínimo da substância A durante o período de duração da dieta. [IMAGEM/GRÁFICO: Duas funções oscilantes (A e B) durante 24 h, com interseções.]\n\nConsidere que o padrão apresentado no resultado do exame, no período analisado, se repita para os dias subsequentes. O valor do parâmetro estabelecido pelo nutricionista, para uma dieta semanal, será igual a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "28."
-      },
-      {
-        "letra": "B",
-        "texto": "21."
-      },
-      {
-        "letra": "C",
-        "texto": "2."
-      },
-      {
-        "letra": "D",
-        "texto": "7."
-      },
-      {
-        "letra": "E",
-        "texto": "14."
-      }
-    ],
-    "correta": "E"
   },
   {
     "id": 169,
@@ -4340,37 +3255,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 171,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Funções: Vazão de Torneira e Ralo",
-    "enunciado": "Os gráficos representam as vazões Q (L/min) do volume de água que entra no reservatório pela torneira e do volume que sai pelo ralo, em função do tempo t (min). [IMAGEM/GRÁFICO: Torneira: Q = 20 L/min de t = 0 a t = 25 min. Ralo: Q = 5 L/min de t = 0 a t = 5 min, depois Q = 20 L/min de t = 5 a t = 15 min, e Q = 5 L/min de t = 15 a t = 25 min.]\n\nEm qual intervalo de tempo, em minuto, o reservatório tem uma vazão constante de enchimento?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "De 0 a 10."
-      },
-      {
-        "letra": "B",
-        "texto": "De 5 a 10."
-      },
-      {
-        "letra": "C",
-        "texto": "De 5 a 15."
-      },
-      {
-        "letra": "D",
-        "texto": "De 15 a 25."
-      },
-      {
-        "letra": "E",
-        "texto": "De 0 a 25."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 172,
     "ano": 2016,
     "prova": "ENEM",
@@ -4400,37 +3284,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 173,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Analítica: Equidistância em Malha Urbana",
-    "enunciado": "Uma família pretende que seu imóvel tenha a mesma distância de percurso até: o local de trabalho da mãe (rua 6 com rua E), o consultório do pai (rua 2 com rua E), e a escola das crianças (rua 4 com rua A). As ruas com nomes de letras são paralelas entre si e perpendiculares às ruas identificadas com números. Todos os quarteirões são quadrados, com as mesmas medidas. Desconsidere a largura das ruas. [IMAGEM: Malha urbana com ruas A–F (horizontais) e 1–6 (verticais).]\n\nCom base nesses dados, o imóvel que atende as pretensões da família deverá ser localizado no encontro das ruas",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "3 e C."
-      },
-      {
-        "letra": "B",
-        "texto": "4 e C."
-      },
-      {
-        "letra": "C",
-        "texto": "4 e D."
-      },
-      {
-        "letra": "D",
-        "texto": "4 e E."
-      },
-      {
-        "letra": "E",
-        "texto": "5 e C."
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 174,
@@ -4619,37 +3472,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 180,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Espacial: Projeção Ortogonal no Globo Terrestre",
-    "enunciado": "A figura representa o globo terrestre com os pontos A, B e C. Os pontos A e B estão sobre um mesmo paralelo, e os pontos B e C, sobre um mesmo meridiano. É traçado um caminho do ponto A até C, pela superfície do globo, passando por B, de forma que o trecho de A até B se dê sobre o paralelo e, o trecho de B até C se dê sobre o meridiano. O plano α é paralelo à linha do equador. [IMAGEM: Globo terrestre com o caminho A→B→C e plano α.]\n\nA projeção ortogonal, no plano α, do caminho traçado no globo pode ser representada por qual das opções?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A — arco de A a B, ponto C separado acima]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B — segmento de A a B e reta vertical de B a C]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C — A, B e C alinhados horizontalmente (B ≡ C)]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D — arco de A a B, com B ≡ C no mesmo ponto]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E — reta inclinada de A a B, com C abaixo de B]"
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 181,
     "ano": 2016,
     "prova": "ENEM",
@@ -4805,37 +3627,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 186,
-    "ano": 2016,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Espacial: Vista Lateral de Cadeira Dobrável",
-    "enunciado": "Os alunos de uma escola utilizaram cadeiras dobráveis iguais para uma aula ao ar livre. A professora, ao final da aula, solicitou que os alunos fechassem as cadeiras para guardá-las. Depois de guardadas, os alunos fizeram um esboço da vista lateral da cadeira fechada. [IMAGEM: Cadeira com assento, encosto e quatro pernas, em posição aberta. Cinco opções de esboços laterais da cadeira fechada.]\n\nQual é o esboço obtido pelos alunos?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E]"
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 187,
     "ano": 2016,
     "prova": "ENEM",
@@ -4958,37 +3749,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "D"
-  },
-  {
-    "id": 191,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Inglês - Publicidade e Manutenção de Veículos [IMAGEM]",
-    "enunciado": "[IMAGEM: Anúncio publicitário com o texto: \"Take your car just anyplace for an oil change, and you may regret it down the road.\" (Reader's Digest, set. 1993.) A imagem associa os termos \"anyplace\" e \"regret\" a uma ilustração visual.]\n\nNesse texto publicitário são utilizados recursos verbais e não verbais para transmitir a mensagem. Ao associar os termos anyplace e regret à imagem do texto, constata-se que o tema da propaganda é a importância da",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "preservação do meio ambiente."
-      },
-      {
-        "letra": "B",
-        "texto": "manutenção do motor."
-      },
-      {
-        "letra": "C",
-        "texto": "escolha da empresa certa."
-      },
-      {
-        "letra": "D",
-        "texto": "consistência do produto."
-      },
-      {
-        "letra": "E",
-        "texto": "conservação do carro."
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 192,
@@ -5363,37 +4123,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 204,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Novo Consumidor Social e Comércio Eletrônico [IMAGEM]",
-    "enunciado": "[IMAGEM: Diagrama com as características do \"Novo consumidor social\":\n- Quer suporte para encontrar pessoas que compartilham da mesma opinião\n- Lê e cria avaliações, ranking de produtos e posts em blogs\n- Usa novos canais on-line e novas ferramentas de comunicação\n- Deseja uma experiência melhor on-line do que off-line\n- Confia em conselhos de amigos on-line, conhecidos e estranhos\n- Tende a comprar mais on-line do que off-line\n- Quer fornecer feedback sobre o produto e serviço ao cliente\n(CIPRIANI, F.)]\n\nO consumidor do século XXI, chamado de novo consumidor social, tende a se comportar de modo diferente do consumidor tradicional. Pela associação das características apresentadas no diagrama, infere-se que esse novo consumidor sofre influência da",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "cultura do comércio eletrônico."
-      },
-      {
-        "letra": "B",
-        "texto": "busca constante pelo menor preço."
-      },
-      {
-        "letra": "C",
-        "texto": "divulgação de informações pelas empresas."
-      },
-      {
-        "letra": "D",
-        "texto": "necessidade recorrente de consumo."
-      },
-      {
-        "letra": "E",
-        "texto": "postura comum aos consumidores tradicionais."
-      }
-    ],
-    "correta": "A"
-  },
-  {
     "id": 205,
     "ano": 2017,
     "prova": "ENEM",
@@ -5518,37 +4247,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 209,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Publicidade e Criatividade [IMAGEM]",
-    "enunciado": "TEXTO I — Resumo científico:\n\"Criatividade em publicidade: teorias e reflexões. O presente artigo aborda uma questão primordial na publicidade: a criatividade. Apesar de aclamada pelos departamentos de criação das agências, devemos ter a consciência de que nem todo anúncio é, de fato, criativo. As reflexões apontam que a publicidade criativa é essencialmente simples e apresenta uma releitura do cotidiano.\"\n(DEPEXE, S. D.)\n\nTEXTO II — [IMAGEM: Anúncio \"Ninguém entende melhor de criação do que elas. 13 de maio - Dia das Mães\" — homenagem ao Dia das Mães 2012 de site de publicidade. A imagem explora a polissemia da palavra \"criação\".]\n\nOs dois textos apresentados versam sobre o tema criatividade. O Texto I é um resumo de caráter científico e o Texto II, uma homenagem promovida por um site de publicidade. De que maneira o Texto II exemplifica o conceito de criatividade em publicidade apresentado no Texto I?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Fazendo menção ao difícil trabalho das mães em criar seus filhos."
-      },
-      {
-        "letra": "B",
-        "texto": "Promovendo uma leitura simplista do papel materno em seu trabalho de criar os filhos."
-      },
-      {
-        "letra": "C",
-        "texto": "Explorando a polissemia do termo 'criação'."
-      },
-      {
-        "letra": "D",
-        "texto": "Recorrendo a uma estrutura linguística simples."
-      },
-      {
-        "letra": "E",
-        "texto": "Utilizando recursos gráficos diversificados."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 210,
     "ano": 2017,
     "prova": "ENEM",
@@ -5671,37 +4369,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 214,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Movimentos Artísticos do Século XX (Goeldi) [IMAGEM]",
-    "enunciado": "Na sua produção, Goeldi buscou refletir seu caminho pessoal e político, sua melancolia e paixão sobre os intensos aspectos mais latentes em sua obra, como: cidades, peixes, urubus, caveiras, abandono, solidão, drama e medo.\n(ZULIETTI, L. F.)\n\n[IMAGEM: Obra \"Sem título\" de Oswaldo Goeldi — bico de pena, 29,4 x 24 cm, Coleção Ary Ferreira Macedo, circa 1940. Cena noturna com figuras humanas ao redor de uma fogueira, com traços expressivos e sombrios.]\n\nO gravador Oswaldo Goeldi recebeu fortes influências de um movimento artístico europeu do início do século XX, que apresenta as características reveladas nos traços da obra de\n\n[IMAGEM A: Obra \"Sonho e desarranjo\" de Alfred Kubin.]\n[IMAGEM B: Obra \"Bailarina deitada\" de Henri Matisse.]\n[IMAGEM C: Obra \"Mineiro\" de Diego Rivera.]\n[IMAGEM D: Obra \"Retrato de Igor Stravinsky\" de Pablo Picasso.]\n[IMAGEM E: Obra \"Os amantes\" de René Magritte.]",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Alfred Kubin, representante do Expressionismo."
-      },
-      {
-        "letra": "B",
-        "texto": "Henri Matisse, representante do Fauvismo."
-      },
-      {
-        "letra": "C",
-        "texto": "Diego Rivera, representante do Muralismo."
-      },
-      {
-        "letra": "D",
-        "texto": "Pablo Picasso, representante do Cubismo."
-      },
-      {
-        "letra": "E",
-        "texto": "René Magritte, representante do Surrealismo."
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 215,
@@ -5890,37 +4557,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 221,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Publicidade e Violência Doméstica [IMAGEM]",
-    "enunciado": "[IMAGEM: Cartaz com desenho infantil mostrando uma família (legenda: \"eu\", \"Aninha\", \"mamãe\" e \"Papai\") e o texto: \"Quem bate na mulher machuca a família inteira. Ligue 180. Não se cale diante da violência doméstica.\"]\n\nCampanhas publicitárias podem evidenciar problemas sociais. O cartaz tem como finalidade",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "alertar os homens agressores sobre as consequências de seus atos."
-      },
-      {
-        "letra": "B",
-        "texto": "conscientizar a população sobre a necessidade de denunciar a violência doméstica."
-      },
-      {
-        "letra": "C",
-        "texto": "instruir as mulheres sobre o que fazer em casos de agressão."
-      },
-      {
-        "letra": "D",
-        "texto": "despertar nas crianças a capacidade de reconhecer atos de violência doméstica."
-      },
-      {
-        "letra": "E",
-        "texto": "exigir das autoridades ações preventivas contra a violência doméstica."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 222,
     "ano": 2017,
     "prova": "ENEM",
@@ -6076,37 +4712,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 227,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Publicidade e Incentivo à Leitura [IMAGEM]",
-    "enunciado": "[IMAGEM: Cartaz publicitário com o texto: \"Leia para uma criança. A cada livro, o Brasil inteiro vira a página. Gostar de ler é o início de uma história cheia de descobertas e aprendizados na vida da criança. E tudo começa quando você abre um livro para ela.\" (Época, n. 698, 3 out. 2011)]\n\nOs textos publicitários são produzidos para cumprir determinadas funções comunicativas. Os objetivos desse cartaz estão voltados para a conscientização dos brasileiros sobre a necessidade de",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "as crianças frequentarem a escola regularmente."
-      },
-      {
-        "letra": "B",
-        "texto": "a formação leitora começar na infância."
-      },
-      {
-        "letra": "C",
-        "texto": "a alfabetização acontecer na idade certa."
-      },
-      {
-        "letra": "D",
-        "texto": "a literatura ter o seu mercado consumidor ampliado."
-      },
-      {
-        "letra": "E",
-        "texto": "as escolas desenvolverem campanhas a favor da leitura."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 228,
     "ano": 2017,
     "prova": "ENEM",
@@ -6136,68 +4741,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 229,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Modernismo Brasileiro e Arte Afro-brasileira [IMAGEM]",
-    "enunciado": "[IMAGEM: Obra \"Emblema 78\" de Rubem Valentim. Acrílico sobre tela, 73×100 cm, 1978. Composição geométrica e simétrica com formas abstratas em preto, vermelho e branco, baseada em signos de religiões afro-brasileiras.]\n\nA obra de Rubem Valentim apresenta emblemas que, baseando-se em signos de religiões afro-brasileiras, se transformam em produção artística. A obra Emblema 78 relaciona-se com o Modernismo em virtude da",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "simplificação de formas da paisagem brasileira."
-      },
-      {
-        "letra": "B",
-        "texto": "valorização de símbolos do processo de urbanização."
-      },
-      {
-        "letra": "C",
-        "texto": "fusão de elementos da cultura brasileira com a arte europeia."
-      },
-      {
-        "letra": "D",
-        "texto": "alusão aos símbolos cívicos presentes na bandeira nacional."
-      },
-      {
-        "letra": "E",
-        "texto": "composição simétrica de elementos relativos à miscigenação racial."
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 230,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Instalação Artística e Participação do Público [IMAGEM]",
-    "enunciado": "[IMAGEM: Instalação \"Dengo\" de Ernesto Neto, 2010, MAM-SP. Estrutura de tecido pendente do teto formando grandes volumes que descem até o chão, criando um ambiente imersivo que os visitantes podem tocar e percorrer.]\n\nA instalação Dengo transformou a sala do MAM-SP em um ambiente singular, explorando como principal característica artística a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "participação do público na interação lúdica com a obra."
-      },
-      {
-        "letra": "B",
-        "texto": "distribuição de obstáculos no espaço da exposição."
-      },
-      {
-        "letra": "C",
-        "texto": "representação simbólica de objetos oníricos."
-      },
-      {
-        "letra": "D",
-        "texto": "interpretação subjetiva da lei da gravidade."
-      },
-      {
-        "letra": "E",
-        "texto": "valorização de técnicas de artesanato."
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 231,
@@ -6293,37 +4836,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 234,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Publicidade de Empresa de Papel e Literatura [IMAGEM]",
-    "enunciado": "[IMAGEM: Cartaz publicitário de empresa de papel e celulose com imagem de uma floresta e o texto: \"É DESSA FLORESTA QUE SAI O CHAPEUZINHO VERMELHO, JOÃO E MARIA, OS IRMÃOS KARAMAZOV, A DAMA DAS CAMÉLIAS E OS TRÊS MOSQUETEIROS.\" (Revista Bolsa, 1986)]\n\nNesse cartaz publicitário de uma empresa de papel e celulose, a combinação dos elementos verbais e não verbais visa",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "justificar os prejuízos ao meio ambiente, ao vincular a empresa à difusão da cultura."
-      },
-      {
-        "letra": "B",
-        "texto": "incentivar a leitura de obras literárias, ao referir-se a títulos consagrados do acervo mundial."
-      },
-      {
-        "letra": "C",
-        "texto": "seduzir o consumidor, ao relacionar o anunciante às histórias clássicas da literatura universal."
-      },
-      {
-        "letra": "D",
-        "texto": "promover uma reflexão sobre a preservação ambiental ao aliar o desmatamento aos clássicos da literatura."
-      },
-      {
-        "letra": "E",
-        "texto": "construir uma imagem positiva do anunciante, ao associar a exploração alegadamente sustentável à produção de livros."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 235,
     "ano": 2017,
     "prova": "ENEM",
@@ -6350,37 +4862,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "aponta para o predomínio do lazer contemplativo, nas classes favorecidas economicamente; e do prático, nas menos favorecidas."
-      }
-    ],
-    "correta": "D"
-  },
-  {
-    "id": 236,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Grafite e Cultura Brasileira (Speto) [IMAGEM]",
-    "enunciado": "TEXTO I\n[IMAGEM: Obra de grafite de Speto exposta no Museu Afro Brasil, 2009. Figuras humanas estilizadas com traços que remetem à xilogravura nordestina, em cores vibrantes.]\n\nTEXTO II\nSpeto — Paulo César Silva, mais conhecido como Speto, é um grafiteiro paulista envolvido com o skate e a música. O fortalecimento de sua arte ocorreu, em 1999, pela oportunidade de ver de perto as referências que trazia há tempos, ao passar por diversas cidades do Norte do Brasil em uma turnê com a banda O Rappa.\n(Revista Zupi, n. 19, 2010.)\n\nO grafite do artista paulista Speto, exposto no Museu Afro Brasil, revela elementos da cultura brasileira reconhecidos",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "na influência da expressão abstrata."
-      },
-      {
-        "letra": "B",
-        "texto": "na representação de lendas nacionais."
-      },
-      {
-        "letra": "C",
-        "texto": "na inspiração das composições musicais."
-      },
-      {
-        "letra": "D",
-        "texto": "nos traços marcados pela xilogravura nordestina."
-      },
-      {
-        "letra": "E",
-        "texto": "nos usos característicos de grafismos dos skates."
       }
     ],
     "correta": "D"
@@ -6415,37 +4896,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 238,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Arte Contemporânea e Ready-Made (Robert Rauschenberg) [IMAGEM]",
-    "enunciado": "TEXTO I\n[IMAGEM: Obra \"Cama\" de Robert Rauschenberg. Óleo e lápis em travesseiro, colcha e folha em suporte de madeira. 191,1 x 80 x 20,3 cm. Museu de Arte Moderna de Nova York, 1995. A obra consiste em uma cama real pendurada na parede, com tinta aplicada sobre ela.]\n\nTEXTO II\nNo verão de 1954, o artista Robert Rauschenberg criou o termo combine para se referir a suas novas obras que possuíam aspectos tanto da pintura como da escultura. Em 1958, Cama foi selecionada para ser incluída em uma exposição de jovens artistas americanos e italianos no Festival dos Dois Mundos em Spoleto, na Itália. Os responsáveis pelo festival, entretanto, se recusaram a expor a obra e a removeram para um depósito. Embora o mundo da arte debatesse a inovação de se pendurar uma cama numa parede, Rauschenberg considerava sua obra \"um dos quadros mais acolhedores que já pintei, mas sempre tive medo de que alguém quisesse se enfiar nela\".\n(DEMPSEY, A.)\n\nA obra de Rauschenberg chocou o público na época em que foi feita, e recebeu forte influência de um movimento artístico que se caracterizava pela",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "dissolução das tonalidades e dos contornos, revelando uma produção rápida."
-      },
-      {
-        "letra": "B",
-        "texto": "exploração insólita de elementos do cotidiano, dialogando com os ready-mades."
-      },
-      {
-        "letra": "C",
-        "texto": "repetição exaustiva de elementos visuais, levando à simplificação máxima da composição."
-      },
-      {
-        "letra": "D",
-        "texto": "incorporação das transformações tecnológicas, valorizando o dinamismo da vida moderna."
-      },
-      {
-        "letra": "E",
-        "texto": "geometrização das formas, diluindo os detalhes sem se preocupar com a fidelidade ao real."
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 239,
@@ -6601,37 +5051,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 244,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "História do Brasil - Escravidão e Fotografia (Ama de Leite) [IMAGEM]",
-    "enunciado": "[IMAGEM: Fotografia de Augusto Gomes Leal e da ama de leite Mônica, cartão de visita de 1860. A imagem mostra uma mulher negra (a ama de leite) segurando uma criança branca no colo, ambas vestidas formalmente.]\n(KOUTSOUKOS, S. S. M.)\n\nA fotografia, datada de 1860, é um indício da cultura escravista no Brasil, ao expressar a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "ambiguidade do trabalho doméstico exercido pela ama de leite, desenvolvendo uma relação de proximidade e subordinação em relação aos senhores."
-      },
-      {
-        "letra": "B",
-        "texto": "integração dos escravos aos valores das classes médias, cultivando a família como pilar da sociedade imperial."
-      },
-      {
-        "letra": "C",
-        "texto": "melhoria das condições de vida dos escravos observada pela roupa luxuosa, associando o trabalho doméstico a privilégios para os cativos."
-      },
-      {
-        "letra": "D",
-        "texto": "esfera da vida privada, centralizando a figura feminina para afirmar o trabalho da mulher na educação letrada dos infantes."
-      },
-      {
-        "letra": "E",
-        "texto": "distinção étnica entre senhores e escravos, demarcando a convivência entre estratos sociais como meio para superar a mestiçagem."
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 245,
@@ -6849,37 +5268,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  },
-  {
-    "id": 252,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Climograma e Identificação de Clima [IMAGEM]",
-    "enunciado": "[IMAGEM: Climograma com temperaturas médias mensais e taxas de pluviosidade ao longo do ano. O gráfico mostra precipitação elevada no verão (dezembro a março), seca no inverno (junho a setembro), com temperaturas amenas o ano todo, sem grandes variações.]\n\nAs temperaturas médias mensais e as taxas de pluviosidade expressas no climograma apresentam o clima típico da seguinte cidade:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Cidade do Cabo (África do Sul), marcado pela reduzida amplitude térmica anual."
-      },
-      {
-        "letra": "B",
-        "texto": "Sydney (Austrália), caracterizado por precipitações abundantes no decorrer do ano."
-      },
-      {
-        "letra": "C",
-        "texto": "Mumbai (Índia), definido pelas chuvas monçônicas torrenciais."
-      },
-      {
-        "letra": "D",
-        "texto": "Barcelona (Espanha), afetado por massas de ar seco."
-      },
-      {
-        "letra": "E",
-        "texto": "Moscou (Rússia), influenciado pela localização geográfica em alta latitude."
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 253,
@@ -7223,37 +5611,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 264,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Usinas Hidrelétricas e Espaço Inundado [IMAGEM]",
-    "enunciado": "[IMAGEM: Tabela/infográfico \"Ranking da Eficiência\" comparando energia gerada e área alagada das dez maiores usinas hidrelétricas do Brasil. Belo Monte aparece com área inundada relativamente menor em comparação com sua capacidade geradora.]\n\nComparando os dados das hidrelétricas, uma característica territorial positiva de Belo Monte é o(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "reduzido espaço relativo inundado."
-      },
-      {
-        "letra": "B",
-        "texto": "acentuado desnível do relevo local."
-      },
-      {
-        "letra": "C",
-        "texto": "elevado índice de urbanização regional."
-      },
-      {
-        "letra": "D",
-        "texto": "presença dos grandes parques industriais."
-      },
-      {
-        "letra": "E",
-        "texto": "proximidade de fronteiras internacionais estratégicas."
-      }
-    ],
-    "correta": "A"
-  },
-  {
     "id": 265,
     "ano": 2017,
     "prova": "ENEM",
@@ -7404,37 +5761,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "limites da concessão de alforria."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 270,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Brisas Marítimas e Aquecimento Diferencial [IMAGEM]",
-    "enunciado": "[IMAGEM: Duas figuras ilustrando a formação da brisa marinha (de dia: ar quente sobe sobre a terra, ar frio vem do mar) e do terral (à noite: situação inversa, com ar frio saindo da terra em direção ao mar).\n(SALGADO-LABOURIAU, M. L.)]\n\nNas imagens constam informações sobre a formação de brisas em áreas litorâneas. Esse processo é resultado de",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "uniformidade do gradiente de pressão atmosférica."
-      },
-      {
-        "letra": "B",
-        "texto": "aquecimento diferencial da superfície."
-      },
-      {
-        "letra": "C",
-        "texto": "quedas acentuadas de médias térmicas."
-      },
-      {
-        "letra": "D",
-        "texto": "mudanças na umidade relativa do ar."
-      },
-      {
-        "letra": "E",
-        "texto": "variações altimétricas acentuadas."
       }
     ],
     "correta": "B"
@@ -7719,37 +6045,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 280,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Umidade Relativa do Ar e Fatores Climáticos [IMAGEM]",
-    "enunciado": "[IMAGEM: Tabela com dados de umidade relativa do ar por região do Brasil para o dia 28/08/2014:\n- Norte: 60-70%\n- Nordeste: 90-100%\n- Centro-Oeste: 55-65%\n- Sudeste: 65-75%\n- Sul: 90-100%]\n\nNo dia em que foram colhidos os dados meteorológicos apresentados, qual fator climático foi determinante para explicar os índices de umidade relativa do ar nas regiões Nordeste e Sul?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Altitude, que forma barreiras naturais."
-      },
-      {
-        "letra": "B",
-        "texto": "Vegetação, que afeta a incidência solar."
-      },
-      {
-        "letra": "C",
-        "texto": "Massas de ar, que provocam precipitações."
-      },
-      {
-        "letra": "D",
-        "texto": "Correntes marítimas, que atuam na troca de calor."
-      },
-      {
-        "letra": "E",
-        "texto": "Continentalidade, que influencia na amplitude da temperatura."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 281,
     "ano": 2017,
     "prova": "ENEM",
@@ -7810,37 +6105,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "D"
-  },
-  {
-    "id": 283,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Arte e Moda - Zuzu Angel e Estética de Resistência [IMAGEM]",
-    "enunciado": "[IMAGEM 1: Recorte fotográfico de Maria Bonita, década de 1930. Mulher com trajes típicos do cangaço nordestino.]\n[IMAGEM 2: Traje de coleção de Zuzu Angel, elaborado em 1969. Peça de moda inspirada nos elementos visuais do traje de Maria Bonita, com bordados e estampas que remetem à cultura nordestina e ao Brasil rural.]\n\nElaborada em 1969, a releitura contida na Figura 2 revela aspectos de uma trajetória e obra dedicadas à",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "valorização de uma representação tradicional da mulher."
-      },
-      {
-        "letra": "B",
-        "texto": "descaracterização de referências do folclore nordestino."
-      },
-      {
-        "letra": "C",
-        "texto": "fusão de elementos brasileiros à moda da Europa."
-      },
-      {
-        "letra": "D",
-        "texto": "massificação do consumo de uma arte local."
-      },
-      {
-        "letra": "E",
-        "texto": "criação de uma estética de resistência."
-      }
-    ],
-    "correta": "E"
   },
   {
     "id": 284,
@@ -7905,37 +6169,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 286,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Resistência Elétrica e Lei de Ohm (Polianilina) [IMAGEM]",
-    "enunciado": "Dispositivos eletrônicos que utilizam materiais de baixo custo, como polímeros semicondutores, têm sido desenvolvidos para monitorar a concentração de amônia em granjas avícolas. A polianilina é um polímero semicondutor que tem o valor de sua resistência elétrica nominal quadruplicado quando exposta a altas concentrações de amônia. Na ausência de amônia, a polianilina se comporta como um resistor ôhmico.\n\n[IMAGEM: Gráfico com eixo vertical Corrente (10⁻⁶ A) de 0 a 6,0 e eixo horizontal Diferença de potencial (V) de 0 a 3,0, com comportamento linear passando pelos pontos (0,5; 1,0), (1,0; 2,0), (1,5; 3,0), (2,0; 4,0), (2,5; 5,0) e (3,0; 6,0).]\n\nO valor da resistência elétrica da polianilina na presença de altas concentrações de amônia, em ohm, é igual a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "0,5 × 10⁰"
-      },
-      {
-        "letra": "B",
-        "texto": "2,0 × 10⁰"
-      },
-      {
-        "letra": "C",
-        "texto": "2,5 × 10⁵"
-      },
-      {
-        "letra": "D",
-        "texto": "5,0 × 10⁵"
-      },
-      {
-        "letra": "E",
-        "texto": "2,0 × 10⁶"
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 287,
     "ano": 2017,
     "prova": "ENEM",
@@ -7965,37 +6198,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  },
-  {
-    "id": 288,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Eletrólise e Produtos da Eletrólise do NaCl [IMAGEM]",
-    "enunciado": "A eletrólise é um processo não espontâneo de grande importância para a indústria química. Uma de suas aplicações é a obtenção do gás cloro e do hidróxido de sódio, a partir de uma solução aquosa de cloreto de sódio.\n\n[IMAGEM: Célula eletroquímica mostrando entrada de Solução aquosa de NaCl, Ânodo de carbono (+), Diafragma de amianto, Cátodo de carbono (-), saída de Cl₂(g), saída de Produto secundário, e Dreno para solução aquosa alcalina.]\n\nNo processo eletrolítico ilustrado, o produto secundário obtido é o",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "vapor de água."
-      },
-      {
-        "letra": "B",
-        "texto": "oxigênio molecular."
-      },
-      {
-        "letra": "C",
-        "texto": "hipoclorito de sódio."
-      },
-      {
-        "letra": "D",
-        "texto": "hidrogênio molecular."
-      },
-      {
-        "letra": "E",
-        "texto": "cloreto de hidrogênio."
-      }
-    ],
-    "correta": "D"
   },
   {
     "id": 289,
@@ -8091,37 +6293,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 292,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Impulso e Cinto de Segurança [IMAGEM]",
-    "enunciado": "Em uma colisão frontal entre dois automóveis, a força que o cinto de segurança exerce sobre o tórax e abdômen do motorista pode causar lesões graves nos órgãos internos. Um fabricante de automóveis realizou testes em cinco modelos diferentes de cinto. Os testes simularam uma colisão de 0,30 segundo de duração, e os bonecos foram equipados com acelerômetros.\n\n[IMAGEM: Gráfico mostrando curvas de Aceleração (m/s²) de 0 a 200 em função do Tempo (s) de 0,00 a 0,30 para os Cintos 1, 2, 3, 4 e 5. O Cinto 4 apresenta a menor área sob a curva no intervalo de tempo, indicando menor impulso transmitido ao corpo.]\n\nQual modelo de cinto oferece menor risco de lesão interna ao motorista?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 293,
     "ano": 2017,
     "prova": "ENEM",
@@ -8153,37 +6324,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 294,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Espectro Eletromagnético e Lâmpadas [IMAGEM]",
-    "enunciado": "A figura mostra como é a emissão de radiação eletromagnética para cinco tipos de lâmpada: haleto metálico, tungstênio, mercúrio, xênon e LED (diodo emissor de luz). As áreas marcadas em cinza são proporcionais à intensidade da energia liberada pela lâmpada. As linhas pontilhadas mostram a sensibilidade do olho humano aos diferentes comprimentos de onda. UV e IV são as regiões do ultravioleta e do infravermelho, respectivamente.\n\nUm arquiteto deseja iluminar uma sala usando uma lâmpada que produza boa iluminação, mas que não aqueça o ambiente.\n\n[IMAGEM: Espectros das lâmpadas Haleto metálico, Tungstênio, Mercúrio, Xênon e LED ao longo do comprimento de onda de 200 a 900 nm, destacando as faixas UV, Visível e IV. O LED concentra sua emissão na faixa visível, com mínima emissão no infravermelho.]\n\nQual tipo de lâmpada melhor atende ao desejo do arquiteto?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Haleto metálico."
-      },
-      {
-        "letra": "B",
-        "texto": "Tungstênio."
-      },
-      {
-        "letra": "C",
-        "texto": "Mercúrio."
-      },
-      {
-        "letra": "D",
-        "texto": "Xênon."
-      },
-      {
-        "letra": "E",
-        "texto": "LED."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 295,
     "ano": 2017,
     "prova": "ENEM",
@@ -8210,37 +6350,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "ligações covalentes."
-      }
-    ],
-    "correta": "D"
-  },
-  {
-    "id": 296,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Fibra Óptica e Atenuação de Sinal [IMAGEM]",
-    "enunciado": "Em uma linha de transmissão de informações por fibra óptica, quando um sinal diminui sua intensidade para valores inferiores a 10 dB, este precisa ser retransmitido. No entanto, intensidades superiores a 100 dB não podem ser transmitidas adequadamente.\n\n[IMAGEM: Gráfico mostrando a Perda óptica (dB/km) de 0 a 6 em função do Comprimento de onda (μm) de 0,8 a 1,8, apresentando um ponto de mínimo correspondente ao valor 1 no comprimento de onda de 1,5 μm.]\n\nQual é a máxima distância, em km, que um sinal pode ser enviado nessa fibra sem ser necessária uma retransmissão?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "6"
-      },
-      {
-        "letra": "B",
-        "texto": "18"
-      },
-      {
-        "letra": "C",
-        "texto": "60"
-      },
-      {
-        "letra": "D",
-        "texto": "90"
-      },
-      {
-        "letra": "E",
-        "texto": "100"
       }
     ],
     "correta": "D"
@@ -8277,37 +6386,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 298,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Energia Eólica e Hidrogênio como Combustível [IMAGEM]",
-    "enunciado": "A figura mostra o funcionamento de uma estação híbrida de geração de eletricidade movida a energia eólica e biogás. Essa estação possibilita que a energia gerada no parque eólico seja armazenada na forma de gás hidrogênio, usado no fornecimento de energia para a rede elétrica comum e para abastecer células a combustível.\n\n[IMAGEM: Diagrama de fluxo mostrando Turbinas eólicas gerando Eletricidade enviada para a Rede de distribuição elétrica ou para a Produção de hidrogênio; o Hidrogênio vai para Armazenamento e depois serve como Combustível ou se mistura com Biogás para a Planta mista de geração de energia, que fornece Eletricidade e Calor.]\n\nMesmo com ausência de ventos por curtos períodos, essa estação continua abastecendo a cidade onde está instalada, pois o(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "planta mista de geração de energia realiza eletrólise para enviar energia à rede de distribuição elétrica."
-      },
-      {
-        "letra": "B",
-        "texto": "hidrogênio produzido e armazenado é utilizado na combustão com o biogás para gerar calor e eletricidade."
-      },
-      {
-        "letra": "C",
-        "texto": "conjunto de turbinas continua girando com a mesma velocidade, por inércia, mantendo a eficiência anterior."
-      },
-      {
-        "letra": "D",
-        "texto": "combustão da mistura biogás-hidrogênio gera diretamente energia elétrica adicional para a manutenção da estação."
-      },
-      {
-        "letra": "E",
-        "texto": "planta mista de geração de energia é capaz de utilizar todo o calor fornecido na combustão para a geração de eletricidade."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 299,
     "ano": 2017,
     "prova": "ENEM",
@@ -8337,68 +6415,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 300,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Energia Cinética e Movimento Periódico (Pula-Pula) [IMAGEM]",
-    "enunciado": "O brinquedo pula-pula (cama elástica) é composto por uma lona circular flexível horizontal presa por molas à sua borda. Ao pular verticalmente, desprezando o atrito com o ar e os movimentos de rotação do corpo, uma criança realiza um movimento periódico vertical em torno da posição de equilíbrio da lona (h=0), passando pelos pontos de máxima e de mínima alturas, h_máx e h_mín respectivamente.\n\n[IMAGEM: Cinco opções de esboços gráficos de Energia Cinética (Ec) em função da posição vertical (h) da criança, entre h_mín e h_máx. A opção correta mostra uma parábola com concavidade para baixo, com máximo em h=0 e zeros em h_mín e h_máx.]\n\nEsquematicamente, o esboço do gráfico da energia cinética da criança em função de sua posição vertical na situação descrita é:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A — gráfico linear por partes: desce de h_mín até 0, e sobe linearmente de 0 até h_máx]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B — gráfico linear por partes: sobe linearmente de h_mín até 0, e desce linearmente de 0 até h_máx]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C — gráfico com formato parabólico côncavo para baixo entre h_mín e h_máx, com máximo em h=0]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D — gráfico com subida linear de h_mín até 0, seguido de curva côncava para baixo decrescendo até h_máx]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E — parábola de concavidade para cima apresentando mínimo em h=0]"
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 301,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Comprimento de Onda e Epilação a Laser [IMAGEM]",
-    "enunciado": "A epilação a laser consiste na aplicação de uma fonte de luz para aquecer e causar uma lesão localizada e controlada nos folículos capilares. Para evitar que outros tecidos sejam danificados, selecionam-se comprimentos de onda que são absorvidos pela melanina presente nos pelos, mas que não afetam a oxi-hemoglobina do sangue e a água dos tecidos.\n\n[IMAGEM: Gráfico com eixo vertical Absorção (%) de 0 a 50,0 e eixo horizontal Comprimento de onda (nm) de 400 a 1100, mostrando curvas para Melanina, Oxi-hemoglobina e Água. Em 700 nm, a Oxi-hemoglobina e a Água têm absorção próxima de zero, enquanto a Melanina apresenta absorção expressiva (~30%).]\n\nQual é o comprimento de onda, em nm, ideal para a epilação a laser?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "400"
-      },
-      {
-        "letra": "B",
-        "texto": "700"
-      },
-      {
-        "letra": "C",
-        "texto": "900"
-      },
-      {
-        "letra": "D",
-        "texto": "1.000"
-      },
-      {
-        "letra": "E",
-        "texto": "1.100"
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 302,
@@ -8432,37 +6448,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 303,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Circuitos Elétricos e Fusível [IMAGEM]",
-    "enunciado": "Fusível é um dispositivo de proteção contra sobrecorrente em circuitos. Quando a corrente que passa por esse componente elétrico é maior que sua máxima corrente nominal, o fusível queima.\n\n[IMAGEM: Circuito elétrico em forma de losango contendo resistores de 60 Ω nos lados superior-esquerdo, superior-direito e inferior-esquerdo; um resistor de 40 Ω no lado inferior-direito; um resistor de 30 Ω vertical no topo conectado ao centro; um resistor horizontal de 120 Ω conectado ao centro; e um Fusível posicionado verticalmente no meio. O circuito é alimentado por uma fonte de tensão U.]\n\nSuponha que o fusível suporte uma corrente nominal de 500 mA. Qual é o máximo valor da tensão U para que o fusível não queime?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "20 V"
-      },
-      {
-        "letra": "B",
-        "texto": "40 V"
-      },
-      {
-        "letra": "C",
-        "texto": "60 V"
-      },
-      {
-        "letra": "D",
-        "texto": "120 V"
-      },
-      {
-        "letra": "E",
-        "texto": "185 V"
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 304,
     "ano": 2017,
     "prova": "ENEM",
@@ -8494,99 +6479,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 305,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Interferência Sonora e Trombone de Quincke [IMAGEM]",
-    "enunciado": "O trombone de Quincke é um dispositivo experimental utilizado para demonstrar o fenômeno da interferência de ondas sonoras. Com o trajeto ADC igual ao AEC, capta-se um som muito intenso na saída. Entretanto, aumentando-se gradativamente o trajeto ADC, até que ele fique como mostrado na figura, a intensidade do som na saída fica praticamente nula.\n\n[IMAGEM: Tubo acústico com Fonte sonora acoplada à Entrada do som no ponto A, dividindo-se em ramo esquerdo com 40 cm até a curva D e ramo direito com 30 cm até a curva E, convergindo no ponto C na Saída do som. A velocidade do som no interior do tubo é 320 m/s.]\n\nO valor da frequência, em hertz, do som produzido pela fonte sonora é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "3.200."
-      },
-      {
-        "letra": "B",
-        "texto": "1.600."
-      },
-      {
-        "letra": "C",
-        "texto": "800."
-      },
-      {
-        "letra": "D",
-        "texto": "640."
-      },
-      {
-        "letra": "E",
-        "texto": "400."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 306,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Separação de Misturas e Farinha de Linhaça [IMAGEM]",
-    "enunciado": "A farinha de linhaça dourada é um produto natural rico em substâncias lipossolúveis com massas moleculares elevadas. A farinha também apresenta altos teores de fibras proteicas insolúveis em água, celulose, vitaminas lipossolúveis e sais minerais hidrossolúveis.\n\n[IMAGEM: Esquema de separação — Farinha de linhaça → Adição de éter etílico, seguida de agitação → Filtração:\n- Ramo 1: Extrato etéreo (fase orgânica) → Destilação → Destilado 1 e Resíduo 4\n- Ramo 2: Resíduo 1 → Adição de água, seguida de agitação → Filtração → Resíduo 2 e Extrato aquoso → Destilação → Destilado 2 e Resíduo 3]\n\nO óleo de linhaça será obtido na fração",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Destilado 1."
-      },
-      {
-        "letra": "B",
-        "texto": "Destilado 2."
-      },
-      {
-        "letra": "C",
-        "texto": "Resíduo 2."
-      },
-      {
-        "letra": "D",
-        "texto": "Resíduo 3."
-      },
-      {
-        "letra": "E",
-        "texto": "Resíduo 4."
-      }
-    ],
-    "correta": "E"
-  },
-  {
-    "id": 307,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Biodiesel e Função Química do Éster [IMAGEM]",
-    "enunciado": "O biodiesel é um biocombustível obtido a partir de fontes renováveis. Ele pode ser obtido pela reação entre triglicerídeos e álcoois de baixa massa molar, como o metanol ou etanol, na presença de um catalisador:\n\n[IMAGEM: Equação química: Triglicerídeo + 3 CH₃OH →(catalisador) 3 Biodiesel + Glicerol]\n\nA função química presente no produto que representa o biodiesel é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "éter."
-      },
-      {
-        "letra": "B",
-        "texto": "éster."
-      },
-      {
-        "letra": "C",
-        "texto": "álcool."
-      },
-      {
-        "letra": "D",
-        "texto": "cetona."
-      },
-      {
-        "letra": "E",
-        "texto": "ácido carboxílico."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 308,
     "ano": 2017,
     "prova": "ENEM",
@@ -8613,37 +6505,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "da diferente coesão molecular de cada substância."
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 309,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Biologia - Fluidez da Membrana Plasmática [IMAGEM]",
-    "enunciado": "Visando explicar uma das propriedades da membrana plasmática, fusionou-se uma célula de camundongo com uma célula humana, formando uma célula híbrida. Dois anticorpos foram inseridos no experimento — um específico para as proteínas de membrana do camundongo e outro para as proteínas de membrana humana — visualizados por fluorescência de cores diferentes.\n\n[IMAGEM: Esquema do experimento:\n- Etapa 1: Célula de camundongo e Célula humana com suas respectivas proteínas de membrana\n- Etapa 2: Fusão celular formando a Célula híbrida\n- Etapa 3: Adição de anticorpos marcados com fluoresceína (camundongo) e rodamina (humano) — Tempo = 0 minuto, cores separadas em cada metade\n- Etapa 4: Incubação a 37°C — Tempo = 40 minutos, marcadores completamente misturados ao redor de toda a membrana]\n\nA mudança observada da etapa 3 para a etapa 4 do experimento ocorre porque as proteínas",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "movimentam-se livremente no plano da bicamada lipídica."
-      },
-      {
-        "letra": "B",
-        "texto": "permanecem confinadas em determinadas regiões da bicamada."
-      },
-      {
-        "letra": "C",
-        "texto": "auxiliam o deslocamento dos fosfolipídios da membrana plasmática."
-      },
-      {
-        "letra": "D",
-        "texto": "são mobilizadas em razão da inserção de anticorpos."
-      },
-      {
-        "letra": "E",
-        "texto": "são bloqueadas pelos anticorpos."
       }
     ],
     "correta": "A"
@@ -8680,68 +6541,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 311,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Biologia - Permeabilidade do Solo e Piso Concregrama [IMAGEM]",
-    "enunciado": "Para se adequar às normas ambientais atuais, as construtoras precisam prever em suas obras a questão do uso de materiais de modo a minimizar os impactos causados no local. Entre esses materiais está o chamado concregrama ou pisograma, que é um tipo de revestimento composto por peças de concreto com áreas vazadas, preenchidas com solo gramado.\n\n[IMAGEM: Ilustrações comparando o \"Piso tradicional de concreto\" totalmente preenchido e o \"Piso concregrama\" contendo vãos quadrados com grama.]\n\nA utilização desse tipo de piso em uma obra tem o objetivo de evitar, no solo, a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "impermeabilização."
-      },
-      {
-        "letra": "B",
-        "texto": "diminuição da temperatura."
-      },
-      {
-        "letra": "C",
-        "texto": "acumulação de matéria orgânica."
-      },
-      {
-        "letra": "D",
-        "texto": "alteração do pH."
-      },
-      {
-        "letra": "E",
-        "texto": "salinização."
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 312,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Equilíbrio Ácido-Base e Extração do Lapachol [IMAGEM]",
-    "enunciado": "Diversos produtos naturais podem ser obtidos de plantas por processo de extração. O lapachol é da classe das naftoquinonas. Sua estrutura apresenta uma hidroxila enólica (pKa = 6,0) que permite que este composto seja isolado da serragem dos ipês por extração com solução adequada, seguida de filtração simples.\n\n[IMAGEM: Fórmula estrutural plana da molécula de Lapachol contendo anel naftoquinônico acoplado a uma hidroxila e a uma cadeia lateral insaturada.]\n\nQual solução deve ser usada para extração do lapachol da serragem do ipê com maior eficiência?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Solução de Na₂CO₃ para formar um sal de lapachol."
-      },
-      {
-        "letra": "B",
-        "texto": "Solução-tampão ácido acético/acetato de sódio (pH = 4,5)."
-      },
-      {
-        "letra": "C",
-        "texto": "Solução de NaCl a fim de aumentar a força iônica do meio."
-      },
-      {
-        "letra": "D",
-        "texto": "Solução de Na₂SO₄ para formar um par iônico com lapachol."
-      },
-      {
-        "letra": "E",
-        "texto": "Solução de HCl a fim de extraí-lo por meio de reação ácido-base."
-      }
-    ],
-    "correta": "A"
-  },
-  {
     "id": 313,
     "ano": 2017,
     "prova": "ENEM",
@@ -8771,68 +6570,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "E"
-  },
-  {
-    "id": 314,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Eletroquímica e Pilhas em Série para LED [IMAGEM]",
-    "enunciado": "A invenção do LED azul permitiu a construção de lâmpadas energeticamente mais eficientes. Em um experimento de laboratório, pretende-se associar duas pilhas em série para acender um LED azul que requer 3,6 volts para o seu funcionamento.\n\nTabela de semirreações de redução e potenciais:\n| Semirreação de redução | E° (V) |\n|---|---|\n| Ce⁴⁺(aq) + e⁻ → Ce³⁺(aq) | +1,61 |\n| Cr₂O₇²⁻(aq) + 14H⁺(aq) + 6e⁻ → 2Cr³⁺(aq) + 7H₂O(l) | +1,33 |\n| Ni²⁺(aq) + 2e⁻ → Ni(s) | −0,25 |\n| Zn²⁺(aq) + 2e⁻ → Zn(s) | −0,76 |\n\n[IMAGEM: Cinco opções de combinações de pilhas em série, cada uma com diferentes pares de eletrodos e soluções.]\n\nQual associação em série de pilhas fornece diferença de potencial, nas condições-padrão, suficiente para acender o LED azul?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A — Pilha 1: Ce⁴⁺/Ce³⁺ e Ni/Ni²⁺; Pilha 2: Zn/Zn²⁺ e Cr₂O₇²⁻/Cr³⁺]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B — Pilha 1: Ce⁴⁺/Ce³⁺ e Zn/Zn²⁺; Pilha 2: Ni/Ni²⁺ e Cr₂O₇²⁻/Cr³⁺]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C — Quatro eletrodos com apenas uma ponte salina de KCl]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D — Pilha 1: dois grafites em Ce⁴⁺/Ce³⁺ e Cr₂O₇²⁻/Cr³⁺; Pilha 2: Ni/Ni²⁺ e Zn/Zn²⁺]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E — Pilha 1: dois grafites em Ce⁴⁺/Ce³⁺ e Cr₂O₇²⁻/Cr³⁺; Pilha 2: Zn/Zn²⁺ e Ni/Ni²⁺]"
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 315,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Estequiometria e Síntese do AAS [IMAGEM]",
-    "enunciado": "O ácido acetilsalicílico, AAS (massa molar = 180 g/mol), é sintetizado a partir da reação do ácido salicílico (massa molar = 138 g/mol) com anidrido acético, usando-se ácido sulfúrico como catalisador:\n\n[IMAGEM: Equação química: Ácido salicílico + Anidrido acético →(H₂SO₄) Ácido acetilsalicílico + Ácido acético]\n\nApós a síntese, o AAS é purificado e o rendimento final é de aproximadamente 50%. Uma indústria farmacêutica pretende fabricar um lote de 900 mil comprimidos de 500 mg de AAS cada.\n\nQual é a massa de ácido salicílico, em kg, que deve ser empregada para esse fim?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "293"
-      },
-      {
-        "letra": "B",
-        "texto": "345"
-      },
-      {
-        "letra": "C",
-        "texto": "414"
-      },
-      {
-        "letra": "D",
-        "texto": "690"
-      },
-      {
-        "letra": "E",
-        "texto": "828"
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 316,
@@ -8897,37 +6634,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 318,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Biologia - PCR e Desnaturação do DNA [IMAGEM]",
-    "enunciado": "A reação em cadeia da polimerase (PCR) é uma técnica de biologia molecular que permite a replicação in vitro do DNA de forma rápida. A dupla hélice é estabilizada por ligações hidrogênio, duas entre as bases adenina (A) e timina (T) e três entre as bases guanina (G) e citosina (C). Para que o DNA possa ser replicado, a dupla hélice precisa ser totalmente desnaturada pelo aumento da temperatura.\n\n[IMAGEM: Cinco segmentos de DNA com suas fitas complementares:\nA: GGCCTTCG\nB: CCTCGACT\nC: AATTCCTA\nD: TTACGGCG\nE: CCTAGGAA]\n\nQual dos segmentos de DNA será o primeiro a desnaturar totalmente durante o aumento da temperatura na reação de PCR?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "A (sequência com bases GGCCTTCG)"
-      },
-      {
-        "letra": "B",
-        "texto": "B (sequência com bases CCTCGACT)"
-      },
-      {
-        "letra": "C",
-        "texto": "C (sequência com bases AATTCCTA)"
-      },
-      {
-        "letra": "D",
-        "texto": "D (sequência com bases TTACGGCG)"
-      },
-      {
-        "letra": "E",
-        "texto": "E (sequência com bases CCTAGGAA)"
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 319,
     "ano": 2017,
     "prova": "ENEM",
@@ -8957,37 +6663,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 320,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Física - Potência Elétrica e Ducha Elétrica [IMAGEM]",
-    "enunciado": "No manual fornecido pelo fabricante de uma ducha elétrica de 220 V é apresentado um gráfico com a variação da temperatura da água em função da vazão para três condições (morno, quente e superquente). Na condição superquente, a potência dissipada é de 6.500 W. Considere o calor específico da água igual a 4.200 J/(kg·°C) e densidade da água igual a 1 kg/L.\n\n[IMAGEM: Gráfico mostrando curvas hiperbólicas decrescentes para Elevação de temperatura ΔT(°C) de 0 a 40 em função da Vazão (L/min) de 1 a 10 para as condições: 1 - MORNO, 2 - QUENTE e 3 - SUPERQUENTE.]\n\nCom base nas informações dadas, a potência na condição morno corresponde a que fração da potência na condição superquente?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1/3"
-      },
-      {
-        "letra": "B",
-        "texto": "1/5"
-      },
-      {
-        "letra": "C",
-        "texto": "3/5"
-      },
-      {
-        "letra": "D",
-        "texto": "3/8"
-      },
-      {
-        "letra": "E",
-        "texto": "5/8"
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 321,
@@ -9050,37 +6725,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 323,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Cromatografia em Papel e Polaridade [IMAGEM]",
-    "enunciado": "A cromatografia em papel é um método de separação que se baseia na migração diferencial dos componentes de uma mistura entre duas fases imiscíveis. A fase estacionária consiste de celulose praticamente pura, que pode absorver até 22% de água — é a água absorvida que funciona como fase estacionária líquida. Os componentes capazes de formar interações intermoleculares mais fortes com a fase estacionária migram mais lentamente. Uma mistura de hexano com 5% (v/v) de acetona foi utilizada como fase móvel na separação dos componentes de um extrato vegetal de pimentões.\n\n[IMAGEM: Estruturas químicas dos componentes:\n- Licopeno: hidrocarboneto puramente linear insaturado\n- α-caroteno: hidrocarboneto com anel insaturado na extremidade\n- γ-caroteno: hidrocarboneto parcialmente linear com anel em uma ponta\n- Capsorubina: contém duas funções cetona e duas funções álcool -OH nas extremidades\n- α-criptoxantina: contém uma função álcool -OH em uma das extremidades]\n\nA substância presente na mistura que migra mais lentamente é o(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "licopeno."
-      },
-      {
-        "letra": "B",
-        "texto": "α-caroteno."
-      },
-      {
-        "letra": "C",
-        "texto": "γ-caroteno."
-      },
-      {
-        "letra": "D",
-        "texto": "capsorubina."
-      },
-      {
-        "letra": "E",
-        "texto": "α-criptoxantina."
-      }
-    ],
-    "correta": "D"
   },
   {
     "id": 324,
@@ -9176,37 +6820,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 327,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Química - Ozonólise e Produtos de Reação [IMAGEM]",
-    "enunciado": "A ozonólise é reação utilizada na indústria madeireira para a produção de papel e também utilizada em escala de laboratório na síntese de aldeídos e cetonas. As duplas ligações dos alcenos são clivadas pela oxidação com o ozônio (O₃). Ligações duplas dissubstituídas geram cetonas, enquanto as ligações duplas terminais ou monossubstituídas dão origem a aldeídos.\n\n[IMAGEM: Esquema mostrando a reação do But-1-eno com O₃, H₂O e Zn produzindo Propanal e Metanal. Estrutura do 1-fenil-2-metilprop-1-eno: anel benzênico ligado a um carbono insaturado, que se liga a outro carbono com dois grupos metil.]\n\nQuais são os produtos formados na ozonólise do composto 1-fenil-2-metilprop-1-eno?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Benzaldeído e propanona."
-      },
-      {
-        "letra": "B",
-        "texto": "Propanal e benzaldeído."
-      },
-      {
-        "letra": "C",
-        "texto": "2-fenil-etanal e metanal."
-      },
-      {
-        "letra": "D",
-        "texto": "Benzeno e propanona."
-      },
-      {
-        "letra": "E",
-        "texto": "Benzaldeído e etanal."
-      }
-    ],
-    "correta": "A"
-  },
-  {
     "id": 328,
     "ano": 2017,
     "prova": "ENEM",
@@ -9298,68 +6911,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "D"
-  },
-  {
-    "id": 331,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Trigonometria e Intensidade Luminosa [IMAGEM]",
-    "enunciado": "Raios de luz solar estão atingindo a superfície de um lago formando um ângulo x com a sua superfície. Em determinadas condições, pode-se supor que a intensidade luminosa desses raios, na superfície do lago, seja dada aproximadamente por I(x) = k · sen(x), sendo k uma constante, e supondo-se que x está entre 0° e 90°.\n\n[IMAGEM: Desenho esquemático mostrando a linha horizontal da superfície do lago, um sol projetando raios inclinados que interceptam a superfície formando um ângulo x.]\n\nQuando x = 30° a intensidade luminosa se reduz a qual percentual de seu valor máximo?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "33%"
-      },
-      {
-        "letra": "B",
-        "texto": "50%"
-      },
-      {
-        "letra": "C",
-        "texto": "57%"
-      },
-      {
-        "letra": "D",
-        "texto": "70%"
-      },
-      {
-        "letra": "E",
-        "texto": "86%"
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 332,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Leitura de Gráfico: Velocidade e Tempo Imóvel [IMAGEM]",
-    "enunciado": "Os congestionamentos de trânsito constituem um problema que aflige, todos os dias, milhares de motoristas brasileiros. O gráfico ilustra a situação, representando, ao longo de um intervalo definido de tempo, a variação da velocidade de um veículo durante um congestionamento.\n\n[IMAGEM: Gráfico com eixo vertical Velocidade e eixo horizontal Tempo (min) de 0 a 10. A curva inicia horizontal em valor baixo de 0 a 1 min, sobe de 1 a 2 min até um pico, desce de 2 a 3, fica horizontal de 3 a 4, sobe de 4 a 5, desce de 5 a 6 até tocar o eixo horizontal (velocidade zero), permanece sobre o eixo de 6 a 8 min, e volta a crescer linearmente de 8 a 10 min.]\n\nQuantos minutos o veículo permaneceu imóvel ao longo do intervalo de tempo total analisado?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "4"
-      },
-      {
-        "letra": "B",
-        "texto": "3"
-      },
-      {
-        "letra": "C",
-        "texto": "2"
-      },
-      {
-        "letra": "D",
-        "texto": "1"
-      },
-      {
-        "letra": "E",
-        "texto": "0"
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 333,
@@ -9455,37 +7006,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 336,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Análise Combinatória: Modelos de Caminhão-Cegonha [IMAGEM]",
-    "enunciado": "Um brinquedo infantil caminhão-cegonha é formado por uma carreta e dez carrinhos nela transportados. São utilizadas as cores amarelo, branco, laranja e verde, e cada carrinho é pintado apenas com uma cor. A empresa determinou que em todo caminhão-cegonha deve haver pelo menos um carrinho de cada uma das quatro cores disponíveis. Mudança de posição dos carrinhos no caminhão-cegonha não gera um novo modelo do brinquedo.\n\n[IMAGEM: Ilustração de um caminhão transportando 4 carrinhos no teto, 3 no andar do meio e 3 no andar de baixo.]\n\nCom base nessas informações, quantos são os modelos distintos do brinquedo caminhão-cegonha que essa empresa poderá produzir?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "C(6,4)"
-      },
-      {
-        "letra": "B",
-        "texto": "C(9,3)"
-      },
-      {
-        "letra": "C",
-        "texto": "C(10,4)"
-      },
-      {
-        "letra": "D",
-        "texto": "6⁴"
-      },
-      {
-        "letra": "E",
-        "texto": "4⁶"
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 337,
     "ano": 2017,
     "prova": "ENEM",
@@ -9579,130 +7099,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 340,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Leitura de Gráfico: Profundidade de Rio [IMAGEM]",
-    "enunciado": "Num dia de tempestade, a alteração na profundidade de um rio, num determinado local, foi registrada durante um período de 4 horas.\n\n[IMAGEM: Gráfico com malha quadriculada. Eixo vertical: Profundidade (m); Eixo horizontal: Hora com pontos marcados em 13h, 14h, 15h, 16h e 17h. O ponto de 13h inicia em um nível arbitrário h; sobe 2 unidades até 14h; sobe mais 2 unidades atingindo o pico em 15h; desce 1 unidade em 16h; desce 1 unidade em 17h.]\n\nFoi informado que entre 15 horas e 16 horas, a profundidade do rio diminuiu em 10%.\n\nÀs 16 horas, qual é a profundidade do rio, em metro, no local onde foram feitos os registros?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "18"
-      },
-      {
-        "letra": "B",
-        "texto": "20"
-      },
-      {
-        "letra": "C",
-        "texto": "24"
-      },
-      {
-        "letra": "D",
-        "texto": "36"
-      },
-      {
-        "letra": "E",
-        "texto": "40"
-      }
-    ],
-    "correta": "E"
-  },
-  {
-    "id": 341,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Espacial: Prisma Triangular Reto (Cabana) [IMAGEM]",
-    "enunciado": "Uma rede hoteleira dispõe de cabanas simples na ilha de Gotland, na Suécia.\n\n[IMAGEM 1: Fotografia de uma cabana triangular de madeira com chaminé.]\n[IMAGEM 2: Desenho geométrico tridimensional com linhas cheias e pontilhadas, revelando duas faces triangulares paralelas unidas por retângulos nas laterais e na base.]\n\nA forma geométrica da superfície cujas arestas estão representadas na Figura 2 é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "tetraedro."
-      },
-      {
-        "letra": "B",
-        "texto": "pirâmide retangular."
-      },
-      {
-        "letra": "C",
-        "texto": "tronco de pirâmide retangular."
-      },
-      {
-        "letra": "D",
-        "texto": "prisma quadrangular reto."
-      },
-      {
-        "letra": "E",
-        "texto": "prisma triangular reto."
-      }
-    ],
-    "correta": "E"
-  },
-  {
-    "id": 342,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Probabilidade: Campo Minado [IMAGEM]",
-    "enunciado": "A figura ilustra uma partida de Campo Minado, o jogo presente em praticamente todo computador pessoal. Quatro quadrados em um tabuleiro 16×16 foram abertos, e os números em suas faces indicam quantos dos seus 8 vizinhos contêm minas. O número 40 no canto inferior direito é o número total de minas no tabuleiro.\n\n[IMAGEM: Grade do jogo Campo Minado com:\n- Quadrado com número 2 adjacente à letra P\n- Quadrado com número 1 adjacente à letra Q\n- Letra R isolada na região do meio\n- Quadrado com número 4 adjacente à letra S\n- Quadrado com número 3 adjacente à letra T\nTotal de minas no tabuleiro: 40]\n\nEm sua próxima jogada, o jogador deve escolher o quadrado com a menor probabilidade de conter uma mina. O jogador deverá abrir o quadrado marcado com a letra",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "P."
-      },
-      {
-        "letra": "B",
-        "texto": "Q."
-      },
-      {
-        "letra": "C",
-        "texto": "R."
-      },
-      {
-        "letra": "D",
-        "texto": "S."
-      },
-      {
-        "letra": "E",
-        "texto": "T."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 343,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Plana: Rotação de Quadro (Tela de Arte) [IMAGEM]",
-    "enunciado": "A imagem apresentada na figura é uma cópia em preto e branco da tela quadrada intitulada O peixe, de Marcos Pinto, que foi colocada em uma parede fixada nos pontos A (canto superior esquerdo) e B (canto inferior direito). Por um problema na fixação de um dos pontos, a tela se desprendeu, girando rente à parede.\n\n[IMAGEM: A tela originalmente quadrada está apoiada sobre base horizontal. Após se desprender, ficou suspensa pelo ponto B, formando um ângulo de 45° com a linha do horizonte.]\n\nPara recolocar a tela na sua posição original, deve-se girá-la, rente à parede, no menor ângulo possível inferior a 360°. A forma de recolocar a tela na posição original é girando-a em um ângulo de",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "90° no sentido horário."
-      },
-      {
-        "letra": "B",
-        "texto": "135° no sentido horário."
-      },
-      {
-        "letra": "C",
-        "texto": "180° no sentido anti-horário."
-      },
-      {
-        "letra": "D",
-        "texto": "270° no sentido anti-horário."
-      },
-      {
-        "letra": "E",
-        "texto": "315° no sentido horário."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 344,
     "ano": 2017,
     "prova": "ENEM",
@@ -9732,99 +7128,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "E"
-  },
-  {
-    "id": 345,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Leitura de Gráfico: Nível de Água em Reservatório [IMAGEM]",
-    "enunciado": "A água para o abastecimento de um prédio é armazenada em um sistema formado por dois reservatórios idênticos, em formato de bloco retangular, ligados entre si por um cano igual ao cano de entrada.\n\n[IMAGEM: Ilustração mostrando o Cano de entrada acoplado ao topo do Reservatório 1. Há um cano de ligação na metade da altura conectando o Reservatório 1 ao Reservatório 2. A água entra no Reservatório 1, e ao atingir o nível do cano de ligação, passa a abastecer o Reservatório 2.]\n\nSuponha que, inicialmente, os dois reservatórios estejam vazios. Qual dos gráficos melhor descreverá a altura h do nível da água no Reservatório 1, em função do volume V de água no sistema?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A — gráfico puramente linear crescente contínuo]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B — gráfico curvo ascendente com patamar plano horizontal no meio]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C — três segmentos retos: sobe inclinado, fica horizontal, depois sobe com a mesma inclinação inicial]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D — três segmentos retos: sobe inclinado íngreme, fica horizontal, depois sobe com menor inclinação]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E — curva contínua com concavidade voltada para baixo]"
-      }
-    ],
-    "correta": "D"
-  },
-  {
-    "id": 346,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Espacial: Altura de Empilhamento de Canos [IMAGEM]",
-    "enunciado": "Considere que o raio externo de cada cano seja 0,60 m e que eles estejam em cima de uma carroceria cuja parte superior está a 1,30 m do solo. O desenho representa a vista traseira do empilhamento dos canos: dois na base encostados e um em cima apoiado entre ambos.\n\n[IMAGEM: Vista traseira mostrando dois canos circulares de raio 0,60 m na base, lado a lado, e um terceiro apoiado sobre eles no centro. A carroceria está a 1,30 m do solo.]\n\nA margem de segurança recomendada para que um veículo passe sob um viaduto é que a altura total do veículo com a carga seja, no mínimo, 0,50 m menor do que a altura do vão do viaduto. Considere 1,7 como aproximação para √3.\n\nQual deveria ser a altura mínima do viaduto, em metro, para que esse caminhão pudesse passar com segurança sob seu vão?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "2,82"
-      },
-      {
-        "letra": "B",
-        "texto": "3,52"
-      },
-      {
-        "letra": "C",
-        "texto": "3,70"
-      },
-      {
-        "letra": "D",
-        "texto": "4,02"
-      },
-      {
-        "letra": "E",
-        "texto": "4,20"
-      }
-    ],
-    "correta": "E"
-  },
-  {
-    "id": 347,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Analítica: Orientação em Mapa Urbano [IMAGEM]",
-    "enunciado": "Um menino acaba de se mudar para um novo bairro e deseja ir à padaria. Pediu ajuda a um amigo que lhe forneceu um mapa com pontos numerados, que representam cinco locais de interesse. O amigo passou as seguintes instruções: a partir do ponto em que você se encontra, representado pela letra X, ande para oeste, vire à direita na primeira rua que encontrar, siga em frente e vire à esquerda na próxima rua. A padaria estará logo a seguir.\n\n[IMAGEM: Mapa com formato de grade ortogonal composto pelas Ruas A, B, C, D, E na horizontal e Ruas 1, 2, 3, 4, 5 na vertical, definindo quadras numeradas de 1 a 16. O ponto X situa-se no cruzamento da Rua C com a Rua 3. Os pontos numerados de 1 a 5 estão distribuídos nos cruzamentos das vias. Rosa dos ventos indica as direções N, S, L, O.]\n\nA padaria está representada pelo ponto numerado com",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1."
-      },
-      {
-        "letra": "B",
-        "texto": "2."
-      },
-      {
-        "letra": "C",
-        "texto": "3."
-      },
-      {
-        "letra": "D",
-        "texto": "4."
-      },
-      {
-        "letra": "E",
-        "texto": "5."
-      }
-    ],
-    "correta": "D"
   },
   {
     "id": 348,
@@ -9858,68 +7161,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 349,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Trigonometria: Raio de Circunferência com Compasso [IMAGEM]",
-    "enunciado": "Uma desenhista projetista deverá desenhar uma tampa de panela em forma circular. Para realizar esse desenho, ela dispõe, no momento, de apenas um compasso, cujo comprimento das hastes é de 10 cm, um transferidor e uma folha de papel com um plano cartesiano. Para esboçar o desenho dessa tampa, ela afastou as hastes do compasso de forma que o ângulo formado por elas fosse de 120°.\n\n[IMAGEM: Desenho no plano cartesiano com a ponta seca C fixada nas coordenadas (3; 1), e o ângulo de 120° demarcado na abertura do compasso. O ponto A representa a cabeça do compasso e B a ponta do grafite.]\n\nA desenhista verifica em qual intervalo o raio se encontra para determinar o tipo de material a ser utilizado na fabricação:\n| Tipo de material | Intervalo de valores do raio (cm) |\n|---|---|\n| I | 0 < R ≤ 5 |\n| II | 5 < R ≤ 10 |\n| III | 10 < R ≤ 15 |\n| IV | 15 < R ≤ 21 |\n| V | 21 < R ≤ 40 |\n\nConsidere 1,7 como aproximação para √3. O tipo de material a ser utilizado pelo setor de produção será",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "I."
-      },
-      {
-        "letra": "B",
-        "texto": "II."
-      },
-      {
-        "letra": "C",
-        "texto": "III."
-      },
-      {
-        "letra": "D",
-        "texto": "IV."
-      },
-      {
-        "letra": "E",
-        "texto": "V."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 350,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Medidas e Arredondamento: Diâmetro de Pérola [IMAGEM]",
-    "enunciado": "Uma pessoa ganhou uma pulseira formada por pérolas esféricas, na qual faltava uma das pérolas.\n\n[IMAGEM: Fotografia de uma pulseira ornamental com fileiras de pérolas, contendo uma seta branca apontando para um círculo branco indicando o espaço vazio.]\n\nO joalheiro verificou que a medida do diâmetro das pérolas originais era 4 milímetros. Em seu estoque, as pérolas disponíveis tinham diâmetros iguais a: 4,025 mm; 4,100 mm; 3,970 mm; 4,080 mm e 3,099 mm. O joalheiro colocou na pulseira a pérola cujo diâmetro era o mais próximo do diâmetro das pérolas originais.\n\nA pérola colocada na pulseira pelo joalheiro tem diâmetro, em milímetro, igual a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "3,099."
-      },
-      {
-        "letra": "B",
-        "texto": "3,970."
-      },
-      {
-        "letra": "C",
-        "texto": "4,025."
-      },
-      {
-        "letra": "D",
-        "texto": "4,080."
-      },
-      {
-        "letra": "E",
-        "texto": "4,100."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 351,
     "ano": 2017,
     "prova": "ENEM",
@@ -9949,68 +7190,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 352,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Razão e Proporção: Engrenagens de Bicicleta [IMAGEM]",
-    "enunciado": "Uma bicicleta do tipo mountain bike tem uma coroa com 3 engrenagens e uma catraca com 6 engrenagens. O número de voltas efetuadas pela roda traseira a cada pedalada é calculado dividindo-se a quantidade de dentes da coroa pela quantidade de dentes da catraca.\n\nTabela de engrenagens:\n| Engrenagens | 1ª | 2ª | 3ª | 4ª | 5ª | 6ª |\n|---|---|---|---|---|---|---|\n| Nº de dentes da coroa | 46 | 36 | 26 | — | — | — |\n| Nº de dentes da catraca | 24 | 22 | 20 | 18 | 16 | 14 |\n\n[IMAGEM: Fotografia ilustrando o conjunto frontal (Coroas) conectado por corrente ao conjunto traseiro (Catracas).]\n\nDurante um passeio, deseja-se fazer um percurso o mais devagar possível. Dentre as combinações abaixo, qual deve ser escolhida?\n\n| | I | II | III | IV | V |\n|---|---|---|---|---|---|\n| Combinação | 1ª × 1ª | 1ª × 6ª | 2ª × 4ª | 3ª × 1ª | 3ª × 6ª |\n\nA combinação escolhida para realizar esse passeio da forma desejada é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "I."
-      },
-      {
-        "letra": "B",
-        "texto": "II."
-      },
-      {
-        "letra": "C",
-        "texto": "III."
-      },
-      {
-        "letra": "D",
-        "texto": "IV."
-      },
-      {
-        "letra": "E",
-        "texto": "V."
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 353,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Coloração de Figuras e Análise Combinatória [IMAGEM]",
-    "enunciado": "O comitê organizador da Copa do Mundo 2014 criou a logomarca da Copa. Considere que o comitê organizador resolvesse utilizar todas as cores da bandeira nacional (verde, amarelo, azul e branco) para colorir a logomarca, de forma que regiões vizinhas tenham cores diferentes.\n\n[IMAGEM: Logomarca da Copa 2014 contendo o contorno estilizado do troféu feito por três mãos entrelaçadas, acompanhado do slogan \"JUNTOS NUM SÓ RITMO\".]\n\nDe quantas maneiras diferentes o comitê organizador da Copa poderia pintar a logomarca com as cores citadas?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "15"
-      },
-      {
-        "letra": "B",
-        "texto": "30"
-      },
-      {
-        "letra": "C",
-        "texto": "108"
-      },
-      {
-        "letra": "D",
-        "texto": "360"
-      },
-      {
-        "letra": "E",
-        "texto": "972"
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 354,
@@ -10075,37 +7254,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 356,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Aritmética: Custo de Visita a Mirantes [IMAGEM]",
-    "enunciado": "Em um parque há dois mirantes de alturas distintas que são acessados por elevador panorâmico.\n\n[IMAGEM: Ilustração indicando o Mirante 1 (mais baixo) à esquerda e o Mirante 2 (mais alto) à direita, conectados por um bondinho de teleférico.]\n\nCustos de acesso:\n- Subir pelo elevador 1: R$ 0,15\n- Subir pelo elevador 2: R$ 1,80\n- Descer pelo elevador 1: R$ 0,10\n- Descer pelo elevador 2: R$ 2,30\n- Teleférico do topo do mirante 1 para o topo do mirante 2: R$ 2,00\n- Teleférico do topo do mirante 2 para o topo do mirante 1: R$ 2,50\n\nQual é o menor custo, em real, para uma pessoa visitar os topos dos dois mirantes e retornar ao solo?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "2,25"
-      },
-      {
-        "letra": "B",
-        "texto": "3,90"
-      },
-      {
-        "letra": "C",
-        "texto": "4,35"
-      },
-      {
-        "letra": "D",
-        "texto": "4,40"
-      },
-      {
-        "letra": "E",
-        "texto": "4,45"
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 357,
     "ano": 2017,
     "prova": "ENEM",
@@ -10137,37 +7285,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 358,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Leitura de Gráfico e Distorção Visual [IMAGEM]",
-    "enunciado": "O resultado de uma pesquisa eleitoral sobre a preferência dos eleitores em relação a dois candidatos foi representado por meio do Gráfico 1. Ao ser divulgado em jornal, o Gráfico 1 foi cortado durante a diagramação, como mostra o Gráfico 2.\n\n[IMAGEM 1 — Gráfico 1: Barra preta (Candidato A) atingindo 70% e barra cinza (Candidato B) atingindo 30%. O eixo vertical inicia em 0.]\n[IMAGEM 2 — Gráfico 2: Mesmas barras, mas o eixo vertical foi suprimido abaixo da linha de 20%, iniciando a exibição diretamente na escala de 20.]\n\nApesar de os valores apresentados estarem corretos, muitos leitores criticaram o formato do Gráfico 2, alegando prejuízo visual para o candidato B. A diferença entre as razões da altura da coluna B pela coluna A nos gráficos 1 e 2 é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1/4"
-      },
-      {
-        "letra": "B",
-        "texto": "1/2"
-      },
-      {
-        "letra": "C",
-        "texto": "1/5"
-      },
-      {
-        "letra": "D",
-        "texto": "2/15"
-      },
-      {
-        "letra": "E",
-        "texto": "8/35"
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 359,
     "ano": 2017,
     "prova": "ENEM",
@@ -10197,192 +7314,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 360,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Espacial: Calota Esférica e Melão [IMAGEM]",
-    "enunciado": "Para decorar uma mesa de festa infantil, um chefe de cozinha usará um melão esférico com diâmetro medindo 10 cm, o qual servirá de suporte para espetar diversos doces. Ele irá retirar uma calota esférica do melão. Para garantir a estabilidade do suporte, o chefe fará o corte de modo que o raio r da seção circular de corte seja de pelo menos 3 cm. Por outro lado, o chefe desejará dispor da maior área possível da região em que serão afixados os doces.\n\n[IMAGEM: Esfera de centro O com raio r indicado horizontalmente até o ponto B sobre a borda da seção circular. O segmento OA conecta o centro à seção de corte. A calota inferior tem altura h. Legendas indicam \"Região onde serão afixados os doces\", \"A parte hachurada será apoiada na mesa\" e \"Calota a ser cortada e eliminada\".]\n\nPara atingir todos os seus objetivos, o chefe deverá cortar a calota do melão numa altura h, em centímetro, igual a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "5 − √91/2"
-      },
-      {
-        "letra": "B",
-        "texto": "10 − √91"
-      },
-      {
-        "letra": "C",
-        "texto": "1"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 361,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Geometria Analítica: Parábola e Igreja da Pampulha [IMAGEM]",
-    "enunciado": "A Igreja de São Francisco de Assis, obra arquitetônica modernista de Oscar Niemeyer, localizada na Lagoa da Pampulha, em Belo Horizonte, possui abóbadas parabólicas.\n\n[IMAGEM 1: Desenho tridimensional mostrando a estrutura das coberturas convexas em formato de gomos da igreja.]\n[IMAGEM 2: Vista frontal de uma abóbada com parábola de concavidade para baixo assentada sobre o solo. Há um retângulo interno com altura de 3 metros e largura total de 8 metros (4 metros de cada lado do eixo de simetria). A largura total da base da parábola é 10 metros (5 metros de cada lado). A altura máxima do vértice é indicada por H metros.]\n\nQual a medida da altura H, em metro, indicada na Figura 2?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "16/3"
-      },
-      {
-        "letra": "B",
-        "texto": "31/5"
-      },
-      {
-        "letra": "C",
-        "texto": "25/4"
-      },
-      {
-        "letra": "D",
-        "texto": "25/3"
-      },
-      {
-        "letra": "E",
-        "texto": "75/2"
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 362,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Gráfico de Setores: Taxa de Aumento de Tempo na Internet [IMAGEM]",
-    "enunciado": "Para responder à pergunta \"Quanto tempo você fica conectado à internet?\", foi criado um miniaplicativo de computador que gera automaticamente um gráfico de setores, mapeando o tempo que uma pessoa acessa cinco sites visitados. Em um computador, foi observado que houve um aumento significativo do tempo de acesso da sexta-feira para o sábado.\n\n[IMAGEM — Gráfico de setores SEXTA-FEIRA (minutos): Site X (12), Site Y (30), Site Z (10), Site W (38), Site U (40).]\n[IMAGEM — Gráfico de setores SÁBADO (minutos): Site X (21), Site Y (51), Site Z (11), Site W (57), Site U (56).]\n\nAnalisando os gráficos do computador, a maior taxa de aumento no tempo de acesso, da sexta-feira para o sábado, foi no site",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "X."
-      },
-      {
-        "letra": "B",
-        "texto": "Y."
-      },
-      {
-        "letra": "C",
-        "texto": "Z."
-      },
-      {
-        "letra": "D",
-        "texto": "W."
-      },
-      {
-        "letra": "E",
-        "texto": "U."
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 363,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Leitura de Termômetro de Máxima e Mínima [IMAGEM]",
-    "enunciado": "Neste modelo de termômetro, os filetes na cor preta registram as temperaturas mínima e máxima do dia anterior e os filetes na cor cinza registram a temperatura ambiente atual. Na coluna da esquerda, os números estão em ordem crescente de cima para baixo, de −30°C até 50°C. Na coluna da direita, os números estão ordenados de forma crescente de baixo para cima, de −30°C até 50°C.\n\nA leitura é feita da seguinte maneira:\n- A temperatura mínima é registrada pelo limite inferior do filete preto na coluna da esquerda\n- A temperatura máxima é registrada pelo limite superior do filete preto na coluna da direita\n- A temperatura atual é lida pelo topo dos filetes cinzas em ambas as colunas\n\n[IMAGEM: Termômetro com escala graduada contendo duas colunas paralelas. Na coluna da direita, o topo do filete preto atinge uma marcação próxima a 13, entre 10 e 20 unidades.]\n\nQual é a temperatura máxima mais aproximada registrada nesse termômetro?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "−5°C"
-      },
-      {
-        "letra": "B",
-        "texto": "7°C"
-      },
-      {
-        "letra": "C",
-        "texto": "13°C"
-      },
-      {
-        "letra": "D",
-        "texto": "15°C"
-      },
-      {
-        "letra": "E",
-        "texto": "19°C"
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 364,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Velocidade Angular e Pivô Central de Irrigação [IMAGEM]",
-    "enunciado": "Pivô central é um sistema de irrigação em que uma área circular é projetada para receber uma estrutura suspensa. No centro dessa área, há uma tubulação vertical que transmite água através de um cano horizontal longo, apoiado em torres de sustentação, as quais giram sobre rodas em torno do centro do pivô.\n\n[IMAGEM 1: Fotografia de uma estrutura de treliças metálicas suspensa sobre rodas sobre uma plantação.]\n[IMAGEM 2: Diagrama linear mostrando a linha horizontal do solo com a vertical central marcada como BASE, e as três torres verticais consecutivas T₁, T₂ e T₃.]\n\nUm pivô de três torres (T₁, T₂ e T₃) será instalado em uma fazenda, sendo que as distâncias entre torres consecutivas bem como da base à torre T₁ são iguais a 50 m. O fazendeiro pretende ajustar as velocidades das torres, de tal forma que o pivô efetue uma volta completa em 25 horas. Use 3 como aproximação para π.\n\nPara atingir seu objetivo, as velocidades das torres T₁, T₂ e T₃ devem ser, em metro por hora, de",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "12, 24 e 36."
-      },
-      {
-        "letra": "B",
-        "texto": "6, 12 e 18."
-      },
-      {
-        "letra": "C",
-        "texto": "2, 4 e 6."
-      },
-      {
-        "letra": "D",
-        "texto": "300, 1.200 e 2.700."
-      },
-      {
-        "letra": "E",
-        "texto": "600, 2.400 e 5.400."
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 365,
-    "ano": 2017,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matemática - Leitura de Gráfico: Dois Reservatórios [IMAGEM]",
-    "enunciado": "Dois reservatórios A e B são alimentados por bombas distintas por um período de 20 horas. A quantidade de água contida em cada reservatório nesse período pode ser visualizada na figura.\n\n[IMAGEM: Gráfico mostrando duas curvas de Volume (L) acumulado em função do Tempo (h) de 0 a 20. O eixo vertical esquerdo indica valores para o Reservatório A (0 a 180.000 L) e o eixo vertical direito indica valores para o Reservatório B. As duas linhas se interceptam em múltiplos pontos ao longo do período.]\n\nCom base no gráfico, a quantidade de vezes em que o volume de água do Reservatório A é igual ao do Reservatório B ao longo do período de 20 horas é",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1"
-      },
-      {
-        "letra": "B",
-        "texto": "2"
-      },
-      {
-        "letra": "C",
-        "texto": "3"
-      },
-      {
-        "letra": "D",
-        "texto": "4"
-      },
-      {
-        "letra": "E",
-        "texto": "5"
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 366,
@@ -10912,37 +7843,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 383,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Multilinguismo e Identidade Urbana (Foz do Iguaçu) [IMAGEM]",
-    "enunciado": "[IMAGEM: Fotografia da fachada de um supermercado em Foz do Iguaçu com a palavra escrita em vários idiomas: Supermercado (português), Supermarket (inglês), Supermarkt (alemão), Tienda (espanhol), 超級市場 (chinês), سوبر ماركت (árabe).]\n\nA fotografia exibe a fachada de um supermercado em Foz do Iguaçu, cuja localização transfronteiriça é marcada tanto pelo limite com Argentina e Paraguai quanto pela presença de outros povos. Essa fachada revela o(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "apagamento da identidade linguística."
-      },
-      {
-        "letra": "B",
-        "texto": "planejamento linguístico no espaço urbano."
-      },
-      {
-        "letra": "C",
-        "texto": "presença marcante da tradição oral na cidade."
-      },
-      {
-        "letra": "D",
-        "texto": "disputa de comunidades linguísticas diferentes."
-      },
-      {
-        "letra": "E",
-        "texto": "poluição visual promovida pelo multilinguismo."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 384,
     "ano": 2018,
     "prova": "ENEM",
@@ -11005,37 +7905,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 386,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Literatura - Quadrinhos e Grande Sertão: Veredas [IMAGEM]",
-    "enunciado": "[IMAGEM: Página de história em quadrinhos adaptando Grande sertão: veredas de Guimarães Rosa. Figuras estilizadas com traços expressionistas e desproporcionalidade nas formas, em tons de vermelho e preto. Texto nas caixas: \"DAÍ, VIERAM ME CHAMAR. CAUSA DUM BEZERRO: UM BEZERRO BRANCO, ERROSO, OS OLHOS DE NEM SER SE VIU — E COM MÁSCARA DE CACHORRO. DETERMINARAM — ERA O DEMO. PAM! MATARAM. SENHOR TOLERE, ISTO É O SERTÃO.\"]\n\nNa representação gráfica, a inter-relação de diferentes linguagens caracteriza-se por",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "romper com a linearidade das ações da narrativa literária."
-      },
-      {
-        "letra": "B",
-        "texto": "ilustrar de modo fidedigno passagens representativas da história."
-      },
-      {
-        "letra": "C",
-        "texto": "articular a tensão do romance à desproporcionalidade das formas."
-      },
-      {
-        "letra": "D",
-        "texto": "potencializar a dramaticidade do episódio com recursos das artes visuais."
-      },
-      {
-        "letra": "E",
-        "texto": "desconstruir a diagramação do texto literário pelo desequilíbrio da composição."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 387,
     "ano": 2018,
     "prova": "ENEM",
@@ -11093,68 +7962,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "condensar a conclusão de que a explosão de matéria e energia ocorre em um ponto microscópico."
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 389,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Campanha de Reciclagem e Linguagem Não Verbal [IMAGEM]",
-    "enunciado": "[IMAGEM: Campanha de Reciclagem com imagem de garrafa PET e dois cestos — lixo úmido (cascas, restos de comida, pó de café e chá, galhos) e lixo seco (latas, papéis, plástico, vidro). Slogan: \"PLÁSTICO VELHO PODE VIRAR TECIDO NOVO. Garrafa PET vazia tem valor líquido e certo: reciclada, vira tecido, madeira sintética ou plástico novo de novo. SEPARE O LIXO E ACERTE NA LATA.\"]\n\nA principal estratégia para convencer o leitor a fazer a reciclagem do lixo é a utilização da linguagem não verbal como argumento para",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "reaproveitamento de material."
-      },
-      {
-        "letra": "B",
-        "texto": "facilidade na separação do lixo."
-      },
-      {
-        "letra": "C",
-        "texto": "melhoria da condição do catador."
-      },
-      {
-        "letra": "D",
-        "texto": "preservação de recursos naturais."
-      },
-      {
-        "letra": "E",
-        "texto": "geração de renda para o trabalhador."
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 390,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Fotograma de Man Ray e Vanguardas Artísticas [IMAGEM]",
-    "enunciado": "TEXTO I: Os fotogramas são imagens realizadas sem a utilização da câmera fotográfica, por contato direto de um objeto ou material com uma superfície fotossensível exposta a uma fonte de luz. Essa técnica foi profundamente transformada pelos artistas da vanguarda, nas primeiras décadas do século XX, representando a incorporação definitiva da fotografia à arte moderna e seu distanciamento da representação figurativa. (COLUCCI, M. B.)\n\nTEXTO II: [IMAGEM: RAY, M. Rayograph, 1922. MOMA, Nova York. Imagem abstrata obtida sem câmera fotográfica, com formas geométricas e orgânicas sobrepostas em preto, branco e cinza, criando composição experimental de contornos difusos e fragmentados.]\n\nNo fotograma de Man Ray, o \"distanciamento da representação figurativa\" manifesta-se na",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "ressignificação do jogo de luz e sombra, nos moldes surrealistas."
-      },
-      {
-        "letra": "B",
-        "texto": "imposição do acaso sobre a técnica, como crítica à arte realista."
-      },
-      {
-        "letra": "C",
-        "texto": "composição experimental, fragmentada e de contornos difusos."
-      },
-      {
-        "letra": "D",
-        "texto": "abstração radical, voltada para a própria linguagem fotográfica."
-      },
-      {
-        "letra": "E",
-        "texto": "imitação de formas humanas, com base em diferentes objetos."
       }
     ],
     "correta": "C"
@@ -11220,37 +8027,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "D"
-  },
-  {
-    "id": 393,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Show do Teatro Mágico e Ópera Europeia [IMAGEM]",
-    "enunciado": "[IMAGEM: Fotografia de um show do grupo O Teatro Mágico mostrando uma acrobata pendurada em um arco aéreo acima de um músico que toca violão no palco, com iluminação cênica dramática.] (Fotografia: LUCAS HALLEL.)\n\nO grupo O Teatro Mágico apresenta composições autorais que têm referências estéticas do rock, do pop e da música folclórica brasileira. A originalidade dos seus shows tem relação com a ópera europeia do século XIX a partir da",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "disposição cênica dos artistas no espaço teatral."
-      },
-      {
-        "letra": "B",
-        "texto": "integração de diversas linguagens artísticas."
-      },
-      {
-        "letra": "C",
-        "texto": "sobreposição entre música e texto literário."
-      },
-      {
-        "letra": "D",
-        "texto": "manutenção de um diálogo com o público."
-      },
-      {
-        "letra": "E",
-        "texto": "adoção de um enredo como fio condutor."
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 394,
@@ -11346,68 +8122,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 397,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - GPS como Criação Artística (Stephen Lund) [IMAGEM]",
-    "enunciado": "TEXTO I: [IMAGEM: Rota de GPS traçada pelo artista Stephen Lund em Victoria, Canadá, que forma o desenho do Cristo Redentor quando vista no mapa. A figura foi criada pedalando uma bicicleta e rastreando o percurso com GPS.]\n\nTEXTO II: Stephen Lund, artista canadense, morador em Victoria, transformou-se em fenômeno mundial produzindo obras de arte virtuais pedalando sua bike. Seguindo rotas traçadas com o auxílio de um dispositivo de GPS, ele calcula ter percorrido mais de 10 mil quilômetros.\n\nOs textos destacam a inovação artística proposta por Stephen Lund a partir do(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "deslocamento das tecnologias de suas funções habituais."
-      },
-      {
-        "letra": "B",
-        "texto": "perspectiva de funcionamento do dispositivo de GPS."
-      },
-      {
-        "letra": "C",
-        "texto": "ato de guiar sua bicicleta pelas ruas da cidade."
-      },
-      {
-        "letra": "D",
-        "texto": "análise dos problemas de mobilidade urbana."
-      },
-      {
-        "letra": "E",
-        "texto": "foco na promoção cultural da sua cidade."
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 398,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Exercício Físico, Saúde e Determinantes Sociais [IMAGEM]",
-    "enunciado": "TEXTO I: [IMAGEM: Cartaz com foto de uma mulher em trajes de ginástica e o texto: \"AQUELES QUE PENSAM QUE NÃO TÊM TEMPO PARA FAZER EXERCÍCIO, MAIS CEDO OU MAIS TARDE SERÃO OBRIGADOS A TER TEMPO PARA AS DOENÇAS.\"]\n\nTEXTO II: Imaginemos um cidadão, residente na periferia de um grande centro urbano, que diariamente acorda às 5h para trabalhar, enfrenta em média 2 horas de transporte público para chegar às 8h ao trabalho. Termina o expediente às 17h e chega em casa às 19h para cuidar dos afazeres domésticos, dos filhos etc. A probabilidade de essa pessoa praticar exercícios regularmente é significativamente menor que a de pessoas da classe média/alta. Nesse caso, a abordagem individual do problema tende a fazer com que a pessoa se sinta culpada pelo fato de ser ou estar sedentária. (FERREIRA, M. S.)\n\nO segundo texto apresenta uma visão",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "medicalizada, que relaciona a prática de exercícios físicos por qualquer indivíduo à promoção da saúde."
-      },
-      {
-        "letra": "B",
-        "texto": "ampliada, que considera aspectos sociais intervenientes na prática de exercícios no cotidiano."
-      },
-      {
-        "letra": "C",
-        "texto": "crítica, que associa a interferência das tarefas da casa ao sedentarismo do indivíduo."
-      },
-      {
-        "letra": "D",
-        "texto": "focalizada, que atribui ao indivíduo a responsabilidade pela prevenção de doenças."
-      },
-      {
-        "letra": "E",
-        "texto": "geracional, que preconiza a representação do culto à jovialidade."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 399,
     "ano": 2018,
     "prova": "ENEM",
@@ -11468,37 +8182,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "D"
-  },
-  {
-    "id": 401,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Cerâmica Contemporânea e Arte Indígena Marajoara [IMAGEM]",
-    "enunciado": "TEXTO I: [IMAGEM: Obra \"Estrutura vertical dupla\" de Norma Grimberg. Escultura abstrata em cerâmica composta por discos e formas cilíndricas empilhadas verticalmente em tons terrosos, sem função utilitária evidente.]\n\nTEXTO II: [IMAGEM: Urna cerimonial marajoara. Cerâmica. 1400 a 400 a.C. Museu Nacional do Rio de Janeiro. Vaso de barro decorado com grafismos geométricos intrincados em preto e vermelho, com função cerimonial/ritual.]\n\nA obra Estrutura vertical dupla se distingue da urna funerária marajoara ao",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "evidenciar a simetria na disposição das peças."
-      },
-      {
-        "letra": "B",
-        "texto": "materializar a técnica sem função utilitária."
-      },
-      {
-        "letra": "C",
-        "texto": "abandonar a regularidade na composição."
-      },
-      {
-        "letra": "D",
-        "texto": "anular possibilidades de leituras afetivas."
-      },
-      {
-        "letra": "E",
-        "texto": "integrar o suporte em sua constituição."
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 402,
@@ -11594,37 +8277,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 405,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Campanha Contra Assédio: Imperativo e Imagem [IMAGEM]",
-    "enunciado": "[IMAGEM: Cartaz de campanha contra violência com foto de três mulheres cobrindo respectivamente os olhos, a boca e os ouvidos. Texto: \"SE VOCÊ FOI VÍTIMA DE ASSÉDIO, ROMPA O SILÊNCIO: DENUNCIE. LIGUE 180. Não silencie, o governo do Estado está ao seu lado: TELEFONE LILÁS 0800 541 0803.\" Apoio: TRENSURB.]\n\nBusca-se convencer o leitor a mudar seu comportamento por meio da associação de verbos no modo imperativo à",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "indicação de diversos canais de atendimento."
-      },
-      {
-        "letra": "B",
-        "texto": "divulgação do Centro de Defesa da Mulher."
-      },
-      {
-        "letra": "C",
-        "texto": "informação sobre a duração da campanha."
-      },
-      {
-        "letra": "D",
-        "texto": "apresentação dos diversos apoiadores."
-      },
-      {
-        "letra": "E",
-        "texto": "utilização da imagem das três mulheres."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 406,
     "ano": 2018,
     "prova": "ENEM",
@@ -11718,37 +8370,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 409,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Rótulos de Alimentos sem Glúten e Variação de Informações [IMAGEM]",
-    "enunciado": "[IMAGEM: Tabela \"Reações celíacas ao ler um rótulo sem glúten\": \"Não Contém Glúten\" → CURTI! / \"Sem Glúten e com Sabor\" → AMEI! / \"Sem Glúten e Barato\" → HAHA! / \"Sem Glúten, Barato e Gostoso\" → UAU! / \"Sem Glúten mas pode conter traços\" → TRISTE! / \"Rótulo tá todo errado\" → GRR!]\n\nEssas reações indicam que, em geral, os rótulos desses produtos",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "trazem informações explícitas sobre a presença do glúten."
-      },
-      {
-        "letra": "B",
-        "texto": "oferecem várias opções de sabor para esses consumidores."
-      },
-      {
-        "letra": "C",
-        "texto": "classificam o produto como adequado para o consumidor celíaco."
-      },
-      {
-        "letra": "D",
-        "texto": "influenciam o consumo de alimentos especiais para esses consumidores."
-      },
-      {
-        "letra": "E",
-        "texto": "variam na forma de apresentação de informações relevantes para esse público."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 410,
     "ano": 2018,
     "prova": "ENEM",
@@ -11780,37 +8401,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 411,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Arte - Body Art e o Corpo como Suporte Artístico [IMAGEM]",
-    "enunciado": "TEXTO I: [IMAGEM: Fotografia em preto e branco \"Dentro de mim\" de Hélio Almeida (2000). Duas pernas estendidas no chão com espelhos circulares colados nas solas dos pés, refletindo o ambiente ao redor.]\n\nTEXTO II: A body art põe o corpo tão em evidência e o submete a experimentações tão variadas, que sua influência estende-se aos dias de hoje. Se na arte atual as possibilidades de investigação do corpo parecem ilimitadas — pode-se escolher entre representar, apresentar, ou ainda apenas evocar o corpo — isso ocorre graças ao legado dos artistas pioneiros. (SILVA, P. R.)\n\nNos textos, a concepção de body art está relacionada à intenção de",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "estabelecer limites entre o corpo e a composição."
-      },
-      {
-        "letra": "B",
-        "texto": "fazer do corpo um suporte privilegiado de expressão."
-      },
-      {
-        "letra": "C",
-        "texto": "discutir políticas e ideologias sobre o corpo como arte."
-      },
-      {
-        "letra": "D",
-        "texto": "compreender a autonomia do corpo no contexto da obra."
-      },
-      {
-        "letra": "E",
-        "texto": "destacar o corpo do artista em contato com o espectador."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 412,
     "ano": 2018,
     "prova": "ENEM",
@@ -11837,37 +8427,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "objetivam manter um diálogo com o leitor, recorrendo a uma indagação."
-      }
-    ],
-    "correta": "D"
-  },
-  {
-    "id": 413,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Tirinha: Comercialização de Opiniões na Internet [IMAGEM]",
-    "enunciado": "[IMAGEM: Tirinha em três quadrinhos de Alexandre Branco: 1º quadro — \"VOCÊ NÃO ERA BLOGUEIRO DA OPOSIÇÃO?\" / \"COERÊNCIA É COISA DE TORCEDOR, EU SOU PROFISSIONAL.\" 2º quadro — \"MEME EU COBRO X, TEXTÃO EU COBRO Y.\" 3º quadro — \"VIU O PREÇO DA OPINIÃO NA INTERNET?\" / \"TÁ PELA HORA DA MORTE.\"]\n\nA principal consequência criticada na tirinha sobre esse processo é a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "criação de memes."
-      },
-      {
-        "letra": "B",
-        "texto": "ampliação da blogosfera."
-      },
-      {
-        "letra": "C",
-        "texto": "supremacia das ideias cibernéticas."
-      },
-      {
-        "letra": "D",
-        "texto": "comercialização de pontos de vista."
-      },
-      {
-        "letra": "E",
-        "texto": "banalização do comércio eletrônico."
       }
     ],
     "correta": "D"
@@ -12028,37 +8587,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 419,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Linguagens - Campanha de Saúde e Marcas da Oralidade [IMAGEM]",
-    "enunciado": "[IMAGEM: Campanha do Ministério da Saúde com foto de uma xícara de café e um açucareiro, e o texto: \"SEU ORGANISMO JÁ ESTÁ ACOSTUMADO COM O AÇÚCAR E ESTÁ DIFÍCIL LARGAR? O IDEAL É IR SE ACOSTUMANDO AOS POUCOS COM CADA VEZ MENOS AÇÚCAR.\"]\n\nA utilização de determinadas variedades linguísticas em campanhas educativas tem a função de atingir o público-alvo de forma mais direta e eficaz. No caso desse texto, identifica-se essa estratégia pelo(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "discurso formal da língua portuguesa."
-      },
-      {
-        "letra": "B",
-        "texto": "registro padrão próprio da língua escrita."
-      },
-      {
-        "letra": "C",
-        "texto": "seleção lexical restrita à esfera da medicina."
-      },
-      {
-        "letra": "D",
-        "texto": "fidelidade ao jargão da linguagem publicitária."
-      },
-      {
-        "letra": "E",
-        "texto": "uso de marcas linguísticas típicas da oralidade."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 420,
     "ano": 2018,
     "prova": "ENEM",
@@ -12178,37 +8706,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "contraposição entre clericalismo e liberdade de pensamento."
-      }
-    ],
-    "correta": "E"
-  },
-  {
-    "id": 424,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Urbanização e Escoamento Superficial [IMAGEM]",
-    "enunciado": "[IMAGEM: Gráfico comparando a variação de precipitação/escoamento por tempo entre áreas urbanizadas e áreas não urbanizadas. A linha de áreas urbanizadas mostra pico de escoamento muito mais alto e rápido após a chuva em comparação com áreas não urbanizadas, que apresentam escoamento menor e mais gradual.]\n\nA dinâmica hidrológica expressa no gráfico demonstra que o processo de urbanização promove a",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "redução do volume dos rios."
-      },
-      {
-        "letra": "B",
-        "texto": "expansão do lençol freático."
-      },
-      {
-        "letra": "C",
-        "texto": "diminuição do índice de chuvas."
-      },
-      {
-        "letra": "D",
-        "texto": "retração do nível dos reservatórios."
-      },
-      {
-        "letra": "E",
-        "texto": "ampliação do escoamento superficial."
       }
     ],
     "correta": "E"
@@ -12398,37 +8895,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "E"
-  },
-  {
-    "id": 431,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Seca de 2014 no Sudeste Brasileiro [IMAGEM]",
-    "enunciado": "TEXTO I: Há mais de duas décadas, os cientistas e ambientalistas têm alertado para o fato de a água doce ser um recurso escasso em nosso planeta. Desde o começo de 2014, o Sudeste do Brasil adquiriu uma clara percepção dessa realidade em função da seca.\n\nTEXTO II: [IMAGEM: Dois mapas da América do Sul comparando as dinâmicas atmosféricas. O mapa do \"Verão normal\" mostra correntes de umidade fluindo normalmente da Amazônia para o Sudeste. O mapa do \"Verão seco de 2014\" mostra a formação de um anticiclone bloqueando a entrada dessas correntes de umidade na região Sudeste.]\n\nA seca de 2014, no Sudeste, teve como causa natural o(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "constituição de frentes quentes barrando as chuvas convectivas."
-      },
-      {
-        "letra": "B",
-        "texto": "formação de anticiclone impedindo a entrada de umidade."
-      },
-      {
-        "letra": "C",
-        "texto": "presença de nebulosidade na região de cordilheira."
-      },
-      {
-        "letra": "D",
-        "texto": "avanço de massas polares para o continente."
-      },
-      {
-        "letra": "E",
-        "texto": "baixa pressão atmosférica no litoral."
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 432,
@@ -12710,37 +9176,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 441,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "História dos EUA - Rosa Parks e Movimento pelos Direitos Civis [IMAGEM]",
-    "enunciado": "[IMAGEM: Fotografia do ônibus da linha Cleveland Ave em que Rosa Parks se recusou a ceder seu assento em 1955, Montgomery, Alabama, hoje exposto no Henry Ford Museum. Ao lado, retrato de Rosa Parks com Martin Luther King ao fundo.]\n\nEsse ônibus relaciona-se ao ato praticado, em 1955, por Rosa Parks. O veículo alcançou o estatuto de obra museológica por simbolizar o(a)",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "impacto do medo da corrida armamentista."
-      },
-      {
-        "letra": "B",
-        "texto": "democratização do acesso à escola pública."
-      },
-      {
-        "letra": "C",
-        "texto": "preconceito de gênero no transporte coletivo."
-      },
-      {
-        "letra": "D",
-        "texto": "deflagração do movimento por igualdade civil."
-      },
-      {
-        "letra": "E",
-        "texto": "eclosão da rebeldia no comportamento juvenil."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 442,
     "ano": 2018,
     "prova": "ENEM",
@@ -12896,37 +9331,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 447,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Distribuição de Ciclones Tropicais [IMAGEM]",
-    "enunciado": "[IMAGEM: Mapa global mostrando trajetórias de ciclones tropicais concentradas nos oceanos nas faixas intertropicais, especialmente no Oceano Pacífico Norte, Atlântico Norte, Índico Norte e Pacífico Sul. A região próxima ao Equador e os continentes apresentam menor concentração de ciclones.]\n\nQual característica do meio físico é condição necessária para a distribuição espacial do fenômeno representado?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Cobertura vegetal com porte arbóreo."
-      },
-      {
-        "letra": "B",
-        "texto": "Barreiras orográficas com altitudes elevadas."
-      },
-      {
-        "letra": "C",
-        "texto": "Pressão atmosférica com diferença acentuada."
-      },
-      {
-        "letra": "D",
-        "texto": "Superfície continental com refletividade intensa."
-      },
-      {
-        "letra": "E",
-        "texto": "Correntes marinhas com direções convergentes."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 448,
     "ano": 2018,
     "prova": "ENEM",
@@ -12956,37 +9360,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "E"
-  },
-  {
-    "id": 449,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Silvicultura versus Extrativismo Vegetal [IMAGEM]",
-    "enunciado": "[IMAGEM: Gráfico de linhas mostrando a evolução da produção florestal primária no Brasil de 1996 a 2014. A linha da silvicultura sobe progressivamente de ~40% para ~80% do total da produção. A linha do extrativismo vegetal cai de ~60% para ~20%. As linhas se cruzam por volta de 2004-2005.] (IBGE. Produção da extração vegetal e da silvicultura, 2014.)\n\nA variação das curvas do gráfico foi influenciada pela tendência de",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "conservação do bioma nativo."
-      },
-      {
-        "letra": "B",
-        "texto": "estagnação do setor primário."
-      },
-      {
-        "letra": "C",
-        "texto": "utilização de madeira de reflorestamento."
-      },
-      {
-        "letra": "D",
-        "texto": "redução da produção de móveis."
-      },
-      {
-        "letra": "E",
-        "texto": "retração da indústria alimentícia."
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 450,
@@ -13142,37 +9515,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 455,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Sociologia - Anúncio dos Anos 1940 e Estereótipos Femininos [IMAGEM]",
-    "enunciado": "[IMAGEM: Anúncio publicitário da década de 1940 mostrando uma mulher elegante em uma poltrona. Texto: \"ELLA SERIA ADORAVEL... si não fosse doentia. Só uma saúde perfeita pode dar à mulher beleza e encanto capazes de a tornar adorável aos olhos masculinos! Para ter uma saúde assim, tome 'A SAÚDE DA MULHER', o remédio que traz no nome o resumo das suas virtudes.\"]\n\nO anúncio publicitário da década de 1940 reforça os seguintes estereótipos atribuídos historicamente a uma suposta natureza feminina:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Pudor inato e instinto maternal."
-      },
-      {
-        "letra": "B",
-        "texto": "Fragilidade física e necessidade de aceitação."
-      },
-      {
-        "letra": "C",
-        "texto": "Isolamento social e procura de autoconhecimento."
-      },
-      {
-        "letra": "D",
-        "texto": "Dependência econômica e desejo de ostentação."
-      },
-      {
-        "letra": "E",
-        "texto": "Mentalidade fútil e conduta hedonista."
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 456,
@@ -13359,37 +9701,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 462,
-    "ano": 2018,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Geografia - Cartografia e Técnica de Anamorfose [IMAGEM]",
-    "enunciado": "Anamorfose é a transformação cartográfica espacial em que a forma dos objetos é distorcida, de forma a realçar o tema. A área das unidades espaciais às quais o tema se refere é alterada de forma proporcional ao respectivo valor. (GASPAR, A. J. Dicionário de ciências cartográficas.)\n\n[IMAGEM: Cinco alternativas de mapas cartográficos. A opção correta mostra o mapa das Américas com as áreas dos países distorcidas proporcionalmente a um dado temático (como PIB ou população), caracterizando a técnica de anamorfose. As demais apresentam mapas topográficos ou representações convencionais sem distorção temática.]\n\nAssinale a alternativa que apresenta o mapa elaborado com a técnica de anamorfose descrita.",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM A — mapa topográfico/relevo das Américas, sem distorção temática]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM B — mapa das Américas com áreas distorcidas proporcionalmente ao valor temático]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM C — mapa político convencional das Américas]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM D — mapa físico com hidrografia das Américas]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM E — mapa com relevo sombreado das Américas]"
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 463,
@@ -16306,37 +12617,6 @@ export const QUESTIONS = [
     "correta": "B"
   },
   {
-    "id": 557,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Compreensão de cartum em inglês",
-    "enunciado": "[IMAGEM: cartum de sala de aula com alunos usando livros antigos como notebooks; um estudante segura um livro impresso e pergunta a um colega 'how do you turn this thing on?']. No cartum, o estudante faz uma pergunta usando 'turn this thing on' por:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "suspeitar que o colega está com seu material por engano."
-      },
-      {
-        "letra": "B",
-        "texto": "duvidar que o colega possa se tornar um bom aluno."
-      },
-      {
-        "letra": "C",
-        "texto": "desconfiar que o livro levado é de outra matéria."
-      },
-      {
-        "letra": "D",
-        "texto": "entender como desligada a postura do colega."
-      },
-      {
-        "letra": "E",
-        "texto": "desconhecer como usar um livro impresso."
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 558,
     "ano": 2019,
     "prova": "ENEM",
@@ -16461,37 +12741,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 562,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Campanha contra bullying - estratégia linguística",
-    "enunciado": "[IMAGEM: cartaz 'Faz com que o BULLYING passe à história!', em português europeu, com instruções para vítimas, testemunhas e agressores]. Essa campanha se destaca pela maneira como utiliza a linguagem para conscientizar a sociedade da necessidade de se acabar com o bullying. Tal estratégia está centrada no(a):",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "chamamento de diferentes atores sociais pelo uso recorrente de estruturas injuntivas."
-      },
-      {
-        "letra": "B",
-        "texto": "variedade linguística caracterizadora do português europeu."
-      },
-      {
-        "letra": "C",
-        "texto": "restrição a um grupo específico de vítimas ao apresentar marcas gráficas de identificação de gênero como \"o(a)\"."
-      },
-      {
-        "letra": "D",
-        "texto": "combinação do significado de palavras escritas em línguas inglesa e portuguesa."
-      },
-      {
-        "letra": "E",
-        "texto": "enunciado de cunho esperançoso \"passe à história\" no título do cartaz."
-      }
-    ],
-    "correta": "A"
-  },
-  {
     "id": 563,
     "ano": 2019,
     "prova": "ENEM",
@@ -16583,37 +12832,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  },
-  {
-    "id": 566,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Infográfico sobre redes sociais",
-    "enunciado": "[IMAGEM: infográfico 'Os tipos cheios de si' descrevendo perfis caricatos de usuários de redes sociais: o turista em tempo integral, a única bem-amada, o baladeiro vida louca, o exibido humilde, o bem relacionado de ocasião, o gourmet de aparências, a mãe orgulhosa demais, o(a) lindo(a) demais para não mostrar]. De acordo com esse infográfico, as redes sociais estimulam diferentes comportamentos dos usuários que revelam:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "exposição exagerada dos indivíduos."
-      },
-      {
-        "letra": "B",
-        "texto": "comicidade ingênua dos usuários."
-      },
-      {
-        "letra": "C",
-        "texto": "engajamento social das pessoas."
-      },
-      {
-        "letra": "D",
-        "texto": "disfarce do sujeito por meio de avatares."
-      },
-      {
-        "letra": "E",
-        "texto": "autocrítica dos internautas."
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 567,
@@ -16769,37 +12987,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "A"
-  },
-  {
-    "id": 572,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Cartaz sobre refugiados - imagem e texto",
-    "enunciado": "[IMAGEM: cartaz com fotografia de calçados gastos e a frase 'VAMOS CALÇAR OS SAPATOS DOS REFUGIADOS E DAR O PRIMEIRO PASSO PARA ENTENDER SUA SITUAÇÃO', campanha do ACNUR]. Nesse cartaz, o uso da imagem do calçado aliada ao texto verbal tem o objetivo de:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "criticar as difíceis condições de vida dos refugiados."
-      },
-      {
-        "letra": "B",
-        "texto": "revelar a longa trajetória percorrida pelos refugiados."
-      },
-      {
-        "letra": "C",
-        "texto": "incentivar a campanha de doações para os refugiados."
-      },
-      {
-        "letra": "D",
-        "texto": "denunciar a situação de carência vivida pelos refugiados."
-      },
-      {
-        "letra": "E",
-        "texto": "simbolizar a necessidade de adesão à causa dos refugiados."
-      }
-    ],
-    "correta": "E"
   },
   {
     "id": 573,
@@ -17110,37 +13297,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 583,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Picasso - Cabeça de touro - arte com material reciclado",
-    "enunciado": "[IMAGEM: escultura 'Cabeça de touro' de Picasso, feita com selim e guidão de bicicleta]. Na obra Cabeça de touro, o material descartado torna-se objeto de arte por meio da:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "reciclagem da matéria-prima original."
-      },
-      {
-        "letra": "B",
-        "texto": "complexidade da combinação de formas abstratas."
-      },
-      {
-        "letra": "C",
-        "texto": "perenidade dos elementos que constituem a escultura."
-      },
-      {
-        "letra": "D",
-        "texto": "mudança da funcionalidade pela integração dos objetos."
-      },
-      {
-        "letra": "E",
-        "texto": "fragmentação da imagem no uso de elementos diversificados."
-      }
-    ],
-    "correta": "D"
   },
   {
     "id": 584,
@@ -17484,37 +13640,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 595,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Linguagens",
-    "assunto": "Carta de jogo sobre Marcelo Gleiser - subversão de gênero",
-    "enunciado": "[IMAGEM: carta de jogo estilo 'Super Trunfo' com foto e dados biográficos do físico Marcelo Gleiser: área de atuação, contribuição mais famosa, nascimento, alma mater]. O texto tem o formato de uma carta de jogo e apresenta dados a respeito de Marcelo Gleiser, premiado pesquisador brasileiro da atualidade. Essa apresentação subverte um gênero textual ao:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "vincular áreas distintas do conhecimento."
-      },
-      {
-        "letra": "B",
-        "texto": "evidenciar a formação acadêmica do pesquisador."
-      },
-      {
-        "letra": "C",
-        "texto": "relacionar o universo lúdico a informações biográficas."
-      },
-      {
-        "letra": "D",
-        "texto": "especificar as contribuições mais conhecidas do pesquisador."
-      },
-      {
-        "letra": "E",
-        "texto": "destacar o nome do pesquisador e sua imagem no início do texto."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 596,
     "ano": 2019,
     "prova": "ENEM",
@@ -17606,37 +13731,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  },
-  {
-    "id": 599,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Sensoriamento remoto - geração de imagens de satélite",
-    "enunciado": "[IMAGEM: esquema de satélite captando energia solar refletida por floresta, rio, pastagens e rodovia]. A geração de imagens por meio da tecnologia ilustrada depende da variação do(a):",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Albedo dos corpos físicos."
-      },
-      {
-        "letra": "B",
-        "texto": "Profundidade do lençol freático."
-      },
-      {
-        "letra": "C",
-        "texto": "Campo de magnetismo terrestre."
-      },
-      {
-        "letra": "D",
-        "texto": "Qualidade dos recursos minerais."
-      },
-      {
-        "letra": "E",
-        "texto": "Movimento de translação planetária."
-      }
-    ],
-    "correta": "A"
   },
   {
     "id": 600,
@@ -17918,37 +14012,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 609,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Distribuição de desertos e regiões áridas",
-    "enunciado": "[IMAGEM: mapa mundial das regiões áridas e semiáridas mostrando uma sequência latitudinal de desertos no Hemisfério Sul interrompida no Brasil]. No Hemisfério Sul, a sequência latitudinal dos desertos representada na imagem sofre uma interrupção no Brasil devido à seguinte razão:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "Existência de superfícies de intensa refletividade."
-      },
-      {
-        "letra": "B",
-        "texto": "Preponderância de altas pressões atmosféricas."
-      },
-      {
-        "letra": "C",
-        "texto": "Influência de umidade das áreas florestais."
-      },
-      {
-        "letra": "D",
-        "texto": "Predomínio de correntes marinhas frias."
-      },
-      {
-        "letra": "E",
-        "texto": "Ausência de massas de ar continentais."
-      }
-    ],
-    "correta": "C"
-  },
-  {
     "id": 610,
     "ano": 2019,
     "prova": "ENEM",
@@ -17978,37 +14041,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  },
-  {
-    "id": 611,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Divisão política do mundo - estabilidade territorial",
-    "enunciado": "[IMAGEM: mapa-múndi com a divisão política atual dos países e fronteiras]. A divisão política do mundo como apresentada na imagem seria possível caso o planeta fosse marcado pela estabilidade do(a):",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "ciclo hidrológico."
-      },
-      {
-        "letra": "B",
-        "texto": "processo erosivo."
-      },
-      {
-        "letra": "C",
-        "texto": "estrutura geológica."
-      },
-      {
-        "letra": "D",
-        "texto": "índice pluviométrico."
-      },
-      {
-        "letra": "E",
-        "texto": "pressão atmosférica."
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 612,
@@ -18538,37 +14570,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 629,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Arte urbana e apropriação dos espaços públicos",
-    "enunciado": "[IMAGEM: grafite de grande mural urbano com a palavra 'vera cidade']. Texto sobre arte criada nas ruas e para as ruas, marcada pela vida cotidiana e seus conflitos. A manifestação artística expressa na imagem e apresentada no texto integra um movimento contemporâneo de:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "regulação das relações sociais."
-      },
-      {
-        "letra": "B",
-        "texto": "apropriação dos espaços públicos."
-      },
-      {
-        "letra": "C",
-        "texto": "padronização das culturas urbanas."
-      },
-      {
-        "letra": "D",
-        "texto": "valorização dos formalismos estéticos."
-      },
-      {
-        "letra": "E",
-        "texto": "revitalização dos patrimônios históricos."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 630,
     "ano": 2019,
     "prova": "ENEM",
@@ -18781,37 +14782,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "inibição dos choques civilizacionais."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 637,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências Humanas",
-    "assunto": "Patrimônio cultural e museus - povos originários",
-    "enunciado": "[IMAGEM: mural no Chile com a frase 'Nuestra cultura no cabe en sus museos', com fotos de pessoas indígenas]. Produzida no Chile, no final da década de 1970, a imagem expressa um conflito entre culturas e sua presença em museus decorrente da:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "valorização do mercado das obras de arte."
-      },
-      {
-        "letra": "B",
-        "texto": "definição dos critérios de criação de acervos."
-      },
-      {
-        "letra": "C",
-        "texto": "ampliação da rede de instituições de memória."
-      },
-      {
-        "letra": "D",
-        "texto": "burocratização do acesso dos espaços expositivos."
-      },
-      {
-        "letra": "E",
-        "texto": "fragmentação dos territórios das comunidades representadas."
       }
     ],
     "correta": "B"
@@ -19530,37 +15500,6 @@ export const QUESTIONS = [
     "correta": "C"
   },
   {
-    "id": 661,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Velocidade angular - reentrada de foguete na atmosfera",
-    "enunciado": "Em 1978, fragmentos de um foguete soviético reentraram na atmosfera sobre o Rio de Janeiro, brilhando intensamente ao 'cortar o céu', caindo no oceano. [IMAGEM: globo terrestre mostrando o sentido de rotação da Terra e a posição do Rio de Janeiro]. De acordo com os fatos relatados, a velocidade angular do foguete em relação à Terra no ponto de reentrada era:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "igual à da Terra e no mesmo sentido."
-      },
-      {
-        "letra": "B",
-        "texto": "superior à da Terra e no mesmo sentido."
-      },
-      {
-        "letra": "C",
-        "texto": "inferior à da Terra e no sentido oposto."
-      },
-      {
-        "letra": "D",
-        "texto": "igual à da Terra e no sentido oposto."
-      },
-      {
-        "letra": "E",
-        "texto": "superior à da Terra e no sentido oposto."
-      }
-    ],
-    "correta": "B"
-  },
-  {
     "id": 662,
     "ano": 2019,
     "prova": "ENEM",
@@ -19747,37 +15686,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 668,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Fluidez de membrana celular - composição lipídica",
-    "enunciado": "A fluidez da membrana celular depende do tamanho e grau de insaturação das caudas hidrocarbônicas dos fosfolipídios: quanto maior a interação entre eles, menor a fluidez. [IMAGEM: bicamadas lipídicas I a V com diferentes graus de insaturação e tamanhos de cauda]. Qual das bicamadas lipídicas apresentadas possui maior fluidez (a com caudas mais curtas e mais insaturadas)?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "I"
-      },
-      {
-        "letra": "B",
-        "texto": "II"
-      },
-      {
-        "letra": "C",
-        "texto": "III"
-      },
-      {
-        "letra": "D",
-        "texto": "IV"
-      },
-      {
-        "letra": "E",
-        "texto": "V"
-      }
-    ],
-    "correta": "E"
-  },
-  {
     "id": 669,
     "ano": 2019,
     "prova": "ENEM",
@@ -19807,37 +15715,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 670,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Bateria zinco-ar - espécie formada no ânodo",
-    "enunciado": "[IMAGEM: esquema de bateria zinco-ar com eletrodo poroso (cátodo, recebe O2 e forma OH⁻) e eletrodo de zinco (ânodo, forma Zn(OH)4²⁻), separados por membrana, em eletrólito alcalino]. No funcionamento da bateria, a espécie química formada no ânodo é:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "H2 (g)."
-      },
-      {
-        "letra": "B",
-        "texto": "O2 (g)."
-      },
-      {
-        "letra": "C",
-        "texto": "H2O (l)."
-      },
-      {
-        "letra": "D",
-        "texto": "OH⁻ (aq)."
-      },
-      {
-        "letra": "E",
-        "texto": "Zn(OH)4²⁻ (aq)."
-      }
-    ],
-    "correta": "E"
   },
   {
     "id": 671,
@@ -20021,68 +15898,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "anidrido etanoico."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 677,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Evolução das plantas - conquista do ambiente terrestre",
-    "enunciado": "[IMAGEM: cladograma evolutivo das plantas desde a alga verde ancestral até angiospermas, com cinco características numeradas: 1-embriões protegidos no gametófito, 2-tecidos condutores verdadeiros, 3-formação de tubo polínico, 4-polinização pelo vento, 5-produção de frutos]. A aquisição evolutiva que permitiu a conquista definitiva do ambiente terrestre pelas plantas está indicada pelo número:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1."
-      },
-      {
-        "letra": "B",
-        "texto": "2."
-      },
-      {
-        "letra": "C",
-        "texto": "3."
-      },
-      {
-        "letra": "D",
-        "texto": "4."
-      },
-      {
-        "letra": "E",
-        "texto": "5."
-      }
-    ],
-    "correta": "B"
-  },
-  {
-    "id": 678,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Circuito elétrico - número máximo de lâmpadas (cálculo)",
-    "enunciado": "Casa com cabo elétrico de resistência 10Ω conectado à rede de 120V. Cinco lâmpadas de 200Ω em paralelo, no mesmo circuito de uma TV de 50Ω. A TV funciona apenas com tensão entre 90V e 130V. [IMAGEM: esquema do circuito]. O número máximo de lâmpadas que podem ser ligadas sem que a televisão pare de funcionar é:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1."
-      },
-      {
-        "letra": "B",
-        "texto": "2."
-      },
-      {
-        "letra": "C",
-        "texto": "3."
-      },
-      {
-        "letra": "D",
-        "texto": "4."
-      },
-      {
-        "letra": "E",
-        "texto": "5."
       }
     ],
     "correta": "B"
@@ -20305,37 +16120,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 686,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Ciências da Natureza",
-    "assunto": "Capilaridade - etanol subindo em papel de filtro",
-    "enunciado": "Em um copo de vidro com etanol e uma folha de papel inserida, observa-se que o etanol se desloca sobre a superfície do papel, superando a gravidade. [IMAGEM: copo com papel de filtro parcialmente imerso em etanol]. Do ponto de vista científico, o que explica o movimento do líquido é a:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "evaporação do líquido."
-      },
-      {
-        "letra": "B",
-        "texto": "diferença de densidades."
-      },
-      {
-        "letra": "C",
-        "texto": "reação química com o papel."
-      },
-      {
-        "letra": "D",
-        "texto": "capilaridade nos poros do papel."
-      },
-      {
-        "letra": "E",
-        "texto": "resistência ao escoamento do líquido."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 687,
     "ano": 2019,
     "prova": "ENEM",
@@ -20365,37 +16149,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "C"
-  },
-  {
-    "id": 688,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Projeção ortogonal de sombra - escultura PINE",
-    "enunciado": "[IMAGEM: escultura tridimensional suspensa formando as letras PINE, em posição ortogonal ao solo, com letras de mesma espessura igualmente espaçadas]. Ao meio-dia, com o sol a pino, as letras projetam ortogonalmente suas sombras sobre o solo. A sombra projetada no solo é representada entre 5 opções de imagens mostrando diferentes configurações de barras pretas sobre uma superfície inclinada cinza, sendo a opção correta aquela que mostra as quatro letras PINE alinhadas e proporcionalmente espaçadas em projeção.",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "[IMAGEM: sombra única alongada sem separação entre letras]"
-      },
-      {
-        "letra": "B",
-        "texto": "[IMAGEM: quatro grupos de traços correspondentes a P, I, N, E corretamente proporcionais e espaçados]"
-      },
-      {
-        "letra": "C",
-        "texto": "[IMAGEM: sombra com apenas duas letras visíveis]"
-      },
-      {
-        "letra": "D",
-        "texto": "[IMAGEM: sombra com letras de tamanhos desiguais]"
-      },
-      {
-        "letra": "E",
-        "texto": "[IMAGEM: sombra com espaçamento irregular entre letras]"
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 689,
@@ -20584,68 +16337,6 @@ export const QUESTIONS = [
     "correta": "D"
   },
   {
-    "id": 695,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Leitura de gráfico - consumo calórico por minuto",
-    "enunciado": "[IMAGEM: gráfico com valores calóricos (kcal) de 5 atividades físicas (I a V) em função do tempo (min)]. Qual dessas atividades físicas proporciona o maior consumo de quilocalorias por minuto (maior inclinação da reta)?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "I"
-      },
-      {
-        "letra": "B",
-        "texto": "II"
-      },
-      {
-        "letra": "C",
-        "texto": "III"
-      },
-      {
-        "letra": "D",
-        "texto": "IV"
-      },
-      {
-        "letra": "E",
-        "texto": "V"
-      }
-    ],
-    "correta": "A"
-  },
-  {
-    "id": 696,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Matriz - soma de linhas/colunas em teste escolar",
-    "enunciado": "[IMAGEM: matriz 5x5 de acertos em teste de 4 questões, 5 alunos (linhas: Ana, Bruno, Carlos, Denis, Érica) x 5 dias (colunas: segunda a sexta)]. O teste que apresentou maior quantidade de acertos foi o aplicado na:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "segunda-feira."
-      },
-      {
-        "letra": "B",
-        "texto": "terça-feira."
-      },
-      {
-        "letra": "C",
-        "texto": "quarta-feira."
-      },
-      {
-        "letra": "D",
-        "texto": "quinta-feira."
-      },
-      {
-        "letra": "E",
-        "texto": "sexta-feira."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 697,
     "ano": 2019,
     "prova": "ENEM",
@@ -20672,37 +16363,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "10,5."
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 698,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Leitura de gráfico - alertas meteorológicos (interpretação)",
-    "enunciado": "Alertas: cinza (temp<10°C e umidade<40%); laranja (temp 35-40°C e umidade<30%); vermelho (temp>40°C e umidade<25%). [IMAGEM: gráfico de temperatura e umidade relativa do ar ao longo de 15 dias]. Foram emitidos: Dia 1 (cinza), Dia 12 (laranja), Dia 13 (vermelho). Em qual(is) desses dias o(s) aviso(s) foi(ram) emitido(s) corretamente?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1"
-      },
-      {
-        "letra": "B",
-        "texto": "12"
-      },
-      {
-        "letra": "C",
-        "texto": "1 e 12"
-      },
-      {
-        "letra": "D",
-        "texto": "1 e 13"
-      },
-      {
-        "letra": "E",
-        "texto": "1, 12 e 13"
       }
     ],
     "correta": "C"
@@ -21018,37 +16678,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 709,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Geometria espacial - tetraedro truncado (faces)",
-    "enunciado": "Luminária em forma de tetraedro truncado, gerado por secções paralelas a cada face de um tetraedro regular, em que um terço das arestas seccionadas são removidas em cada corte. [IMAGEM: tetraedro com cortes nos vértices formando o sólido truncado]. Essa luminária terá por faces:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "4 hexágonos regulares e 4 triângulos equiláteros."
-      },
-      {
-        "letra": "B",
-        "texto": "2 hexágonos regulares e 4 triângulos equiláteros."
-      },
-      {
-        "letra": "C",
-        "texto": "4 quadriláteros e 4 triângulos isósceles."
-      },
-      {
-        "letra": "D",
-        "texto": "3 quadriláteros e 4 triângulos isósceles."
-      },
-      {
-        "letra": "E",
-        "texto": "3 hexágonos regulares e 4 triângulos equiláteros."
-      }
-    ],
-    "correta": "A"
-  },
-  {
     "id": 710,
     "ano": 2019,
     "prova": "ENEM",
@@ -21297,37 +16926,6 @@ export const QUESTIONS = [
     "correta": "E"
   },
   {
-    "id": 718,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Geometria - teorema de Pitágoras em dobradura de origami (cálculo)",
-    "enunciado": "Origami de cisne com folha de papel 18cm x 12cm; após primeira dobradura, forma-se o ponto E conforme a figura (triângulo ABE com dobras). [IMAGEM: folha retangular ABCD de 18x12cm, com ponto E formado pela dobra do canto, criando um triângulo retângulo]. Após essa primeira dobradura, a medida do segmento AE é:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "2√22 cm."
-      },
-      {
-        "letra": "B",
-        "texto": "6√3 cm."
-      },
-      {
-        "letra": "C",
-        "texto": "12 cm."
-      },
-      {
-        "letra": "D",
-        "texto": "6√5 cm."
-      },
-      {
-        "letra": "E",
-        "texto": "12√2 cm."
-      }
-    ],
-    "correta": "D"
-  },
-  {
     "id": 719,
     "ano": 2019,
     "prova": "ENEM",
@@ -21385,37 +16983,6 @@ export const QUESTIONS = [
       {
         "letra": "E",
         "texto": "Y = 160X + 1 000."
-      }
-    ],
-    "correta": "C"
-  },
-  {
-    "id": 721,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Geometria analítica - distância entre pontos (raios de abrangência, cálculo)",
-    "enunciado": "App de relacionamentos com raio de abrangência. [IMAGEM: gráfico cartesiano com bares I, II, III, IV, V e usuários P, Q, R, S marcados com coordenadas]. Usuário P (raio 3km), e usuários compatíveis Q (raio 3km), R (raio 2km), S (raio 5km). Com base no gráfico e nas afirmações anteriores, em qual bar o usuário P teria a possibilidade de um match com os usuários Q, R e S, simultaneamente (bar dentro de todos os raios de abrangência somados ao raio de P)?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "I"
-      },
-      {
-        "letra": "B",
-        "texto": "II"
-      },
-      {
-        "letra": "C",
-        "texto": "III"
-      },
-      {
-        "letra": "D",
-        "texto": "IV"
-      },
-      {
-        "letra": "E",
-        "texto": "V"
       }
     ],
     "correta": "C"
@@ -21483,37 +17050,6 @@ export const QUESTIONS = [
     "correta": "A"
   },
   {
-    "id": 724,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Progressão aritmética decrescente - vendas mensais (cálculo)",
-    "enunciado": "[IMAGEM: gráfico de vendas mensais de julho a novembro de 2011, valores: Jul=700, Ago/Set/Out/Nov subindo até 2800]. Vendas de dezembro/2011 = média aritmética de jul-nov. Se a redução de novembro para dezembro se mantivesse constante (PA decrescente), as vendas voltariam a ficar piores que julho/2011 em determinado mês de 2012. O diretor financeiro rebateu o argumento do gerente mostrando que, mantida a tendência, isso aconteceria já em:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "janeiro."
-      },
-      {
-        "letra": "B",
-        "texto": "fevereiro."
-      },
-      {
-        "letra": "C",
-        "texto": "março."
-      },
-      {
-        "letra": "D",
-        "texto": "abril."
-      },
-      {
-        "letra": "E",
-        "texto": "maio."
-      }
-    ],
-    "correta": "A"
-  },
-  {
     "id": 725,
     "ano": 2019,
     "prova": "ENEM",
@@ -21543,37 +17079,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "D"
-  },
-  {
-    "id": 726,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Leitura de gráficos - taxa de urbanização (cálculo)",
-    "enunciado": "[IMAGEM: dois gráficos de barras com população urbana e população rural de cinco municípios I, II, III, IV, V]. Taxa de urbanização = população urbana / (urbana+rural). Segundo o acordo, qual município (com maior razão urbana/total) receberá o investimento extra?",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "I"
-      },
-      {
-        "letra": "B",
-        "texto": "II"
-      },
-      {
-        "letra": "C",
-        "texto": "III"
-      },
-      {
-        "letra": "D",
-        "texto": "IV"
-      },
-      {
-        "letra": "E",
-        "texto": "V"
-      }
-    ],
-    "correta": "B"
   },
   {
     "id": 727,
@@ -21667,68 +17172,6 @@ export const QUESTIONS = [
       }
     ],
     "correta": "D"
-  },
-  {
-    "id": 730,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Sistema de equações lineares - vendas de pastéis (cálculo)",
-    "enunciado": "[IMAGEM: gráfico de vendas semanais de pastel, refrigerante e caldo de cana por dia]. Previsão para próxima semana: refrigerante = refrigerante + caldo de cana da semana anterior (mesmo dia); pastel = refrigerante previsto para aquele dia; caldo de cana = igual ao da semana anterior. Segundo essas estimativas, a quantidade a mais de pastéis que esse comerciante deve vender na próxima semana é:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "20."
-      },
-      {
-        "letra": "B",
-        "texto": "27."
-      },
-      {
-        "letra": "C",
-        "texto": "44."
-      },
-      {
-        "letra": "D",
-        "texto": "55."
-      },
-      {
-        "letra": "E",
-        "texto": "71."
-      }
-    ],
-    "correta": "D"
-  },
-  {
-    "id": 731,
-    "ano": 2019,
-    "prova": "ENEM",
-    "area": "Matemática",
-    "assunto": "Interpretação de gráfico - sequência de cômodos visitados (lógica)",
-    "enunciado": "[IMAGEM: gráfico de consumo acumulado de energia (W·min) em função do tempo (min), com pontos (0,0),(1,20),(2,35),(3,40),(4,55),(5,75),(6,85),(7,105),(8,120), e planta baixa de casa com 6 cômodos numerados com potências: Quarto 13W, Sala 20W, Banho 2W, Banho 5W, Cozinha 10W, Suíte 15W, ficando 1 minuto em cada cômodo visitado]. A sequência de deslocamentos pelos cômodos, conforme o consumo de energia apresentado no gráfico, é:",
-    "opcoes": [
-      {
-        "letra": "A",
-        "texto": "1→4→5→4→1→6→1→4"
-      },
-      {
-        "letra": "B",
-        "texto": "1→2→3→1→4→1→4→4"
-      },
-      {
-        "letra": "C",
-        "texto": "1→4→5→4→1→6→1→2→3"
-      },
-      {
-        "letra": "D",
-        "texto": "1→2→3→5→4→1→6→1→4"
-      },
-      {
-        "letra": "E",
-        "texto": "1→4→2→3→5→1→6→1→4"
-      }
-    ],
-    "correta": "C"
   },
   {
     "id": 732,
