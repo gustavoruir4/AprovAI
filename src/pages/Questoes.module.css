@@ -80,6 +80,14 @@
   border-left: 3px solid #185FA5;
   border-radius: 0 8px 8px 0;
 }
+.aiBoxGreen {
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: #F0FAF5;
+  border-left: 3px solid #1D9E75;
+  border-radius: 0 8px 8px 0;
+}
+.aiBoxGreen .aiHeader { color: #1D9E75; }
 .aiHeader {
   display: flex;
   align-items: center;
