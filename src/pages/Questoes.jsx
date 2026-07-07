@@ -49,17 +49,22 @@ function ExplicacaoTexto({ texto, className }) {
 
   useEffect(() => {
     if (!ref.current) return
-    if (window.renderMathInElement) {
-      window.renderMathInElement(ref.current, {
-        delimiters: [
-          { left: '$$', right: '$$', display: true },
-          { left: '$', right: '$', display: false },
-          { left: '\\(', right: '\\)', display: false },
-          { left: '\\[', right: '\\]', display: true },
-        ],
-        throwOnError: false,
-      })
+    const tryRender = () => {
+      if (window.renderMathInElement) {
+        window.renderMathInElement(ref.current, {
+          delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false },
+            { left: '\(', right: '\)', display: false },
+            { left: '\[', right: '\]', display: true },
+          ],
+          throwOnError: false,
+        })
+      } else {
+        setTimeout(tryRender, 100)
+      }
     }
+    tryRender()
   }, [limpo])
 
   const paragrafos = limpo.split('\n\n').filter(p => p.trim())
