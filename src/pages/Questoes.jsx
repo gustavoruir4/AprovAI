@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect, useRef } from 'react'
 import { useAuth } from '../lib/AuthContext'
 import { supabase } from '../lib/supabase'
 import { QUESTIONS, AREAS, PROVAS } from '../lib/questions'
@@ -13,35 +13,72 @@ function shuffle(arr) {
   return a
 }
 
-function limparMarkdown(texto) {
+function limparTexto(texto) {
   return texto
+    // Remove títulos markdown
     .replace(/#{1,6}\s+/g, '')
+    // Remove negrito e itálico
     .replace(/\*\*(.+?)\*\*/gs, '$1')
     .replace(/\*(.+?)\*/gs, '$1')
+    // Remove código inline
     .replace(/`(.+?)`/g, '$1')
+    // Remove linhas de separação
     .replace(/^---+$/gm, '')
+    .replace(/^===+$/gm, '')
+    // Converte linhas de tabela com | em bullets
+    .replace(/^\|(.+)\|$/gm, (match, inner) => {
+      const cols = inner.split('|').map(c => c.trim()).filter(c => c && !c.match(/^-+$/))
+      if (cols.length === 0) return ''
+      if (cols.length === 1) return cols[0]
+      return '• ' + cols.join(' – ')
+    })
+    // Remove linhas separadoras de tabela
+    .replace(/^\|[-|:\s]+\|$/gm, '')
+    // Converte - item em • item
+    .replace(/^[-–]\s+/gm, '• ')
+    // Remove > citações
+    .replace(/^>\s*/gm, '')
+    // Remove linhas em branco excessivas
     .replace(/\n{3,}/g, '\n\n')
     .trim()
 }
 
 function ExplicacaoTexto({ texto, className }) {
-  const limpo = limparMarkdown(texto)
+  const ref = useRef(null)
+  const limpo = limparTexto(texto)
+
+  useEffect(() => {
+    if (!ref.current) return
+    if (window.renderMathInElement) {
+      window.renderMathInElement(ref.current, {
+        delimiters: [
+          { left: '$$', right: '$$', display: true },
+          { left: '$', right: '$', display: false },
+          { left: '\\(', right: '\\)', display: false },
+          { left: '\\[', right: '\\]', display: true },
+        ],
+        throwOnError: false,
+      })
+    }
+  }, [limpo])
+
   const paragrafos = limpo.split('\n\n').filter(p => p.trim())
+
   return (
-    <div className={className}>
+    <div className={className} ref={ref}>
       {paragrafos.map((p, i) => {
         const linhas = p.split('\n').filter(l => l.trim())
         if (linhas.length > 1) {
           return (
-            <div key={i} style={{ marginBottom: i < paragrafos.length - 1 ? '0.75rem' : 0 }}>
+            <div key={i} style={{ marginBottom: i < paragrafos.length - 1 ? '0.85rem' : 0 }}>
               {linhas.map((linha, j) => (
-                <p key={j} style={{ marginBottom: j < linhas.length - 1 ? '0.3rem' : 0 }}>{linha}</p>
+                <p key={j} style={{ marginBottom: j < linhas.length - 1 ? '0.35rem' : 0 }}>{linha}</p>
               ))}
             </div>
           )
         }
         return (
-          <p key={i} style={{ marginBottom: i < paragrafos.length - 1 ? '0.75rem' : 0 }}>{p}</p>
+          <p key={i} style={{ marginBottom: i < paragrafos.length - 1 ? '0.85rem' : 0 }}>{p}</p>
         )
       })}
     </div>
