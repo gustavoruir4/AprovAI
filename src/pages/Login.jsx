@@ -4,73 +4,163 @@ import { useAuth } from '../lib/AuthContext'
 import styles from './Login.module.css'
 
 export default function Login() {
-  const [mode, setMode] = useState('login') // 'login' | 'signup'
-  const [nome, setNome] = useState('')
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [error, setError] = useState('')
-  const [loading, setLoading] = useState('')
-  const [success, setSuccess] = useState('')
   const { signIn, signUp } = useAuth()
   const navigate = useNavigate()
 
-  async function handleSubmit(e) {
-    e.preventDefault()
+  const [mode, setMode] = useState('entrar')
+  const [nome, setNome] = useState('')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState('')
+  const [success, setSuccess] = useState('')
+
+  async function handleSubmit() {
     setError('')
     setSuccess('')
-    setLoading(true)
 
-    if (mode === 'login') {
-      const { error } = await signIn(email, password)
-      if (error) setError('Email ou senha incorretos.')
-      else navigate('/questoes')
-    } else {
-      if (password.length < 6) { setError('A senha precisa ter ao menos 6 caracteres.'); setLoading(false); return }
-      const { error } = await signUp(email, password, nome)
-      if (error) setError(error.message)
-      else setSuccess('Conta criada! Verifique seu email para confirmar e depois faça login.')
+    if (!email || !password) {
+      setError('Preencha e-mail e senha.')
+      return
     }
-    setLoading(false)
+    if (mode === 'criar' && password.length < 6) {
+      setError('A senha precisa ter pelo menos 6 caracteres.')
+      return
+    }
+
+    setLoading(true)
+    try {
+      if (mode === 'entrar') {
+        const { error } = await signIn(email, password)
+        if (error) throw error
+        navigate('/questoes')
+      } else {
+        const { error } = await signUp(email, password, nome)
+        if (error) throw error
+        setSuccess('Conta criada! Verifique seu e-mail para confirmar o cadastro.')
+      }
+    } catch (err) {
+      setError(traduzErro(err.message))
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  function handleKey(e) {
+    if (e.key === 'Enter') handleSubmit()
+  }
+
+  function switchMode(m) {
+    setMode(m)
+    setError('')
+    setSuccess('')
   }
 
   return (
     <div className={styles.page}>
+      <div className={styles.glow} aria-hidden="true"></div>
+
       <div className={styles.card}>
-        <div className={styles.logoWrap}>
-          <i className="ti ti-school" aria-hidden="true" style={{fontSize:'28px',color:'#185FA5'}}></i>
-          <div className={styles.logoText}>Estuda<span>ENEM</span></div>
-          <p className={styles.sub}>Questões de provas reais com correção e explicação por IA</p>
+        <div className={styles.header}>
+          <div className={styles.logoMark}>
+            <i className="ti ti-school" aria-hidden="true"></i>
+          </div>
+          <h1 className={styles.title}>Estuda<span>ENEM</span></h1>
+          <p className={styles.subtitle}>Questões reais com correção e explicação por IA</p>
         </div>
 
         <div className={styles.tabs}>
-          <button className={mode==='login' ? `${styles.tabBtn} ${styles.tabActive}` : styles.tabBtn} onClick={() => { setMode('login'); setError(''); setSuccess('') }}>Entrar</button>
-          <button className={mode==='signup' ? `${styles.tabBtn} ${styles.tabActive}` : styles.tabBtn} onClick={() => { setMode('signup'); setError(''); setSuccess('') }}>Criar conta</button>
+          <button
+            className={`${styles.tab} ${mode === 'entrar' ? styles.tabActive : ''}`}
+            onClick={() => switchMode('entrar')}
+          >
+            Entrar
+          </button>
+          <button
+            className={`${styles.tab} ${mode === 'criar' ? styles.tabActive : ''}`}
+            onClick={() => switchMode('criar')}
+          >
+            Criar conta
+          </button>
         </div>
 
-        <form onSubmit={handleSubmit} className={styles.form}>
-          {mode === 'signup' && (
+        <div className={styles.form}>
+          {mode === 'criar' && (
             <div className={styles.field}>
-              <label>Nome</label>
-              <input type="text" placeholder="Seu nome" value={nome} onChange={e => setNome(e.target.value)} required />
+              <label className={styles.label}>Nome</label>
+              <input
+                className={styles.input}
+                type="text"
+                placeholder="Como quer ser chamado"
+                value={nome}
+                onChange={e => setNome(e.target.value)}
+                onKeyDown={handleKey}
+              />
             </div>
           )}
+
           <div className={styles.field}>
-            <label>Email</label>
-            <input type="email" placeholder="seu@email.com" value={email} onChange={e => setEmail(e.target.value)} required />
-          </div>
-          <div className={styles.field}>
-            <label>Senha</label>
-            <input type="password" placeholder="••••••••" value={password} onChange={e => setPassword(e.target.value)} required />
+            <label className={styles.label}>E-mail</label>
+            <input
+              className={styles.input}
+              type="email"
+              placeholder="seu@email.com"
+              value={email}
+              onChange={e => setEmail(e.target.value)}
+              onKeyDown={handleKey}
+              autoComplete="email"
+            />
           </div>
 
-          {error && <div className={styles.error}><i className="ti ti-alert-circle" aria-hidden="true"></i> {error}</div>}
-          {success && <div className={styles.successMsg}><i className="ti ti-circle-check" aria-hidden="true"></i> {success}</div>}
+          <div className={styles.field}>
+            <label className={styles.label}>Senha</label>
+            <input
+              className={styles.input}
+              type="password"
+              placeholder="••••••••"
+              value={password}
+              onChange={e => setPassword(e.target.value)}
+              onKeyDown={handleKey}
+              autoComplete={mode === 'entrar' ? 'current-password' : 'new-password'}
+            />
+          </div>
 
-          <button type="submit" className={styles.btn} disabled={loading}>
-            {loading ? 'Aguarde...' : mode === 'login' ? 'Entrar' : 'Criar conta'}
+          {error && (
+            <div className={styles.error}>
+              <i className="ti ti-alert-circle" aria-hidden="true"></i> {error}
+            </div>
+          )}
+          {success && (
+            <div className={styles.success}>
+              <i className="ti ti-circle-check" aria-hidden="true"></i> {success}
+            </div>
+          )}
+
+          <button
+            className={styles.submit}
+            onClick={handleSubmit}
+            disabled={loading}
+          >
+            {loading ? (
+              <span className={styles.dots}>Aguarde<span>.</span><span>.</span><span>.</span></span>
+            ) : mode === 'entrar' ? 'Entrar' : 'Criar conta'}
           </button>
-        </form>
+        </div>
+
+        <p className={styles.footer}>
+          <i className="ti ti-infinity" aria-hidden="true"></i>
+          Acesso completo até o ENEM · pagamento único de R$25
+        </p>
       </div>
     </div>
   )
+}
+
+function traduzErro(msg = '') {
+  const m = msg.toLowerCase()
+  if (m.includes('invalid login')) return 'E-mail ou senha incorretos.'
+  if (m.includes('already registered')) return 'Esse e-mail já tem uma conta. Faça login.'
+  if (m.includes('email not confirmed')) return 'Confirme seu e-mail antes de entrar.'
+  if (m.includes('rate limit')) return 'Muitas tentativas. Aguarde um momento.'
+  return msg || 'Algo deu errado. Tente novamente.'
 }

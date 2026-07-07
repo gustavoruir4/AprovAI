@@ -17,7 +17,6 @@ export default function Admin() {
   const [userSelecionado, setUserSelecionado] = useState(null)
   const [userStats, setUserStats] = useState(null)
 
-  // Bloqueia acesso se não for admin
   useEffect(() => {
     if (user && user.email !== ADMIN_EMAIL) {
       navigate('/')
@@ -45,7 +44,6 @@ export default function Admin() {
     setRespostas(respostasData || [])
     setExplicacoes(explicacoesData || [])
 
-    // Agrupa usuários a partir das respostas
     const usersMap = {}
     ;(respostasData || []).forEach(r => {
       if (!usersMap[r.user_id]) {
@@ -113,20 +111,24 @@ export default function Admin() {
   const taxaGeral = totalRespostas > 0 ? Math.round((totalAcertos / totalRespostas) * 100) : 0
 
   return (
-    <div className={styles.wrap}>
+    <div className={styles.page}>
       <div className={styles.header}>
-        <h1 className={styles.title}>Painel de Administração</h1>
-        <span className={styles.badge}>Admin</span>
+        <h1 className={styles.title}>Painel de administração</h1>
+        <span className={styles.adminBadge}>
+          <i className="ti ti-shield-check" aria-hidden="true"></i> Admin
+        </span>
       </div>
 
       {msg && (
         <div className={styles.msgBox}>
-          <i className="ti ti-circle-check" aria-hidden="true"></i> {msg}
-          <button onClick={() => setMsg('')} className={styles.msgClose}>×</button>
+          <i className="ti ti-circle-check" aria-hidden="true"></i>
+          <span>{msg}</span>
+          <button onClick={() => setMsg('')} className={styles.msgClose}>
+            <i className="ti ti-x" aria-hidden="true"></i>
+          </button>
         </div>
       )}
 
-      {/* Cards de resumo */}
       <div className={styles.statsGrid}>
         <div className={styles.statCard}>
           <div className={styles.statLabel}>Usuários ativos</div>
@@ -138,15 +140,14 @@ export default function Admin() {
         </div>
         <div className={styles.statCard}>
           <div className={styles.statLabel}>Taxa de acerto geral</div>
-          <div className={styles.statValue} style={{color: taxaGeral >= 60 ? '#1D9E75' : '#E24B4A'}}>{taxaGeral}%</div>
+          <div className={styles.statValue} style={{ color: taxaGeral >= 60 ? 'var(--green-text)' : 'var(--red-text)' }}>{taxaGeral}%</div>
         </div>
         <div className={styles.statCard}>
           <div className={styles.statLabel}>Explicações em cache</div>
-          <div className={styles.statValue}>{explicacoes.length}</div>
+          <div className={`${styles.statValue} ${styles.purple}`}>{explicacoes.length}</div>
         </div>
       </div>
 
-      {/* Ações rápidas */}
       <div className={styles.block}>
         <div className={styles.blockTitle}>Ações rápidas</div>
         <div className={styles.actions}>
@@ -162,11 +163,10 @@ export default function Admin() {
         </div>
       </div>
 
-      {/* Lista de usuários */}
       <div className={styles.block}>
         <div className={styles.blockTitle}>Usuários ({usuarios.length})</div>
         {usuarios.length === 0 ? (
-          <p className={styles.empty}>Nenhum usuário com respostas ainda.</p>
+          <p className={styles.emptyInline}>Nenhum usuário com respostas ainda.</p>
         ) : (
           <div className={styles.table}>
             <div className={styles.tableHeader}>
@@ -182,12 +182,12 @@ export default function Admin() {
               return (
                 <div className={`${styles.tableRow} ${isMe ? styles.tableRowMe : ''}`} key={u.user_id}>
                   <span className={styles.userId}>
-                    {u.user_id.slice(0, 8)}...
+                    {u.user_id.slice(0, 8)}…
                     {isMe && <span className={styles.meTag}>você</span>}
                   </span>
                   <span>{u.total}</span>
-                  <span style={{color:'#1D9E75'}}>{u.acertos}</span>
-                  <span style={{color: taxa >= 60 ? '#1D9E75' : '#E24B4A'}}>{taxa}%</span>
+                  <span style={{ color: 'var(--green-text)' }}>{u.acertos}</span>
+                  <span style={{ color: taxa >= 60 ? 'var(--green-text)' : 'var(--red-text)' }}>{taxa}%</span>
                   <span className={styles.rowActions}>
                     <button className={styles.btnSm} onClick={() => verStatsUsuario(u.user_id)}>
                       <i className="ti ti-eye" aria-hidden="true"></i> Ver
@@ -203,12 +203,15 @@ export default function Admin() {
         )}
       </div>
 
-      {/* Stats do usuário selecionado */}
       {userSelecionado && userStats && (
         <div className={styles.block}>
           <div className={styles.blockTitleRow}>
-            <div className={styles.blockTitle}>Stats do usuário: {userSelecionado.slice(0, 8)}...</div>
-            <button className={styles.btnGhostSm} onClick={() => { setUserSelecionado(null); setUserStats(null) }}>Fechar</button>
+            <div className={styles.blockTitle} style={{ border: 'none', padding: 0 }}>
+              Stats do usuário: {userSelecionado.slice(0, 8)}…
+            </div>
+            <button className={styles.btnGhostSm} onClick={() => { setUserSelecionado(null); setUserStats(null) }}>
+              <i className="ti ti-x" aria-hidden="true"></i> Fechar
+            </button>
           </div>
 
           <div className={styles.userStatsGrid}>
@@ -218,41 +221,45 @@ export default function Admin() {
             </div>
             <div className={styles.statCard}>
               <div className={styles.statLabel}>Acertos</div>
-              <div className={styles.statValue} style={{color:'#1D9E75'}}>{userStats.acertos}</div>
+              <div className={styles.statValue} style={{ color: 'var(--green-text)' }}>{userStats.acertos}</div>
             </div>
             <div className={styles.statCard}>
               <div className={styles.statLabel}>Erros</div>
-              <div className={styles.statValue} style={{color:'#E24B4A'}}>{userStats.total - userStats.acertos}</div>
+              <div className={styles.statValue} style={{ color: 'var(--red-text)' }}>{userStats.total - userStats.acertos}</div>
             </div>
           </div>
 
-          <div className={styles.blockSubTitle}>Por área</div>
-          {Object.entries(userStats.byArea).map(([area, {c, t}]) => {
-            const p = Math.round((c/t)*100)
-            return (
-              <div className={styles.barRow} key={area}>
-                <div className={styles.barLabel}>{area}</div>
-                <div className={styles.barTrack}>
-                  <div className={styles.barFill} style={{width: p+'%', background: p >= 60 ? '#1D9E75' : '#E24B4A'}}></div>
+          <div className={styles.subTitle}>Por área</div>
+          <div className={styles.bars}>
+            {Object.entries(userStats.byArea).map(([area, { c, t }]) => {
+              const p = Math.round((c / t) * 100)
+              return (
+                <div className={styles.barRow} key={area}>
+                  <div className={styles.barLabel}>{area}</div>
+                  <div className={styles.barTrack}>
+                    <div className={styles.barFill} style={{ width: p + '%', background: p >= 60 ? 'var(--green)' : 'var(--red)' }}></div>
+                  </div>
+                  <div className={styles.barPct}>{p}%</div>
                 </div>
-                <div className={styles.barPct}>{p}%</div>
-              </div>
-            )
-          })}
+              )
+            })}
+          </div>
 
-          <div className={styles.blockSubTitle} style={{marginTop:'1rem'}}>Últimas 10 respostas</div>
-          {userStats.historico.map((r, i) => (
-            <div className={styles.histItem} key={i}>
-              <div>
-                <div className={styles.histAssunto}>{r.assunto}</div>
-                <div className={styles.histMeta}>{r.area} · {r.prova} {r.ano} · {formatDate(r.created_at)}</div>
+          <div className={styles.subTitle}>Últimas 10 respostas</div>
+          <div className={styles.histList}>
+            {userStats.historico.map((r, i) => (
+              <div className={styles.histItem} key={i}>
+                <div className={styles.histInfo}>
+                  <div className={styles.histAssunto}>{r.assunto}</div>
+                  <div className={styles.histMeta}>{r.area} · {r.prova} {r.ano} · {formatDate(r.created_at)}</div>
+                </div>
+                {r.correta
+                  ? <span className={`${styles.tag} ${styles.tagGreen}`}>Acerto</span>
+                  : <span className={`${styles.tag} ${styles.tagRed}`}>Erro</span>
+                }
               </div>
-              {r.correta
-                ? <span className={`${styles.tag} ${styles.tagGreen}`}>Acerto</span>
-                : <span className={`${styles.tag} ${styles.tagRed}`}>Erro</span>
-              }
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       )}
     </div>

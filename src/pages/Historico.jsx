@@ -27,7 +27,7 @@ export default function Historico() {
   if (respostas.length === 0) {
     return (
       <div className={styles.empty}>
-        <i className="ti ti-history" style={{fontSize:'2.5rem',color:'#d1d5db'}} aria-hidden="true"></i>
+        <i className="ti ti-history" aria-hidden="true"></i>
         <p>Seu histórico de questões aparecerá aqui.</p>
       </div>
     )
@@ -39,24 +39,34 @@ export default function Historico() {
   }
 
   return (
-    <div>
+    <div className={styles.page}>
       <div className={styles.header}>
-        <h2 className={styles.title}>Histórico de respostas</h2>
+        <h1 className={styles.title}>Histórico de respostas</h1>
         <span className={styles.count}>{respostas.length} questões</span>
       </div>
-      <div className={styles.block}>
+
+      <div className={styles.list}>
         {respostas.map((r, i) => (
           <div className={styles.item} key={r.id || i}>
             <div className={styles.itemInfo}>
               <div className={styles.itemAssunto}>{r.assunto}</div>
-              <div className={styles.itemMeta}>{r.area} · {r.prova} {r.ano} · {formatDate(r.created_at)}</div>
+              <div className={styles.itemMeta}>
+                <span className={styles.metaArea} data-area={r.area}>{r.area}</span>
+                <span className={styles.dot}>·</span>
+                {r.prova} {r.ano}
+                <span className={styles.dot}>·</span>
+                {formatDate(r.created_at)}
+              </div>
             </div>
-            <div>
-              {r.correta
-                ? <span className={`${styles.badge} ${styles.badgeGreen}`}><i className="ti ti-check" aria-hidden="true"></i> Acerto</span>
-                : <span className={`${styles.badge} ${styles.badgeRed}`}><i className="ti ti-x" aria-hidden="true"></i> Erro</span>
-              }
-            </div>
+            {r.correta ? (
+              <span className={`${styles.badge} ${styles.badgeGreen}`}>
+                <i className="ti ti-check" aria-hidden="true"></i> Acerto
+              </span>
+            ) : (
+              <span className={`${styles.badge} ${styles.badgeRed}`}>
+                <i className="ti ti-x" aria-hidden="true"></i> Erro
+              </span>
+            )}
           </div>
         ))}
       </div>
