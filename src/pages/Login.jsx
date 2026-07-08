@@ -33,7 +33,7 @@ export default function Login() {
       if (mode === 'entrar') {
         const { error } = await signIn(email, password)
         if (error) throw error
-        navigate('/questoes')
+        navigate('/app/questoes')
       } else {
         const { error } = await signUp(email, password, nome)
         if (error) throw error

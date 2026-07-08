@@ -29,28 +29,28 @@ export default function Layout() {
           </div>
 
           <div className={styles.tabs}>
-            <NavLink to="/questoes" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
+            <NavLink to="/app/questoes" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
               <i className="ti ti-clipboard-list" aria-hidden="true"></i>
               <span>Questões</span>
             </NavLink>
-            <NavLink to="/simulado" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
+            <NavLink to="/app/simulado" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
               <i className="ti ti-clock-play" aria-hidden="true"></i>
               <span>Simulado</span>
             </NavLink>
-            <NavLink to="/revisao" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
+            <NavLink to="/app/revisao" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
               <i className="ti ti-refresh-dot" aria-hidden="true"></i>
               <span>Revisão</span>
             </NavLink>
-            <NavLink to="/perfil" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
+            <NavLink to="/app/perfil" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
               <i className="ti ti-chart-bar" aria-hidden="true"></i>
               <span>Desempenho</span>
             </NavLink>
-            <NavLink to="/historico" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
+            <NavLink to="/app/historico" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
               <i className="ti ti-history" aria-hidden="true"></i>
               <span>Histórico</span>
             </NavLink>
             {isAdmin && (
-              <NavLink to="/admin" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
+              <NavLink to="/app/admin" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
                 <i className="ti ti-settings" aria-hidden="true"></i>
                 <span>Admin</span>
               </NavLink>

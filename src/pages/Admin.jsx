@@ -19,7 +19,7 @@ export default function Admin() {
 
   useEffect(() => {
     if (user && user.email !== ADMIN_EMAIL) {
-      navigate('/')
+      navigate('/app/questoes')
     }
   }, [user])
 

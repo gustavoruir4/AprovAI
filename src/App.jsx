@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider, useAuth } from './lib/AuthContext'
+import Landing from './pages/Landing'
 import Login from './pages/Login'
 import Questoes from './pages/Questoes'
 import Simulado from './pages/Simulado'
@@ -18,9 +19,10 @@ function PrivateRoute({ children }) {
 function AppRoutes() {
   return (
     <Routes>
+      <Route path="/" element={<Landing />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/" element={<PrivateRoute><Layout /></PrivateRoute>}>
-        <Route index element={<Navigate to="/questoes" />} />
+      <Route path="/app" element={<PrivateRoute><Layout /></PrivateRoute>}>
+        <Route index element={<Navigate to="/app/questoes" />} />
         <Route path="questoes" element={<Questoes />} />
         <Route path="simulado" element={<Simulado />} />
         <Route path="revisao" element={<Revisao />} />
