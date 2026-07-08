@@ -2,6 +2,8 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider, useAuth } from './lib/AuthContext'
 import Login from './pages/Login'
 import Questoes from './pages/Questoes'
+import Simulado from './pages/Simulado'
+import Revisao from './pages/Revisao'
 import Perfil from './pages/Perfil'
 import Historico from './pages/Historico'
 import Admin from './pages/Admin'
@@ -20,6 +22,8 @@ function AppRoutes() {
       <Route path="/" element={<PrivateRoute><Layout /></PrivateRoute>}>
         <Route index element={<Navigate to="/questoes" />} />
         <Route path="questoes" element={<Questoes />} />
+        <Route path="simulado" element={<Simulado />} />
+        <Route path="revisao" element={<Revisao />} />
         <Route path="perfil" element={<Perfil />} />
         <Route path="historico" element={<Historico />} />
         <Route path="admin" element={<Admin />} />

@@ -1,0 +1,496 @@
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+/* ── Setup ── */
+.setupCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.setupHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.setupIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--purple-deep), var(--purple-bright));
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 4px 16px var(--purple-glow);
+}
+
+.setupTitle {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.setupSub {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.setupGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.setupLabel {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--text-muted);
+}
+
+.pills {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  padding: 6px 14px;
+  border-radius: 99px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  transition: all var(--t-fast);
+}
+
+.pill:hover {
+  border-color: var(--purple-border);
+  color: var(--purple-bright);
+}
+
+.pillActive {
+  background: var(--purple-soft);
+  border-color: var(--purple-border);
+  color: var(--purple-bright);
+  font-weight: 600;
+}
+
+.btnPrimary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--purple);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 14.5px;
+  font-weight: 600;
+  transition: all var(--t-fast);
+}
+
+.btnPrimary:hover:not(:disabled) {
+  background: var(--purple-deep);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px var(--purple-glow);
+}
+
+.btnPrimary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.btnSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  background: var(--surface);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 600;
+  transition: all var(--t-fast);
+}
+
+.btnSecondary:hover:not(:disabled) {
+  border-color: var(--purple-border);
+  color: var(--purple-bright);
+}
+
+.btnSecondary:disabled { opacity: 0.4; cursor: not-allowed; }
+
+/* ── Header de execução ── */
+.runHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.timer {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  border-radius: 99px;
+  background: var(--purple-soft);
+  border: 1px solid var(--purple-border);
+  color: var(--purple-bright);
+  font-size: 15px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  transition: all var(--t-fast);
+}
+
+.timerLow {
+  background: var(--red-light);
+  border-color: var(--red-border);
+  color: var(--red-text);
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
+
+.runCounter {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.runCounter strong { color: var(--text-primary); }
+
+.btnFinalizar {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--red-border);
+  background: var(--red-light);
+  color: var(--red-text);
+  font-size: 13.5px;
+  font-weight: 600;
+  transition: all var(--t-fast);
+}
+
+.btnFinalizar:hover {
+  background: var(--red);
+  color: white;
+}
+
+/* ── Navegador de questões ── */
+.navigator {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.navItem {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--t-fast);
+}
+
+.navItem:hover {
+  border-color: var(--purple-border);
+  color: var(--purple-bright);
+}
+
+.navAnswered {
+  background: var(--purple-soft);
+  border-color: var(--purple-border);
+  color: var(--purple-bright);
+}
+
+.navCurrent {
+  border-color: var(--purple);
+  background: var(--purple);
+  color: white;
+}
+
+/* ── Card ── */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 18px 22px 14px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.badge, .badgeArea, .badgeAssunto {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 11px;
+  border-radius: 99px;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.badge i, .badgeArea i { font-size: 13px; }
+
+.badgeProva {
+  background: var(--purple-soft);
+  color: var(--purple-bright);
+  border: 1px solid var(--purple-border);
+}
+
+.badgeArea[data-area="Matemática"]           { background: var(--area-mat-bg); color: var(--area-mat); border: 1px solid; border-color: color-mix(in srgb, var(--area-mat) 30%, transparent); }
+.badgeArea[data-area="Ciências da Natureza"] { background: var(--area-nat-bg); color: var(--area-nat); border: 1px solid; border-color: color-mix(in srgb, var(--area-nat) 30%, transparent); }
+.badgeArea[data-area="Ciências Humanas"]     { background: var(--area-hum-bg); color: var(--area-hum); border: 1px solid; border-color: color-mix(in srgb, var(--area-hum) 30%, transparent); }
+.badgeArea[data-area="Linguagens"]           { background: var(--area-lin-bg); color: var(--area-lin); border: 1px solid; border-color: color-mix(in srgb, var(--area-lin) 30%, transparent); }
+
+.badgeAssunto {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  font-weight: 500;
+}
+
+.enunciado {
+  padding: 20px 22px;
+  font-size: 15.5px;
+  line-height: 1.72;
+  color: var(--text-primary);
+  white-space: pre-line;
+}
+
+/* ── Opções ── */
+.options {
+  padding: 4px 16px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 13px 15px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--border);
+  background: var(--bg);
+  text-align: left;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: var(--text-primary);
+  transition: all var(--t-fast);
+  width: 100%;
+}
+
+.option:hover {
+  border-color: var(--purple-border);
+  background: var(--purple-soft);
+}
+
+.opText { flex: 1; }
+
+.letra {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all var(--t-fast);
+}
+
+.optionSelected {
+  border-color: var(--purple);
+  background: var(--purple-soft);
+}
+.optionSelected .letra {
+  background: var(--purple);
+  color: white;
+}
+
+/* ── Ações ── */
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 22px;
+  border-top: 1px solid var(--border-subtle);
+  margin-top: 8px;
+}
+
+/* ── Tela de conclusão ── */
+.finishWrap {
+  max-width: 520px;
+  margin: 40px auto 0;
+}
+
+.finishCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 40px 32px;
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+  animation: fadeIn 0.4s ease;
+}
+
+.finishIcon {
+  font-size: 48px;
+  color: var(--purple-bright);
+  margin-bottom: 8px;
+}
+
+.finishTitle {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin-bottom: 6px;
+}
+
+.finishSub {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 28px;
+}
+
+.finishStats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+  background: var(--bg);
+  border-radius: var(--radius-md);
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.finishStat { flex: 1; min-width: 60px; }
+
+.finishStatValue {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1;
+}
+
+.finishStatLabel {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.finishDivider {
+  width: 1px;
+  height: 36px;
+  background: var(--border);
+}
+
+.finishAreas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.areaRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.areaName {
+  font-size: 13px;
+  color: var(--text-secondary);
+  width: 150px;
+  flex-shrink: 0;
+}
+
+.areaTrack {
+  flex: 1;
+  height: 6px;
+  background: var(--surface-2);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.areaFill {
+  height: 100%;
+  border-radius: 99px;
+}
+
+.areaFill[data-area="Matemática"]           { background: var(--area-mat); }
+.areaFill[data-area="Ciências da Natureza"] { background: var(--area-nat); }
+.areaFill[data-area="Ciências Humanas"]     { background: var(--area-hum); }
+.areaFill[data-area="Linguagens"]           { background: var(--area-lin); }
+
+.areaPct {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  width: 40px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.finishCard .btnPrimary {
+  width: 100%;
+}
+
+/* ── Responsivo ── */
+@media (max-width: 640px) {
+  .enunciado { font-size: 15px; padding: 18px; }
+  .meta { padding: 16px 18px 12px; }
+  .actions { padding: 14px 18px; }
+  .areaName { width: 100px; font-size: 12px; }
+  .runHeader { justify-content: flex-start; }
+}

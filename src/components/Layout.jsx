@@ -33,6 +33,14 @@ export default function Layout() {
               <i className="ti ti-clipboard-list" aria-hidden="true"></i>
               <span>Questões</span>
             </NavLink>
+            <NavLink to="/simulado" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
+              <i className="ti ti-clock-play" aria-hidden="true"></i>
+              <span>Simulado</span>
+            </NavLink>
+            <NavLink to="/revisao" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
+              <i className="ti ti-refresh-dot" aria-hidden="true"></i>
+              <span>Revisão</span>
+            </NavLink>
             <NavLink to="/perfil" className={({ isActive }) => isActive ? `${styles.tab} ${styles.active}` : styles.tab}>
               <i className="ti ti-chart-bar" aria-hidden="true"></i>
               <span>Desempenho</span>
