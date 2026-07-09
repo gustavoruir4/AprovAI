@@ -4,6 +4,7 @@ import { usePagamentoGuard } from './lib/usePagamentoGuard'
 import Landing from './pages/Landing'
 import Login from './pages/Login'
 import Pagamento from './pages/Pagamento'
+import PagamentoErro from './pages/PagamentoErro'
 import Ativar from './pages/Ativar'
 import Questoes from './pages/Questoes'
 import Simulado from './pages/Simulado'
@@ -26,6 +27,7 @@ function AppRoutes() {
       <Route path="/" element={<Landing />} />
       <Route path="/login" element={<Login />} />
       <Route path="/pagamento" element={<Pagamento />} />
+      <Route path="/pagamento/erro" element={<PagamentoErro />} />
       <Route path="/ativar" element={<Ativar />} />
       <Route path="/app" element={<PrivateRoute><Layout /></PrivateRoute>}>
         <Route index element={<Navigate to="/app/questoes" />} />

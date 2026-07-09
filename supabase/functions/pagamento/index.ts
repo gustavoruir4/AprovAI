@@ -42,7 +42,7 @@ serve(async (req) => {
           quantity: 1,
           price: 3990,
         }],
-        returnUrl: 'https://estudaenem-sage.vercel.app/pagamento',
+        returnUrl: 'https://estudaenem-sage.vercel.app/pagamento/erro',
         completionUrl: `https://estudaenem-sage.vercel.app/ativar?email=${encodeURIComponent(email)}`,
         customer: {
           name: nome,

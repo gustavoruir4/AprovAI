@@ -26,6 +26,26 @@ function formatTelefone(value) {
     .replace(/(\d{5})(\d{1,4})$/, '$1-$2')
 }
 
+function validarCPF(cpfDigits) {
+  if (cpfDigits.length !== 11) return false
+  if (/^(\d)\1{10}$/.test(cpfDigits)) return false
+
+  const calcularDigito = (base) => {
+    let soma = 0
+    for (let i = 0; i < base.length; i++) {
+      soma += parseInt(base[i], 10) * (base.length + 1 - i)
+    }
+    const resto = (soma * 10) % 11
+    return resto === 10 ? 0 : resto
+  }
+
+  const base9 = cpfDigits.slice(0, 9)
+  const digito1 = calcularDigito(base9)
+  const digito2 = calcularDigito(base9 + digito1)
+
+  return digito1 === parseInt(cpfDigits[9], 10) && digito2 === parseInt(cpfDigits[10], 10)
+}
+
 export default function Pagamento() {
   const [email, setEmail] = useState('')
   const [nome, setNome] = useState('')
@@ -46,8 +66,8 @@ export default function Pagamento() {
       return
     }
     const cpfDigits = cpf.replace(/\D/g, '')
-    if (cpfDigits.length !== 11) {
-      setError('Informe um CPF válido.')
+    if (!validarCPF(cpfDigits)) {
+      setError('CPF inválido.')
       return
     }
     const telefoneDigits = telefone.replace(/\D/g, '')
