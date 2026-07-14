@@ -92,7 +92,7 @@ const SOBRE = [
   },
   {
     q: 'Preciso pagar todo mês?',
-    a: 'Não. Você paga uma única vez e o acesso é seu até o ENEM. Sem mensalidade, sem renovação automática, sem surpresa na fatura.',
+    a: 'Não. Você paga uma única vez e o acesso é vitalício, seu pra sempre. Sem mensalidade, sem renovação automática, sem surpresa na fatura.',
   },
 ]
 
@@ -212,44 +212,6 @@ export default function Landing() {
               </div>
             </div>
             <div className={styles.laptopBase}></div>
-          </div>
-
-          <div className={styles.phoneFront}>
-            <div className={styles.phoneNotch}></div>
-            <div className={styles.phoneScreen}>
-              <div className={styles.appHeader}>
-                <span className={styles.appLogo}>Aprov<span>AI</span></span>
-                <i className="ti ti-user-circle" aria-hidden="true"></i>
-              </div>
-              <div className={styles.appProgress}>
-                <div className={styles.appProgressBar}><div className={styles.appProgressFill}></div></div>
-                <span className={styles.appProgressText}><strong>8</strong> de 21</span>
-              </div>
-              <div className={styles.appCard}>
-                <div className={styles.appBadges}>
-                  <span className={styles.appBadgeProva}>ENEM 2018</span>
-                  <span className={styles.appBadgeArea}>Humanas</span>
-                </div>
-                <p className={styles.appEnunciado}>
-                  A Revolução Industrial impactou a organização do trabalho ao:
-                </p>
-                <div className={styles.appOptions}>
-                  <div className={styles.appOption}><span className={styles.appLetra}>A</span><span>reduzir a jornada nas fábricas.</span></div>
-                  <div className={`${styles.appOption} ${styles.appOptionCorrect}`}><span className={styles.appLetraCorrect}>B</span><span>mecanizar a produção artesanal.</span><i className="ti ti-check" aria-hidden="true"></i></div>
-                </div>
-              </div>
-              <div className={styles.appExplain}>
-                <div className={styles.appExplainHead}>
-                  <i className="ti ti-sparkles" aria-hidden="true"></i>
-                  <span>IA</span>
-                  <span className={styles.appResultOk}><i className="ti ti-circle-check" aria-hidden="true"></i> Acertou</span>
-                </div>
-                <p className={styles.appExplainText}>
-                  As máquinas substituíram o trabalho manual, por isso a alternativa B está correta.
-                </p>
-              </div>
-              <div className={styles.phoneHomeBar}></div>
-            </div>
           </div>
         </div>
       </header>
