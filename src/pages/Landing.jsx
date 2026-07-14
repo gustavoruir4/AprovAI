@@ -518,10 +518,9 @@ export default function Landing() {
         <div className={styles.quemSomosInner}>
           <span className={styles.quemSomosEyebrow}>Quem faz a AprovAI</span>
           <p className={styles.quemSomosText}>
-            A AprovAI nasceu na UFU, feita por quem passou (e ainda passa) pela pressão do
-            vestibular. A gente sabe como é estudar sem saber onde focar, então criou a
-            ferramenta que a gente gostaria de ter tido: direta, sem enrolação e sem
-            mensalidade pesando no bolso de estudante.
+            A AprovAI é feita por um estudante da UFU, pra estudantes. Sem curso gravado
+            que você nunca termina, sem mensalidade que não para de vir. Só questões reais,
+            a IA explicando cada erro e você evoluindo no seu ritmo até o dia da prova.
           </p>
         </div>
       </section>
