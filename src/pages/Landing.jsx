@@ -148,7 +148,7 @@ export default function Landing() {
           <span className={styles.heroBadge}>ENEM · FUVEST · UNICAMP · UFU</span>
           <h1 className={styles.heroTitle}>
             Passe no vestibular estudando com IA.
-            <span className={styles.heroTitleAccent}> Uma vez. Pra sempre.</span>
+            <span className={styles.heroTitleAccent}> Pague uma vez, estude pra sempre.</span>
           </h1>
           <p className={styles.heroSub}>
             Enquanto outras plataformas <span className={styles.heroComplica}>complicam</span> sua vida
@@ -161,6 +161,7 @@ export default function Landing() {
             </Link>
             <span className={styles.heroNote}>sem cartão, sem pegadinha</span>
           </div>
+          <p className={styles.heroSubnote}>É o app completo, não uma versão de demonstração. Você resolve questões reais com a IA explicando cada uma.</p>
           <div className={styles.heroTrust}>
             <span><i className="ti ti-check" aria-hidden="true"></i> {totalQuestoes}+ questões reais</span>
             <span><i className="ti ti-check" aria-hidden="true"></i> Explicação por IA</span>
@@ -371,9 +372,9 @@ export default function Landing() {
             <li><i className="ti ti-check" aria-hidden="true"></i> Sem mensalidade, sem renovação</li>
           </ul>
           <Link to="/pagamento" className={styles.pricingCta}>
-            <i className="ti ti-rocket" aria-hidden="true"></i> Garantir meu acesso
+            <i className="ti ti-rocket" aria-hidden="true"></i> Quero acesso vitalício por R$39,90
           </Link>
-          <span className={styles.pricingSafe}>PIX aprovado na hora ou cartão de crédito</span>
+          <span className={styles.pricingSafe}>PIX aprovado na hora ou cartão · acesso liberado na hora</span>
         </div>
       </section>
 
@@ -417,8 +418,8 @@ export default function Landing() {
 
       {/* CTA FINAL */}
       <section className={`${styles.finalCta} ${styles.reveal}`}>
-        <h2 className={styles.finalTitle}>Comece grátis. Passe uma vez.</h2>
-        <p className={styles.finalSub}>Teste com 20 questões sem pagar nada. Se gostar, garanta o acesso vitalício por R$39,90.</p>
+        <h2 className={styles.finalTitle}>Quem leva a aprovação a sério, começa hoje.</h2>
+        <p className={styles.finalSub}>Teste com 20 questões sem pagar nada. Se gostar, o acesso vitalício sai por R$39,90, uma vez só.</p>
         <Link to="/teste" className={styles.btnPrimary}>
           <i className="ti ti-gift" aria-hidden="true"></i> Testar grátis com 20 questões
         </Link>

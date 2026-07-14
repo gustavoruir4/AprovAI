@@ -1,365 +1,437 @@
-.page {
-  min-height: 100vh;
-  overflow-x: hidden;
-  position: relative;
-  background: #0a0613;
+import { useEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
+import { QUESTIONS } from '../lib/questions'
+import styles from './Landing.module.css'
+
+/* Hook: revela elementos com .reveal quando entram na viewport */
+function useScrollReveal() {
+  useEffect(() => {
+    const els = document.querySelectorAll(`.${styles.reveal}`)
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add(styles.revealVisible)
+            io.unobserve(e.target)
+          }
+        })
+      },
+      { threshold: 0.15, rootMargin: '0px 0px -60px 0px' }
+    )
+    els.forEach((el) => io.observe(el))
+    return () => io.disconnect()
+  }, [])
 }
 
-/* Fundo dark quase preto */
-.animatedBg {
-  position: fixed;
-  inset: 0;
-  z-index: -3;
-  background: #0a0613;
-}
+const FEATURES = [
+  {
+    icon: 'ti-message-chatbot',
+    title: 'A IA corrige o seu erro, não só a questão',
+    desc: 'Errou? Você recebe na hora uma explicação feita pro seu erro específico. Entende onde travou o raciocínio, sem decorar a resposta certa.',
+  },
+  {
+    icon: 'ti-clock-play',
+    title: 'Treine sob a pressão do dia da prova',
+    desc: 'Monte simulados cronometrados com o número de questões que quiser. Chega no dia da prova sem sentir o relógio como inimigo.',
+  },
+  {
+    icon: 'ti-refresh-dot',
+    title: 'Seus erros viram um plano de estudo',
+    desc: 'Toda questão errada fica separada num modo de revisão. Você volta nelas até o assunto virar automático, sem adivinhar onde focar.',
+  },
+  {
+    icon: 'ti-chart-bar',
+    title: 'Saiba onde você está perdendo pontos',
+    desc: 'Sua taxa de acerto por área e por assunto, sempre à vista. Estude o que realmente vai puxar sua nota pra cima.',
+  },
+]
 
-/* Glows roxos suaves que dão a estética dark bonita */
-.glowOne {
-  position: fixed;
-  top: -10%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 900px;
-  height: 700px;
-  z-index: -2;
-  background: radial-gradient(ellipse at center, rgba(139,92,246,0.28), transparent 60%);
-  pointer-events: none;
-  filter: blur(20px);
-}
-.glowTwo {
-  position: fixed;
-  bottom: 5%;
-  right: -15%;
-  width: 700px;
-  height: 700px;
-  z-index: -2;
-  background: radial-gradient(circle at center, rgba(109,63,196,0.18), transparent 62%);
-  pointer-events: none;
-  filter: blur(30px);
-  animation: floatGlow 14s ease-in-out infinite;
-}
-@keyframes floatGlow {
-  0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(-40px, 30px); }
-}
+const AREAS = [
+  { nome: 'Matemática', icone: 'ti-math-symbols', cor: 'mat' },
+  { nome: 'Ciências da Natureza', icone: 'ti-flask', cor: 'nat' },
+  { nome: 'Ciências Humanas', icone: 'ti-books', cor: 'hum' },
+  { nome: 'Linguagens', icone: 'ti-language', cor: 'lin' },
+]
 
-/* Reveal no scroll */
-.reveal {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: opacity, transform;
-}
-.revealVisible { opacity: 1; transform: translateY(0); }
-@media (prefers-reduced-motion: reduce) {
-  .reveal { opacity: 1; transform: none; transition: none; }
-  .glowTwo { animation: none; }
-}
+const PASSOS = [
+  { numero: '1', titulo: 'Crie sua conta', desc: 'Cadastro rápido com e-mail e senha. Sem cartão pra "testar grátis", sem pegadinha.' },
+  { numero: '2', titulo: 'Escolha como estudar', desc: 'Pratique por área, monte um simulado cronometrado ou revise seus erros.' },
+  { numero: '3', titulo: 'Evolua com a IA', desc: 'Entenda cada questão com explicações claras e veja seu desempenho subir.' },
+]
 
-/* Nav */
-.nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(10, 6, 19, 0.72);
-  backdrop-filter: blur(16px) saturate(140%);
-  -webkit-backdrop-filter: blur(16px) saturate(140%);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-}
-.navInner {
-  max-width: 1140px;
-  margin: 0 auto;
-  height: 64px;
-  padding: 0 24px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-.logo { display: flex; align-items: center; gap: 9px; font-size: 17px; font-weight: 700; letter-spacing: -0.4px; color: #fff; }
-.logoMark {
-  width: 30px; height: 30px; border-radius: 9px;
-  background: linear-gradient(135deg, #6d3fc4, #8B5CF6);
-  display: flex; align-items: center; justify-content: center;
-  color: white; font-size: 16px;
-  box-shadow: 0 2px 12px rgba(139, 92, 246, 0.5);
-}
-.navActions { display: flex; align-items: center; gap: 6px; }
-.navLogin { padding: 9px 14px; font-size: 14px; font-weight: 500; color: #c4b5fd; transition: color 0.15s ease; }
-.navLogin:hover { color: #fff; }
-.navCta {
-  display: inline-flex; align-items: center; gap: 7px;
-  padding: 9px 18px; background: #8B5CF6; color: white;
-  border-radius: 10px; font-size: 14px; font-weight: 600;
-  transition: all 0.15s ease;
-}
-.navCta:hover { background: #7c4ff0; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4); }
+const OBJECOES = [
+  {
+    icon: 'ti-device-tv',
+    pergunta: 'É melhor que assistir vídeo-aula?',
+    resposta: 'Vídeo-aula você assiste passivo e esquece na semana seguinte. Aqui você resolve, erra e a IA corrige o seu raciocínio na hora. Você aprende fazendo, que é como a prova cobra.',
+  },
+  {
+    icon: 'ti-target-arrow',
+    pergunta: 'Funciona pro meu vestibular?',
+    resposta: 'Se você vai prestar ENEM, FUVEST, UNICAMP ou UFU, as questões são as mesmas que caem na sua prova, organizadas por área e assunto pra você filtrar o que importa.',
+  },
+  {
+    icon: 'ti-cash',
+    pergunta: 'R$39,90 vale a pena?',
+    resposta: 'É menos que uma pizza, uma vez só. Uma aula particular custa isso por hora. Um cursinho, centenas por mês. Aqui você paga uma vez e usa até o dia da prova.',
+  },
+]
 
-/* Hero */
-.hero {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 64px 24px 72px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
-  align-items: center;
-}
-.heroText { max-width: 540px; }
-.heroBadge {
-  display: inline-block;
-  background: rgba(139, 92, 246, 0.18);
-  border: 1px solid rgba(139, 92, 246, 0.5);
-  color: #c4b5fd; font-size: 12px; font-weight: 600;
-  padding: 6px 14px; border-radius: 99px; margin-bottom: 26px; letter-spacing: 0.3px;
-}
-.heroTitle {
-  font-size: 56px;
-  font-weight: 800;
-  line-height: 1.12;
-  letter-spacing: -1.8px;
-  color: #fff;
-  margin-bottom: 26px;
-  word-spacing: 2px;
-}
-.heroTitleAccent { color: #A78BFA; }
-.heroSub { font-size: 18px; line-height: 1.65; color: #c4b5fd; margin-bottom: 32px; }
-.heroComplica {
-  color: #2ee6a0;
-  font-weight: 800;
-  letter-spacing: -0.3px;
-}
-.heroApprove {
-  color: #b794ff;
-  font-weight: 800;
-  letter-spacing: -0.3px;
-}
-.heroActions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 22px; }
-.heroNote { font-size: 13px; color: #9a8bc4; }
-.heroTrust { display: flex; gap: 20px; flex-wrap: wrap; }
-.heroTrust span { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #b3a6d1; }
-.heroTrust i { color: #3ec99a; font-size: 15px; }
+const SOBRE = [
+  {
+    q: 'O que é a AprovAI?',
+    a: 'Uma plataforma de estudo para o ENEM e os principais vestibulares (FUVEST, UNICAMP, UFU). Você resolve questões reais e recebe explicações geradas por IA na hora, focadas no ponto que costuma confundir.',
+  },
+  {
+    q: 'O que a AprovAI oferece?',
+    a: 'Questões reais separadas por área e assunto, explicação por IA em cada questão, simulados cronometrados, revisão dos seus erros e acompanhamento do seu desempenho, tudo em um só lugar.',
+  },
+  {
+    q: 'A AprovAI é 100% online?',
+    a: 'Sim. Você estuda direto do navegador, no computador ou no celular, a qualquer hora. Não precisa instalar nada.',
+  },
+  {
+    q: 'Preciso pagar todo mês?',
+    a: 'Não. Você paga uma única vez e o acesso é vitalício, seu pra sempre. Sem mensalidade, sem renovação automática, sem surpresa na fatura.',
+  },
+]
 
-.btnPrimary {
-  display: inline-flex; align-items: center; gap: 8px;
-  padding: 15px 30px; background: #8B5CF6; color: white;
-  border: none; border-radius: 12px; font-size: 15.5px; font-weight: 600;
-  transition: all 0.18s ease; box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
-}
-.btnPrimary:hover { background: #7c4ff0; transform: translateY(-2px); box-shadow: 0 10px 30px rgba(139, 92, 246, 0.55); }
+const FAQ = [
+  {
+    q: 'Como funciona o teste grátis?',
+    a: 'Você libera 20 questões completas, com explicação por IA em cada uma, sem pagar nada e sem cadastrar cartão. É pra você sentir como o app funciona antes de decidir.',
+  },
+  {
+    q: 'Como funciona a explicação por IA?',
+    a: 'Depois que você responde, a IA gera uma explicação da questão focada no ponto que costuma confundir. Se você errou, ela mostra onde o raciocínio escorregou.',
+  },
+  {
+    q: 'De quais provas são as questões?',
+    a: 'Questões reais de ENEM e dos principais vestibulares (FUVEST, UNICAMP, UFU), separadas por área do conhecimento e por assunto.',
+  },
+  {
+    q: 'Como eu pago?',
+    a: 'Por PIX (aprovação na hora) ou cartão de crédito. Assim que o pagamento é confirmado, seu acesso é liberado automaticamente.',
+  },
+]
 
-/* Devices: só o laptop */
-.heroDevices { position: relative; display: flex; justify-content: center; align-items: center; }
+export default function Landing() {
+  useScrollReveal()
+  const totalQuestoes = QUESTIONS.length
+  const anoRef = useRef(new Date().getFullYear())
 
-.laptop { width: 100%; max-width: 520px; position: relative; }
-.laptopScreen {
-  background: #0f0a1e;
-  border: 10px solid #1a1526;
-  border-radius: 14px 14px 0 0;
-  overflow: hidden;
-  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-}
-.laptopBase {
-  height: 14px;
-  background: linear-gradient(180deg, #1a1526, #0d0a14);
-  border-radius: 0 0 12px 12px;
-  position: relative;
-  margin: 0 -6px;
-}
-.laptopBase::after {
-  content: '';
-  position: absolute; top: 0; left: 50%; transform: translateX(-50%);
-  width: 90px; height: 5px; background: #060409; border-radius: 0 0 8px 8px;
-}
-.appTopbar {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 10px 14px; border-bottom: 1px solid #1f1830; gap: 10px;
-}
-.appTabs { display: flex; gap: 12px; font-size: 10px; color: #6d5b9e; flex: 1; justify-content: center; }
-.appTabActive { color: #A78BFA; font-weight: 600; }
-.appTopbar > i { color: #6d5b9e; font-size: 16px; }
-.laptopBody { padding: 18px; display: flex; flex-direction: column; gap: 12px; }
-.laptopCard { background: #16102e; border: 1px solid #241b3d; border-radius: 12px; padding: 16px; }
-.laptopEnunciado { color: #e5ddf5; font-size: 13px; line-height: 1.55; margin: 12px 0 14px; }
-.laptopExplain { background: #181030; border: 1px solid #241b3d; border-radius: 12px; padding: 15px; }
-.laptopCard .appBadgeProva, .laptopCard .appBadgeArea, .laptopCard .appBadgeAreaBlue, .laptopCard .appBadgeAssunto { font-size: 10px; padding: 4px 10px; }
-.laptopCard .appOption { font-size: 11.5px; padding: 9px 11px; gap: 9px; border-radius: 10px; }
-.laptopCard .appLetra, .laptopCard .appLetraCorrect { width: 22px; height: 22px; font-size: 10px; border-radius: 6px; }
-.laptopCard .appOptionCorrect > i { font-size: 15px; }
-.laptopExplain .appExplainHead > i { font-size: 13px; }
-.laptopExplain .appExplainHead > span:nth-child(2) { font-size: 10px; }
-.laptopExplain .appResultOk { font-size: 9.5px; padding: 3px 9px; }
-.laptopExplain .appExplainText { font-size: 11.5px; line-height: 1.6; }
+  return (
+    <div className={styles.page}>
+      <div className={styles.animatedBg} aria-hidden="true"></div>
+      <div className={styles.glowOne} aria-hidden="true"></div>
+      <div className={styles.glowTwo} aria-hidden="true"></div>
 
-/* App logo compartilhado (usado no laptop topbar) */
-.appLogo { color: #fff; font-size: 12px; font-weight: 700; }
-.appLogo span { color: #A78BFA; }
+      <nav className={styles.nav}>
+        <div className={styles.navInner}>
+          <div className={styles.logo}>
+            <span className={styles.logoMark}>
+              <i className="ti ti-school" aria-hidden="true"></i>
+            </span>
+            <span><span style={{ color: '#FFFFFF' }}>Aprov</span><span style={{ color: '#8B5CF6' }}>AI</span></span>
+          </div>
+          <div className={styles.navActions}>
+            <a href="#precos" className={styles.navLogin}>Preço</a>
+            <Link to="/login" className={styles.navLogin}>Entrar</Link>
+            <Link to="/teste" className={styles.navCta}>Testar grátis</Link>
+          </div>
+        </div>
+      </nav>
 
-/* Badges e opções (compartilhado laptop + phone) */
-.appBadges { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 10px; }
-.appBadgeProva { background: rgba(139,92,246,0.15); color: #A78BFA; font-size: 8.5px; font-weight: 600; padding: 3px 8px; border-radius: 99px; border: 1px solid rgba(139,92,246,0.3); }
-.appBadgeArea { background: rgba(237,147,177,0.12); color: #ed93b1; font-size: 8.5px; font-weight: 600; padding: 3px 8px; border-radius: 99px; border: 1px solid rgba(237,147,177,0.3); }
-.appBadgeAreaBlue { background: rgba(133,183,235,0.12); color: #85b7eb; font-size: 8.5px; font-weight: 600; padding: 3px 8px; border-radius: 99px; border: 1px solid rgba(133,183,235,0.3); }
-.appBadgeAssunto { color: #6d5b9e; font-size: 8.5px; font-weight: 500; padding: 3px 8px; border-radius: 99px; border: 1px solid #2a2145; }
-.appCard { background: #16102e; margin: 2px 10px 8px; border-radius: 14px; padding: 11px; border: 1px solid #241b3d; }
-.appEnunciado { color: #e5ddf5; font-size: 9px; line-height: 1.45; margin-bottom: 9px; }
-.appOptions { display: flex; flex-direction: column; gap: 5px; }
-.appOption { display: flex; align-items: center; gap: 7px; background: #0f0a22; border: 1.5px solid #241b3d; border-radius: 9px; padding: 6px 8px; color: #c9bfe0; font-size: 8.5px; line-height: 1.35; }
-.appOption > span:last-child { flex: 1; }
-.appOptionCorrect { background: rgba(29,158,117,0.1); border-color: #1d9e75; color: #d8ede5; }
-.appOptionCorrect > i { color: #3ec99a; font-size: 12px; }
-.appLetra { width: 17px; height: 17px; border-radius: 5px; background: #241b3d; color: #9a8bc4; font-size: 8px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.appLetraCorrect { width: 17px; height: 17px; border-radius: 5px; background: #1d9e75; color: #fff; font-size: 8px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.appExplain { background: #181030; margin: 0 10px 8px; border-radius: 14px; padding: 10px; border: 1px solid #241b3d; }
-.appExplainHead { display: flex; align-items: center; gap: 5px; margin-bottom: 7px; }
-.appExplainHead > i { color: #A78BFA; font-size: 10px; }
-.appExplainHead > span:nth-child(2) { color: #A78BFA; font-size: 8px; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; }
-.appResultOk { margin-left: auto; display: inline-flex; align-items: center; gap: 3px; background: rgba(29,158,117,0.12); color: #3ec99a; font-size: 7.5px; font-weight: 600; padding: 2px 7px; border-radius: 99px; border: 1px solid rgba(29,158,117,0.3); }
-.appResultOk > i { font-size: 8px; }
-.appExplainText { color: #a99cc9; font-size: 8.5px; line-height: 1.55; }
+      {/* HERO */}
+      <header className={styles.hero}>
+        <div className={styles.heroText}>
+          <span className={styles.heroBadge}>ENEM · FUVEST · UNICAMP · UFU</span>
+          <h1 className={styles.heroTitle}>
+            Passe no vestibular estudando com IA.
+            <span className={styles.heroTitleAccent}> Pague uma vez, estude pra sempre.</span>
+          </h1>
+          <p className={styles.heroSub}>
+            Enquanto outras plataformas <span className={styles.heroComplica}>complicam</span> sua vida
+            com mensalidade e mil recursos que você nunca usa, a gente te <span className={styles.heroApprove}>aprova</span> com
+            o essencial, uma única vez.
+          </p>
+          <div className={styles.heroActions}>
+            <Link to="/teste" className={styles.btnPrimary}>
+              <i className="ti ti-gift" aria-hidden="true"></i> Testar grátis com 20 questões
+            </Link>
+            <span className={styles.heroNote}>sem cartão, sem pegadinha</span>
+          </div>
+          <p className={styles.heroSubnote}>É o app completo, não uma versão de demonstração. Você resolve questões reais com a IA explicando cada uma.</p>
+          <div className={styles.heroTrust}>
+            <span><i className="ti ti-check" aria-hidden="true"></i> {totalQuestoes}+ questões reais</span>
+            <span><i className="ti ti-check" aria-hidden="true"></i> Explicação por IA</span>
+            <span><i className="ti ti-check" aria-hidden="true"></i> Pagamento único</span>
+          </div>
+        </div>
 
-/* Teste grátis */
-.freeSection { max-width: 1140px; margin: 0 auto; padding: 20px 24px 40px; }
-.freeCard {
-  display: flex; align-items: center; gap: 28px;
-  background: linear-gradient(135deg, rgba(29,158,117,0.12), rgba(139,92,246,0.08));
-  border: 1px solid rgba(62,201,154,0.35);
-  border-radius: 20px; padding: 32px 36px;
-}
-.freeIcon {
-  width: 64px; height: 64px; flex-shrink: 0; border-radius: 16px;
-  background: rgba(62,201,154,0.15); color: #3ec99a;
-  display: flex; align-items: center; justify-content: center; font-size: 30px;
-}
-.freeContent { flex: 1; }
-.freeTitle { font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 8px; letter-spacing: -0.4px; }
-.freeDesc { font-size: 14.5px; line-height: 1.6; color: #b3a6d1; margin-bottom: 18px; }
+        {/* PC + celular na frente */}
+        <div className={styles.heroDevices}>
+          <div className={styles.laptop}>
+            <div className={styles.laptopScreen}>
+              <div className={styles.appTopbar}>
+                <span className={styles.appLogo}>Aprov<span>AI</span></span>
+                <div className={styles.appTabs}>
+                  <span className={styles.appTabActive}>Questões</span>
+                  <span>Simulado</span>
+                  <span>Revisão</span>
+                  <span>Desempenho</span>
+                </div>
+                <i className="ti ti-user-circle" aria-hidden="true"></i>
+              </div>
+              <div className={styles.laptopBody}>
+                <div className={styles.laptopCard}>
+                  <div className={styles.appBadges}>
+                    <span className={styles.appBadgeProva}>ENEM 2019</span>
+                    <span className={styles.appBadgeAreaBlue}>Matemática</span>
+                    <span className={styles.appBadgeAssunto}>Funções</span>
+                  </div>
+                  <p className={styles.laptopEnunciado}>
+                    Uma função quadrática modela a trajetória de um projétil lançado do solo. Qual a altura máxima atingida?
+                  </p>
+                  <div className={styles.appOptions}>
+                    <div className={styles.appOption}><span className={styles.appLetra}>A</span><span>12 metros</span></div>
+                    <div className={`${styles.appOption} ${styles.appOptionCorrect}`}><span className={styles.appLetraCorrect}>B</span><span>20 metros</span><i className="ti ti-check" aria-hidden="true"></i></div>
+                    <div className={styles.appOption}><span className={styles.appLetra}>C</span><span>25 metros</span></div>
+                    <div className={styles.appOption}><span className={styles.appLetra}>D</span><span>40 metros</span></div>
+                  </div>
+                </div>
+                <div className={styles.laptopExplain}>
+                  <div className={styles.appExplainHead}>
+                    <i className="ti ti-sparkles" aria-hidden="true"></i>
+                    <span>Explicação da IA</span>
+                    <span className={styles.appResultOk}><i className="ti ti-circle-check" aria-hidden="true"></i> Você acertou</span>
+                  </div>
+                  <p className={styles.appExplainText}>
+                    A altura máxima está no vértice da parábola. Como o coeficiente de t² é negativo, ela abre pra baixo. Use t = -b/2a para achar o instante do topo e substitua na função para obter 20 metros.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.laptopBase}></div>
+          </div>
+        </div>
+      </header>
 
-/* Seções genéricas */
-.section { max-width: 1140px; margin: 0 auto; padding: 60px 24px; position: relative; }
-.sectionHead { text-align: center; max-width: 640px; margin: 0 auto 44px; }
-.eyebrow { display: inline-block; color: #A78BFA; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
-.sectionTitle { font-size: 32px; font-weight: 700; letter-spacing: -0.7px; color: #fff; line-height: 1.2; margin-bottom: 12px; }
-.sectionSub { font-size: 15px; color: #b3a6d1; line-height: 1.6; }
+      {/* TESTE GRÁTIS */}
+      <section className={`${styles.freeSection} ${styles.reveal}`}>
+        <div className={styles.freeCard}>
+          <div className={styles.freeIcon}><i className="ti ti-gift" aria-hidden="true"></i></div>
+          <div className={styles.freeContent}>
+            <h2 className={styles.freeTitle}>Experimente com 20 questões grátis</h2>
+            <p className={styles.freeDesc}>
+              Libere 20 questões completas, com explicação por IA em cada uma, totalmente de graça.
+              Sem cadastrar cartão, sem período de teste que vira cobrança, sem pegadinha. É só pra
+              você sentir como o app funciona antes de decidir.
+            </p>
+            <Link to="/teste" className={styles.btnPrimary}>
+              <i className="ti ti-player-play" aria-hidden="true"></i> Começar o teste grátis
+            </Link>
+          </div>
+        </div>
+      </section>
 
-/* Ancoragem de preço */
-.compareGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 720px; margin: 0 auto; }
-.compareCard { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 26px; position: relative; }
-.compareCardHighlight { border: 2px solid #8B5CF6; background: rgba(139,92,246,0.08); box-shadow: 0 8px 40px rgba(139,92,246,0.2); }
-.compareBadge { position: absolute; top: -12px; left: 24px; background: #8B5CF6; color: #fff; font-size: 11px; font-weight: 600; padding: 4px 14px; border-radius: 99px; }
-.compareLabel { font-size: 13px; color: #b3a6d1; }
-.comparePriceOld { font-size: 34px; font-weight: 700; color: #fff; margin-top: 8px; text-decoration: line-through; text-decoration-color: #d85a30; opacity: 0.8; }
-.comparePriceOld span { font-size: 16px; }
-.comparePriceNew { font-size: 34px; font-weight: 700; color: #A78BFA; margin-top: 8px; }
-.compareYear { font-size: 14px; color: #d85a30; margin-top: 6px; font-weight: 600; }
-.compareYearGood { font-size: 14px; color: #3ec99a; margin-top: 6px; font-weight: 600; }
-.compareList { list-style: none; margin: 18px 0 0; display: flex; flex-direction: column; gap: 10px; padding: 0; }
-.compareList li { display: flex; align-items: flex-start; gap: 9px; font-size: 13.5px; color: #c9bfe0; line-height: 1.4; }
-.compareList i { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
-.compareCard .compareList li i.ti-x { color: #d85a30; }
-.compareCard .compareList li i.ti-check { color: #3ec99a; }
-.compareFooter { text-align: center; font-size: 15px; color: #b3a6d1; margin-top: 28px; font-style: italic; }
+      {/* ANCORAGEM DE PREÇO */}
+      <section className={`${styles.section} ${styles.reveal}`}>
+        <div className={styles.sectionHead}>
+          <span className={styles.eyebrow}>A conta que ninguém te mostra</span>
+          <h2 className={styles.sectionTitle}>Mensalidade não combina com quem vai passar esse ano</h2>
+        </div>
+        <div className={styles.compareGrid}>
+          <div className={styles.compareCard}>
+            <span className={styles.compareLabel}>Plataforma por assinatura</span>
+            <div className={styles.comparePriceOld}>R$39,90<span>/mês</span></div>
+            <div className={styles.compareYear}>= R$478,80 por ano</div>
+            <ul className={styles.compareList}>
+              <li><i className="ti ti-x" aria-hidden="true"></i> Cancelou? Perdeu o acesso.</li>
+              <li><i className="ti ti-x" aria-hidden="true"></i> Reprovou? Paga tudo de novo.</li>
+              <li><i className="ti ti-x" aria-hidden="true"></i> Mil recursos que você nunca abre.</li>
+            </ul>
+          </div>
+          <div className={`${styles.compareCard} ${styles.compareCardHighlight}`}>
+            <span className={styles.compareBadge}>AprovAI</span>
+            <span className={styles.compareLabel}>Acesso único</span>
+            <div className={styles.comparePriceNew}>R$39,90</div>
+            <div className={styles.compareYearGood}>uma vez, pra sempre</div>
+            <ul className={styles.compareList}>
+              <li><i className="ti ti-check" aria-hidden="true"></i> Passou? Ótimo, tarefa cumprida.</li>
+              <li><i className="ti ti-check" aria-hidden="true"></i> Não passou? Continua estudando.</li>
+              <li><i className="ti ti-check" aria-hidden="true"></i> Só o essencial, sem distração.</li>
+            </ul>
+          </div>
+        </div>
+        <p className={styles.compareFooter}>Mesmo número. Frequência bem diferente.</p>
+      </section>
 
-/* Features */
-.featuresGrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
-.featureCard { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 26px; transition: all 0.2s ease; }
-.featureCard:hover { border-color: rgba(139,92,246,0.5); transform: translateY(-3px); background: rgba(139,92,246,0.06); }
-.featureIcon { width: 46px; height: 46px; border-radius: 12px; background: rgba(139,92,246,0.15); color: #A78BFA; display: flex; align-items: center; justify-content: center; font-size: 22px; margin-bottom: 16px; }
-.featureTitle { font-size: 16.5px; font-weight: 700; color: #fff; margin-bottom: 8px; letter-spacing: -0.2px; line-height: 1.3; }
-.featureDesc { font-size: 14px; line-height: 1.6; color: #b3a6d1; }
+      {/* FEATURES */}
+      <section className={styles.section}>
+        <div className={`${styles.sectionHead} ${styles.reveal}`}>
+          <span className={styles.eyebrow}>Por que funciona</span>
+          <h2 className={styles.sectionTitle}>Feito pra você errar menos na prova de verdade</h2>
+        </div>
+        <div className={styles.featuresGrid}>
+          {FEATURES.map((f, i) => (
+            <div className={`${styles.featureCard} ${styles.reveal}`} key={f.title} style={{ transitionDelay: `${i * 80}ms` }}>
+              <div className={styles.featureIcon}>
+                <i className={`ti ${f.icon}`} aria-hidden="true"></i>
+              </div>
+              <h3 className={styles.featureTitle}>{f.title}</h3>
+              <p className={styles.featureDesc}>{f.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-/* Áreas */
-.areasGrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 40px; }
-.areaCard { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 28px 16px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; font-size: 14px; font-weight: 600; color: #fff; text-align: center; transition: all 0.2s ease; }
-.areaCard:hover { transform: translateY(-3px); background: rgba(255,255,255,0.07); }
-.areaCard i { font-size: 30px; }
-.areaCard[data-cor="mat"] i { color: #f0997b; }
-.areaCard[data-cor="nat"] i { color: #5dcaa5; }
-.areaCard[data-cor="hum"] i { color: #ed93b1; }
-.areaCard[data-cor="lin"] i { color: #85b7eb; }
+      {/* ÁREAS + STATS */}
+      <section className={styles.section}>
+        <div className={`${styles.sectionHead} ${styles.reveal}`}>
+          <span className={styles.eyebrow}>Cobertura</span>
+          <h2 className={styles.sectionTitle}>Todas as áreas do ENEM e dos vestibulares</h2>
+          <p className={styles.sectionSub}>Questões organizadas por área e por assunto, prontas pra filtrar.</p>
+        </div>
+        <div className={styles.areasGrid}>
+          {AREAS.map((a, i) => (
+            <div className={`${styles.areaCard} ${styles.reveal}`} data-cor={a.cor} key={a.nome} style={{ transitionDelay: `${i * 70}ms` }}>
+              <i className={`ti ${a.icone}`} aria-hidden="true"></i>
+              <span>{a.nome}</span>
+            </div>
+          ))}
+        </div>
+        <div className={`${styles.statsBar} ${styles.reveal}`}>
+          <div className={styles.stat}>
+            <div className={styles.statValue}>{totalQuestoes}+</div>
+            <div className={styles.statLabel}>Questões reais</div>
+          </div>
+          <div className={styles.statDivider}></div>
+          <div className={styles.stat}>
+            <div className={styles.statValue}>4</div>
+            <div className={styles.statLabel}>Vestibulares cobertos</div>
+          </div>
+          <div className={styles.statDivider}></div>
+          <div className={styles.stat}>
+            <div className={styles.statValue}>24/7</div>
+            <div className={styles.statLabel}>Explicações por IA</div>
+          </div>
+        </div>
+      </section>
 
-/* Stats */
-.statsBar { display: flex; align-items: center; justify-content: center; gap: 32px; padding: 24px 32px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; max-width: 620px; margin: 0 auto; }
-.stat { text-align: center; }
-.statValue { font-size: 30px; font-weight: 700; letter-spacing: -0.5px; color: #A78BFA; }
-.statLabel { font-size: 12px; color: #9a8bc4; margin-top: 4px; }
-.statDivider { width: 1px; height: 38px; background: rgba(255,255,255,0.12); }
+      {/* COMO FUNCIONA */}
+      <section className={styles.section}>
+        <div className={`${styles.sectionHead} ${styles.reveal}`}>
+          <span className={styles.eyebrow}>Como funciona</span>
+          <h2 className={styles.sectionTitle}>Em três passos você já está estudando</h2>
+        </div>
+        <div className={styles.passosGrid}>
+          {PASSOS.map((p, i) => (
+            <div className={`${styles.passoCard} ${styles.reveal}`} key={p.numero} style={{ transitionDelay: `${i * 90}ms` }}>
+              <div className={styles.passoNumero}>{p.numero}</div>
+              <h3 className={styles.passoTitulo}>{p.titulo}</h3>
+              <p className={styles.passoDesc}>{p.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-/* Passos */
-.passosGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 820px; margin: 0 auto; }
-.passoCard { padding: 8px; text-align: center; }
-.passoNumero { width: 46px; height: 46px; margin: 0 auto 16px; border-radius: 50%; background: linear-gradient(135deg, #6d3fc4, #8B5CF6); color: white; font-size: 18px; font-weight: 700; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 16px rgba(139,92,246,0.5); }
-.passoTitulo { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 8px; }
-.passoDesc { font-size: 14px; line-height: 1.6; color: #b3a6d1; }
+      {/* OBJEÇÕES */}
+      <section className={styles.section}>
+        <div className={`${styles.sectionHead} ${styles.reveal}`}>
+          <span className={styles.eyebrow}>Antes de decidir</span>
+          <h2 className={styles.sectionTitle}>As dúvidas que todo mundo tem</h2>
+        </div>
+        <div className={styles.objecoesGrid}>
+          {OBJECOES.map((o, i) => (
+            <div className={`${styles.objecaoCard} ${styles.reveal}`} key={o.pergunta} style={{ transitionDelay: `${i * 80}ms` }}>
+              <div className={styles.objecaoIcon}><i className={`ti ${o.icon}`} aria-hidden="true"></i></div>
+              <h3 className={styles.objecaoPergunta}>{o.pergunta}</h3>
+              <p className={styles.objecaoResposta}>{o.resposta}</p>
+            </div>
+          ))}
+        </div>
+      </section>
 
-/* Objeções */
-.objecoesGrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
-.objecaoCard { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 26px; }
-.objecaoIcon { width: 44px; height: 44px; border-radius: 12px; background: rgba(139,92,246,0.15); color: #A78BFA; display: flex; align-items: center; justify-content: center; font-size: 21px; margin-bottom: 16px; }
-.objecaoPergunta { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 10px; line-height: 1.3; }
-.objecaoResposta { font-size: 14px; line-height: 1.65; color: #b3a6d1; }
+      {/* OFERTA / PREÇO com promoção */}
+      <section id="precos" className={`${styles.pricingSection} ${styles.reveal}`}>
+        <div className={styles.pricingCard}>
+          <span className={styles.promoBadge}><i className="ti ti-flame" aria-hidden="true"></i> Oferta de lançamento</span>
+          <div className={styles.pricingPromo}>
+            <span className={styles.pricingFrom}>de R$69,90 por</span>
+            <div className={styles.pricingValue}>
+              <span className={styles.pricingCurrency}>R$</span>39,90
+            </div>
+          </div>
+          <p className={styles.pricingSub}>Preço promocional para os primeiros assinantes. Pagamento único, sem mensalidade.</p>
+          <ul className={styles.pricingList}>
+            <li><i className="ti ti-check" aria-hidden="true"></i> Todas as questões e áreas liberadas</li>
+            <li><i className="ti ti-check" aria-hidden="true"></i> Explicações ilimitadas por IA</li>
+            <li><i className="ti ti-check" aria-hidden="true"></i> Simulados cronometrados ilimitados</li>
+            <li><i className="ti ti-check" aria-hidden="true"></i> Revisão de erros e acompanhamento de desempenho</li>
+            <li><i className="ti ti-check" aria-hidden="true"></i> Sem mensalidade, sem renovação</li>
+          </ul>
+          <Link to="/pagamento" className={styles.pricingCta}>
+            <i className="ti ti-rocket" aria-hidden="true"></i> Quero acesso vitalício por R$39,90
+          </Link>
+          <span className={styles.pricingSafe}>PIX aprovado na hora ou cartão · acesso liberado na hora</span>
+        </div>
+      </section>
 
-/* Preço / Oferta com promoção */
-.pricingSection { max-width: 1140px; margin: 0 auto; padding: 40px 24px 20px; display: flex; justify-content: center; }
-.pricingCard { width: 100%; max-width: 440px; background: rgba(255,255,255,0.05); border: 2px solid #8B5CF6; border-radius: 24px; padding: 40px 36px; text-align: center; box-shadow: 0 20px 60px rgba(139,92,246,0.3); }
-.promoBadge { display: inline-flex; align-items: center; gap: 6px; padding: 6px 16px; border-radius: 99px; background: rgba(216,90,48,0.18); color: #ff8a5c; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 18px; border: 1px solid rgba(216,90,48,0.4); }
-.pricingPromo { display: flex; flex-direction: column; align-items: center; gap: 2px; margin-bottom: 8px; }
-.pricingFrom { font-size: 15px; color: #9a8bc4; text-decoration: line-through; text-decoration-color: #d85a30; }
-.pricingValue { font-size: 58px; font-weight: 700; letter-spacing: -2px; color: #fff; line-height: 1; }
-.pricingCurrency { font-size: 26px; font-weight: 700; vertical-align: super; margin-right: 2px; letter-spacing: 0; color: #A78BFA; }
-.pricingSub { font-size: 14.5px; color: #b3a6d1; margin: 12px 0 28px; line-height: 1.5; }
-.pricingList { list-style: none; display: flex; flex-direction: column; gap: 13px; margin-bottom: 28px; text-align: left; padding: 0; }
-.pricingList li { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #e5ddf5; line-height: 1.4; }
-.pricingList i { color: #3ec99a; font-size: 17px; flex-shrink: 0; margin-top: 1px; }
-.pricingCta { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 15px; background: #8B5CF6; color: white; border: none; border-radius: 12px; font-size: 15.5px; font-weight: 700; transition: all 0.18s ease; box-shadow: 0 4px 20px rgba(139,92,246,0.4); }
-.pricingCta:hover { background: #7c4ff0; transform: translateY(-2px); box-shadow: 0 10px 30px rgba(139,92,246,0.55); }
-.pricingSafe { display: block; font-size: 12.5px; color: #9a8bc4; margin-top: 14px; }
+      {/* SOBRE / O QUE É */}
+      <section className={styles.section}>
+        <div className={`${styles.sectionHead} ${styles.reveal}`}>
+          <span className={styles.eyebrow}>Sobre a plataforma</span>
+          <h2 className={styles.sectionTitle}>Entenda o que é a AprovAI</h2>
+        </div>
+        <div className={styles.faqList}>
+          {SOBRE.map((item, i) => (
+            <details className={`${styles.faqItem} ${styles.reveal}`} key={i} style={{ transitionDelay: `${i * 60}ms` }}>
+              <summary className={styles.faqQuestion}>
+                {item.q}
+                <i className="ti ti-chevron-down" aria-hidden="true"></i>
+              </summary>
+              <p className={styles.faqAnswer}>{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
-/* FAQ / Sobre */
-.faqList { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
-.faqItem { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 14px; padding: 4px 20px; transition: border-color 0.2s ease; }
-.faqItem[open] { border-color: rgba(139,92,246,0.4); }
-.faqQuestion { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 0; font-size: 15.5px; font-weight: 600; color: #fff; cursor: pointer; list-style: none; }
-.faqQuestion::-webkit-details-marker { display: none; }
-.faqQuestion > i { color: #A78BFA; font-size: 18px; transition: transform 0.25s ease; flex-shrink: 0; }
-.faqItem[open] .faqQuestion > i { transform: rotate(180deg); }
-.faqAnswer { font-size: 14px; line-height: 1.65; color: #b3a6d1; padding: 0 0 18px; margin: 0; }
+      {/* FAQ */}
+      <section className={styles.section}>
+        <div className={`${styles.sectionHead} ${styles.reveal}`}>
+          <span className={styles.eyebrow}>Ainda em dúvida?</span>
+          <h2 className={styles.sectionTitle}>Perguntas frequentes</h2>
+        </div>
+        <div className={styles.faqList}>
+          {FAQ.map((item, i) => (
+            <details className={`${styles.faqItem} ${styles.reveal}`} key={i} style={{ transitionDelay: `${i * 60}ms` }}>
+              <summary className={styles.faqQuestion}>
+                {item.q}
+                <i className="ti ti-chevron-down" aria-hidden="true"></i>
+              </summary>
+              <p className={styles.faqAnswer}>{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
-/* CTA final */
-.finalCta { max-width: 720px; margin: 40px auto; padding: 60px 32px; text-align: center; background: linear-gradient(135deg, rgba(139,92,246,0.15), rgba(109,63,196,0.1)); border: 1px solid rgba(139,92,246,0.3); border-radius: 24px; }
-.finalTitle { font-size: 32px; font-weight: 700; letter-spacing: -0.7px; color: #fff; margin-bottom: 12px; line-height: 1.2; }
-.finalSub { font-size: 16px; color: #c4b5fd; margin-bottom: 28px; line-height: 1.5; }
+      {/* CTA FINAL */}
+      <section className={`${styles.finalCta} ${styles.reveal}`}>
+        <h2 className={styles.finalTitle}>Quem leva a aprovação a sério, começa hoje.</h2>
+        <p className={styles.finalSub}>Teste com 20 questões sem pagar nada. Se gostar, o acesso vitalício sai por R$39,90, uma vez só.</p>
+        <Link to="/teste" className={styles.btnPrimary}>
+          <i className="ti ti-gift" aria-hidden="true"></i> Testar grátis com 20 questões
+        </Link>
+      </section>
 
-/* Footer */
-.footer { text-align: center; padding: 50px 24px 60px; border-top: 1px solid rgba(255,255,255,0.08); }
-.footerLogo { font-size: 16px; font-weight: 700; letter-spacing: -0.3px; margin-bottom: 8px; }
-.footerText { font-size: 13px; color: #9a8bc4; margin-bottom: 6px; }
-.footerCopy { font-size: 12px; color: #6d5b9e; }
-
-/* Responsivo */
-@media (max-width: 900px) {
-  .hero { grid-template-columns: 1fr; text-align: center; padding: 44px 24px 56px; }
-  .heroText { max-width: 100%; margin: 0 auto; }
-  .heroActions, .heroTrust { justify-content: center; }
-  .heroDevices { margin-top: 30px; min-height: 340px; }
-  .objecoesGrid { grid-template-columns: 1fr; }
-  .freeCard { flex-direction: column; text-align: center; }
-}
-@media (max-width: 760px) {
-  .heroTitle { font-size: 40px; letter-spacing: -1.2px; }
-  .heroSub { font-size: 16px; }
-  .sectionTitle { font-size: 26px; }
-  .featuresGrid { grid-template-columns: 1fr; }
-  .areasGrid { grid-template-columns: repeat(2, 1fr); }
-  .passosGrid { grid-template-columns: 1fr; gap: 30px; }
-  .compareGrid { grid-template-columns: 1fr; }
-  .statsBar { flex-wrap: wrap; gap: 20px; padding: 22px; }
-  .pricingValue { font-size: 48px; }
-  .finalTitle { font-size: 26px; }
-  .laptop { max-width: 400px; }
-}
-@media (max-width: 480px) {
-  .navInner { padding: 0 16px; }
-  .navLogin:first-child { display: none; }
-  .heroTitle { font-size: 34px; }
+      <footer className={styles.footer}>
+        <div className={styles.footerLogo}>
+          <span style={{ color: '#FFFFFF' }}>Aprov</span><span style={{ color: '#8B5CF6' }}>AI</span>
+        </div>
+        <p className={styles.footerText}>Estude com questões reais e feedback inteligente por IA.</p>
+        <p className={styles.footerCopy}>© {anoRef.current} AprovAI · aprovai.net.br</p>
+      </footer>
+    </div>
+  )
 }
