@@ -19,6 +19,7 @@ export default function Layout() {
   const navigate = useNavigate()
 
   const nome = user?.user_metadata?.nome || user?.email?.split('@')[0] || 'Aluno'
+  const avatarUrl = user?.user_metadata?.avatar_url
   const isAdmin = user?.email === ADMIN_EMAIL
 
   const [menuOpen, setMenuOpen] = useState(false)
@@ -93,7 +94,7 @@ export default function Layout() {
 
           <div className={styles.userWrap} ref={menuRef}>
             <button className={styles.user} onClick={() => setMenuOpen((v) => !v)}>
-              <span className={styles.avatar}>{nome[0]?.toUpperCase()}</span>
+              {avatarUrl ? <img src={avatarUrl} alt="" className={styles.avatar} /> : <span className={styles.avatar}>{nome[0]?.toUpperCase()}</span>}
               <span className={styles.userName}>{nome}</span>
               <i className="ti ti-chevron-up" aria-hidden="true" style={{ marginLeft: 'auto', fontSize: 15, transform: menuOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }}></i>
             </button>
@@ -119,7 +120,7 @@ export default function Layout() {
         <Link to="/app/questoes" className={styles.mobileLogo}>
           <span className={styles.logoAprov}>Aprov</span><span className={styles.logoAI}>AI</span>
         </Link>
-        <span className={styles.avatar}>{nome[0]?.toUpperCase()}</span>
+        {avatarUrl ? <img src={avatarUrl} alt="" className={styles.avatar} /> : <span className={styles.avatar}>{nome[0]?.toUpperCase()}</span>}
       </header>
 
       <main className={styles.main}>
