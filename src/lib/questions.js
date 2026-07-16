@@ -17203,7 +17203,7765 @@ export const QUESTIONS = [
       }
     ],
     "correta": "B"
-  }
+  },
+{
+    id: 733,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Revestimentos de medicamentos',
+    enunciado: 'Na indústria farmacêutica, é muito comum o emprego de substâncias de revestimento em medicamentos de uso oral, pois trazem uma série de benefícios como alteração de sabor em medicamentos que tenham gosto ruim, melhoria da assimilação do composto, entre outras ações. Alguns compostos poliméricos à base do polissacarídeo celulose são utilizados para garantir que o fármaco somente seja liberado quando em contato com soluções aquosas cujo pH se encontre próximo da faixa da neutralidade.\n\nQual é a finalidade do uso desse revestimento à base de celulose?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Diminuir a absorção do princípio ativo no intestino.' },
+      { letra: 'B', texto: 'Impedir que o fármaco seja solubilizado no intestino.' },
+      { letra: 'C', texto: 'Garantir que o fármaco não seja afetado pelas secreções gástricas.' },
+      { letra: 'D', texto: 'Permitir a liberação do princípio ativo pela ação das amilases salivares.' },
+      { letra: 'E', texto: 'Facilitar a liberação do fármaco pela ação dos sais biliares sobre o revestimento.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 734,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Pressão e temperatura de ebulição',
+    enunciado: 'As panelas de pressão reduzem o tempo de cozimento dos alimentos por elevar a temperatura de ebulição da água. Os usuários conhecedores do utensílio normalmente abaixam a intensidade do fogo em panelas de pressão após estas iniciarem a saída dos vapores.\n\nAo abaixar o fogo, reduz-se a chama, pois assim evita-se o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'aumento da pressão interna e os riscos de explosão.' },
+      { letra: 'B', texto: 'dilatação da panela e a desconexão com sua tampa.' },
+      { letra: 'C', texto: 'perda da qualidade nutritiva do alimento.' },
+      { letra: 'D', texto: 'deformação da borracha de vedação.' },
+      { letra: 'E', texto: 'consumo de gás desnecessário.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 735,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Nanotecnologia e catálise',
+    enunciado: 'A nanotecnologia pode ser caracterizada quando os compostos estão na ordem de milionésimos de milímetros, como na utilização de nanomateriais catalíticos nos processos industriais. O uso desses materiais aumenta a eficiência da produção, consome menos energia e gera menores quantidades de resíduos. O sucesso dessa aplicação tecnológica muitas vezes está relacionado ao aumento da velocidade da reação química envolvida.\n\nO êxito da aplicação dessa tecnologia é por causa da realização de reações químicas que ocorrem em condições de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'alta pressão.' },
+      { letra: 'B', texto: 'alta temperatura.' },
+      { letra: 'C', texto: 'excesso de reagentes.' },
+      { letra: 'D', texto: 'maior superfície de contato.' },
+      { letra: 'E', texto: 'elevada energia de ativação.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 736,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Ondas e cancelamento de ruído',
+    enunciado: 'Os fones de ouvido tradicionais transmitem a música diretamente para os nossos ouvidos. Já os modelos dotados de tecnologia redutora de ruído — Cancelamento de Ruído (CR) — além de transmitirem música, também reduzem todo ruído inconsistente à nossa volta, como o barulho de turbinas de avião e aspiradores de pó. Os fones de ouvido CR não reduzem realmente barulhos irregulares como discursos e choros de bebês. Mesmo assim, a supressão do ronco das turbinas do avião contribui para reduzir a "fadiga de ruído", um cansaço persistente provocado pela exposição a um barulho alto por horas a fio. Esses aparelhos também permitem que nós ouçamos músicas ou assistamos a vídeos no trem ou no avião a um volume muito menor (e mais seguro).\n\nA tecnologia redutora de ruído CR utilizada na produção de fones de ouvido baseia-se em qual fenômeno ondulatório?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Absorção.' },
+      { letra: 'B', texto: 'Interferência.' },
+      { letra: 'C', texto: 'Polarização.' },
+      { letra: 'D', texto: 'Reflexão.' },
+      { letra: 'E', texto: 'Difração.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 737,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Equilíbrio químico e Le Chatelier',
+    enunciado: 'Para garantir que produtos eletrônicos estejam armazenados de forma adequada antes da venda, algumas empresas utilizam cartões indicadores de umidade nas embalagens desses produtos. Alguns desses cartões contêm um sal de cobalto que muda de cor em presença de água, de acordo com a equação química:\n\nCoCl₂(s) + 6 H₂O(g) ⇌ CoCl₂·6H₂O(s)   ΔH < 0\n(azul)                              (rosa)\n\nComo você procederia para reutilizar, num curto intervalo de tempo, um cartão que já estivesse com a coloração rosa?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Resfriaria no congelador.' },
+      { letra: 'B', texto: 'Borrifaria com spray de água.' },
+      { letra: 'C', texto: 'Envolveria com papel alumínio.' },
+      { letra: 'D', texto: 'Aqueceria com secador de cabelos.' },
+      { letra: 'E', texto: 'Embrulharia em guardanapo de papel.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 738,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Circuitos elétricos e divisor de tensão',
+    enunciado: 'Um estudante tem uma fonte de tensão com corrente contínua que opera em tensão fixa de 12 V. Como precisa alimentar equipamentos que operam em tensões menores, ele emprega quatro resistores de 100 Ω para construir um divisor de tensão. Os aparelhos podem ser ligados entre os pontos A, B, C, D e E, dependendo da tensão especificada.\n\n[IMAGEM: Circuito com fonte CC de 12 V e quatro resistores de 100 Ω em série, com pontos A, B, C, D, E]\n\nEle tem um equipamento que opera em 9,0 V com uma resistência interna de 10 kΩ.\n\nEntre quais pontos do divisor de tensão esse equipamento deve ser ligado para funcionar corretamente e qual será o valor da intensidade da corrente nele estabelecida?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Entre A e C; 30 mA.' },
+      { letra: 'B', texto: 'Entre B e E; 30 mA.' },
+      { letra: 'C', texto: 'Entre A e D; 1,2 mA.' },
+      { letra: 'D', texto: 'Entre B e E; 0,9 mA.' },
+      { letra: 'E', texto: 'Entre A e E; 0,9 mA.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 739,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Imunoterapia e oncologia',
+    enunciado: 'Pesquisadores dos Estados Unidos desenvolveram uma nova técnica, que utiliza raios de luz infravermelha (invisíveis a olho nu) para destruir tumores. Primeiramente, o paciente recebe uma injeção com versões modificadas de anticorpos que têm a capacidade de "grudar" apenas nas células cancerosas. Sozinhos, eles não fazem nada contra o tumor. Entretanto, esses anticorpos estão ligados a uma molécula, denominada IR700, que funcionará como uma "microbomba", que irá destruir o câncer. Em seguida, o paciente recebe raios infravermelhos. Esses raios penetram no corpo e chegam até a molécula IR700, que é ativada e libera uma substância que ataca a célula cancerosa.\n\nCom base nas etapas de desenvolvimento, o nome apropriado para a técnica descrita é:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Radioterapia.' },
+      { letra: 'B', texto: 'Cromoterapia.' },
+      { letra: 'C', texto: 'Quimioterapia.' },
+      { letra: 'D', texto: 'Fotoimunoterapia.' },
+      { letra: 'E', texto: 'Terapia magnética.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 740,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Aracnídeos e adaptações terrestres',
+    enunciado: 'Aranhas, escorpiões, carrapatos e ácaros são representantes da classe dos Aracnídeos. Esses animais são terrestres em sua grande maioria e ocupam os mais variados hábitats, tais como montanhas altas, pântanos, desertos e solos arenosos. Podem ter sido os primeiros representantes do filo Arthropoda a habitar a terra seca.\n\nA característica que justifica o sucesso adaptativo desse grupo na ocupação do ambiente terrestre é a presença de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'quelíceras e pedipalpos que coordenam o movimento corporal.' },
+      { letra: 'B', texto: 'excreção de ácido úrico que confere estabilidade ao pH corporal.' },
+      { letra: 'C', texto: 'exoesqueleto constituído de quitina que auxilia no controle hídrico corporal.' },
+      { letra: 'D', texto: 'circulação sanguínea aberta que impede a desidratação dos tecidos corporais.' },
+      { letra: 'E', texto: 'sistema nervoso ganglionar que promove a coordenação central do movimento corporal.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 741,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Bomba atômica e fissão nuclear',
+    enunciado: 'Embora a energia nuclear possa ser utilizada para fins pacíficos, recentes conflitos geopolíticos têm trazido preocupações em várias partes do planeta e estimulado discussões visando o combate ao uso de armas de destruição em massa. Além do potencial destrutivo da bomba atômica, uma grande preocupação associada ao emprego desse artefato bélico é a poeira radioativa deixada após a bomba ser detonada.\n\nQual é o processo envolvido na detonação dessa bomba?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Fissão nuclear do urânio, provocada por nêutrons.' },
+      { letra: 'B', texto: 'Fusão nuclear do hidrogênio, provocada por prótons.' },
+      { letra: 'C', texto: 'Desintegração nuclear do plutônio, provocada por elétrons.' },
+      { letra: 'D', texto: 'Associação em cadeia de chumbo, provocada por pósitrons.' },
+      { letra: 'E', texto: 'Decaimento radioativo do carbono, provocado por partículas beta.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 742,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Plantas pioneiras e restauração ambiental',
+    enunciado: 'Plantas pioneiras são as que iniciam o processo natural de cicatrização de uma área desprovida de vegetação. Em geral, têm pequeno porte e crescem muito rápido, desenvolvem-se a pleno sol e são pouco exigentes quanto às condições do solo. Produzem grande quantidade de sementes e possuem ciclo de vida curto.\n\nEssas plantas são importantes em um projeto de restauração ambiental, pois promovem, no solo,',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'aumento da incidência de luz solar.' },
+      { letra: 'B', texto: 'diminuição da absorção de água.' },
+      { letra: 'C', texto: 'estabilização da umidade.' },
+      { letra: 'D', texto: 'elevação de temperatura.' },
+      { letra: 'E', texto: 'liberação de oxigênio.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 743,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Calorimetria e aquecimento de líquidos',
+    enunciado: 'Mesmo para peixes de aquário, como o peixe arco-íris, a temperatura da água fora da faixa ideal (26 °C a 28 °C), bem como sua variação brusca, pode afetar a saúde do animal. Para manter a temperatura da água dentro do aquário na média desejada, utilizam-se dispositivos de aquecimento com termostato. Por exemplo, para um aquário de 50 L, pode-se utilizar um sistema de aquecimento de 50 W otimizado para suprir sua taxa de resfriamento. Essa taxa pode ser considerada praticamente constante, já que a temperatura externa ao aquário é mantida pelas estufas. Utilize para a água o calor específico 4,0 kJ kg⁻¹ K⁻¹ e a densidade 1 kg L⁻¹.\n\nSe o sistema de aquecimento for desligado por 1 h, qual o valor mais próximo para a redução da temperatura da água do aquário?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '4,0 °C' },
+      { letra: 'B', texto: '3,6 °C' },
+      { letra: 'C', texto: '0,9 °C' },
+      { letra: 'D', texto: '0,6 °C' },
+      { letra: 'E', texto: '0,3 °C' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 744,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Quimioterapia e seletividade antitumoral',
+    enunciado: 'Em uma pesquisa estão sendo testados cinco quimioterápicos quanto à sua capacidade antitumoral. No entanto, para o tratamento de pacientes, sabe-se que é necessário verificar também o quanto cada composto agride células normais. Para o experimento, partiu-se de cultivos de células tumorais (colunas escuras na figura) e células normais (colunas claras) com o mesmo número de células iniciais. Dois grupos-controle não receberam quimioterápicos: controle de células tumorais (CT) e de células normais (CN). As colunas I, II, III, IV e V correspondem aos grupos tratados com os cinco compostos. O número de células viáveis após os tratamentos está representado pelas colunas.\n\n[IMAGEM: Gráfico de barras comparando número de células tumorais (escuras) e normais (claras) para grupos CT, I, II, III, IV, V, CN]\n\nQual quimioterápico deve ser escolhido para tratamento desse tipo de tumor?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'I' },
+      { letra: 'B', texto: 'II' },
+      { letra: 'C', texto: 'III' },
+      { letra: 'D', texto: 'IV' },
+      { letra: 'E', texto: 'V' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 745,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Extração de óleos vegetais e polaridade',
+    enunciado: 'A obtenção de óleos vegetais, de maneira geral, passa pelas etapas descritas no quadro.\n\nEtapa: Preparação da matéria-prima — Subetapas: Seleção dos grãos (Separação das sujidades mais grossas), Descascamento (Separação de polpa e casca), Trituração (Rompimento dos tecidos e das paredes das células), Cozimento (Aumento da permeabilidade das membranas celulares)\nEtapa: Extração do óleo bruto — Subetapas: Prensagem (Remoção parcial do óleo), Extração (Obtenção do óleo bruto com hexano), Destilação (Separação do óleo e do solvente)\n\nQual das subetapas do processo é realizada em função apenas da polaridade das substâncias?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Trituração.' },
+      { letra: 'B', texto: 'Cozimento.' },
+      { letra: 'C', texto: 'Prensagem.' },
+      { letra: 'D', texto: 'Extração.' },
+      { letra: 'E', texto: 'Destilação.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 746,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Dióxido de carbono e impacto ambiental',
+    enunciado: 'O dióxido de carbono passa para o estado sólido (gelo seco) a −78 °C e retorna ao estado gasoso à temperatura ambiente. O gás é facilmente solubilizado em água, capaz de absorver radiação infravermelha da superfície da terra e não conduz eletricidade. Ele é utilizado como matéria-prima para a fotossíntese até o limite de saturação. Após a fixação pelos organismos autotróficos, o gás retorna ao meio ambiente pela respiração aeróbica, fermentação, decomposição ou por resíduos industriais, queima de combustíveis fósseis e queimadas. Apesar da sua importância ecológica, seu excesso causa perturbações no equilíbrio ambiental.\n\nConsiderando as propriedades descritas, o aumento atmosférico da substância afetará os organismos aquáticos em razão da',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'redução do potencial hidrogeniônico da água.' },
+      { letra: 'B', texto: 'restrição da aerobiose pelo excesso de poluentes.' },
+      { letra: 'C', texto: 'diminuição da emissão de oxigênio pelos autótrofos.' },
+      { letra: 'D', texto: 'limitação de transferência de energia entre os seres vivos.' },
+      { letra: 'E', texto: 'retração dos oceanos pelo congelamento do gás nos polos.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 747,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Aves aquáticas e impermeabilização das penas',
+    enunciado: 'Grupos de proteção ao meio ambiente conseguem resgatar muitas aves aquáticas vítimas de vazamentos de petróleo. Essas aves são lavadas com água e detergente neutro para a retirada completa do óleo de seu corpo e, posteriormente, são aquecidas, medicadas, desintoxicadas e alimentadas. Mesmo após esses cuidados, o retorno ao ambiente não pode ser imediato, pois elas precisam recuperar a capacidade de flutuação.\n\nPara flutuar, essas aves precisam',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'recuperar o tônus muscular.' },
+      { letra: 'B', texto: 'restaurar a massa corporal.' },
+      { letra: 'C', texto: 'substituir as penas danificadas.' },
+      { letra: 'D', texto: 'restabelecer a capacidade de homeotermia.' },
+      { letra: 'E', texto: 'refazer a camada de cera impermeabilizante das penas.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 748,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Amperímetro e corrente de fuga',
+    enunciado: 'Uma pessoa percebe que a bateria de seu veículo fica descarregada após cinco dias sem uso. No início desse período, a bateria funcionava normalmente e estava com o total de sua carga nominal, de 60 Ah. Pensando na possibilidade de haver uma corrente de fuga, que se estabelece mesmo com os dispositivos elétricos do veículo desligados, ele associa um amperímetro digital ao circuito do veículo.\n\n[IMAGEM: Cinco esquemas (A a E) mostrando diferentes configurações de ligação do amperímetro ao circuito do veículo com diferentes leituras de corrente]\n\nQual dos esquemas indica a maneira com que o amperímetro deve ser ligado e a leitura por ele realizada?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Esquema A — amperímetro em paralelo, leitura 0,5 A.' },
+      { letra: 'B', texto: 'Esquema B — amperímetro em paralelo, leitura 0,5 A.' },
+      { letra: 'C', texto: 'Esquema C — amperímetro em série, sem leitura indicada.' },
+      { letra: 'D', texto: 'Esquema D — amperímetro em paralelo, leitura 12 A.' },
+      { letra: 'E', texto: 'Esquema E — amperímetro em série, leitura 12 A.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 749,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Estruturas orgânicas e cadeia poli-insaturada',
+    enunciado: 'Um microempresário do ramo de cosméticos utiliza óleos essenciais e quer produzir um creme com fragrância de rosas. O principal componente do óleo de rosas tem cadeia poli-insaturada e hidroxila em carbono terminal. O catálogo dos óleos essenciais apresenta, para escolha da essência, cinco estruturas químicas numeradas de (1) a (5).\n\n[IMAGEM: Cinco estruturas químicas de compostos orgânicos numerados (1) a (5), com diferentes graus de insaturação e grupos funcionais — OH e CHO]\n\nQual substância o empresário deverá utilizar?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1' },
+      { letra: 'B', texto: '2' },
+      { letra: 'C', texto: '3' },
+      { letra: 'D', texto: '4' },
+      { letra: 'E', texto: '5' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 750,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Lançamento horizontal e trajetória parabólica',
+    enunciado: 'Nos desenhos animados, com frequência se vê um personagem correndo na direção de um abismo, mas, ao invés de cair, ele continua andando no vazio e só quando percebe que não há nada sob seus pés é que ele para de andar e cai verticalmente. No entanto, para observar uma trajetória de queda num experimento real, pode-se lançar uma bolinha, com velocidade constante (V₀), sobre a superfície de uma mesa e verificar o seu movimento de queda até o chão.\n\n[IMAGEM: Cinco figuras (A a E) mostrando diferentes trajetórias possíveis de queda da bolinha a partir da borda de uma mesa]\n\nQual figura melhor representa a trajetória de queda da bolinha?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Figura A — queda vertical a partir da borda.' },
+      { letra: 'B', texto: 'Figura B — trajetória parabólica com componente horizontal.' },
+      { letra: 'C', texto: 'Figura C — queda vertical logo após a borda.' },
+      { letra: 'D', texto: 'Figura D — trajetória diagonal reta.' },
+      { letra: 'E', texto: 'Figura E — trajetória com curvatura acentuada.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 751,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Ondas sonoras e ressonância em cavidades',
+    enunciado: 'Dois engenheiros estão verificando se uma cavidade perfurada no solo está de acordo com o planejamento de uma obra, cuja profundidade requerida é de 30 m. O teste é feito por um dispositivo denominado oscilador de áudio de frequência variável, que permite relacionar a profundidade com os valores da frequência de duas ressonâncias consecutivas, assim como em um tubo sonoro fechado. A menor frequência de ressonância que o aparelho mediu foi 135 Hz. Considere que a velocidade do som dentro da cavidade perfurada é de 360 m s⁻¹.\n\nSe a profundidade estiver de acordo com o projeto, qual será o valor da próxima frequência de ressonância que será medida?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '137 Hz.' },
+      { letra: 'B', texto: '138 Hz.' },
+      { letra: 'C', texto: '141 Hz.' },
+      { letra: 'D', texto: '144 Hz.' },
+      { letra: 'E', texto: '159 Hz.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 752,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Transgenia e biotecnologia vegetal',
+    enunciado: 'Instituições acadêmicas e de pesquisa no mundo estão inserindo genes em genomas de plantas que possam codificar produtos de interesse farmacológico. No Brasil, está sendo desenvolvida uma variedade de soja com um viricida ou microbicida capaz de prevenir a contaminação pelo vírus causador da aids. Essa leguminosa está sendo induzida a produzir a enzima cianovirina-N, que tem eficiência comprovada contra o vírus.\n\nA técnica para gerar essa leguminosa é um exemplo de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'hibridismo.' },
+      { letra: 'B', texto: 'transgenia.' },
+      { letra: 'C', texto: 'conjugação.' },
+      { letra: 'D', texto: 'terapia gênica.' },
+      { letra: 'E', texto: 'melhoramento genético.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 753,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Fogos de artifício e poluição atmosférica',
+    enunciado: 'Megaespetáculos com queima de grande quantidade de fogos de artifício em festas de final de ano são muito comuns no Brasil. Após a queima, grande quantidade de material particulado permanece suspensa no ar. Entre os resíduos, encontram-se compostos de sódio, potássio, bário, cálcio, chumbo, antimônio, cromo, além de percloratos e gases, como os dióxidos de nitrogênio e enxofre.\n\nEsses espetáculos promovem riscos ambientais, porque',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'as substâncias resultantes da queima de fogos de artifício são inflamáveis.' },
+      { letra: 'B', texto: 'os resíduos produzidos na queima de fogos de artifício ainda são explosivos.' },
+      { letra: 'C', texto: 'o sódio e o potássio são os principais responsáveis pela toxicidade do produto da queima.' },
+      { letra: 'D', texto: 'os produtos da queima contêm metais pesados e gases tóxicos que resultam em poluição atmosférica.' },
+      { letra: 'E', texto: 'o material particulado gerado se deposita na superfície das folhas das plantas impedindo os processos de respiração celular.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 754,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Gaiola de Faraday e proteção contra raios',
+    enunciado: 'Há muitos mitos em relação a como se proteger de raios, cobrir espelhos e não pegar em facas, garfos e outros objetos metálicos, por exemplo. Mas, de fato, se houver uma tempestade com raios, alguns cuidados são importantes, como evitar ambientes abertos. Um bom abrigo para proteção é o interior de um automóvel, desde que este não seja conversível.\n\nQual o motivo físico da proteção fornecida pelos automóveis, conforme citado no texto?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Isolamento elétrico dos pneus.' },
+      { letra: 'B', texto: 'Efeito de para-raios da antena.' },
+      { letra: 'C', texto: 'Blindagem pela carcaça metálica.' },
+      { letra: 'D', texto: 'Escoamento da água pela lataria.' },
+      { letra: 'E', texto: 'Aterramento pelo fio terra da bateria.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 755,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Densidade e empuxo',
+    enunciado: 'As moedas despertam o interesse de colecionadores, numismatas e investidores há bastante tempo. Uma moeda de 100% cobre, circulante no período do Brasil Colônia, pode ser bastante valiosa. Sabendo que a densidade do cobre metálico é próxima de 9 g cm⁻³, um investidor negocia a aquisição de um lote de quatro moedas A, B, C e D fabricadas supostamente de 100% cobre e massas 26 g, 27 g, 10 g e 36 g, respectivamente. Com o objetivo de testar a densidade das moedas, foi realizado um procedimento em que elas foram sequencialmente inseridas em uma proveta contendo 5 mL de água.\n\n[IMAGEM: Série de cinco provetas mostrando variação do volume de água à medida que as moedas A, B, C e D são inseridas sequencialmente]\n\nCom base nos dados obtidos, o investidor adquiriu as moedas',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'A e B.' },
+      { letra: 'B', texto: 'A e C.' },
+      { letra: 'C', texto: 'B e C.' },
+      { letra: 'D', texto: 'B e D.' },
+      { letra: 'E', texto: 'C e D.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 756,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Poliploidia e especiação vegetal',
+    enunciado: 'Os diferentes tipos de café que consumimos nem sempre vêm da mesma espécie de planta. As duas espécies de café mais utilizadas são Coffea canephora e Coffea arabica. A primeira é diploide (2n = 22) e a segunda é tetraploide (2n = 44). Acredita-se que a espécie tetraploide surgiu de um cruzamento natural entre C. canephora e C. eugenioides, ambas diploides, há milhões de anos. De fato, as análises genéticas atuais nos cromossomos de C. arabica detectam os alelos de ambas as origens.\n\nA alteração cromossômica que poderia explicar o surgimento do café da espécie C. arabica é:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Duplicação em uma das plantas parentais antes do cruzamento.' },
+      { letra: 'B', texto: 'Inversão durante a meiose gamética em ambas as plantas parentais.' },
+      { letra: 'C', texto: 'Separação desigual na meiose gamética de uma das plantas parentais.' },
+      { letra: 'D', texto: 'Falha na separação durante a meiose gamética em ambas as plantas parentais.' },
+      { letra: 'E', texto: 'Deleções durante as primeiras mitoses zigóticas na planta descendente C. arabica.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 757,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Oxigênio dissolvido e poluição hídrica',
+    enunciado: 'Pesquisadores coletaram amostras de água de um rio em pontos diferentes, distantes alguns quilômetros um do outro. Ao longo do rio, há locais de águas limpas, como também locais que recebem descarga de esgoto de área urbana, e locais onde há decomposição ativa com ausência de peixes. Os pesquisadores analisaram dois parâmetros: oxigênio dissolvido (OD) e demanda bioquímica de oxigênio (DBO) em cada ponto de coleta de água.\n\n[IMAGEM: Gráfico com OD e DBO em mg/L nos eixos verticais e pontos de amostragem (1 a 5) no eixo horizontal, mostrando que OD cai e DBO sobe no ponto de despejo de esgoto]\n\nQual ponto de amostragem da água do rio está mais próximo ao local em que o rio recebe despejo de esgoto?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1' },
+      { letra: 'B', texto: '2' },
+      { letra: 'C', texto: '3' },
+      { letra: 'D', texto: '4' },
+      { letra: 'E', texto: '5' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 758,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Combustão do etanol e emissões de CO₂',
+    enunciado: 'O crescimento da frota de veículos em circulação no mundo tem levado à busca e desenvolvimento de tecnologias que permitam minimizar emissões de poluentes atmosféricos. O uso de veículos elétricos é uma das propostas mais propagandeadas por serem de emissão zero. Podemos comparar a emissão de carbono na forma de CO₂ (massa molar igual a 44 g mol⁻¹) para os dois tipos de carros (a combustão e elétrico). Considere que os veículos tradicionais a combustão, movidos a etanol (massa molar igual a 46 g mol⁻¹), emitem uma média de 2,6 mol de CO₂ por quilômetro rodado, e os elétricos emitem o equivalente a 0,45 mol de CO₂ por quilômetro rodado. A reação de combustão do etanol:\n\nC₂H₅OH(l) + 3 O₂(g) → 2 CO₂(g) + 3 H₂O(g)\n\nForam analisadas as emissões de CO₂ envolvidas em dois veículos, um movido a etanol e outro elétrico, em um mesmo trajeto de 1 000 km.\n\nA quantidade equivalente de etanol economizada, em quilograma, com o uso do veículo elétrico nesse trajeto, é mais próxima de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '50.' },
+      { letra: 'B', texto: '60.' },
+      { letra: 'C', texto: '95.' },
+      { letra: 'D', texto: '99.' },
+      { letra: 'E', texto: '120.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 759,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Fotossíntese e espectro luminoso',
+    enunciado: 'Em uma aula sobre metabolismo energético, foi apresentado um experimento clássico realizado por Engelmann. Um recipiente contendo bactérias aeróbias e uma alga verde filamentosa foi submetido à iluminação de uma fonte de luz, representada pelo microespectro. Após a explicação, um aluno esquematizou na lousa o resultado do referido experimento.\n\n[IMAGEM: Esquema mostrando o filamento de alga verde e bactérias aeróbias distribuídas ao longo do microespectro (Vermelho, Amarelo, Verde, Azul, Anil, Violeta), com maior concentração de bactérias nas regiões vermelho e azul]\n\nConsiderando a figura, a faixa do microespectro em que a alga possui maior taxa de realização fotossintética é a do:',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Anil.' },
+      { letra: 'B', texto: 'Verde.' },
+      { letra: 'C', texto: 'Violeta.' },
+      { letra: 'D', texto: 'Amarelo.' },
+      { letra: 'E', texto: 'Vermelho.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 760,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Parasitologia e densidade dos ovos',
+    enunciado: 'O exame parasitológico de fezes é utilizado para detectar ovos de parasitos. Um dos métodos utilizados, denominado de centrífugo-flutuação, considera a densidade dos ovos em relação a uma solução de densidade 1,15 g mL⁻¹. Assim, ovos que flutuam na superfície dessa solução são detectados. Os dados de densidade dos ovos de alguns parasitos estão apresentados na tabela:\n\nParasito / Densidade (g mL⁻¹):\nAncylostoma — 1,06\nAscaris lumbricoides — 1,11\nAscaris suum — 1,13\nSchistosoma mansoni — 1,18\nTaenia saginata — 1,30\n\nConsiderando-se a densidade dos ovos e da solução, ovos de quais parasitos podem ser detectados por esse método?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'A. lumbricoides, A. suum e S. mansoni.' },
+      { letra: 'B', texto: 'S. mansoni, T. saginata e Ancylostoma.' },
+      { letra: 'C', texto: 'Ancylostoma, A. lumbricoides e A. suum.' },
+      { letra: 'D', texto: 'T. saginata, S. mansoni e A. lumbricoides.' },
+      { letra: 'E', texto: 'A. lumbricoides, A. suum e T. saginata.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 761,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Separação de misturas e decantação',
+    enunciado: 'Em seu laboratório, um técnico em química foi incumbido de tratar um resíduo, evitando seu descarte direto no meio ambiente. Ao encontrar o frasco, observou a seguinte informação: "Resíduo: mistura de acetato de etila e água".\n\nConsidere os dados do acetato de etila:\n• Baixa solubilidade em água;\n• Massa específica = 0,9 g cm⁻³;\n• Temperatura de fusão = −83 °C;\n• Pressão de vapor maior que a da água.\n\nA fim de tratar o resíduo, recuperando o acetato de etila, o técnico deve',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'evaporar o acetato de etila sem alterar o conteúdo de água.' },
+      { letra: 'B', texto: 'filtrar a mistura utilizando um funil comum e um papel de filtro.' },
+      { letra: 'C', texto: 'realizar uma destilação simples para separar a água do acetato de etila.' },
+      { letra: 'D', texto: 'proceder a uma centrifugação da mistura para remover o acetato de etila.' },
+      { letra: 'E', texto: 'decantar a mistura separando os dois componentes em um funil adequado.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 762,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Petróleo e impacto ambiental em ecossistemas aquáticos',
+    enunciado: 'Em 2011, uma falha no processo de perfuração realizado por uma empresa petrolífera ocasionou derramamento de petróleo na bacia hidrográfica de Campos, no Rio de Janeiro.\n\nOs impactos decorrentes desse derramamento ocorrem porque os componentes do petróleo',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'reagem com a água do mar e sofrem degradação, gerando compostos com elevada toxicidade.' },
+      { letra: 'B', texto: 'acidificam o meio, promovendo o desgaste das conchas calcárias de moluscos e a morte de corais.' },
+      { letra: 'C', texto: 'dissolvem-se na água, causando a mortandade dos seres marinhos por ingestão da água contaminada.' },
+      { letra: 'D', texto: 'têm caráter hidrofóbico e baixa densidade, impedindo as trocas gasosas entre o meio aquático e a atmosfera.' },
+      { letra: 'E', texto: 'têm cadeia pequena e elevada volatilidade, contaminando a atmosfera local e regional em função dos ventos nas orlas marítimas.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 763,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Genética de populações e sistema ABO',
+    enunciado: 'Uma população encontra-se em equilíbrio genético quanto ao sistema ABO, em que 25% dos indivíduos pertencem ao grupo O e 16%, ao grupo A homozigotos. Considerando que: p = frequência de Iᴬ; q = frequência de Iᴮ; e r = frequência de i, espera-se encontrar:\n\nGrupo A: genótipos IᴬIᴬ e Iᴬi, frequências p² + 2pr\nGrupo B: genótipos IᴮIᴮ e Iᴮi, frequências q² + 2qr\nGrupo AB: genótipo IᴬIᴮ, frequência 2pq\nGrupo O: genótipo ii, frequência r²\n\nA porcentagem de doadores compatíveis para alguém do grupo B nessa população deve ser de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '11%.' },
+      { letra: 'B', texto: '19%.' },
+      { letra: 'C', texto: '26%.' },
+      { letra: 'D', texto: '36%.' },
+      { letra: 'E', texto: '60%.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 764,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Cinemática e semáforos sincronizados',
+    enunciado: 'Você foi contratado para sincronizar os quatro semáforos de uma avenida, indicados pelas letras O, A, B e C. Os semáforos estão separados por uma distância de 500 m. Segundo os dados estatísticos da companhia controladora de trânsito, um veículo, que está inicialmente parado no semáforo O, tipicamente parte com aceleração constante de 1 m s⁻² até atingir a velocidade de 72 km h⁻¹ e, a partir daí, prossegue com velocidade constante. Você deve ajustar os semáforos A, B e C de modo que eles mudem para a cor verde quando o veículo estiver a 100 m de cruzá-los, para que ele não tenha que reduzir a velocidade em nenhum momento.\n\nConsiderando essas condições, aproximadamente quanto tempo depois da abertura do semáforo O os semáforos A, B e C devem abrir, respectivamente?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '20 s, 45 s e 70 s.' },
+      { letra: 'B', texto: '25 s, 50 s e 75 s.' },
+      { letra: 'C', texto: '28 s, 42 s e 53 s.' },
+      { letra: 'D', texto: '30 s, 55 s e 80 s.' },
+      { letra: 'E', texto: '35 s, 60 s e 85 s.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 765,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Decomposição térmica do PVC e identificação de gases',
+    enunciado: 'Nos dias atuais, o amplo uso de objetos de plástico gera bastante lixo, que muitas vezes é eliminado pela população por meio da queima. Esse procedimento é prejudicial ao meio ambiente por lançar substâncias poluentes. Para constatar esse problema, um estudante analisou a decomposição térmica do policloreto de vinila (PVC).\n\n[IMAGEM: Estrutura química do Policloreto de vinila (PVC) mostrando unidades repetidas com átomos de H, C e Cl]\n\nPara realizar esse experimento, o estudante colocou uma amostra de filme de PVC em um tubo de ensaio e o aqueceu, promovendo a decomposição térmica. Houve a liberação majoritária de um gás diatômico heteronuclear que foi recolhido em um recipiente acoplado ao tubo de ensaio. Esse gás, quando borbulhado em solução alcalina diluída contendo indicador ácido-base, alterou a cor da solução. Além disso, em contato com uma solução aquosa de carbonato de sódio (Na₂CO₃), liberou gás carbônico.\n\nQual foi o gás liberado majoritariamente na decomposição térmica desse tipo de plástico?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'H₂' },
+      { letra: 'B', texto: 'Cl₂' },
+      { letra: 'C', texto: 'CO' },
+      { letra: 'D', texto: 'CO₂' },
+      { letra: 'E', texto: 'HCl' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 766,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Especiação e isolamento reprodutivo',
+    enunciado: 'Uma população (momento A) sofre isolamento em duas subpopulações (momento B) por um fator de isolamento (I). Passado um tempo, essas subpopulações apresentam características fenotípicas e genotípicas que as distinguem (momento C), representadas na figura pelas tonalidades de cor. O posterior desaparecimento do fator de isolamento I pode levar, no momento D, às situações D1 e D2.\n\n[IMAGEM: Diagrama mostrando a sequência temporal A → B → C → D (com D1 e D2), representando população original, divisão, diferenciação e possíveis resultados após remoção do isolamento]\n\nA representação indica que, no momento D, na situação',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'D1 ocorre um novo fator de isolamento geográfico.' },
+      { letra: 'B', texto: 'D1 existe uma única população distribuída em gradiente.' },
+      { letra: 'C', texto: 'D1 ocorrem duas populações separadas por isolamento reprodutivo.' },
+      { letra: 'D', texto: 'D2 coexistem duas populações com características fenotípicas distintas.' },
+      { letra: 'E', texto: 'D2 foram preservadas as mesmas características fenotípicas da população original A.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 767,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Eletrostática e eletrização por atrito',
+    enunciado: 'Tirinha do personagem Garfield (gato), em que ele esfrega os pelos na calça de seu dono e tem os pelos arrepiados ao final, com a legenda "EU ODEIO ELETRICIDADE ESTÁTICA".\n\n[IMAGEM: Tirinha do Garfield com três quadrinhos mostrando o gato se esfregando na calça do dono e ficando com os pelos eriçados por eletricidade estática]\n\nPor qual motivo ocorre a eletrização ilustrada na tirinha?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Troca de átomos entre a calça e os pelos do gato.' },
+      { letra: 'B', texto: 'Diminuição do número de prótons nos pelos do gato.' },
+      { letra: 'C', texto: 'Criação de novas partículas eletrizadas nos pelos do gato.' },
+      { letra: 'D', texto: 'Movimentação de elétrons entre a calça e os pelos do gato.' },
+      { letra: 'E', texto: 'Repulsão entre partículas elétricas da calça e dos pelos do gato.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 768,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Polímeros biodegradáveis e impacto ambiental',
+    enunciado: 'A enorme quantidade de resíduos gerados pelo consumo crescente da sociedade traz para a humanidade uma preocupação socioambiental, em especial pela quantidade de lixo produzido. Além da reciclagem e do reúso, pode-se melhorar ainda mais a qualidade de vida, substituindo polímeros convencionais por polímeros biodegradáveis.\n\nEsses polímeros têm grandes vantagens socioambientais em relação aos convencionais porque',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'não são tóxicos.' },
+      { letra: 'B', texto: 'não precisam ser reciclados.' },
+      { letra: 'C', texto: 'não causam poluição ambiental quando descartados.' },
+      { letra: 'D', texto: 'são degradados em um tempo bastante menor que os convencionais.' },
+      { letra: 'E', texto: 'apresentam propriedades mecânicas semelhantes aos convencionais.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 769,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Ecologia e fragmentação de habitats',
+    enunciado: 'A fragmentação dos hábitats é caracterizada pela formação de ilhas da paisagem original, circundadas por áreas transformadas. Esse tipo de interferência no ambiente ameaça a biodiversidade. Imagine que uma população de onças foi isolada em uma mata pequena. Elas se extinguiriam mesmo sem terem sido abatidas. Diversos componentes da ilha de hábitat, como o tamanho, a heterogeneidade, o seu entorno, a sua conectividade e o efeito de borda são determinantes para a persistência ou não das espécies originais.\n\nUma medida que auxilia na conservação da biodiversidade nas ilhas mencionadas no texto compreende a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'formação de micro-hábitats.' },
+      { letra: 'B', texto: 'ampliação do efeito de borda.' },
+      { letra: 'C', texto: 'construção de corredores ecológicos.' },
+      { letra: 'D', texto: 'promoção da sucessão ecológica.' },
+      { letra: 'E', texto: 'introdução de novas espécies de animais e vegetais.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 770,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Cinética enzimática e meia-vida',
+    enunciado: 'A sacarase (ou invertase) é uma enzima que atua no intestino humano hidrolisando o dissacarídeo sacarose nos monossacarídeos glicose e frutose. Em um estudo cinético da reação de hidrólise da sacarose (C₁₂H₂₂O₁₁), foram dissolvidos 171 g de sacarose em 500 mL de água. Observou-se que, a cada 100 minutos de reação, a concentração de sacarose foi reduzida à metade, qualquer que fosse o momento escolhido como tempo inicial. As massas molares dos elementos H, C e O são iguais a 1, 12 e 16 g mol⁻¹, respectivamente.\n\nQual é a concentração de sacarose depois de 400 minutos do início da reação de hidrólise?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '2,50 × 10⁻³ mol L⁻¹' },
+      { letra: 'B', texto: '6,25 × 10⁻² mol L⁻¹' },
+      { letra: 'C', texto: '1,25 × 10⁻¹ mol L⁻¹' },
+      { letra: 'D', texto: '2,50 × 10⁻¹ mol L⁻¹' },
+      { letra: 'E', texto: '4,27 × 10⁻¹ mol L⁻¹' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 771,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Petróleo pré-sal e ciclo do carbono',
+    enunciado: 'Grandes reservatórios de óleo leve de melhor qualidade e que produz petróleo mais fino foram descobertos no litoral brasileiro numa camada denominada pré-sal, formada há 150 milhões de anos.\n\nA utilização desse recurso energético acarreta para o ambiente um desequilíbrio no ciclo do',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'nitrogênio, devido à nitrificação ambiental transformando amônia em nitrito.' },
+      { letra: 'B', texto: 'nitrogênio, devido ao aumento dos compostos nitrogenados no ambiente terrestre.' },
+      { letra: 'C', texto: 'carbono, devido ao aumento dos carbonatos dissolvidos no ambiente marinho.' },
+      { letra: 'D', texto: 'carbono, devido à liberação das cadeias carbônicas aprisionadas abaixo dos sedimentos.' },
+      { letra: 'E', texto: 'fósforo, devido à liberação dos fosfatos acumulados no ambiente marinho.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 772,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Indução eletromagnética e geradores',
+    enunciado: 'Em uma usina geradora de energia elétrica, seja através de uma queda-d\'água ou através de vapor sob pressão, as pás do gerador são postas a girar. O movimento relativo de um ímã em relação a um conjunto de bobinas produz um fluxo magnético variável através delas, gerando uma diferença de potencial em seus terminais. Durante o funcionamento de um dos geradores, o operador da usina percebeu que houve um aumento inesperado da diferença de potencial elétrico nos terminais das bobinas.\n\nNessa situação, o aumento do módulo da diferença de potencial obtida nos terminais das bobinas resulta do aumento do(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'intervalo de tempo em que as bobinas ficam imersas no campo magnético externo, por meio de uma diminuição de velocidade no eixo de rotação do gerador.' },
+      { letra: 'B', texto: 'fluxo magnético através das bobinas, por meio de um aumento em sua área interna exposta ao campo magnético aplicado.' },
+      { letra: 'C', texto: 'intensidade do campo magnético no qual as bobinas estão imersas, por meio de aplicação de campos magnéticos mais intensos.' },
+      { letra: 'D', texto: 'rapidez com que o fluxo magnético varia através das bobinas, por meio de um aumento em sua velocidade angular.' },
+      { letra: 'E', texto: 'resistência interna do condutor que constitui as bobinas, por meio de um aumento na espessura dos terminais.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 773,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Radiação infravermelha e espectro solar',
+    enunciado: 'Herschel, em 1880, começou a escrever sobre a condensação da luz solar no foco de uma lente e queria verificar de que maneira os raios coloridos contribuem para o aquecimento. Para isso, ele projetou sobre um anteparo o espectro solar obtido com um prisma, colocou termômetros nas diversas faixas de cores e verificou nos dados obtidos que um dos termômetros iluminados indicou um aumento de temperatura maior para uma determinada faixa de frequências.\n\nPara verificar a hipótese de Herschel, um estudante montou um dispositivo com cinco recipientes contendo água, à mesma temperatura inicial, posicionados lado a lado (A, B, C, D e E) no interior de uma caixa de material isolante térmico e opaco. A luz solar, ao entrar na caixa, atravessa o prisma e incide sobre os recipientes, sendo que o recipiente A fica na região do Vermelho e o E na região do Violeta.\n\n[IMAGEM: Diagrama do experimento com prisma, caixa isolante e recipientes A a E posicionados do vermelho ao violeta do espectro solar]\n\nEm qual dos recipientes a água terá maior temperatura ao final do experimento?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'A' },
+      { letra: 'B', texto: 'B' },
+      { letra: 'C', texto: 'C' },
+      { letra: 'D', texto: 'D' },
+      { letra: 'E', texto: 'E' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 774,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Química verde e processos sustentáveis',
+    enunciado: 'A Química Verde é um ramo da química que prega o desenvolvimento de processos eficientes, que transformem a maior parte do reagente em produto, de forma mais rápida e seletiva, que utilizem poucos reagentes, que produzam somente o produto desejado, evitando a formação de coprodutos, e que utilizem solventes não agressivos ao meio ambiente. Assim, as indústrias contornariam problemas relacionados à poluição ambiental e ao desperdício de água e energia.\n\nO perfil de um processo que segue todos os princípios desse ramo da química pode ser representado por:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'A + B + C → D   (a reação ocorre a altas pressões).' },
+      { letra: 'B', texto: 'A + B → C + D   (a reação é fortemente endotérmica).' },
+      { letra: 'C', texto: 'A + 3B → C   (a reação ocorre com uso de solvente orgânico).' },
+      { letra: 'D', texto: '3A + 2B → 2C → 3D + 2E   (a reação ocorre sob pressão atmosférica).' },
+      { letra: 'E', texto: 'A + ½B → C   (a reação ocorre com o uso de um catalisador contendo um metal não tóxico).' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 775,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Refrigeração e transferência de calor',
+    enunciado: 'Os manuais de refrigerador apresentam a recomendação de que o equipamento não deve ser instalado próximo a fontes de calor, como fogão e aquecedores, ou em local onde incida diretamente a luz do sol. A instalação em local inadequado prejudica o funcionamento do refrigerador e aumenta o consumo de energia.\n\nO não atendimento dessa recomendação resulta em aumento do consumo de energia porque',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'o fluxo de calor por condução no condensador sofre considerável redução.' },
+      { letra: 'B', texto: 'a temperatura da substância refrigerante no condensador diminui mais rapidamente.' },
+      { letra: 'C', texto: 'o fluxo de calor promove significativa elevação da temperatura no interior do refrigerador.' },
+      { letra: 'D', texto: 'a liquefação da substância refrigerante no condensador exige mais trabalho do compressor.' },
+      { letra: 'E', texto: 'as correntes de convecção nas proximidades do condensador ocorrem com maior dificuldade.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 776,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Pressão hidrostática e descompressão',
+    enunciado: 'Um mergulhador fica preso ao explorar uma caverna no oceano. Dentro da caverna formou-se um bolsão de ar, onde o mergulhador se abrigou. Durante o resgate, para evitar danos a seu organismo, foi necessário que o mergulhador passasse por um processo de descompressão antes de retornar à superfície para que seu corpo ficasse novamente sob pressão atmosférica. O gráfico mostra a relação entre os tempos de descompressão recomendados para indivíduos nessa situação e a variação de pressão.\n\n[IMAGEM: Gráfico com tempo de descompressão (min) no eixo vertical (0 a 100) e variação de pressão (kPa) no eixo horizontal (0 a 700)]\n\nConsidere que a aceleração da gravidade seja igual a 10 m s⁻² e que a densidade da água seja de ρ = 1 000 kg m⁻³.\n\nEm minutos, qual é o tempo de descompressão a que o mergulhador deverá ser submetido?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '100' },
+      { letra: 'B', texto: '80' },
+      { letra: 'C', texto: '60' },
+      { letra: 'D', texto: '40' },
+      { letra: 'E', texto: '20' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 777,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Semelhança geométrica e pressão',
+    enunciado: 'A Torre Eiffel, com seus 324 metros de altura, feita com treliças de ferro, pesava 7 300 toneladas quando terminou de ser construída em 1889. Um arquiteto resolve construir um protótipo dessa torre em escala 1:100, usando os mesmos materiais (cada dimensão linear em escala de 1:100 do monumento real). Considere que a torre real tenha uma massa Mtorre e exerça na fundação sobre a qual foi erguida uma pressão Ptorre. O modelo construído pelo arquiteto terá uma massa Mmodelo e exercerá uma pressão Pmodelo.\n\nComo a pressão exercida pela torre se compara com a pressão exercida pelo protótipo? Ou seja, qual é a razão entre as pressões (Ptorre)/(Pmodelo)?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '100' },
+      { letra: 'B', texto: '10¹' },
+      { letra: 'C', texto: '10²' },
+      { letra: 'D', texto: '10⁴' },
+      { letra: 'E', texto: '10⁶' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 778,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Funções - Gráfico de lucro',
+    enunciado: 'Um administrador resolve estudar o lucro de sua empresa e, para isso, traça o gráfico da receita e do custo de produção de seus itens, em real, em função da quantidade de itens produzidos.\n\n[IMAGEM: Gráfico com curvas de Receita e Custo em função da quantidade de itens produzidos, onde a Receita tem forma de parábola com máximo e o Custo cresce de forma diferente]\n\nO lucro é determinado pela diferença: Receita – Custo.\n\nO gráfico que representa o lucro dessa empresa, em função da quantidade de itens produzidos, é',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Gráfico com lucro negativo inicial, sobe até máximo positivo e volta a ser negativo.' },
+      { letra: 'B', texto: 'Gráfico com lucro sempre negativo.' },
+      { letra: 'C', texto: 'Gráfico com lucro positivo que cresce.' },
+      { letra: 'D', texto: 'Gráfico com lucro positivo decrescente.' },
+      { letra: 'E', texto: 'Gráfico com lucro que oscila entre positivo e negativo.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 779,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Projeções ortogonais',
+    enunciado: 'Em um jogo desenvolvido para uso no computador, objetos tridimensionais vão descendo do alto da tela até alcançarem o plano da base. O usuário pode mover ou girar cada objeto durante sua descida para posicioná-lo convenientemente no plano horizontal. Um desses objetos é formado pela justaposição de quatro cubos idênticos, formando assim um sólido rígido.\n\n[IMAGEM: Sólido formado por quatro cubos em configuração em "S" ou "Z", e cinco opções (A a E) de projeções ortogonais sobre três planos perpendiculares]\n\nPara facilitar a movimentação do objeto pelo usuário, o programa projeta ortogonalmente esse sólido em três planos quadriculados perpendiculares entre si, durante sua descida.\n\nA figura que apresenta uma possível posição desse sólido, com suas respectivas projeções ortogonais sobre os três planos citados, durante sua descida é',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Figura A' },
+      { letra: 'B', texto: 'Figura B' },
+      { letra: 'C', texto: 'Figura C' },
+      { letra: 'D', texto: 'Figura D' },
+      { letra: 'E', texto: 'Figura E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 780,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Escala e miniatura',
+    enunciado: 'Um clube deseja produzir miniaturas em escala do troféu que ganhou no último campeonato. O troféu está representado na Figura 1 e é composto por uma base em formato de um paralelepípedo reto-retângulo de madeira, sobre a qual estão fixadas três hastes verticais que sustentam uma esfera de 30 cm de diâmetro, que fica centralizada sobre a base de madeira. O troféu tem 100 cm de altura, incluída sua base.\n\n[IMAGEM: Figura 1 mostrando o troféu com dimensões; Figura 2 mostrando caixa de vidro com base 10 cm × ? cm]\n\nA miniatura desse troféu deverá ser instalada no interior de uma caixa de vidro, em formato de paralelepípedo reto-retângulo, cujas dimensões internas de sua base estão indicadas na Figura 2, de modo que a base do troféu seja colada na base da caixa e distante das paredes laterais da caixa de vidro em pelo menos 1 cm. Deve ainda haver uma distância de exatos 2 cm entre o topo da esfera e a tampa dessa caixa de vidro. Nessas condições deseja-se fazer a maior miniatura possível.\n\nA medida da altura, em centímetro, dessa caixa de vidro deverá ser igual a',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '12.' },
+      { letra: 'B', texto: '14.' },
+      { letra: 'C', texto: '16.' },
+      { letra: 'D', texto: '18.' },
+      { letra: 'E', texto: '20.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 781,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Inequações - Dimensões de degraus de escada',
+    enunciado: 'Uma casa de dois andares está sendo projetada. É necessário incluir no projeto a construção de uma escada para o acesso ao segundo andar. Para o cálculo das dimensões dos degraus utilizam-se as regras:\n\n|2h + b − 63,5| ≤ 1,5 e 16 ≤ h ≤ 19,\n\nnas quais h é a altura do degrau (denominada espelho) e b é a profundidade da pisada. Por conveniência, escolheu-se a altura do degrau como sendo h = 16. As unidades de h e b estão em centímetro.\n\n[IMAGEM: Diagrama de um degrau mostrando h (altura/espelho) e b (profundidade/pisada)]\n\nNesse caso, o mais amplo intervalo numérico ao qual a profundidade da pisada (b) deve pertencer, para que as regras sejam satisfeitas é',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '30 ≤ b' },
+      { letra: 'B', texto: '30 ≤ b ≤ 31,5' },
+      { letra: 'C', texto: '30 ≤ b ≤ 33' },
+      { letra: 'D', texto: '31,5 ≤ b ≤ 33' },
+      { letra: 'E', texto: 'b ≤ 33' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 782,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Funções - Consumo de combustível e inversão de grandezas',
+    enunciado: 'Muitos modelos atuais de veículos possuem computador de bordo. Os computadores informam em uma tela diversas variações de grandezas associadas ao desempenho do carro, dentre elas o consumo médio de combustível. Um veículo, de um determinado modelo, pode vir munido de um dos dois tipos de computadores de bordo:\n\n• Tipo A: informa a quantidade X de litro de combustível gasto para percorrer 100 quilômetros;\n• Tipo B: informa a quantidade de quilômetro que o veículo é capaz de percorrer com um litro de combustível.\n\nUm veículo utiliza o computador do Tipo A, e ao final de uma viagem o condutor viu apresentada na tela a informação "X/100".\n\nCaso o seu veículo utilizasse o computador do Tipo B, o valor informado na tela seria obtido pela operação',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'X · 100' },
+      { letra: 'B', texto: 'X/100' },
+      { letra: 'C', texto: '100/X' },
+      { letra: 'D', texto: '1/X' },
+      { letra: 'E', texto: '1 · X' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 783,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Probabilidade - Amigo secreto e probabilidade condicional',
+    enunciado: 'Amigo secreto é uma brincadeira tradicional nas festas de fim de ano. Um grupo de amigos se reúne e cada um deles sorteia o nome da pessoa que irá presentear. No dia da troca de presentes, uma primeira pessoa presenteia seu amigo secreto. Em seguida, o presenteado revela seu amigo secreto e o presenteia. A brincadeira continua até que todos sejam presenteados, mesmo no caso em que o ciclo se fecha. Dez funcionários de uma empresa, entre eles um casal, participarão de um amigo secreto. A primeira pessoa a revelar será definida por sorteio.\n\nQual é a probabilidade de que a primeira pessoa a revelar o seu amigo secreto e a última presenteada sejam as duas pessoas do casal?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1/5' },
+      { letra: 'B', texto: '1/45' },
+      { letra: 'C', texto: '1/50' },
+      { letra: 'D', texto: '1/90' },
+      { letra: 'E', texto: '1/100' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 784,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Combinatória - Contagem de caminhos em malha',
+    enunciado: 'Três amigos, André, Bernardo e Carlos, moram em um condomínio fechado de uma cidade. O quadriculado representa a localização das ruas paralelas e perpendiculares, delimitando quadras de mesmo tamanho nesse condomínio, em que nos pontos A, B e C estão localizadas as casas de André, Bernardo e Carlos, respectivamente.\n\n[IMAGEM: Quadriculado com pontos A (casa de André), B (casa de Bernardo) e C (casa de Carlos) posicionados no grid]\n\nAndré deseja deslocar-se da sua casa até a casa de Bernardo, sem passar pela casa de Carlos, seguindo ao longo das ruas do condomínio, fazendo sempre deslocamentos para a direita (→) ou para cima (↑).\n\nO número de diferentes caminhos que André poderá utilizar para realizar o deslocamento nas condições propostas é',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '4.' },
+      { letra: 'B', texto: '14.' },
+      { letra: 'C', texto: '17.' },
+      { letra: 'D', texto: '35.' },
+      { letra: 'E', texto: '48.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 785,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática financeira - Custo total com frete',
+    enunciado: 'Uma pessoa precisa comprar 15 sacos de cimento para uma reforma em sua casa. Faz pesquisa de preço em cinco depósitos que vendem o cimento de sua preferência e cobram frete para entrega do material, conforme a distância do depósito à sua casa.\n\nDepósito A: R$ 23,00/saco, frete R$ 1,00/km, distância 10 km\nDepósito B: R$ 21,50/saco, frete R$ 3,00/km, distância 12 km\nDepósito C: R$ 22,00/saco, frete R$ 1,50/km, distância 14 km\nDepósito D: R$ 21,00/saco, frete R$ 3,50/km, distância 18 km\nDepósito E: R$ 24,00/saco, frete R$ 2,50/km, distância 2 km\n\nSe a pessoa decidir pela opção mais econômica, o depósito escolhido para a realização dessa compra será o',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'A.' },
+      { letra: 'B', texto: 'B.' },
+      { letra: 'C', texto: 'C.' },
+      { letra: 'D', texto: 'D.' },
+      { letra: 'E', texto: 'E.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 786,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática financeira - Planejamento de viagem e combustível',
+    enunciado: 'Um motociclista planeja realizar uma viagem cujo destino fica a 500 km de sua casa. Sua moto consome 5 litros de gasolina para cada 100 km rodados, e o tanque da moto tem capacidade para 22 litros. Pelo mapa, observou que no trajeto da viagem o último posto disponível para reabastecimento, chamado Estrela, fica a 80 km do seu destino. Ele pretende partir com o tanque da moto cheio e planeja fazer somente duas paradas para reabastecimento, uma na ida e outra na volta, ambas no posto Estrela. No reabastecimento para a viagem de ida, deve considerar também combustível suficiente para se deslocar por 200 km no seu destino.\n\nA quantidade mínima de combustível, em litro, que esse motociclista deve reabastecer no posto Estrela na viagem de ida, que seja suficiente para fazer o segundo reabastecimento, é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '13.' },
+      { letra: 'B', texto: '14.' },
+      { letra: 'C', texto: '17.' },
+      { letra: 'D', texto: '18.' },
+      { letra: 'E', texto: '21.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 787,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Funções - Volume e aeração de líquidos',
+    enunciado: 'Um processo de aeração, que consiste na introdução de ar num líquido, acontece do seguinte modo: uma bomba B retira o líquido de um tanque T1 e o faz passar pelo aerador A1, que aumenta o volume do líquido em 15%, e em seguida pelo aerador A2, ganhando novo aumento de volume de 10%. Ao final, ele fica armazenado num tanque T2.\n\n[IMAGEM: Diagrama mostrando tanque T1, bomba B, aeradores A1 e A2, e tanque T2 em sequência]\n\nOs tanques T1 e T2 são prismas retos de bases retangulares, sendo que a base de T1 tem comprimento c e largura L, e a base de T2 tem comprimento c/2 e largura 2L.\n\nA equação que relaciona as medidas das alturas y e x é dada por',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'y = 1,265x' },
+      { letra: 'B', texto: 'y = 1,250x' },
+      { letra: 'C', texto: 'y = 1,150x' },
+      { letra: 'D', texto: 'y = 1,125x' },
+      { letra: 'E', texto: 'y = x' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 788,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Razões e taxas - Tempo de deslocamento e velocidade média',
+    enunciado: 'Para chegar à universidade, um estudante utiliza um metrô e, depois, tem duas opções: seguir num ônibus, percorrendo 2,0 km; ou alugar uma bicicleta, ao lado da estação do metrô, seguindo 3,0 km pela ciclovia.\n\nO quadro fornece as velocidades médias do ônibus e da bicicleta, em km/h, no trajeto metrô–universidade:\n\nSegunda-feira: ônibus 9, bicicleta 15\nTerça-feira: ônibus 20, bicicleta 22\nQuarta-feira: ônibus 15, bicicleta 24\nQuinta-feira: ônibus 12, bicicleta 15\nSexta-feira: ônibus 10, bicicleta 18\nSábado: ônibus 30, bicicleta 16\n\nA fim de poupar tempo no deslocamento para a universidade, em quais dias o aluno deve seguir pela ciclovia?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Às segundas, quintas e sextas-feiras.' },
+      { letra: 'B', texto: 'Às terças e quintas-feiras e aos sábados.' },
+      { letra: 'C', texto: 'Às segundas, quartas e sextas-feiras.' },
+      { letra: 'D', texto: 'Às terças, quartas e sextas-feiras.' },
+      { letra: 'E', texto: 'Às terças e quartas-feiras e aos sábados.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 789,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Notação científica',
+    enunciado: 'Pesquisadores da Universidade de Tecnologia de Viena, na Áustria, produziram miniaturas de objetos em impressoras 3D de alta precisão. Ao serem ativadas, tais impressoras lançam feixes de laser sobre um tipo de resina, esculpindo o objeto desejado. O produto final da impressão é uma escultura microscópica de três dimensões.\n\nA escultura apresentada é uma miniatura de um carro de Fórmula 1, com 100 micrômetros de comprimento. Um micrômetro é a milionésima parte de um metro.\n\nUsando notação científica, qual é a representação do comprimento dessa miniatura, em metro?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1,0 × 10⁻¹' },
+      { letra: 'B', texto: '1,0 × 10⁻³' },
+      { letra: 'C', texto: '1,0 × 10⁻⁴' },
+      { letra: 'D', texto: '1,0 × 10⁻⁶' },
+      { letra: 'E', texto: '1,0 × 10⁻⁷' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 790,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Semelhança e Bandeira Nacional',
+    enunciado: 'A fabricação da Bandeira Nacional deve obedecer ao descrito na Lei n. 5.700, de 1º de setembro de 1971. O artigo que se refere às dimensões da Bandeira estabelece que: a largura é dividida em 14 partes iguais (módulos M); o comprimento é de 20 M; a distância dos vértices do losango amarelo ao quadro externo é de 1,7 M; e o raio do círculo azul no meio do losango amarelo é de 3,5 M.\n\n[IMAGEM: Esquema da Bandeira do Brasil com indicação das dimensões e do quadro externo]\n\nUm torcedor, dispondo de cortes de tecidos verde (180 cm × 150 cm) e amarelo (o quanto baste), deseja confeccionar a maior Bandeira Nacional possível a partir das medidas do tecido verde.\n\nQual a medida, em centímetro, do lado do menor quadrado de tecido azul que deverá ser comprado para confecção do círculo da bandeira desejada?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '27' },
+      { letra: 'B', texto: '32' },
+      { letra: 'C', texto: '53' },
+      { letra: 'D', texto: '63' },
+      { letra: 'E', texto: '90' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 791,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Razões e proporções - Assentos vendidos em ônibus',
+    enunciado: 'Uma empresa de ônibus utiliza um sistema de vendas de passagens que fornece a imagem de todos os assentos do ônibus, diferenciando os assentos já vendidos, por uma cor mais escura, dos assentos ainda disponíveis.\n\n[IMAGEM: Representação gráfica dos assentos de um ônibus numerados de 01 a 42, com alguns assentos marcados como vendidos (cor mais escura)]\n\nA razão entre o número de assentos já vendidos e o total de assentos desse ônibus, no instante considerado na imagem, é',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '16/42' },
+      { letra: 'B', texto: '16/26' },
+      { letra: 'C', texto: '26/42' },
+      { letra: 'D', texto: '42/26' },
+      { letra: 'E', texto: '42/16' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 792,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Escala em maquete',
+    enunciado: 'A caixa-d\'água de um edifício terá a forma de um paralelepípedo retângulo reto com volume igual a 28 080 litros. Em uma maquete que representa o edifício, a caixa-d\'água tem dimensões 2 cm × 3,51 cm × 4 cm.\n\nDado: 1 dm³ = 1 L.\n\nA escala usada pelo arquiteto foi',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1 : 10' },
+      { letra: 'B', texto: '1 : 100' },
+      { letra: 'C', texto: '1 : 1 000' },
+      { letra: 'D', texto: '1 : 10 000' },
+      { letra: 'E', texto: '1 : 100 000' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 793,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Razão eficiência/horas trabalhadas',
+    enunciado: 'Os gráficos representam a produção de peças em uma indústria e as horas trabalhadas dos funcionários no período de cinco dias. Em cada dia, o gerente de produção aplica uma metodologia diferente de trabalho. Sabe-se que, neste caso, quanto maior for a razão entre o número de peças produzidas e o número de horas trabalhadas, maior será a eficiência da metodologia.\n\n[IMAGEM: Dois gráficos de barras — um com peças produzidas por dia (800, 1000, 1100, 1800, 1400) e outro com horas trabalhadas por dia (4, 8, 5, 9, 10)]\n\nEm qual dia foi aplicada a metodologia mais eficiente?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1' },
+      { letra: 'B', texto: '2' },
+      { letra: 'C', texto: '3' },
+      { letra: 'D', texto: '4' },
+      { letra: 'E', texto: '5' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 794,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Porcelanato e área',
+    enunciado: 'O proprietário de um apartamento decidiu instalar porcelanato no piso da sala. Essa sala tem formato retangular com 3,2 m de largura e 3,6 m de comprimento. As peças do porcelanato têm formato de um quadrado com lado medindo 80 cm. Esse porcelanato é vendido em dois tipos de caixas:\n\n• Caixas do tipo A: 4 unidades de piso, R$ 35,00;\n• Caixas do tipo B: 3 unidades de piso, R$ 27,00.\n\nNa instalação do porcelanato, as peças podem ser recortadas e devem ser assentadas sem espaçamento entre elas, aproveitando-se ao máximo os recortes feitos.\n\nA compra que atende às necessidades do proprietário, proporciona a menor sobra de pisos e resulta no menor preço é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '5 caixas do tipo A.' },
+      { letra: 'B', texto: '1 caixa do tipo A e 4 caixas do tipo B.' },
+      { letra: 'C', texto: '3 caixas do tipo A e 2 caixas do tipo B.' },
+      { letra: 'D', texto: '5 caixas do tipo A e 1 caixa do tipo B.' },
+      { letra: 'E', texto: '6 caixas do tipo B.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 795,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Combinatória - Algarismos em números de quartos',
+    enunciado: 'Um hotel de 3 andares está sendo construído. Cada andar terá 100 quartos. Os quartos serão numerados de 100 a 399 e cada um terá seu número afixado à porta. Cada número será composto por peças individuais, cada uma simbolizando um único algarismo.\n\nQual a quantidade mínima de peças, simbolizando o algarismo 2, necessárias para identificar o número de todos os quartos?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '160' },
+      { letra: 'B', texto: '157' },
+      { letra: 'C', texto: '130' },
+      { letra: 'D', texto: '120' },
+      { letra: 'E', texto: '60' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 796,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Estimativa de multidão por área',
+    enunciado: 'O fenômeno das manifestações populares de massa traz à discussão como estimar o número de pessoas presentes nesse tipo de evento. Uma metodologia usada é: no momento do ápice do evento, é feita uma foto aérea da via pública principal, e subdivide-se o espaço total em trechos, quantificando a densidade: 4 pessoas/m² (andando em mesma direção), 5 pessoas/m² (movimentando-se no local) ou 6 pessoas/m² (paradas). Desconta-se 1 000 pessoas para cada carro de som fotografado.\n\n[IMAGEM: Esboço geométrico com via principal (trechos MN de 100 m, NO de 300 m, OP de 200 m), via afluente QR de 100 m (com 30 m de largura), indicando locais de pessoas andando/paradas e carros de som]\n\nSegundo a metodologia descrita, o número estimado de pessoas presentes a essa manifestação foi igual a',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '110 000.' },
+      { letra: 'B', texto: '104 000.' },
+      { letra: 'C', texto: '93 000.' },
+      { letra: 'D', texto: '92 000.' },
+      { letra: 'E', texto: '87 000.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 797,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - PNAD e porcentagem de jovens trabalhadores',
+    enunciado: 'A Pesquisa Nacional por Amostra de Domicílios (Pnad) é uma pesquisa feita anualmente pelo IBGE. Em um ano, foram entrevistados 363 mil jovens para fazer um levantamento sobre suas atividades profissionais e/ou acadêmicas. Os resultados da pesquisa estão indicados no gráfico:\n\n[IMAGEM: Gráfico de barras com percentuais de jovens em atividade entre 15 e 29 anos: Somente estuda 21,6%, Trabalha e estuda 13,6%, Somente trabalha 45,2%, Não trabalha nem estuda 19,6%]\n\nDe acordo com as informações dadas, o número de jovens entrevistados que trabalha é',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '114 708.' },
+      { letra: 'B', texto: '164 076.' },
+      { letra: 'C', texto: '213 444.' },
+      { letra: 'D', texto: '284 592.' },
+      { letra: 'E', texto: '291 582.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 798,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Logaritmos - Lei de Zipf e linearização',
+    enunciado: 'A Lei de Zipf, batizada com o nome do linguista americano George Zipf, é uma lei empírica que relaciona a frequência (f) de uma palavra em um dado texto com o seu ranking (r). Ela é dada por:\n\nf = A/r^B\n\nO ranking da palavra é a sua posição ao ordenar as palavras por ordem de frequência. Ou seja, r = 1 para a palavra mais frequente, r = 2 para a segunda palavra mais frequente e assim sucessivamente. A e B são constantes positivas.\n\nCom base nos valores de X = log(r) e Y = log(f), é possível estimar valores para A e B.\n\nNo caso hipotético em que a lei é verificada exatamente, a relação entre Y e X é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Y = log(A) − B · X' },
+      { letra: 'B', texto: 'Y = log(A) / (X + log(B))' },
+      { letra: 'C', texto: 'Y = log(A)/B − X' },
+      { letra: 'D', texto: 'Y = log(A) / (B · X)' },
+      { letra: 'E', texto: 'Y = log(A) / X^B' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 799,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Progressão geométrica - Datação por carbono-14',
+    enunciado: 'Enquanto um ser está vivo, a quantidade de carbono 14 nele existente não se altera. Quando ele morre, essa quantidade vai diminuindo. Sabe-se que a meia-vida do carbono 14 é de 5 730 anos. Assim, cientistas e arqueólogos usam a seguinte fórmula para saber a idade de um fóssil encontrado: Q(t) = Q₀ · 2^(−t/5730)\n\nem que t é o tempo, medido em ano, Q(t) é a quantidade de carbono 14 medida no instante t e Q₀ é a quantidade de carbono 14 no ser vivo correspondente.\n\nUm grupo de arqueólogos encontrou 5 fósseis e mediram a quantidade de carbono 14 neles existente:\n\nFóssil 1: Q₀ = 128, Q(t) = 32\nFóssil 2: Q₀ = 256, Q(t) = 8\nFóssil 3: Q₀ = 512, Q(t) = 64\nFóssil 4: Q₀ = 1024, Q(t) = 512\nFóssil 5: Q₀ = 2048, Q(t) = 128\n\nO fóssil mais antigo encontrado nessa expedição foi',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1.' },
+      { letra: 'B', texto: '2.' },
+      { letra: 'C', texto: '3.' },
+      { letra: 'D', texto: '4.' },
+      { letra: 'E', texto: '5.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 800,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Tronco de pirâmide e faces planas',
+    enunciado: 'Uma das Sete Maravilhas do Mundo Moderno é o Templo de Kukulkán, localizado na cidade de Chichén Itzá, no México. Geometricamente, esse templo pode ser representado por um tronco reto de pirâmide de base quadrada.\n\nAs quantidades de cada tipo de figura plana que formam esse tronco de pirâmide são',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '2 quadrados e 4 retângulos.' },
+      { letra: 'B', texto: '1 retângulo e 4 triângulos isósceles.' },
+      { letra: 'C', texto: '2 quadrados e 4 trapézios isósceles.' },
+      { letra: 'D', texto: '1 quadrado, 3 retângulos e 2 trapézios retângulos.' },
+      { letra: 'E', texto: '2 retângulos, 2 quadrados e 2 trapézios retângulos.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 801,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Planta de telhado e escoamento',
+    enunciado: 'A Figura 1 apresenta uma casa e a planta do seu telhado, em que as setas indicam o sentido do escoamento da água de chuva. Um pedreiro precisa fazer a planta do escoamento da água de chuva de um telhado que tem três caídas de água, como apresentado na Figura 2.\n\n[IMAGEM: Figura 1 com casa e planta do telhado com setas; Figura 2 com telhado de três caídas; opções A a E com diferentes configurações de setas de escoamento]\n\nA figura que representa a planta do telhado da Figura 2 com o escoamento da água de chuva que o pedreiro precisa fazer é',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Figura A' },
+      { letra: 'B', texto: 'Figura B' },
+      { letra: 'C', texto: 'Figura C' },
+      { letra: 'D', texto: 'Figura D' },
+      { letra: 'E', texto: 'Figura E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 802,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Probabilidade - Coeficiente de rendimento climático de pneus',
+    enunciado: 'Suponha que uma equipe de corrida de automóveis disponha de cinco tipos de pneu (I, II, III, IV, V), em que o fator de eficiência climática EC é:\n\n• EC do pneu I: com chuva 6, sem chuva 3;\n• EC do pneu II: com chuva 7, sem chuva −4;\n• EC do pneu III: com chuva −2, sem chuva 10;\n• EC do pneu IV: com chuva 2, sem chuva 8;\n• EC do pneu V: com chuva −6, sem chuva 7.\n\nO coeficiente de rendimento climático (CRC) de um pneu é calculado como a soma dos produtos dos fatores de EC pelas correspondentes probabilidades de se ter tais condições climáticas. No dia de certa corrida, a probabilidade de chover era de 70%.\n\nO pneu escolhido foi',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'I.' },
+      { letra: 'B', texto: 'II.' },
+      { letra: 'C', texto: 'III.' },
+      { letra: 'D', texto: 'IV.' },
+      { letra: 'E', texto: 'V.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 803,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Área e densidade superficial de papel',
+    enunciado: 'Um pé de eucalipto em idade adequada para o corte rende, em média, 20 mil folhas de papel A4. A densidade superficial do papel A4, medida pela razão da massa de uma folha desse papel por sua área, é de 75 gramas por metro quadrado, e a área de uma folha de A4 é 0,062 metro quadrado.\n\nNessas condições, quantos quilogramas de papel rende, em média, um pé de eucalipto?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '4 301' },
+      { letra: 'B', texto: '1 500' },
+      { letra: 'C', texto: '930' },
+      { letra: 'D', texto: '267' },
+      { letra: 'E', texto: '93' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 804,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Média ponderada e seleção de fornecedor',
+    enunciado: 'Com o objetivo de contratar uma empresa responsável pelo serviço de atendimento ao público, os executivos de uma agência bancária realizaram uma pesquisa de satisfação envolvendo cinco empresas especializadas nesse segmento. Os procedimentos analisados (com pesos que medem sua importância para a agência) e as respectivas notas que cada empresa recebeu estão organizados no quadro:\n\nProcedimento / Peso / Notas X, Y, Z, W, T:\nRapidez no atendimento / 3 / 5, 1, 4, 3, 4\nClareza nas informações passadas aos clientes / 5 / 1, 4, 3, 3, 2\nCortesia no atendimento / 2 / 2, 2, 2, 3, 4\n\nA agência bancária contratará a empresa com a maior média ponderada das notas obtidas nos procedimentos analisados.\n\nApós a análise dos resultados da pesquisa de satisfação, os executivos da agência bancária contrataram a empresa',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'X.' },
+      { letra: 'B', texto: 'Y.' },
+      { letra: 'C', texto: 'Z.' },
+      { letra: 'D', texto: 'W.' },
+      { letra: 'E', texto: 'T.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 805,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Probabilidade - Restituição de imposto e ordem por idade',
+    enunciado: 'O Estatuto do Idoso, no Brasil, prevê certos direitos às pessoas com idade avançada, concedendo a estas, entre outros benefícios, a restituição de imposto de renda antes dos demais contribuintes. A tabela informa os nomes e as idades de 12 idosos que aguardam suas restituições de imposto de renda. Considere que, entre os idosos, a restituição seja concedida em ordem decrescente de idade e que, em subgrupos de pessoas com a mesma idade, a ordem seja decidida por sorteio.\n\nIdosos: Orlando (89), Gustavo (86), Luana (86), Teresa (85), Márcia (84), Roberto (82), Heloisa (75), Marisa (75), Pedro (75), João (75), Antônio (72), Fernanda (70).\n\nNessas condições, a probabilidade de João ser a sétima pessoa do grupo a receber sua restituição é igual a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1/12' },
+      { letra: 'B', texto: '7/12' },
+      { letra: 'C', texto: '1/8' },
+      { letra: 'D', texto: '5/6' },
+      { letra: 'E', texto: '1/4' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 806,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Progressão aritmética - Projeção do tempo médio de estudo',
+    enunciado: 'No Brasil, o tempo necessário para um estudante realizar sua formação até a diplomação em um curso superior é de 16 anos. A realidade dos brasileiros mostra que o tempo médio de estudo de pessoas acima de 14 anos é muito pequeno, conforme apresentado na tabela:\n\nAno da Pesquisa / Tempo de estudo (em ano):\n1995 / 5,2\n1999 / 5,8\n2003 / 6,4\n2007 / 7,0\n\nConsidere que o incremento no tempo de estudo, a cada período, para essas pessoas, se mantenha constante até o ano 2050, e que se pretenda chegar ao patamar de 70% do tempo necessário à obtenção do curso superior dado anteriormente.\n\nO ano em que o tempo médio de estudo de pessoas acima de 14 anos atingirá o percentual pretendido será',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '2018.' },
+      { letra: 'B', texto: '2023.' },
+      { letra: 'C', texto: '2031.' },
+      { letra: 'D', texto: '2035.' },
+      { letra: 'E', texto: '2043.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 807,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Operações numéricas - Gotejamento e tempo para encher balde',
+    enunciado: 'Uma torneira está gotejando água em um balde com capacidade de 18 litros. No instante atual, o balde se encontra com ocupação de 50% de sua capacidade. A cada segundo caem 5 gotas de água da torneira, e uma gota é formada, em média, por 5 × 10⁻² mL de água.\n\nQuanto tempo, em hora, será necessário para encher completamente o balde, partindo do instante atual?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '2 × 10¹' },
+      { letra: 'B', texto: '1 × 10¹' },
+      { letra: 'C', texto: '2 × 10⁻²' },
+      { letra: 'D', texto: '1 × 10⁻²' },
+      { letra: 'E', texto: '1 × 10⁻³' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 808,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Progressão geométrica - Sequência de quadrados',
+    enunciado: 'Um artista gráfico fez um rascunho de uma obra na qual propunha a ideia de construção de uma sequência de infinitos quadrados, cada vez menores, uns sob os outros. O quadrado PRST, com lado de medida 1, é o ponto de partida. O segundo quadrado é construído sob ele tomando-se o ponto médio da base do quadrado anterior e criando-se um novo quadrado, cujo lado corresponde à metade dessa base. Essa sequência de construção se repete recursivamente.\n\n[IMAGEM: Figura mostrando a sequência de quadrados com lados 1, 1/2, 1/4, etc., posicionados um sob o outro]\n\nQual é a medida do lado do centésimo quadrado construído de acordo com esse padrão?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '(1/2)^100' },
+      { letra: 'B', texto: '(1/2)^99' },
+      { letra: 'C', texto: '(1/2)^97' },
+      { letra: 'D', texto: '(1/2)^−98' },
+      { letra: 'E', texto: '(1/2)^−99' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 809,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Arrecadação de perfumes e percentual de vendas',
+    enunciado: 'O gerente de uma loja de cosméticos colocou à venda cinco diferentes tipos de perfume, tendo em estoque na loja as mesmas quantidades de cada um deles. O setor de controle de estoque encaminhou ao gerente registros gráficos descrevendo os preços unitários de cada perfume, em real, e a quantidade vendida de cada um deles, em percentual, ocorrida no mês de novembro.\n\n[IMAGEM: Dois gráficos — gráfico de barras com preços dos perfumes I a V (200, 170, 150, 100, 80 R$) e gráfico de pizza com percentuais de venda (Perfume I 13%, II 10%, III 16%, IV 29%, V 32%)]\n\nDados a chegada do final de ano e o aumento das vendas, a gerência pretende aumentar a quantidade estocada do perfume do tipo que gerou a maior arrecadação em espécie, em real, no mês de novembro.\n\nNessas condições, qual o tipo de perfume que deverá ter maior reposição no estoque?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'I' },
+      { letra: 'B', texto: 'II' },
+      { letra: 'C', texto: 'III' },
+      { letra: 'D', texto: 'IV' },
+      { letra: 'E', texto: 'V' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 810,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Volume de cilindros e raio',
+    enunciado: 'Uma loja de materiais de construção vende dois tipos de caixas-d\'água: tipo A e tipo B. Ambas têm formato cilíndrico e possuem o mesmo volume, e a altura da caixa-d\'água do tipo B é igual a 25% da altura da caixa-d\'água do tipo A.\n\nSe R denota o raio da caixa-d\'água do tipo A, então o raio da caixa-d\'água do tipo B é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'R/2' },
+      { letra: 'B', texto: '2R' },
+      { letra: 'C', texto: '4R' },
+      { letra: 'D', texto: '5R' },
+      { letra: 'E', texto: '16R' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 811,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Afastamentos e área de construção em lotes',
+    enunciado: 'A lei municipal para a edificação de casas em lotes de uma cidade determina que sejam obedecidos os seguintes critérios:\n• afastamento mínimo de 4 m da rua;\n• afastamento mínimo de 1 m da divisa com outro lote;\n• área total construída da casa entre 40% e 50% da área total do lote.\n\nUm construtor submeteu para aprovação na prefeitura dessa cidade uma planta com propostas para a construção de casas em seus 5 lotes. Cada lote tem área medindo 200 m².\n\n[IMAGEM: Esquema sem escala mostrando 5 casas em lotes com medidas de afastamentos em metros para cada casa]\n\nA prefeitura aprovará apenas a planta da casa',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1.' },
+      { letra: 'B', texto: '2.' },
+      { letra: 'C', texto: '3.' },
+      { letra: 'D', texto: '4.' },
+      { letra: 'E', texto: '5.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 812,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Combinatória - Anagramas com restrição de alternância',
+    enunciado: 'Nos livros Harry Potter, um anagrama do nome do personagem "TOM MARVOLO RIDDLE" gerou a frase "I AM LORD VOLDEMORT".\n\nSuponha que Harry quisesse formar todos os anagramas da frase "I AM POTTER", de tal forma que as vogais e consoantes aparecessem sempre intercaladas, e sem considerar o espaçamento entre as letras.\n\nNessas condições, o número de anagramas formados é dado por',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '9!' },
+      { letra: 'B', texto: '4! · 5!' },
+      { letra: 'C', texto: '2 × 4! · 5!' },
+      { letra: 'D', texto: '9!/2' },
+      { letra: 'E', texto: '4! · 5!/2' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 813,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Leitura de gráfico e horas acima de 55 decibéis',
+    enunciado: 'A exposição a barulhos excessivos, como os que percebemos em geral em trânsitos intensos, casas noturnas e espetáculos musicais, podem provocar insônia, estresse, infarto, perda de audição, entre outras enfermidades. De acordo com a Organização Mundial da Saúde, todo e qualquer som que ultrapasse os 55 decibéis já pode ser considerado nocivo para a saúde. O gráfico foi elaborado a partir da medição do ruído produzido, durante um dia, em um canteiro de obras.\n\n[IMAGEM: Gráfico com eixo vertical em Decibéis (referência 55 dB) e eixo horizontal em Hora (0 a 24), mostrando curva de ruído que ultrapassa 55 dB em determinados períodos]\n\nNesse dia, durante quantas horas o ruído esteve acima de 55 decibéis?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '5' },
+      { letra: 'B', texto: '8' },
+      { letra: 'C', texto: '10' },
+      { letra: 'D', texto: '11' },
+      { letra: 'E', texto: '13' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 814,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Média e substituição de jogadores',
+    enunciado: 'O técnico de um time de basquete pretende aumentar a estatura média de sua equipe de 1,93 m para, no mínimo, 1,99 m. Para tanto, dentre os 15 jogadores que fazem parte de sua equipe, irá substituir os quatro mais baixos, de estaturas: 1,78 m, 1,82 m, 1,84 m e 1,86 m. Para isso, o técnico contratou um novo jogador de 2,02 m. Os outros três jogadores que ele ainda precisa contratar devem satisfazer à sua necessidade de aumentar a média das estaturas da equipe.\n\nQual deverá ser a média mínima das estaturas, em metro, que ele deverá fixar para o grupo de três novos jogadores que ainda irá contratar?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1,96' },
+      { letra: 'B', texto: '1,98' },
+      { letra: 'C', texto: '2,05' },
+      { letra: 'D', texto: '2,06' },
+      { letra: 'E', texto: '2,08' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 815,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Funções - Gráfico de enchimento de garrafa com variação de largura',
+    enunciado: 'O consumo de espumantes no Brasil tem aumentado nos últimos anos. Uma das etapas do seu processo de produção consiste no envasamento da bebida em garrafas semelhantes às da imagem. Nesse processo, a vazão do líquido no interior da garrafa é constante e cessa quando atinge o nível de envasamento.\n\n[IMAGEM: Garrafa com formato que varia de estreito na base para mais largo no meio e depois estreito no gargalo, com indicação do nível de envasamento]\n\nQual esboço de gráfico melhor representa a variação da altura do líquido em função do tempo, na garrafa indicada na imagem?',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Gráfico A — crescimento linear.' },
+      { letra: 'B', texto: 'Gráfico B — crescimento que desacelera e depois acelera.' },
+      { letra: 'C', texto: 'Gráfico C — crescimento que acelera depois desacelera.' },
+      { letra: 'D', texto: 'Gráfico D — crescimento que desacelera depois acelera novamente.' },
+      { letra: 'E', texto: 'Gráfico E — crescimento irregular.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 816,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática financeira - Redução percentual de mesada',
+    enunciado: 'O quadro representa os gastos mensais, em real, de uma família com internet, mensalidade escolar e mesada do filho:\n\nInternet: 120\nMensalidade escolar: 700\nMesada do filho: 400\n\nNo início do ano, a internet e a mensalidade escolar tiveram acréscimos, respectivamente, de 20% e 10%. Necessitando manter o valor da despesa mensal total com os itens citados, a família reduzirá a mesada do filho.\n\nQual será a porcentagem da redução da mesada?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '15,0' },
+      { letra: 'B', texto: '23,5' },
+      { letra: 'C', texto: '30,0' },
+      { letra: 'D', texto: '70,0' },
+      { letra: 'E', texto: '76,5' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 817,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Volume e número de bolinhas submersas',
+    enunciado: 'Num recipiente com a forma de paralelepípedo reto-retângulo, colocou-se água até a altura de 8 cm e um objeto, que ficou flutuando na superfície da água. Para retirar o objeto de dentro do recipiente, a altura da coluna de água deve ser de, pelo menos, 15 cm. Para a coluna de água chegar até essa altura, é necessário colocar dentro do recipiente bolinhas de volume igual a 6 cm³ cada, que ficarão totalmente submersas.\n\n[IMAGEM: Recipiente paralelepípedo com dimensões 4 cm × 3 cm × 17 cm, com água até 8 cm e objeto flutuando]\n\nO número mínimo de bolinhas necessárias para que se possa retirar o objeto que flutua na água, seguindo as instruções dadas, é de',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '14.' },
+      { letra: 'B', texto: '16.' },
+      { letra: 'C', texto: '18.' },
+      { letra: 'D', texto: '30.' },
+      { letra: 'E', texto: '34.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 818,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Probabilidade - Sistema ABO e tipo sanguíneo',
+    enunciado: 'Um grupo sanguíneo baseia-se na presença ou ausência de dois antígenos, A e B, na superfície das células vermelhas do sangue. Os quatro tipos sanguíneos distintos são: Tipo A (apenas antígeno A), Tipo B (apenas antígeno B), Tipo AB (ambos), Tipo O (nenhum).\n\nForam coletadas amostras de sangue de 200 pessoas. Identificou-se que em 100 amostras está presente o antígeno A, em 110 amostras há presença do antígeno B e em 20 amostras nenhum dos antígenos está presente.\n\nDessas pessoas que foram submetidas à coleta de sangue, o número das que possuem o tipo sanguíneo A é igual a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '30.' },
+      { letra: 'B', texto: '60.' },
+      { letra: 'C', texto: '70.' },
+      { letra: 'D', texto: '90.' },
+      { letra: 'E', texto: '100.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 819,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Frações e proporções - Divisão de capital entre sócios',
+    enunciado: 'Antônio, Joaquim e José são sócios de uma empresa cujo capital é dividido, entre os três, em partes proporcionais a: 4, 6 e 6, respectivamente. Com a intenção de igualar a participação dos três sócios no capital da empresa, Antônio pretende adquirir uma fração do capital de cada um dos outros dois sócios.\n\nA fração do capital de cada sócio que Antônio deverá adquirir é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1/2' },
+      { letra: 'B', texto: '1/3' },
+      { letra: 'C', texto: '1/9' },
+      { letra: 'D', texto: '2/3' },
+      { letra: 'E', texto: '4/3' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 820,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Azulejos octogonais e preenchimento de espaços',
+    enunciado: 'Azulejos no formato de octógonos regulares serão utilizados para cobrir um painel retangular. Entre os octógonos e na borda lateral dessa área, será necessária a colocação de 15 azulejos de outros formatos para preencher os 15 espaços em branco do painel. Uma loja oferece azulejos nos seguintes formatos:\n\n1 – Triângulo retângulo isósceles;\n2 – Triângulo equilátero;\n3 – Quadrado.\n\n[IMAGEM: Painel com azulejos octogonais e espaços entre eles na borda e entre os octógonos]\n\nOs azulejos necessários para o devido preenchimento das áreas em branco desse painel são os de formato',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1.' },
+      { letra: 'B', texto: '3.' },
+      { letra: 'C', texto: '1 e 2.' },
+      { letra: 'D', texto: '1 e 3.' },
+      { letra: 'E', texto: '2 e 3.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 821,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Trigonometria - Iluminação natalina em cone e raio da circunferência',
+    enunciado: 'No período de fim de ano, o síndico de um condomínio resolveu colocar, em um poste, uma iluminação natalina em formato de cone, lembrando uma árvore de Natal. A árvore deverá ser feita colocando-se mangueiras de iluminação, consideradas segmentos de reta de mesmo comprimento, a partir de um ponto situado a 3 m de altura no poste até um ponto de uma circunferência de fixação, no chão, de tal forma que esta fique dividida em 20 arcos iguais. O poste está fixado no ponto C (centro da circunferência) perpendicularmente ao plano do chão.\n\n[IMAGEM: Figura 1 mostrando iluminação real em cone; Figura 2 mostrando diagrama com poste, h = 3 m e raio c da circunferência no chão]\n\nPara economizar, ele utilizará mangueiras que juntas totalizam exatamente 100 m.\n\nPara que ele atinja seu objetivo, o raio, em metro, da circunferência deverá ser de',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '4,00.' },
+      { letra: 'B', texto: '4,87.' },
+      { letra: 'C', texto: '5,00.' },
+      { letra: 'D', texto: '5,83.' },
+      { letra: 'E', texto: '6,26.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 822,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Trigonometria - Pergolado e altura das vigas',
+    enunciado: 'Pergolado é o nome que se dá a um tipo de cobertura projetada por arquitetos, comumente em praças e jardins, para criar um ambiente para pessoas ou plantas, no qual há uma quebra da quantidade de luz, dependendo da posição do sol. É feito como um estrado de vigas iguais, postas paralelas e perfeitamente em fila.\n\nUm arquiteto projeta um pergolado com vãos de 30 cm de distância entre suas vigas, de modo que, no solstício de verão, a trajetória do sol durante o dia seja realizada num plano perpendicular à direção das vigas, e que o sol da tarde, no momento em que seus raios fizerem 30° com a posição a pino, gere a metade da luz que passa no pergolado ao meio-dia.\n\n[IMAGEM: Diagrama do pergolado com vigas de 30 cm de espaçamento e ângulo de inclinação dos raios solares]\n\nPara atender à proposta do projeto elaborado pelo arquiteto, as vigas do pergolado devem ser construídas de maneira que a altura, em centímetro, seja a mais próxima possível de',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '9.' },
+      { letra: 'B', texto: '15.' },
+      { letra: 'C', texto: '26.' },
+      { letra: 'D', texto: '52.' },
+      { letra: 'E', texto: '60.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 823,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Pôster de campanha e direitos das mulheres',
+    enunciado: 'Pôster de divulgação de uma campanha sobre direitos das mulheres. No pôster, aparece uma mulher olhando diretamente para o leitor e abaixo da imagem há uma busca no Google com as seguintes sugestões: "women shouldn\'t have rights", "women shouldn\'t vote", "women shouldn\'t work", "women shouldn\'t box". A mensagem final do pôster é: "women shouldn\'t suffer from discrimination anymore".\n\n[IMAGEM: Pôster com rosto de mulher e sugestões automáticas de busca Google mostrando discriminação contra mulheres]\n\nOs recursos usados nesse pôster de divulgação de uma campanha levam o leitor a refletir sobre a necessidade de',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'criticar o tipo de tratamento dado à mulher.' },
+      { letra: 'B', texto: 'rever o desempenho da mulher no trabalho.' },
+      { letra: 'C', texto: 'questionar a sobrecarga de atribuições da mulher.' },
+      { letra: 'D', texto: 'analisar as pesquisas acerca dos direitos da mulher.' },
+      { letra: 'E', texto: 'censurar a mulher pelo uso de determinadas palavras.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 824,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Pôster sobre diversidade cultural',
+    enunciado: 'Pôster de divulgação de uma campanha que aborda a diversidade e a inclusão. O pôster traz a frase "WE\'RE A CULTURE, NOT A COSTUME" e mostra pessoas de diferentes etnias segurando fotos de fantasias que caricaturam suas culturas, com o texto "This is NOT Who We Are, and this is NOT OK".\n\n[IMAGEM: Pôster com pessoas de diferentes etnias segurando fantasias que estereotipam suas culturas, com frase sobre identidade cultural]\n\nNesse pôster de divulgação de uma campanha que aborda a diversidade e a inclusão, a interação dos elementos verbais e não verbais faz referência ao ato de',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'estereotipar povos de certas culturas.' },
+      { letra: 'B', texto: 'discriminar hábitos de grupos minoritários.' },
+      { letra: 'C', texto: 'banir imigrantes de determinadas origens.' },
+      { letra: 'D', texto: 'julgar padrões de beleza de diversas etnias.' },
+      { letra: 'E', texto: 'desvalorizar costumes de algumas sociedades.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 825,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Poema sobre refugiados',
+    enunciado: 'A Mother in a Refugee Camp\n\nNo Madonna and Child could touch / Her tenderness for a son / She soon would have to forget... / The air was heavy with odors of diarrhea, / Of unwashed children with washed-out ribs / And dried-up bottoms waddling in labored steps / Behind blown-empty bellies. Other mothers there / Had long ceased to care, but not this one: / She held a ghost-smile between her teeth, / and in her eyes the memory / Of a mother\'s pride... She had bathed him / And rubbed him down with bare palms. / She took from their bundle of possessions / A broken comb and combed / The rust-colored hair left on his skull / And then — humming in her eyes — began carefully to part it. / In their former life this was perhaps / A little daily act of no consequence / Before his breakfast and school; now she did it / Like putting flowers on a tiny grave.\n\n(Chinua Achebe, Collected Poems, 2004)\n\nO escritor nigeriano Chinua Achebe traz uma reflexão sobre a situação dos refugiados em um cenário pós-guerra civil em seu país. Essa reflexão é construída no poema por meio da representação de uma mãe, explorando a(s)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'demonstração de orgulho por não precisar pedir doações.' },
+      { letra: 'B', texto: 'descrições artísticas detalhadas de uma obra conhecida.' },
+      { letra: 'C', texto: 'aceitação de um diagnóstico de doença terminal do filho.' },
+      { letra: 'D', texto: 'consternação ao visitar o túmulo do filho recém-falecido.' },
+      { letra: 'E', texto: 'impressões sensoriais experimentadas no ambiente.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 826,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Poema A Minor Bird de Robert Frost',
+    enunciado: 'A Minor Bird\n\nI have wished a bird would fly away, / And not sing by my house all day; / Have clapped my hands at him from the door / When it seemed as if I could bear no more. / The fault must partly have been in me. / The bird was not to blame for his key. / And of course there must be something wrong / In wanting to silence any song.\n\n(Robert Frost, West-running Brook, 1928)\n\nNo poema de Robert Frost, as palavras "fault" e "blame" revelam por parte do eu lírico uma',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'culpa por não poder cuidar do pássaro.' },
+      { letra: 'B', texto: 'atitude errada por querer matar o pássaro.' },
+      { letra: 'C', texto: 'necessidade de entender o silêncio do pássaro.' },
+      { letra: 'D', texto: 'sensibilização com relação à natureza do pássaro.' },
+      { letra: 'E', texto: 'irritação quanto à persistência do canto do pássaro.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 827,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Trecho de romance Americanah sobre identidade e cabelo natural',
+    enunciado: 'Trecho do romance Americanah da escritora nigeriana Chimamanda Ngozi Adichie. No diálogo, a cabeleireira Aisha pergunta à cliente Ifemelu sobre sua escolha de cor de cabelo e sobre por que ela não usa relaxamento. Ifemelu explica que gosta do seu cabelo natural, enquanto Aisha mostra dificuldade em entender essa escolha.\n\nA passagem do romance da escritora nigeriana traz um diálogo entre duas mulheres negras: a cabeleireira, Aisha, e a cliente, Ifemelu. O posicionamento da cliente é sustentado por argumentos que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'reforçam um padrão de beleza.' },
+      { letra: 'B', texto: 'retratam um conflito de gerações.' },
+      { letra: 'C', texto: 'revelam uma atitude de resistência.' },
+      { letra: 'D', texto: 'demonstram uma postura de imaturidade.' },
+      { letra: 'E', texto: 'evidenciam uma mudança de comportamento.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 828,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Itinerário de Pasárgada de Manuel Bandeira e funções da linguagem',
+    enunciado: '"Vou-me embora p\'ra Pasárgada" foi o poema de mais longa gestação em toda a minha obra. Vi pela primeira vez esse nome Pasárgada quando tinha os meus dezesseis anos e foi num autor grego. [...] Esse nome de Pasárgada, que significa "campo dos persas" ou "tesouro dos persas", suscitou na minha imaginação uma paisagem fabulosa, um país de delícias [...]. Gosto desse poema porque vejo nele, em escorço, toda a minha vida; [...] reconstruí e "não de uma forma imperfeita neste mundo de aparências", uma cidade ilustre, que hoje não é mais a Pasárgada de Ciro, e sim a "minha" Pasárgada.\n\n(Manuel Bandeira, Itinerário de Pasárgada, 1984)\n\nOs processos de interação comunicativa preveem a presença ativa de múltiplos elementos da comunicação, entre os quais se destacam as funções da linguagem. Nesse fragmento, a função da linguagem predominante é a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'emotiva, porque o poeta expõe os sentimentos de angústia que o levaram à criação poética.' },
+      { letra: 'B', texto: 'referencial, porque o texto informa sobre a origem do nome empregado em um famoso poema de Bandeira.' },
+      { letra: 'C', texto: 'metalinguística, porque o poeta tece comentários sobre a gênese e o processo de escrita de um de seus poemas.' },
+      { letra: 'D', texto: 'poética, porque o texto aborda os elementos estéticos de um dos poemas mais conhecidos de Bandeira.' },
+      { letra: 'E', texto: 'apelativa, porque o poeta tenta convencer os leitores sobre sua dificuldade de compor um poema.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 829,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Título do filme "Que Horas Ela Volta?" e variedade linguística',
+    enunciado: 'Cartaz do filme "Que Horas Ela Volta?", dirigido por Anna Muylaert, com Regina Casé.\n\n[IMAGEM: Cartaz do filme "Que Horas Ela Volta?" com Regina Casé e outras atrizes]\n\nA frase, título do filme, reproduz uma variedade linguística recorrente na fala de muitos brasileiros. Essa estrutura caracteriza-se pelo(a)',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'uso de uma marcação temporal.' },
+      { letra: 'B', texto: 'imprecisão do referente de pessoa.' },
+      { letra: 'C', texto: 'organização interrogativa da frase.' },
+      { letra: 'D', texto: 'utilização de um verbo de ação.' },
+      { letra: 'E', texto: 'apagamento de uma preposição.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 830,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Slam do Corpo e articulação de linguagens',
+    enunciado: '"Slam do Corpo é um encontro pensado para surdos e ouvintes, existente desde 2014, em São Paulo. Uma iniciativa pioneira do grupo Corposinalizante, criado em 2008. O termo slam vem do inglês e significa — numa nova acepção — a "poesia falada nos ritmos das palavras e da cidade". Nos saraus, o primeiro objetivo foi o de botar os poemas em Libras na roda, colocar os surdos para circular e entender esse encontro entre a poesia e a língua de sinais, compreender o encontro dessas duas línguas. O que vale é modular a voz e o corpo, um trabalho artesanal de tornar a palavra visível, numa arena cujo objetivo maior é o de emocionar a plateia."\n\n(Novelli, Revista Continente, 2016)\n\nNa prática artística mencionada no texto, o corpo assume papel de destaque ao articular diferentes linguagens com o intuito de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'imprimir ritmo e visibilidade à expressão poética.' },
+      { letra: 'B', texto: 'redefinir o espaço de circulação da poesia urbana.' },
+      { letra: 'C', texto: 'estimular produções autorais de usuários de Libras.' },
+      { letra: 'D', texto: 'traduzir expressões verbais para a língua de sinais.' },
+      { letra: 'E', texto: 'proporcionar performances estéticas de pessoas surdas.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 831,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Expressões idiomáticas regionais e história da língua',
+    enunciado: '"É possível afirmar que muitas expressões idiomáticas transmitidas pela cultura regional possuem autores anônimos, no entanto, algumas delas surgiram em consequência de contextos históricos bem curiosos. \'Aquele é um cabra da peste\' é um bom exemplo dessas construções. Para compreender essa expressão tão repetida no Nordeste brasileiro, faz-se necessário voltar o olhar para o século 16. \'Cabra\' remete à forma com que os navegadores portugueses chamavam os índios. Já \'peste\' estaria ligada à questão da superação e resistência, ou mesmo uma associação com o diabo. Assim, passou-se a utilizar tal expressão para denominar qualquer indivíduo que se mostre corajoso, ou mesmo insolente."\n\nA leitura do texto permite ao leitor entrar em contato com',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'registros do inventário do português brasileiro.' },
+      { letra: 'B', texto: 'justificativas da variedade linguística do país.' },
+      { letra: 'C', texto: 'influências da fala do nordestino no uso da língua.' },
+      { letra: 'D', texto: 'explorações do falar de um grupo social específico.' },
+      { letra: 'E', texto: 'representações da mudança linguística do português.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 832,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Metáforas para terras-raras e função das aspas',
+    enunciado: '"Cério, gadolínio, lutécio, promécio e érbio; sumário, térbio e disprósio; hólmio, túlio e itérbio. Essa lista de nomes esquisitos e pouco conhecidos pode parecer a escalação de um time de futebol. Mas esses 17 metais, chamados de terras-raras, fazem parte da vida de quase todos os humanos do planeta. Chamados por muitos de \'ouro do século 21\', \'elementos do futuro\' ou \'vitaminas da indústria\', eles estão nos materiais usados na fabricação de lâmpadas, telas de computadores, tablets e celulares, motores de carros elétricos, baterias e até turbinas eólicas."\n\n(Silveira, revistaplaneta.com.br, 2017)\n\nAs aspas sinalizam expressões metafóricas empregadas intencionalmente pelo autor do texto para',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'imprimir um tom irônico à reportagem.' },
+      { letra: 'B', texto: 'incorporar citações de especialistas à reportagem.' },
+      { letra: 'C', texto: 'atribuir maior valor aos metais, objeto da reportagem.' },
+      { letra: 'D', texto: 'esclarecer termos científicos empregados na reportagem.' },
+      { letra: 'E', texto: 'marcar a apropriação de termos de outra ciência pela reportagem.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 833,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Trecho de Canaã e expressividade da natureza',
+    enunciado: '"Na sua imaginação perturbada sentia a natureza toda agitando-se para sufocá-la. Aumentavam as sombras. No céu, nuvens colossais e túmidas rolavam para o abismo do horizonte... Na várzea, ao clarão indeciso do crepúsculo, os seres tomavam ares de monstros... As montanhas, subindo ameaçadoras da terra, perfilavam-se tenebrosas... Os caminhos, espreguiçando-se sobre os campos, animavam-se quais serpentes infinitas... As árvores soltas choravam ao vento, como carpideiras fantásticas da natureza morta..."\n\n(J. P. G. Aranha, Canaã, 1997)\n\nNo trecho, o narrador mobiliza recursos de linguagem que geram uma expressividade centrada na percepção da',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'relação entre a natureza opressiva e o desejo de libertação da personagem.' },
+      { letra: 'B', texto: 'confluência entre o estado emocional da personagem e a configuração da paisagem.' },
+      { letra: 'C', texto: 'prevalência do mundo natural em relação à fragilidade humana.' },
+      { letra: 'D', texto: 'depreciação do sentido da vida diante da consciência da morte iminente.' },
+      { letra: 'E', texto: 'instabilidade psicológica da personagem face à realidade hostil.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 834,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Águas de Março de Tom Jobim e intertextualidade',
+    enunciado: 'TEXTO I: Trecho da letra de Águas de março de Tom Jobim: "É pau, é pedra, é o fim do caminho / É um resto de toco, é um pouco sozinho / É um caco de vidro, é a vida, é o sol / É a noite, é a morte, é o laço, é o anzol / É peroba-do-campo, é o nó da madeira / Caingá, candeia, é o matita-pereira"\n\nTEXTO II: Texto sobre como Tom Jobim criou Águas de março a partir de referências diversas, combinando um poema parnasiano de Olavo Bilac e um ponto de macumba de J. B. Carvalho. O crítico destaca que o resultado vai muito além: tudo se transforma numa outra música que recompõe o mundo.\n\nAo situar a composição no panorama cultural brasileiro, o Texto II destaca o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'diálogo que a letra da canção estabelece com diferentes tradições da cultura nacional.' },
+      { letra: 'B', texto: 'singularidade com que o compositor converte referências eruditas em populares.' },
+      { letra: 'C', texto: 'caráter inovador com que o compositor concebe o processo de criação artística.' },
+      { letra: 'D', texto: 'relativização que a letra da canção promove na concepção tradicional de originalidade.' },
+      { letra: 'E', texto: 'resgate que a letra da canção promove de obras pouco conhecidas pelo público no país.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 835,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Aplicativo de futebol amador e tecnologia social',
+    enunciado: '"Muitas vezes é difícil encontrar grupos para bater uma bola. Em função disso, estão sendo disponibilizados aplicativos que reúnem times e reservam espaços para os adeptos da paixão nacional. Num exemplo dessas iniciativas, é possível organizar uma partida de futebol, se inscrever para participar de um jogo, alugar campos e quadras, convidar jogadores. O aplicativo tem dois tipos de usuários: um que o usa como ferramenta de gestão do grupo, e outro é o que busca partidas perto de onde ele está, caso de pessoas que estão de passagem numa cidade."\n\nA inter-relação entre tecnologia e sociedade tem estimulado a criação de aplicativos. Nesse texto, isso é percebido pelo desenvolvimento de aplicativos para',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'organização de eventos de competições esportivas.' },
+      { letra: 'B', texto: 'agendamento de viagens para eventos de esporte amador.' },
+      { letra: 'C', texto: 'mapeamento dos interesses dos praticantes acerca dos esportes.' },
+      { letra: 'D', texto: 'identificação da escassez de espaços para a vivência dos esportes.' },
+      { letra: 'E', texto: 'formação de grupos em comunidades virtuais para a prática esportiva.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 836,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Arte conceitual YABs e provocação estética',
+    enunciado: 'TEXTO I: Obra Mother and Child (1993) de Damien Hirst — bezerro dividido em duas partes preservadas em solução de formaldeído, em vitrine de vidro e aço.\n\n[IMAGEM: Foto da obra "Mother and Child" de Damien Hirst, mostrando animal dividido exposto em vitrine]\n\nTEXTO II: "O grupo Jovens Artistas Britânicos (YABs), que surgiu no final da década de 1980, possui obras diversificadas que incluem fotografias, instalações, pinturas e carcaças desmembradas. O trabalho desses artistas chamou a atenção no final do período da recessão, por utilizar materiais incomuns, como esterco de elefantes, sangue e legumes, o que expressava os detritos da vida e uma atmosfera de niilismo, temperada por um humor mordaz."\n\nA provocação desse grupo gera um debate em torno da obra de arte pelo(a)',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna.' },
+      { letra: 'B', texto: 'frutífero arsenal de materiais e formas que se relacionam com os objetos construídos.' },
+      { letra: 'C', texto: 'economia e problemas financeiros gerados pela recessão que tiveram grande impacto no mercado.' },
+      { letra: 'D', texto: 'influência desse grupo junto aos estilos pós-modernos que surgiram nos anos 1990.' },
+      { letra: 'E', texto: 'interesse em produtos indesejáveis que revela uma consciência sustentável no mercado.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 837,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Desigualdade de gênero no futebol e infográfico Marta/Neymar',
+    enunciado: 'Texto sobre a diferença de remuneração entre Marta e Neymar no futebol. Marta, eleita cinco vezes melhor jogadora do mundo pela Fifa, recebe US$ 400 mil por ano (US$ 3,9 mil por gol). Neymar, terceiro lugar na votação, recebe US$ 14,5 milhões por ano (US$ 290 mil por gol).\n\n[IMAGEM: Infográfico comparando dados de Marta e Neymar: salário anual, gols pela seleção e valor por gol]\n\nO esporte é uma manifestação cultural na qual se estabelecem relações sociais. Considerando o texto, o futebol é uma modalidade que',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'apresenta proximidades com o tênis, no que tange às relações de gênero entre homens e mulheres.' },
+      { letra: 'B', texto: 'se caracteriza por uma identidade masculina no Brasil, conferindo maior remuneração aos jogadores.' },
+      { letra: 'C', texto: 'traz remunerações, aos jogadores e jogadoras, proporcionais aos seus esforços no treinamento esportivo.' },
+      { letra: 'D', texto: 'resulta em melhor eficiência para as mulheres e, consequentemente, em remuneração mais alta às jogadoras.' },
+      { letra: 'E', texto: 'possui jogadores e jogadoras com a mesma visibilidade, apesar de haver expoentes femininas de destaque, como Marta.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 838,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Conto A maior ponte do mundo e reivindicações trabalhistas',
+    enunciado: '"Fomos falar com o tal encarregado, depois com um engenheiro, depois com um supervisor [...] Falei que a gente tinha o direito de sair quando a gente quisesse, e pronto. Nisso encostou um sujeito de paletó mas sem gravata, o engenheiro continuou falando e a serra cortando. Quando ele parou de falar, 50 Volts aproveitou uma parada da serra e falou que a gente não era bicho pra trabalhar daquele jeito; daí o supervisor falou que, se era falta de mulher, eles davam um jeito. O engenheiro falou que tinha mais de vinte companhias trabalhando na ponte, a maioria com prejuízo, porque era mais uma questão de honra, a gente tinha de acabar a ponte, a nossa companhia nunca ia esquecer nosso trabalho ali naquela ponte, um orgulho nacional."\n\n(D. Pellegrini, A maior ponte do mundo, 2005)\n\nAs reivindicações dos operários, quanto às condições aviltantes de trabalho a que são submetidos, recebem algumas tentativas de neutralização dos representantes do empregador, das quais a mais forte é o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'sequência de atribuição de responsabilidades e de poder decisório a terceiros.' },
+      { letra: 'B', texto: 'solicitação em nome dos prejuízos e compromissos para entrega da obra.' },
+      { letra: 'C', texto: 'intimidação pela discreta presença de um agente de segurança na cena.' },
+      { letra: 'D', texto: 'promessa de imediato atendimento da carência sexual dos operários.' },
+      { letra: 'E', texto: 'apelo pela identificação com a empresa extensiva ao amor patriótico.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 839,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Aptidão física e desigualdade social',
+    enunciado: '"Uma das mais contundentes críticas ao discurso da aptidão física relacionada à saúde está no caráter eminentemente individual de suas propostas, o que serve para obscurecer outros determinantes da saúde. Ou seja, costuma-se apresentar o indivíduo como o problema e a mudança do estilo de vida como a solução. O fato é que vivemos numa sociedade dividida em classes sociais, na qual nem todas as pessoas têm condições econômicas para adotar um estilo de vida ativo e saudável. Há desigualdades estruturais com raízes políticas, econômicas e sociais que dificultam a adoção desses estilos de vida."\n\n(Ferreira, RBCE, 2001)\n\nCom base no texto, a relação entre saúde e estilos de vida',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'constrói a ideia de que a mudança individual de hábitos promove a saúde.' },
+      { letra: 'B', texto: 'considera a homogeneidade da escolha de hábitos saudáveis pelos indivíduos.' },
+      { letra: 'C', texto: 'reforça a necessidade de solucionar os problemas de saúde da sociedade com a prática de exercícios.' },
+      { letra: 'D', texto: 'problematiza a organização social e seu impacto na mudança de hábitos dos indivíduos.' },
+      { letra: 'E', texto: 'reproduz a noção de que a melhoria da aptidão física pela prática de exercícios promove a saúde.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 840,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Poema Retrato de Homem e descrição lírica',
+    enunciado: '"Retrato de homem\n\nA paisagem estrita / ao apuro do muro / feito vértebra a vértebra / e escuro. / A geração dos pelos / sobre a casca e os rostos / em seus diques de sombra / repostos. / Os poços com seu lodo / de ira e de tensão: / entre cimento e fronte / — um vão. [...] / E na armadura de coisa / salobra, um só segredo: / a polpa toda é fruição / de medo."\n\n(L. C. Araújo, Cantochão, 1967)\n\nNo poema, a descrição lírica do objeto representado é orientada por um olhar que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'desvela sentimentos de vazio e angústia sob a aparente austeridade.' },
+      { letra: 'B', texto: 'expressa desilusão ante a possibilidade de superação do sofrimento.' },
+      { letra: 'C', texto: 'contrapõe a fragilidade emocional ao uso desmedido da força física.' },
+      { letra: 'D', texto: 'associa a incomunicabilidade emocional às determinações culturais.' },
+      { letra: 'E', texto: 'privilegia imagens relacionadas à exposição do dinamismo urbano.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 841,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Petição em cordel e linguagem jurídica',
+    enunciado: '"Senhor Juiz\n\nO instrumento do \'crime\' que se arrola / Nesse processo de contravenção / Não é faca, revólver ou pistola, / Simplesmente, doutor, é um violão. // Será crime, afinal, será pecado, / Será delito de tão vis horrores, / Perambular na rua um desgraçado / Derramando nas praças suas dores? // [...] / É o apelo que aqui lhe dirigimos, / Na certeza do seu acolhimento / Juntada desta aos autos nós pedimos / E pedimos, enfim, deferimento."\n\n(Disponível em: migalhas.com.br)\n\nEssa petição de habeas corpus, ao transgredir o rigor da linguagem jurídica,',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'permite que a narrativa seja objetiva e repleta de sentidos denotativos.' },
+      { letra: 'B', texto: 'mostra que o cordel explora termos próprios da esfera do direito.' },
+      { letra: 'C', texto: 'demonstra que o jogo de linguagem proposto atenua a gravidade do delito.' },
+      { letra: 'D', texto: 'exemplifica como o texto em forma de cordel compromete a solicitação pretendida.' },
+      { letra: 'E', texto: 'esclarece que os termos "crime" e "processo de contravenção" são sinônimos.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 842,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Empreendedorismo de palco e padrões de linguagem',
+    enunciado: '"Se, antigamente, os livros, enormes e com suas setecentas páginas, cuspiam fórmulas, equações e cálculos que te ensinavam a lidar com o fluxo de caixa da sua empresa, hoje eles dizem: \'Você irá chegar lá! Acredite, você irá vencer!\'. Mindset, empoderamento, millennials, networking, coworking, deal, business, deadline, salesman com perfil hunter... O pacote de livros é sempre idêntico e as experiências são passadas da mesma forma: você está a um único centímetro da vitória. [...] O problema é que o seu mindset não está ajustado."\n\n(Carvalho, medium.com, 2017)\n\nDe acordo com o texto, é possível identificar o "empreendedor de palco" por',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'livros por ele indicados.' },
+      { letra: 'B', texto: 'suas habilidades em língua inglesa.' },
+      { letra: 'C', texto: 'experiências por ele compartilhadas.' },
+      { letra: 'D', texto: 'padrões de linguagem por ele utilizados.' },
+      { letra: 'E', texto: 'preços acessíveis de seus treinamentos.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 843,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Canção Leão do Norte e cultura nordestina',
+    enunciado: '"Sou o coração do folclore nordestino / Eu sou Mateus e Bastião do Boi-bumbá / Sou o boneco de Mestre Vitalino / Dançando uma ciranda em Itamaracá / Eu sou um verso de Carlos Pena Filho / Num frevo de Capiba / Ao som da Orquestra Armorial / Sou Capibaribe / Num livro de João Cabral / Sou mamulengo de São Bento do Una / Vindo no baque solto de maracatu / Eu sou um auto de Ariano Suassuna / No meio da Feira de Caruaru [...]"\n\n(Lenine e Paulinho Tapajós, Leão do Norte, 1993)\n\nO fragmento faz parte da canção brasileira contemporânea e celebra a cultura popular nordestina. Nele, o artista exalta as diferentes manifestações culturais pela',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'valorização do teatro, música, artesanato, literatura, dança, personagens históricos e artistas populares, compondo um tecido diversificado e enriquecedor da cultura popular como patrimônio regional e nacional.' },
+      { letra: 'B', texto: 'identificação dos lugares pernambucanos, manifestações culturais, como o bumba meu boi, as cirandas, os bonecos mamulengos e heróis locais, fazendo com que essa canção se apresente como uma referência à cultura popular nordestina.' },
+      { letra: 'C', texto: 'exaltação das raízes populares, como a poesia, a literatura de cordel e o frevo, misturadas ao erudito, como a Orquestra Armorial, compondo um rico tecido cultural, que transforma o popular em erudito.' },
+      { letra: 'D', texto: 'caracterização das festas populares como identidade cultural localizada e como representantes de uma cultura que reflete valores históricos e sociais próprios da população local.' },
+      { letra: 'E', texto: 'apresentação do Pastoril do Faceta, do maracatu, do bumba meu boi e dos autos como representação da musicalidade e do teatro popular religioso, bastante comum ao folclore brasileiro.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 844,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Anúncio "Respeita as Torcedoras" e violência de gênero',
+    enunciado: 'Anúncio publicitário com o título "Respeita as torcedoras!" e os seguintes elementos: "Conversar? ✓ Torcer juntos? ✓ Tocar sem permissão? ✗ Empurrar? ✗ / Se sentiu desrespeitada? Denuncie: disque 180" com hashtags #respeitaasminas e #geralnapaz.\n\n[IMAGEM: Anúncio publicitário do Ministério do Esporte com slogan "Respeita as torcedoras!" e símbolos de certo/errado para condutas]\n\nEsse anúncio publicitário propõe soluções para um problema social recorrente, ao',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'promover ações de conscientização para reduzir a violência de gênero em eventos esportivos.' },
+      { letra: 'B', texto: 'estimular o compartilhamento de políticas públicas sobre a igualdade de gênero no esporte.' },
+      { letra: 'C', texto: 'divulgar para a população as novas regras complementares para as torcidas de futebol.' },
+      { letra: 'D', texto: 'informar ao público masculino as consequências de condutas ofensivas.' },
+      { letra: 'E', texto: 'regulamentar normas de boa convivência nos estádios.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 845,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Conto importado vermelho de Noé e repetições',
+    enunciado: '"Eu tenho empresas e sou digno do visto para ir a Nova York. O dinheiro que chove em Nova York é para pessoas com poder de compra. [...] Estou indo para Nova York, onde está chovendo dinheiro. Sou um grande administrador. Sim, está chovendo dinheiro em Nova York. Deu no rádio. Vejo que há pedestres invadindo a via onde trafega o meu carro vermelho, importado da Alemanha. Vejo que há carros nacionais trafegando pela via onde trafega o meu carro vermelho, importado da Alemanha. Ao chegar em Nova York, tomarei providências."\n\n(Affonso Romano de Sant\'Anna, O importado vermelho de Noé, 2001)\n\nAs repetições e as frases curtas constituem procedimentos linguísticos importantes para a compreensão da temática do texto, pois',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'expressam a futilidade do discurso de poder e de distinção do narrador.' },
+      { letra: 'B', texto: 'disfarçam a falta de densidade das angústias existenciais narradas.' },
+      { letra: 'C', texto: 'ironizam a valorização da cultura norte-americana pelos brasileiros.' },
+      { letra: 'D', texto: 'explicitam a ganância financeira do capitalismo contemporâneo.' },
+      { letra: 'E', texto: 'criticam os estereótipos sociais das visões de mundo elitistas.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 846,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Decreto sobre gerúndio e continuidade de processo',
+    enunciado: '"DECRETO N. 28 314, DE 28 DE SETEMBRO DE 2007\nDemite o Gerúndio do Distrito Federal e dá outras providências.\nO GOVERNADOR DO DISTRITO FEDERAL [...] DECRETA:\nArt. 1° Fica demitido o Gerúndio de todos os órgãos do Governo do Distrito Federal.\nArt. 2° Fica proibido, a partir desta data, o uso do gerúndio para desculpa de INEFICIÊNCIA."\n\nEsse decreto pauta-se na ideia de que o uso do gerúndio, como "desculpa de ineficiência", indica',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'conclusão de uma ação.' },
+      { letra: 'B', texto: 'realização de um evento.' },
+      { letra: 'C', texto: 'repetição de uma prática.' },
+      { letra: 'D', texto: 'continuidade de um processo.' },
+      { letra: 'E', texto: 'transferência de responsabilidade.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 847,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Arte conceitual One and Three Chairs de Kosuth',
+    enunciado: 'A obra de Joseph Kosuth (1965) se constitui por uma fotografia de cadeira, uma cadeira exposta e um quadro com o verbete "Cadeira". Trata-se de um exemplo de arte conceitual que revela o paradoxo entre verdade e imitação.\n\n[IMAGEM: Obra "One and Three Chairs" de Kosuth, mostrando uma cadeira real, sua fotografia e a definição de cadeira em um dicionário]\n\nA obra de Joseph Kosuth data de 1965 e se constitui por uma fotografia de cadeira, uma cadeira exposta e um quadro com o verbete "Cadeira". Trata-se de um exemplo de arte conceitual que revela o paradoxo entre verdade e imitação, já que a arte',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'não é a realidade, mas uma representação dela.' },
+      { letra: 'B', texto: 'fundamenta-se na repetição, construindo variações.' },
+      { letra: 'C', texto: 'não se define, pois depende da interpretação do fruidor.' },
+      { letra: 'D', texto: 'resiste ao tempo, beneficiada por múltiplas formas de registro.' },
+      { letra: 'E', texto: 'redesenha a verdade, aproximando-se das definições lexicais.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 848,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Realidade virtual e experiência sensorial',
+    enunciado: 'Imagem mostrando uma pessoa usando óculos de realidade virtual com elementos digitais ao redor da cabeça.\n\n[IMAGEM: Pessoa usando headset de realidade virtual com ícones de diversas áreas do conhecimento ao redor]\n\nA realidade virtual é uma tecnologia de informação que, conforme sugere a imagem, tem como uma de suas principais funções',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'promover a manipulação eficiente de conhecimentos e informações de difícil compreensão no mundo físico.' },
+      { letra: 'B', texto: 'conduzir escolhas profissionais da área de ciência da computação, oferecendo um leque de opções de atuação.' },
+      { letra: 'C', texto: 'transferir conhecimento da inteligência artificial para as áreas tradicionais, como as das ciências exatas e naturais.' },
+      { letra: 'D', texto: 'levar o ser humano a experimentar mentalmente outras realidades, para as quais é transportado sem sair de seu próprio lugar.' },
+      { letra: 'E', texto: 'delimitar tecnologias exclusivas de jogos virtuais, a fim de oferecer maior emoção ao jogador por meio de outras realidades.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 849,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Caetano Veloso, Alegria Alegria e tipos textuais',
+    enunciado: '"Caminhando contra o vento, / Sem lenço e sem documento / No sol de quase dezembro / Eu vou // O sol se reparte em crimes / Espaçonaves, guerrilhas / Em cardinales bonitas / Eu vou // Em caras de presidentes / Em grandes beijos de amor / Em dentes, pernas, bandeiras / Bombas e Brigitte Bardot / O sol nas bancas de revista / Me enche de alegria e preguiça / Quem lê tanta notícia / Eu vou"\n\n(Caetano Veloso, Alegria Alegria, 1967)\n\nÉ comum coexistirem sequências tipológicas em um mesmo gênero textual. Nesse fragmento, os tipos textuais que se destacam na organização temática são',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'descritivo e argumentativo, pois o enunciador detalha cada lugar por onde passa, argumentando contra a violência urbana.' },
+      { letra: 'B', texto: 'dissertativo e argumentativo, pois o enunciador apresenta seu ponto de vista sobre as notícias relativas à cidade.' },
+      { letra: 'C', texto: 'expositivo e injuntivo, pois o enunciador fala de seus estados físicos e psicológicos e interage com a mulher amada.' },
+      { letra: 'D', texto: 'narrativo e descritivo, pois o enunciador conta sobre suas andanças pelas ruas da cidade ao mesmo tempo que a descreve.' },
+      { letra: 'E', texto: 'narrativo e injuntivo, pois o enunciador ensina o interlocutor como andar pelas ruas da cidade contando sobre sua própria experiência.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 850,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - MC Fioti, Bum bum tam tam e intertextualidade musical',
+    enunciado: '"Leandro Aparecido Ferreira, o MC Fioti, compôs em 2017 a música Bum bum tam tam, que gerou, em nove meses, 480 milhões de visualizações no YouTube. É o funk brasileiro mais ouvido na história do site. A partir de uma gravação da flauta que achou na internet, MC Fioti fez tudo sozinho [...]. A \'flauta envolvente\' da música é um trecho da Partita em Lá menor, escrita pelo alemão Johann Sebastian Bach por volta de 1723."\n\nA incorporação de um trecho da obra para flauta solo de Johann Sebastian Bach na música de MC Fioti demonstra a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'influência permanente da cultura eurocêntrica nas produções musicais brasileiras.' },
+      { letra: 'B', texto: 'homenagem aos referenciais estéticos que deram origem às produções da música popular.' },
+      { letra: 'C', texto: 'necessidade de divulgar a música de concerto nos meios populares nas periferias das grandes cidades.' },
+      { letra: 'D', texto: 'utilização desintencional de uma música excessivamente distante da realidade cultural dos jovens brasileiros.' },
+      { letra: 'E', texto: 'inter-relação de elementos culturais vindos de realidades distintas na construção de uma nova proposta musical.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 851,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Canção Seu Delegado e humor da confusão genealógica',
+    enunciado: '"Eu sou viúvo e tenho um filho homem / Arrumei uma viúva e fui me casar / A minha sogra era muito teimosa / Com o meu filho foi se matrimoniar / Desse matrimônio nasceu um garoto / Desde esse dia que eu ando é louco / Esse garoto é filho do meu filho / E o filho da minha sogra é irmão da minha mulher / Ele é meu neto e eu sou cunhado dele / A minha nora é minha sogra / Meu filho meu sogro é / Nessa confusão já nem sei quem sou / Acaba esse garoto sendo meu avô."\n\n(Trio Forrozão, Agitando a rapaziada, 2009)\n\nNessa letra da canção, a suposição do último verso sinaliza a intenção do autor de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ironizar as relações familiares modernas.' },
+      { letra: 'B', texto: 'reforçar o humor da situação representada.' },
+      { letra: 'C', texto: 'expressar perplexidade em relação ao parente.' },
+      { letra: 'D', texto: 'atribuir à criança a causa da dúvida existencial.' },
+      { letra: 'E', texto: 'questionar os lugares predeterminados da família.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 852,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Campanha Poesia em Cartaz e lambe-lambe',
+    enunciado: 'TEXTO I: Texto sobre o projeto #UmLambePorDia, do escritor Leonardo Beltrão, que coloca cartazes de poesia coloridos nas ruas de Belo Horizonte com o objetivo de "trazer mais cor e alegria para a cidade por meio de cartazes coloridos ao estilo lambe-lambe" e "nos lembrar de reparar na cidade, na vida que corre ao redor e também em nós mesmos."\n\nTEXTO II: Fotografia de um cartaz colado em um poste com a frase: "ONTEM, FUI DORMIR COM SAUDADES DE MIM E HOJE, SUBITAMENTE, VOLTEI."\n\n[IMAGEM: Cartaz lambe-lambe com frase poética colado em poste na rua]\n\nConsiderando-se a função que os cartazes colados em postes normalmente exercem nas ruas das cidades grandes, esse texto evidencia a',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'disseminação da arte poética em um veículo não convencional.' },
+      { letra: 'B', texto: 'manutenção da expectativa das pessoas ao andarem pelas ruas.' },
+      { letra: 'C', texto: 'necessidade de exposição de poemas pequenos em diferentes suportes.' },
+      { letra: 'D', texto: 'característica corriqueira do suporte lambe-lambe, muito comum nas ruas.' },
+      { letra: 'E', texto: 'exposição da beleza escondida das esquinas da cidade de Belo Horizonte.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 853,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Os da Minha Rua de Ondjaki e memória afetiva da infância',
+    enunciado: '"A vida às vezes é como um jogo brincado na rua: estamos no último minuto de uma brincadeira bem quente e não sabemos que a qualquer momento pode chegar um mais velho a avisar que a brincadeira já acabou e está na hora de jantar. [...] O Carnaval também chegava sempre de repente. Nós, as crianças, vivíamos num tempo fora do tempo, sem nunca sabermos dos calendários de verdade. O \'dia da véspera do Carnaval\', como dizia a avó Nhé, era dia de confusão com roupas e pinturas a serem preparadas, sonhadas e inventadas. Mas quando acontecia era um dia rápido, porque os dias mágicos passam depressa deixando marcas fundas na nossa memória, que alguns chamam também de coração."\n\n(Ondjaki, Os da minha rua, 2007)\n\nAs significações afetivas engendradas no fragmento pressupõem o reconhecimento da',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'perspectiva infantil assumida pela voz narrativa.' },
+      { letra: 'B', texto: 'suspensão da linearidade temporal da narração.' },
+      { letra: 'C', texto: 'tentativa de materializar lembranças da infância.' },
+      { letra: 'D', texto: 'incidência da memória sobre as imagens narradas.' },
+      { letra: 'E', texto: 'alternância entre impressões subjetivas e relatos factuais.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 854,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Futebol feminino no videogame e igualdade de gênero',
+    enunciado: '"Em 2000 tivemos a primeira experiência do futebol feminino em um jogo de videogame, o Mia Hamm Soccer. Doze anos depois, uma petição on-line pedia que a EA Sports incluísse o futebol feminino no Fifa 13. Contudo, só em 2015, com uma nova petição on-line, que arrecadou milhares de assinaturas, tivemos o futebol feminino incluído no Fifa 16. Vendo um nicho de mercado inexplorado, a EA Sports produziu o jogo com 12 seleções femininas e o apresentou como inovação."\n\nOs jogos eletrônicos presentes na cultura juvenil podem desempenhar uma relevante função na abordagem do futebol ao',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'disseminarem uma modalidade, promovendo a igualdade de gênero.' },
+      { letra: 'B', texto: 'superarem jogos malsucedidos no mercado, lançados anteriormente.' },
+      { letra: 'C', texto: 'inovarem a modalidade com novas ofertas de jogos ao mercado.' },
+      { letra: 'D', texto: 'explorarem nichos de mercado antes ignorados, produzindo mais lucro.' },
+      { letra: 'E', texto: 'reforçarem estereótipos de gênero masculino ou feminino nos esportes.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 855,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Definição de Luta e educação física',
+    enunciado: '"LUTA: prática corporal imprevisível, caracterizada por determinado estado de contato proposital, que possibilita a duas ou mais pessoas se enfrentarem numa constante troca de ações ofensivas e/ou defensivas, regida por regras, com o objetivo mútuo sobre um alvo móvel personificado no oponente."\n\nDe acordo com o texto, podemos identificar uma abordagem das lutas nas aulas de educação física quando o professor realiza uma proposta envolvendo',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'contato corporal intenso entre o aluno e seu oponente.' },
+      { letra: 'B', texto: 'contenda entre os alunos que se agridem fisicamente.' },
+      { letra: 'C', texto: 'confronto corporal em que os vencedores são previamente identificados.' },
+      { letra: 'D', texto: 'combate corporal intencional com ações regulamentadas entre os oponentes.' },
+      { letra: 'E', texto: 'conflito resolvido pelos alunos por meio de regras previamente estabelecidas.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 856,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Conceito ampliado de saúde e determinantes sociais',
+    enunciado: 'Diagrama do conceito de saúde formulado na histórica VIII Conferência Nacional de Saúde (1986), também conhecido como "conceito ampliado" de saúde. O diagrama mostra camadas concêntricas com os determinantes sociais, comunitários, condições de vida e de trabalho, estilo de vida dos indivíduos, e fatores hereditários no centro.\n\n[IMAGEM: Diagrama circular com camadas representando os determinantes sociais da saúde, da esfera mais ampla (Condições Socioeconômicas, Culturais e Ambientais) até o núcleo (Idade, sexo e fatores hereditários)]\n\nCom base no conceito apresentado no texto, a saúde é consequência direta do(a)',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'adoção de um estilo de vida ativo por parte dos indivíduos.' },
+      { letra: 'B', texto: 'disponibilidade de emprego no mercado de trabalho.' },
+      { letra: 'C', texto: 'condição habitacional presente nas cidades.' },
+      { letra: 'D', texto: 'acesso ao sistema educacional.' },
+      { letra: 'E', texto: 'forma de organização social.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 857,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Relato de viagem em Portugal e argumento de autoridade externa',
+    enunciado: '"Em abril deste ano, fomos a Portugal para uma viagem de um mês que esperávamos há um ano. Pois no dia 4 de maio, chegávamos ao Aeroporto Francisco Sá Carneiro, no Porto. Que linda a \'antiga, muy nobre, sempre leal e invicta\' cidade do Porto! \'Encantei-me\', diriam eles... pelas belas paisagens, construções históricas com lindas fachadas, parques e praças muito bem cuidados. Os tripeiros, sinônimo de portuenses, têm orgulho de sua cidade, apelidada de Invicta — nunca foi invadida. E valorizam tudo o que há de bom ali, como \'a melhor estrada para se dirigir do mundo\', a Nacional 222."\n\nNesse texto, busca-se seduzir o leitor por meio da exploração de uma voz externa sobre a identidade histórica do povo português. O trecho que evidencia esse procedimento argumentativo é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '"Que linda a \'antiga, muy nobre, sempre leal e invicta\' cidade do Porto!".' },
+      { letra: 'B', texto: '"\'Encantei-me\', diriam eles... pelas belas paisagens, construções históricas com lindas fachadas [...]".' },
+      { letra: 'C', texto: '"Os tripeiros, sinônimo de portuenses, têm orgulho de sua cidade [...]".' },
+      { letra: 'D', texto: '"E valorizam tudo o que há de bom ali, como \'a melhor estrada para se dirigir do mundo\' [...]".' },
+      { letra: 'E', texto: '"Pois na manhã do 25 de abril, dia da Revolução dos Cravos, resolvemos conhecer a tal maravilha".' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 858,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Hino à Bandeira e função da descrição',
+    enunciado: '"Hino à Bandeira\n\nEm teu seio formoso retratas / Este céu de puríssimo azul, / A verdura sem par destas matas, / E o esplendor do Cruzeiro do Sul. // Contemplando o teu vulto sagrado, / Compreendemos o nosso dever, / E o Brasil por seus filhos amado, / Poderoso e feliz há de ser! // Sobre a imensa Nação Brasileira, / Nos momentos de festa ou de dor, / Paira sempre sagrada bandeira / Pavilhão da justiça e do amor!"\n\n(Olavo Bilac e Francisco Braga)\n\nNo Hino à Bandeira, a descrição é um recurso utilizado para exaltar o símbolo nacional na medida em que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'remete a um momento futuro.' },
+      { letra: 'B', texto: 'promove a união dos cidadãos.' },
+      { letra: 'C', texto: 'valoriza os seus elementos.' },
+      { letra: 'D', texto: 'emprega termos religiosos.' },
+      { letra: 'E', texto: 'recorre à sua história.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 859,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Os Ratos de Dyonélio Machado e conflito social',
+    enunciado: '"— O senhor pensa que eu tenho alguma fábrica de dinheiro? (O diretor diz essas coisas a ele, mas olha para todos como quem quer dar uma explicação a todos. Todas as caras sorriem.) Quando seu filho esteve doente, eu o ajudei como pude. Não me peça mais nada. Não me encarregue de pagar as suas contas: já tenho as minhas, e é o que me basta... (Risos.) / O diretor tem o rosto escanhoado, a camisa limpa. A palavra possui um tom educado, de pessoa que convive com gente inteligente, causeuse. [...] Naziazeno espera que ele lhe dê as costas, vá reatar a palestra interrompida, aquelas observações sobre a questão social, comunismo e integralismo."\n\n(Dyonélio Machado, Os ratos)\n\nA ficção modernista explorou tipos humanos em situação de conflito social. No fragmento do romancista gaúcho, esse conflito revela a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'sujeição moral amplificada pela pobreza.' },
+      { letra: 'B', texto: 'crise econômica em expansão nas cidades.' },
+      { letra: 'C', texto: 'falta de diálogo entre patrões e empregados.' },
+      { letra: 'D', texto: 'perspicácia marcada pela formação intelectual.' },
+      { letra: 'E', texto: 'tensão política gerada pelas ideologias vigentes.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 860,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Policarpo Quaresma e uso da norma-padrão em petição',
+    enunciado: '"Policarpo Quaresma, cidadão brasileiro, funcionário público, certo de que a língua portuguesa é emprestada ao Brasil; [...] usando do direito que lhe confere a Constituição, vem pedir que o Congresso Nacional decrete o tupi-guarani como língua oficial e nacional do povo brasileiro."\n\n(Lima Barreto, Triste fim de Policarpo Quaresma)\n\nNessa petição da pitoresca personagem do romance de Lima Barreto, o uso da norma-padrão justifica-se pela',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'situação social de enunciação representada.' },
+      { letra: 'B', texto: 'divergência teórica entre gramáticos e literatos.' },
+      { letra: 'C', texto: 'pouca representatividade das línguas indígenas.' },
+      { letra: 'D', texto: 'atitude irônica diante da língua dos colonizadores.' },
+      { letra: 'E', texto: 'tentativa de solicitação do documento demandado.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 861,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Exergames e prática de atividade física',
+    enunciado: '"Atualmente os jovens estão imersos numa sociedade permeada pela tecnologia. Nesse contexto, os jogos digitais são artefatos muito empregados. Videogames ativos ou exergames foram introduzidos como forma de permitir que o corpo controlasse tais jogos. Como resultado, passaram a ser vistos como uma ferramenta auxiliar na adoção de um estilo de vida menos sedentário, com efeitos positivos sobre a saúde. Tem-se defendido que os exergames podem contribuir para a prática regular de atividade física moderada, bem como promover a interação entre jogadores, reduzindo o sentimento de isolamento social."\n\nPela sua interatividade, os exergames apresentam-se como possibilidade para estimular o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'exercitação física, promovendo a saúde.' },
+      { letra: 'B', texto: 'vivência de exercícios físicos sistemáticos.' },
+      { letra: 'C', texto: 'envolvimento com atividades físicas ao longo da vida.' },
+      { letra: 'D', texto: 'jogo por meio de comandos fornecidos pelo videogame.' },
+      { letra: 'E', texto: 'disputa entre jogadores, contribuindo para o individualismo.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 862,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Preconceito algorítmico e tecnologia',
+    enunciado: '"Quando quis agilizar o processo de seleção de novos alunos, a tradicional faculdade britânica de medicina St. George usou um software para definir quem deveria ser entrevistado. Ao reproduzir a forma como os funcionários faziam essa escolha, o programa eliminou, de cara, 60 de 2 000 candidatos. Só por causa do sexo ou da origem racial, numa dedução baseada em sobrenome e local de nascimento. [...] O exemplo recente envolve o buscador do Google: ao digitar nomes comuns entre negros dos EUA, a chance de os anúncios automáticos oferecerem checagem de antecedentes criminais pode aumentar 25%."\n\nO texto permite o desnudamento da sociedade ao relacionar as tecnologias de informação e comunicação com o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'agilidade dos softwares.' },
+      { letra: 'B', texto: 'passar dos anos.' },
+      { letra: 'C', texto: 'linguagem.' },
+      { letra: 'D', texto: 'preconceito.' },
+      { letra: 'E', texto: 'educação.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 863,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Campanha de adoção e adoção tardia',
+    enunciado: 'Campanha publicitária com foto de grupo de adultos jovens com texto sobreposto identificando a idade de adoção de cada um: "Rodrigo, adotado aos 13 anos", "Sinomar, adotado aos 29 anos", "Bruno, ganhou novos irmãos a partir dos 3 anos", "Débora, adotou aos 27 anos", "Andre, adotado aos 15 anos", "Francisco, adotado aos 8 anos". O slogan: "Adoção. Pra encontrar a sua verdadeira família, não existe idade".\n\n[IMAGEM: Campanha publicitária de adoção com grupo de pessoas adultas adotadas em diferentes idades e o slogan sobre adoção]\n\nNessa campanha publicitária, a imagem da família e o texto verbal unem-se para reforçar a ideia de que',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'a família que adota é mais feliz.' },
+      { letra: 'B', texto: 'a adoção tardia é muito positiva.' },
+      { letra: 'C', texto: 'as famílias preferem adotar bebês.' },
+      { letra: 'D', texto: 'a adoção de adolescentes é mais simples.' },
+      { letra: 'E', texto: 'os filhos adotivos são companheiros dos pais.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 864,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Em busca de Curitiba perdida de Dalton Trevisan',
+    enunciado: '"Viajo Curitiba das conferências positivistas, elas são onze em Curitiba, há treze no mundo inteiro; do tocador de realejo que não roda a manivela desde que o macaquinho morreu; dos bravos soldados do fogo que passam chispando no carro vermelho atrás do incêndio que ninguém não viu, esta Curitiba e a do cachorro-quente com chope duplo no Buraco do Tatu eu viajo. // Curitiba, aquela do Burro Brabo, um cidadão misterioso morreu nos braços da Rosicler, quem foi? quem não foi? [...] Curitiba sem pinheiro ou céu azul, pelo que vosmecê é — província, cárcere, lar —, esta Curitiba, e não a outra para inglês ver, com amor eu viajo, viajo, viajo."\n\n(Dalton Trevisan, Em busca de Curitiba perdida, 1992)\n\nA tematização de Curitiba é frequente na obra de Dalton Trevisan. No fragmento, a relação do narrador com o espaço urbano é caracterizada por um olhar',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'destituído de afetividade, que ironiza os costumes e as tradições da sociedade curitibana.' },
+      { letra: 'B', texto: 'marcado pela negatividade, que busca desconstruir perspectivas habituais de representação da cidade.' },
+      { letra: 'C', texto: 'carregado de melancolia, que constata a falta de identidade cultural diante dos impactos da urbanização.' },
+      { letra: 'D', texto: 'embevecido pela simplicidade do cenário, indiferente à descrição de elementos de reconhecido valor histórico.' },
+      { letra: 'E', texto: 'distanciado dos elementos narrados, que recorre ao ponto de vista do viajante como expressão de estranhamento.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 865,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geopolítica - Balança comercial Brasil-China e assimetria',
+    enunciado: '"Embora inegáveis os benefícios que ambas as economias têm auferido do intercâmbio comercial, o Brasil tem reiterado seu objetivo de desenvolver com a China uma relação comercial menos assimétrica. Os números revelam com clareza a assimetria. As exportações brasileiras de produtos básicos, especialmente soja, minério de ferro e petróleo, compõem, dependendo do ano, algo entre 75% e 80% da pauta, ao passo que as importações brasileiras consistem, aproximadamente, em 95% de produtos industrializados chineses."\n\nUma ação estatal de longo prazo capaz de reduzir a assimetria na balança comercial brasileira, conforme exposto no texto, é o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'expansão do setor extrativista.' },
+      { letra: 'B', texto: 'incremento da atividade agrícola.' },
+      { letra: 'C', texto: 'diversificação da matriz energética.' },
+      { letra: 'D', texto: 'fortalecimento da pesquisa científica.' },
+      { letra: 'E', texto: 'monitoramento do fluxo alfandegário.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 866,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Paradoxo rural brasileiro e emprego não agrícola',
+    enunciado: '"As estatísticas mais recentes do Brasil rural revelam um paradoxo que interessa a toda sociedade: o emprego de natureza agrícola definha em praticamente todo o país, mas a população residente no campo voltou a crescer; ou pelo menos parou de cair. Esses sinais trocados sugerem que a dinâmica agrícola, embora fundamental, já não determina sozinha os rumos da demografia no campo. Esse novo cenário é explicado em parte pelo incremento do emprego não agrícola no campo."\n\nSobre o espaço brasileiro, o texto apresenta argumentos que refletem a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'heterogeneidade do modo de vida agrário.' },
+      { letra: 'B', texto: 'redução do fluxo populacional nas cidades.' },
+      { letra: 'C', texto: 'correlação entre força de trabalho e migração sazonal.' },
+      { letra: 'D', texto: 'indissociabilidade entre local de moradia e acesso à renda.' },
+      { letra: 'E', texto: 'desregulamentação das propriedades nas zonas de fronteira.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 867,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Feminização do trabalho e precarização',
+    enunciado: '"Nas últimas décadas, uma acentuada feminização no mundo do trabalho vem ocorrendo. Se a participação masculina pouco cresceu no período pós-1970, a intensificação da inserção das mulheres foi o traço marcante. Entretanto, essa presença feminina se dá mais no espaço dos empregos precários, onde a exploração, em grande medida, se encontra mais acentuada."\n\nA transformação descrita no texto tem sido insuficiente para o estabelecimento de uma condição de igualdade de oportunidade em virtude da(s)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'estagnação de direitos adquiridos e do anacronismo da legislação vigente.' },
+      { letra: 'B', texto: 'manutenção do status quo gerencial e dos padrões de socialização familiar.' },
+      { letra: 'C', texto: 'desestruturação da herança patriarcal e das mudanças do perfil ocupacional.' },
+      { letra: 'D', texto: 'disputas na composição sindical e da presença na esfera político-partidária.' },
+      { letra: 'E', texto: 'exigências de aperfeiçoamento profissional e de habilidades na competência diretiva.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 868,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Direito - Função social da propriedade e reforma agrária',
+    enunciado: '"A propriedade compreende, em seu conteúdo e alcance, além do tradicional direito de uso, gozo e disposição por parte de seu titular, a obrigatoriedade do atendimento de sua função social, cuja definição é inseparável do requisito obrigatório do uso racional da propriedade e dos recursos ambientais que lhe são integrantes. O proprietário, como membro integrante da comunidade, se sujeita a obrigações crescentes que, ultrapassando os limites do direito de vizinhança, no âmbito do direito privado, abrangem o campo dos direitos da coletividade, visando o bem-estar geral, no âmbito do direito público."\n\nOs movimentos em prol da reforma agrária, que atuam com base no conceito de direito à propriedade apresentado no texto, propõem-se a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'reverter o processo de privatização fundiária.' },
+      { letra: 'B', texto: 'ressaltar a inviabilidade da produção latifundiária.' },
+      { letra: 'C', texto: 'defender a desapropriação dos espaços improdutivos.' },
+      { letra: 'D', texto: 'impedir a produção exportadora nas terras agricultáveis.' },
+      { letra: 'E', texto: 'coibir o funcionamento de empresas agroindustriais no campo.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 869,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Metrópoles e expansão periférica no Brasil',
+    enunciado: '"A expansão das cidades e a formação das aglomerações urbanas no Brasil foram marcadas pela produção industrial e pela consolidação das metrópoles como locais de seu desenvolvimento. Na segunda metade do século XX, as metrópoles brasileiras estenderam-se por áreas de ocupação contínua, configurando densas regiões urbanizadas."\n\nO resultado do processo geográfico descrito foi o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'valorização da escala local.' },
+      { letra: 'B', texto: 'crescimento das áreas periféricas.' },
+      { letra: 'C', texto: 'densificação do transporte ferroviário.' },
+      { letra: 'D', texto: 'predomínio do planejamento estadual.' },
+      { letra: 'E', texto: 'inibição de consórcios intermunicipais.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 870,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Rotação de culturas no agreste nordestino',
+    enunciado: 'Imagem representando a "Zona de pastoreio e cultura do algodão e cereais do agreste (1963)", com calendário circular mostrando os ciclos de pastoreio, plantio e colheita ao longo dos meses do ano.\n\n[IMAGEM: Calendário circular dividido em setores mensais mostrando atividades agropecuárias: pastoreio, plantio e limpa, crescimento, colheita de feijão, milho verde, milho seco e algodão]\n\nA dinâmica produtiva apresentada na imagem tem como estratégia central a',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'separação pelo tipo de solo.' },
+      { letra: 'B', texto: 'exportação da colheita sazonal.' },
+      { letra: 'C', texto: 'priorização da tecnologia moderna.' },
+      { letra: 'D', texto: 'adequação pelo tempo da natureza.' },
+      { letra: 'E', texto: 'intensificação da atividade pecuária.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 871,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Menocchio, imprensa e Reforma Protestante',
+    enunciado: '"Dois grandes eventos históricos tornaram possível um caso como o de Menocchio: a invenção da imprensa e a Reforma. A imprensa lhe permitiu confrontar os livros com a tradição oral em que havia crescido e lhe forneceu as palavras para organizar o amontoado de ideias e fantasias que nele conviviam. A Reforma lhe deu audácia para comunicar o que pensava ao padre do vilarejo, conterrâneos, inquisidores — mesmo não tendo conseguido dizer tudo diante do papa, dos cardeais e dos príncipes."\n\n(Carlo Ginzburg, O queijo e os vermes, 2006)\n\nOs acontecimentos históricos citados ajudaram esse indivíduo, no século XVI, a repensar a visão católica do mundo ao possibilitarem a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'consulta pública das bibliotecas reais.' },
+      { letra: 'B', texto: 'sofisticação barroca do ritual litúrgico.' },
+      { letra: 'C', texto: 'aceitação popular da educação secular.' },
+      { letra: 'D', texto: 'interpretação autônoma dos textos bíblicos.' },
+      { letra: 'E', texto: 'correção doutrinária das heresias medievais.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 872,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Alice no País das Maravilhas e referencial de localização',
+    enunciado: '"\'Devo estar chegando perto do centro da Terra. Deixe ver: deve ter sido mais de seis mil quilômetros, por aí...\' (como se vê, Alice tinha aprendido uma porção de coisas desse tipo na escola [...]) \'... sim, deve ser mais ou menos essa a distância... mas então qual seria a latitude ou longitude em que estou?\' (Alice não tinha a menor ideia do que fosse latitude ou longitude, mas achou que eram palavras muito imponentes)."\n\n(Lewis Carroll, Aventuras de Alice, 1980)\n\nO texto descreve uma confusão da personagem em relação',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ao tipo de projeção cartográfica.' },
+      { letra: 'B', texto: 'aos contornos dos fusos horários.' },
+      { letra: 'C', texto: 'à localização do norte magnético.' },
+      { letra: 'D', texto: 'aos referenciais de posição relativa.' },
+      { letra: 'E', texto: 'às distorções das formas continentais.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 873,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Arte rupestre africana e transmissão do conhecimento oral',
+    enunciado: '"A arte pré-histórica africana foi incontestavelmente um veículo de mensagens pedagógicas e sociais. Os San, que constituem hoje o povo mais próximo da realidade das representações rupestres, afirmam que seus antepassados lhes explicaram sua visão do mundo a partir desse gigantesco livro de imagens que são as galerias. A educação dos povos que desconhecem a escrita está baseada sobretudo na imagem e no som, no audiovisual."\n\nDe acordo com o texto, a arte mencionada é importante para os povos que a cultivam por colaborar para o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'transmissão dos saberes acumulados.' },
+      { letra: 'B', texto: 'expansão da propriedade individual.' },
+      { letra: 'C', texto: 'ruptura da disciplina hierárquica.' },
+      { letra: 'D', texto: 'surgimento dos laços familiares.' },
+      { letra: 'E', texto: 'rejeição de práticas exógenas.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 874,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Solipsismo e realidade externa',
+    enunciado: '"Será que as coisas lhe pareceriam diferentes se, de fato, todas elas existissem apenas na sua mente — se tudo o que você julgasse ser o mundo externo real fosse apenas um sonho ou alucinação gigante, de que você jamais fosse despertar? Se assim fosse, então é claro que você nunca poderia despertar, como faz quando sonha, pois significaria que não há mundo \'real\' no qual despertar. Logo, não seria exatamente igual a um sonho ou alucinação normal."\n\n(Thomas Nagel, Uma breve introdução à filosofia, 2011)\n\nO texto confere visibilidade a uma doutrina filosófica contemporânea conhecida como:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Personalismo, que vincula a realidade circundante aos domínios do pessoal.' },
+      { letra: 'B', texto: 'Falsificacionismo, que estabelece ciclos de problemas para refutar uma conjectura.' },
+      { letra: 'C', texto: 'Falibilismo, que rejeita mecanismos mentais para sustentar uma crença inequívoca.' },
+      { letra: 'D', texto: 'Idealismo, que nega a existência de objetos independentemente do trabalho cognoscente.' },
+      { letra: 'E', texto: 'Solipsismo, que reconhece limitações cognitivas para compreender uma experiência compartilhada.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 875,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Água na agricultura e técnicas de irrigação',
+    enunciado: 'A demanda mundial para a produção de alimentos aumenta progressivamente a taxas muito altas. Atualmente, na maioria dos países, continentes e regiões, a água consumida na agricultura é de cerca de 70% da disponibilidade total.\n\nPara que haja a redução da pressão sobre o recurso natural mencionado, a expansão da agricultura demanda melhorias no(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'fertilização química do solo.' },
+      { letra: 'B', texto: 'escoamento hídrico do terreno.' },
+      { letra: 'C', texto: 'manutenção de poços artesianos.' },
+      { letra: 'D', texto: 'eficiência das técnicas de irrigação.' },
+      { letra: 'E', texto: 'velocidade das máquinas colheitadeiras.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 876,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geopolítica - Estratégia militar dos EUA e hegemonia global',
+    enunciado: 'No caso do Departamento de Defesa dos Estados Unidos, a ênfase está posta no traçado de uma estratégia geral de desarticulação, não só dos inimigos reais como dos potenciais, inserida na concepção preventiva que supõe que a mínima dissidência é um sinal de perigo e de guerra futura. Deve-se ter capacidade para responder a uma guerra convencional tanto quanto para enfrentar um inimigo difuso, atentando simultaneamente para todas as áreas geográficas do planeta. Trata-se, sem dúvida, da estratégia com pretensões mais abrangentes que se desenvolveu até agora.\n\nTomando o texto como parâmetro, qual tendência contemporânea impulsiona a formulação de estratégias mais abrangentes por parte do Estado americano?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Erradicação dos conflitos em territórios.' },
+      { letra: 'B', texto: 'Propagação de organizações em redes.' },
+      { letra: 'C', texto: 'Eliminação das diferenças regionais.' },
+      { letra: 'D', texto: 'Ampliação de modelo democrático.' },
+      { letra: 'E', texto: 'Projeção da diplomacia mundial.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 877,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Planejamento urbano e crescimento das cidades',
+    enunciado: 'O planejamento deixou de controlar o crescimento urbano e passou a encorajá-lo por todos os meios possíveis e imagináveis. Cidades, a nova mensagem soou em alto e bom som, eram máquinas de produzir riquezas; o primeiro e principal objetivo do planejamento devia ser o de azeitar a máquina.\n\nO modelo de planejamento urbano problematizado no texto é marcado pelo(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'primazia da gestão popular.' },
+      { letra: 'B', texto: 'uso de práticas sustentáveis.' },
+      { letra: 'C', texto: 'construção do bem-estar social.' },
+      { letra: 'D', texto: 'soberania do poder governamental.' },
+      { letra: 'E', texto: 'ampliação da participação empresarial.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 878,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Escudos cristalinos e recursos minerais no Brasil',
+    enunciado: 'Escudos antigos ou maciços cristalinos são blocos imensos de rochas antigas. Estes escudos são constituídos por rochas cristalinas (magmático-plutônicas), formadas em eras pré-cambrianas, ou por rochas metamórficas (material sedimentar) do Paleozoico. São resistentes, estáveis, porém bastante desgastadas. Correspondem a 36% da área territorial e dividem-se em duas grandes porções: o Escudo das Guianas (norte da Planície Amazônica) e o Escudo Brasileiro (porção centro-oriental brasileira).\n\nAs estruturas geológicas indicadas no texto são importantes economicamente para o Brasil por concentrarem',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'fontes de águas termais.' },
+      { letra: 'B', texto: 'afloramentos de sal-gema.' },
+      { letra: 'C', texto: 'jazidas de minerais metálicos.' },
+      { letra: 'D', texto: 'depósitos de calcário agrícola.' },
+      { letra: 'E', texto: 'reservas de combustível fóssil.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 879,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - A morte de Ivan Ilitch e o existencialismo',
+    enunciado: 'Em A morte de Ivan Ilitch, Tolstoi descreve com detalhes repulsivos o terror de encarar a morte iminente. Ilitch adoece depois de um pequeno acidente e logo compreende que se encaminha para o fim de modo impossível de parar. "Nas profundezas de seu coração, ele sabia estar morrendo, mas em vez de se acostumar com a ideia, simplesmente não o fazia e não conseguia compreendê-la".\n\nO texto descreve a experiência do personagem de Tolstoi diante de um aspecto incontornável de nossas vidas. Esse aspecto foi um tema central na tradição filosófica',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'marxista, no contexto do materialismo histórico.' },
+      { letra: 'B', texto: 'logicista, no propósito de entendimento dos fatos.' },
+      { letra: 'C', texto: 'utilitarista, no sentido da racionalidade das ações.' },
+      { letra: 'D', texto: 'pós-modernista, na discussão da fluidez das relações.' },
+      { letra: 'E', texto: 'existencialista, na questão do reconhecimento de si.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 880,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - América Latina e Divisão Internacional do Trabalho',
+    enunciado: 'A Divisão Internacional do Trabalho significa que alguns países se especializam em ganhar e outros, em perder. Nossa comarca no mundo, que hoje chamamos América Latina, foi precoce: especializou-se em perder desde os remotos tempos em que os europeus do Renascimento se aventuraram pelos mares e lhe cravaram os dentes na garganta. Passaram-se os séculos e a América Latina aprimorou suas funções.\n\nEscrito na década de 1970, o texto considera a participação da América Latina na Divisão Internacional do Trabalho marcada pela',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'produção inovadora de padrões de tecnologia.' },
+      { letra: 'B', texto: 'superação paulatina do caráter agroexportador.' },
+      { letra: 'C', texto: 'apropriação imperialista dos recursos territoriais.' },
+      { letra: 'D', texto: 'valorização econômica dos saberes tradicionais.' },
+      { letra: 'E', texto: 'dependência externa do suprimento de alimentos.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 881,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Código de Hamurabi e organização jurídica babilônica',
+    enunciado: 'Sexto rei sumério (governante entre os séculos XVIII e XVII a.C.) e nascido em Babel, "Khammu-rabi" foi fundador do I Império Babilônico, unificando amplamente o mundo mesopotâmico. O nome de Hamurabi permanece indissociavelmente ligado ao código jurídico tido como o mais remoto já descoberto: o Código de Hamurabi. O legislador babilônico consolidou a tradição jurídica, harmonizou os costumes e estendeu o direito e a lei a todos os súditos.\n\nNesse contexto de organização da vida social, as leis contidas no Código citado tinham o sentido de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'assegurar garantias individuais aos cidadãos livres.' },
+      { letra: 'B', texto: 'tipificar regras referentes aos atos dignos de punição.' },
+      { letra: 'C', texto: 'conceder benefícios de indulto aos prisioneiros de guerra.' },
+      { letra: 'D', texto: 'promover distribuição de terras aos desempregados urbanos.' },
+      { letra: 'E', texto: 'conferir prerrogativas políticas aos descendentes de estrangeiros.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 882,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Ética protestante e ressignificação do trabalho na modernidade',
+    enunciado: 'Desde o mundo antigo e sua filosofia, que o trabalho tem sido compreendido como expressão de vida e degradação, criação e infelicidade, atividade vital e escravidão, felicidade social e servidão. Trabalho e fadiga. Na Modernidade, sob o comando do mundo da mercadoria e do dinheiro, a prevalência do negócio (negar o ócio) veio sepultar o império do repouso, da folga e da preguiça, criando uma ética positiva do trabalho.\n\nO processo de ressignificação do trabalho nas sociedades modernas teve início a partir do surgimento de uma nova mentalidade, influenciada pela',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'reforma higienista, que combateu o caráter excessivo e insalubre do trabalho fabril.' },
+      { letra: 'B', texto: 'Reforma Protestante, que expressou a importância das atividades laborais no mundo secularizado.' },
+      { letra: 'C', texto: 'força do sindicalismo, que emergiu no esteio do anarquismo reivindicando direitos trabalhistas.' },
+      { letra: 'D', texto: 'participação das mulheres em movimentos sociais, defendendo o direito ao trabalho.' },
+      { letra: 'E', texto: 'visão do catolicismo, que, desde a Idade Média, defendia a dignidade do trabalho e do lucro.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 883,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Neoliberalismo nos anos 1990 e retração do Estado',
+    enunciado: 'É difícil imaginar que nos anos 1990, num país com setores da população na pobreza absoluta e sem uma rede de benefícios sociais em que se apoiar, um governo possa abandonar o papel de promotor de programas de geração de emprego, de assistência social, de desenvolvimento da infraestrutura e de promoção de regiões excluídas, na expectativa de que o mercado venha algum dia a dar uma resposta adequada a tudo isso.\n\nNesse contexto, a criticada postura dos governos frente à situação social do país coincidiu com a priorização de que medidas?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Expansão dos investimentos nas empresas públicas e nos bancos estatais.' },
+      { letra: 'B', texto: 'Democratização do crédito habitacional e da aquisição de moradias populares.' },
+      { letra: 'C', texto: 'Enxugamento da carga fiscal individual e da contribuição tributária empresarial.' },
+      { letra: 'D', texto: 'Reformulação do acesso ao ensino superior e do financiamento científico nacional.' },
+      { letra: 'E', texto: 'Reforma das políticas macroeconômicas e dos mecanismos de controle inflacionário.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 884,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Rodovias e escoamento do agronegócio no Centro-Oeste',
+    enunciado: 'O conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos territórios. Como há uma elevação da formação de fluxos, materiais e imateriais, a crescente articulação com as escalas que vão do local ao global terminam por pressionar o Estado a agir visando uma instalação no território de fixos diversos, bem como de uma regulação específica.\n\n[IMAGEM: Mapa do Brasil destacando a Região Centro-Oeste com rodovias longitudinais, diagonais e radiais (BR-158, BR-163, BR-070, BR-364, BR-153, entre outras)]\n\nO mapa e o texto se complementam indicando que a expansão das rodovias se deu como resposta ao(à)',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'alteração da matriz econômica.' },
+      { letra: 'B', texto: 'substituição do modal hidroviário.' },
+      { letra: 'C', texto: 'retração do contingente demográfico.' },
+      { letra: 'D', texto: 'projeção do escoamento produtivo.' },
+      { letra: 'E', texto: 'estagnação de lavouras policultoras.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 885,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Quadrilha e abrasileiramento de termos franceses',
+    enunciado: 'Um dos resquícios franceses na dança são os comandos proferidos pelo marcador da quadrilha. Seu papel é anunciar os próximos passos da coreografia. O abrasileiramento de termos franceses deu origem, por exemplo, ao saruê (soirée — reunião social noturna, ordem para todos se juntarem no centro do salão), anarriê (en arrière — para trás) e anavã (en avant — para frente).\n\nA característica apresentada dessa manifestação popular resulta do seguinte processo socio-histórico:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Massificação da arte erudita.' },
+      { letra: 'B', texto: 'Rejeição de hábitos elitistas.' },
+      { letra: 'C', texto: 'Laicização dos rituais religiosos.' },
+      { letra: 'D', texto: 'Restauração dos costumes antigos.' },
+      { letra: 'E', texto: 'Apropriação de práticas estrangeiras.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 886,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Vale do Grande Rift e rifteamento da crosta terrestre',
+    enunciado: 'Mapa mostrando a África com o Vale da Grande Fenda e vulcões associados ao longo do Oceano Índico e partes da Ásia.\n\n[IMAGEM: Mapa da África e parte da Ásia mostrando o traçado do Vale da Grande Fenda (Great Rift Valley) com símbolos de vulcões ao longo do vale]\n\nOs aspectos físicos apresentados originam-se da atuação da força natural de',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'colisão de placas tectônicas.' },
+      { letra: 'B', texto: 'rifteamento da crosta terrestre.' },
+      { letra: 'C', texto: 'subducção da plataforma oceânica.' },
+      { letra: 'D', texto: 'formação de cadeias montanhosas.' },
+      { letra: 'E', texto: 'metamorfismo de bordas continentais.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 887,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Biografia histórica e história social',
+    enunciado: 'A reabilitação da biografia histórica integrou as aquisições da história social e cultural, oferecendo aos diferentes atores históricos uma importância diferenciada, distinta, individual. Mas não se tratava mais de fazer, simplesmente, a história dos grandes nomes, em formato hagiográfico — quase uma vida de santo —, sem problemas, nem máculas. Mas de examinar os atores (ou o ator) célebres ou não, como testemunhas, como reflexos, como reveladores de uma época.\n\nDe acordo com o texto, novos estudos têm valorizado a história do indivíduo por se constituir como possibilidade de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'adesão ao método positivista.' },
+      { letra: 'B', texto: 'expressão do papel das elites.' },
+      { letra: 'C', texto: 'resgate das narrativas heroicas.' },
+      { letra: 'D', texto: 'acesso ao cotidiano das comunidades.' },
+      { letra: 'E', texto: 'interpretação das manifestações do divino.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 888,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Contratualismo e cooperação social justa',
+    enunciado: 'A sociedade como um sistema justo de cooperação social consiste em uma das ideias familiares fundamentais, que dá estrutura e organização à justiça como equidade. A cooperação social guia-se por regras e procedimentos publicamente reconhecidos e aceitos por aqueles que cooperam como sendo apropriados para regular a sua conduta. Diz-se que a cooperação é justa porque seus termos são tais que todos os participantes podem razoavelmente aceitar, desde que todos os demais também o aceitem.\n\nNo contexto do pensamento político, a ideia apresentada mostra-se consoante o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ideal republicano de governo.' },
+      { letra: 'B', texto: 'corrente tripartite dos poderes.' },
+      { letra: 'C', texto: 'posicionamento crítico do socialismo.' },
+      { letra: 'D', texto: 'legitimidade do absolutismo monárquico.' },
+      { letra: 'E', texto: 'entendimento do contratualismo moderno.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 889,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - República romana, destruição de Cartago e crise moral',
+    enunciado: 'Com efeito, até a destruição de Cartago, o povo e o Senado romano governavam a República em harmonia e sem paixão, e não havia entre os cidadãos luta por glória ou dominação; o medo do inimigo mantinha a cidade no cumprimento do dever. Mas, assim que o medo desapareceu dos espíritos, introduziram-se os males pelos quais a prosperidade tem predileção, isto é, a libertinagem e o orgulho.\n\nO acontecimento histórico mencionado no texto de Salústio, datado de I a.C., manteve correspondência com o processo de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'demarcação de terras públicas.' },
+      { letra: 'B', texto: 'imposição da escravidão por dívidas.' },
+      { letra: 'C', texto: 'restrição da cidadania por parentesco.' },
+      { letra: 'D', texto: 'restauração de instituições ancestrais.' },
+      { letra: 'E', texto: 'expansão das fronteiras extrapeninsulares.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 890,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Seringueiros amazônicos e movimento ambiental',
+    enunciado: 'Os seringueiros amazônicos eram invisíveis no cenário nacional nos anos 1970. Começaram a se articular como um movimento agrário no início dos anos 1980, e na década seguinte conseguiram reconhecimento nacional, obtendo a implantação das primeiras reservas extrativas após o assassinato de Chico Mendes. Assim, em vinte anos, os camponeses da floresta passaram da invisibilidade à posição de paradigma de desenvolvimento sustentável com participação popular.\n\nDe acordo com o texto, a visibilidade dos seringueiros amazônicos foi estabelecida pela relação entre',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'crescimento econômico e migração de trabalhadores.' },
+      { letra: 'B', texto: 'produção de borracha e escassez de recursos naturais.' },
+      { letra: 'C', texto: 'reivindicação de terra e preservação de mata nativa.' },
+      { letra: 'D', texto: 'incentivo governamental e conservação de territórios.' },
+      { letra: 'E', texto: 'modernização de plantio e comércio de látex.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 891,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Expansão portuguesa e escravidão nas missões jesuíticas',
+    enunciado: '"Porque todos confessamos não se poder viver sem alguns escravos, que busquem a lenha e a água, e façam cada dia o pão que se come, e outros serviços que não são possíveis poderem-se fazer pelos Irmãos Jesuítas, máxime sendo tão poucos, que seria necessário deixar as confissões e tudo mais. Parece-me que a Companhia de Jesus deve ter e adquirir escravos, justamente, por meios que as Constituições permitem, quando puder para nossos colégios e casas de meninos."\n\nO texto explicita premissas da expansão ultramarina portuguesa ao buscar justificar a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'propagação do ideário cristão.' },
+      { letra: 'B', texto: 'valorização do trabalho braçal.' },
+      { letra: 'C', texto: 'adoção do cativeiro na Colônia.' },
+      { letra: 'D', texto: 'adesão ao ascetismo contemplativo.' },
+      { letra: 'E', texto: 'alfabetização dos indígenas nas Missões.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 892,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Vulcões e fixação humana em zonas de risco',
+    enunciado: 'As cidades de Puebla, no México, e Legazpi, nas Filipinas, não têm quase nada em comum. Estão muito longe uma da outra e são habitadas por povos muito diferentes. O que as une é um trágico detalhe de sua geografia. Elas foram erguidas na vizinhança de alguns dos vulcões mais perigosos do mundo: o mexicano Popocatepétl e o filipino Mayon. Seus habitantes precisam estar prontos para correr a qualquer hora. Eles fazem parte dos 550 milhões de indivíduos que moram em zonas de risco vulcânico no mundo. Ao contrário do que seria sensato, continuam ali, indiferentes ao perigo que os espreita.\n\nA característica física que justifica a fixação do homem nos locais apresentados no texto é a ocorrência de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'solo fértil.' },
+      { letra: 'B', texto: 'encosta íngreme.' },
+      { letra: 'C', texto: 'vegetação diversificada.' },
+      { letra: 'D', texto: 'drenagem eficiente.' },
+      { letra: 'E', texto: 'clima ameno.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 893,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Cristianismo primitivo e reuniões domésticas',
+    enunciado: 'Ao abrigo do teto, sua jornada de fé começava na sala de jantar. Na pequena célula cristã, dividia-se a refeição e durante elas os crentes conversavam, rezavam e liam cartas de correligionários residentes em locais diferentes do Império Romano (século II da Era Cristã). Esse ambiente garantia peculiar apoio emocional às experiências intensamente individuais que abrigava.\n\nUm motivo que explica a ambientação da prática descrita no texto encontra-se no(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'regra judaica, que pregava a superioridade espiritual dos cultos das sinagogas.' },
+      { letra: 'B', texto: 'moralismo da legislação, que dificultava as reuniões abertas da juventude livre.' },
+      { letra: 'C', texto: 'adesão do patriciado, que subvertia o conceito original dos valores estrangeiros.' },
+      { letra: 'D', texto: 'decisão política, que censurava as manifestações públicas da doutrina dissidente.' },
+      { letra: 'E', texto: 'violência senhorial, que impunha a desestruturação forçada das famílias escravas.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 894,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Subducção de placas e dobramentos modernos',
+    enunciado: 'A colisão entre uma placa continental e uma oceânica provocará a subducção desta última sob a placa continental, que, a exemplo dos arcos e ilhas, produzirá um arco magmático na borda do continente, composto por rochas vulcânicas acompanhado de deformações e metamorfismo tanto de rochas preexistentes como de parte das rochas formadas no processo.\n\nQual feição fisiográfica é gerada pelo processo tectônico apresentado?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Planícies abissais.' },
+      { letra: 'B', texto: 'Planaltos cristalinos.' },
+      { letra: 'C', texto: 'Depressões absolutas.' },
+      { letra: 'D', texto: 'Bacias sedimentares.' },
+      { letra: 'E', texto: 'Dobramentos modernos.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 895,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Revolução de Pernambuco de 1817 e imprensa colonial',
+    enunciado: 'O movimento sedicioso ocorrido na capitania de Pernambuco, no ano 1817, foi analisado de formas diferentes por dois meios de comunicação daquela época. O Correio Braziliense apontou para o fato de ser "a comoção no Brasil motivada por um descontentamento geral, e não por maquinações de alguns indivíduos". Já a Gazeta do Rio de Janeiro considerou o movimento como um "pontual desvio de norma, apenas uma \'mancha\' nas \'páginas da História Portuguesa\', tão distinta pelos testemunhos de amor e respeito que os vassalos desta nação consagram ao seu soberano".\n\nOs fragmentos das matérias jornalísticas sobre o acontecimento, embora com percepções diversas, relacionam-se a um aspecto do processo de independência da colônia luso-americana expresso em dissensões entre',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'quadros dirigentes em torno da abolição da ordem escravocrata.' },
+      { letra: 'B', texto: 'grupos regionais acerca da configuração político-territorial.' },
+      { letra: 'C', texto: 'intelectuais laicos acerca da revogação do domínio eclesiástico.' },
+      { letra: 'D', texto: 'homens livres em torno da extensão do direito de voto.' },
+      { letra: 'E', texto: 'elites locais acerca da ordenação do monopólio fundiário.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 896,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Declaração dos Direitos do Homem e do Cidadão e igualdade jurídica',
+    enunciado: '"Declaração de Direitos do Homem e do Cidadão – 1789\n\nOs representantes do povo francês, tendo em vista que a ignorância, o esquecimento ou o desprezo dos direitos do homem são as únicas causas dos males públicos e da corrupção dos governos, resolveram declarar solenemente os direitos naturais, inalienáveis e sagrados do homem, a fim de que esta declaração, sempre presente em todos os membros do corpo social, lhes lembre permanentemente seus direitos e seus deveres; a fim de que as reivindicações dos cidadãos, fundadas em princípios simples e incontestáveis, se dirijam sempre à conservação da Constituição e à felicidade geral."\n\nEsse documento, elaborado no contexto da Revolução Francesa, reflete uma profunda mudança social ao estabelecer a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'manutenção das terras comunais.' },
+      { letra: 'B', texto: 'supressão do poder constituinte.' },
+      { letra: 'C', texto: 'falência da sociedade burguesa.' },
+      { letra: 'D', texto: 'paridade do tratamento jurídico.' },
+      { letra: 'E', texto: 'abolição dos partidos políticos.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 897,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Política - Democracia direta na Grécia antiga e participação cidadã',
+    enunciado: 'Na Grécia, o conceito de povo abrange tão somente aqueles indivíduos considerados cidadãos. Assim é possível perceber que o conceito de povo era muito restritivo. Mesmo tendo isso em conta, a forma democrática vivenciada e experimentada pelos gregos atenienses nos séculos IV e V a.C. pode ser caracterizada, fundamentalmente, como direta.\n\nNaquele contexto, a emergência do sistema de governo mencionado no excerto promoveu o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'competição para a escolha de representantes.' },
+      { letra: 'B', texto: 'campanha pela revitalização das oligarquias.' },
+      { letra: 'C', texto: 'estabelecimento de mandatos temporários.' },
+      { letra: 'D', texto: 'declínio da sociedade civil organizada.' },
+      { letra: 'E', texto: 'participação no exercício do poder.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 898,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Rio Tietê e degradação ambiental urbana',
+    enunciado: 'TEXTO I: Fotografia aérea do Rio Tietê em São Paulo (SP), mostrando o rio margeado pela cidade.\n\n[IMAGEM: Foto aérea do Rio Tietê em São Paulo mostrando o rio com água escura/poluída e a cidade ao redor]\n\nTEXTO II: "O Rio Tietê está morto. Ao menos uma parte dele: 137 quilômetros, para ser mais preciso. Uma pesquisa da Fundação SOS Mata Atlântica mostra que, em 2016, o trecho do rio com qualidade de água classificada como ruim ou péssima começa em Itaquaquecetuba, passa por toda a Região Metropolitana de São Paulo e chega até Cabreúva, já no interior de São Paulo. Nesse trecho, a água não tem oxigênio suficiente para abrigar vida."\n\nConsiderando a análise dos textos, a condição atual desse rio tem como origem a',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'valorização do sítio urbano.' },
+      { letra: 'B', texto: 'extinção da vegetação nativa.' },
+      { letra: 'C', texto: 'recepção de densa carga de dejetos.' },
+      { letra: 'D', texto: 'captação desordenada do regime pluvial.' },
+      { letra: 'E', texto: 'expansão do uso de defensivos químicos.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 899,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Hume e empirismo como origem do conhecimento',
+    enunciado: '"Adão, ainda que supuséssemos que suas faculdades racionais fossem inteiramente perfeitas desde o início, não poderia ter inferido da fluidez e transparência da água que ela o sufocaria, nem da luminosidade e calor do fogo que este poderia consumi-lo. Nenhum objeto jamais revela, pelas qualidades que aparecem aos sentidos, nem as causas que o produziram, nem os efeitos que dele provirão; e tampouco nossa razão é capaz de extrair, sem auxílio da experiência, qualquer conclusão referente à existência efetiva de coisas ou questões de fato."\n\n(David Hume, Uma investigação sobre o entendimento humano, 2003)\n\nSegundo o autor, qual é a origem do conhecimento humano?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'A potência inata da mente.' },
+      { letra: 'B', texto: 'A revelação da inspiração divina.' },
+      { letra: 'C', texto: 'O estudo das tradições filosóficas.' },
+      { letra: 'D', texto: 'A vivência dos fenômenos do mundo.' },
+      { letra: 'E', texto: 'O desenvolvimento do raciocínio abstrato.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 900,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Ciências - Tragédia de Mariana e febre amarela em Minas',
+    enunciado: 'TEXTO I: "O aumento de casos suspeitos de febre amarela em Minas pode estar relacionado à tragédia de Mariana, em 2015, segundo a bióloga da Fiocruz Márcia Chame. A hipótese tem como ponto de partida a localização das cidades mineiras que identificaram até o momento casos de pacientes com sintomas da doença. Grande parte está na região próxima do Rio Doce, afetado pelo rompimento da Barragem de Fundão, em novembro de 2015."\n\nTEXTO II: "Por outro lado, Servio Ribeiro considera remota a possibilidade de influência da tragédia de Mariana (MG) neste surto de febre amarela em Minas Gerais. \'A febre amarela é uma doença de interior de floresta. O mosquito que a transmite põe ovos em cavidades de árvores e em bromélias. É um mosquito da estrutura da floresta. Ele não se relaciona muito com grandes corpos-d\'água e com rios. As cidades afetadas pela doença estão em uma região onde os rejeitos não chegaram com força para derrubar a floresta\', diz o biólogo."\n\nSobre a tragédia de Mariana, os textos apresentam divergência quanto ao(à)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'poluição dos rios locais.' },
+      { letra: 'B', texto: 'identificação da área afetada.' },
+      { letra: 'C', texto: 'destruição da vegetação nativa.' },
+      { letra: 'D', texto: 'aparecimento de enfermidade endêmica.' },
+      { letra: 'E', texto: 'surgimento de comunidades desabrigadas.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 901,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Cartografia moderna e dominação colonial da América',
+    enunciado: 'Afirmar que a cartografia da época moderna integrou o processo de invenção da América por parte dos europeus significa que os conhecimentos dos ameríndios sobre o território foram ignorados pela cartografia europeia ou que eles foram privados de sua representação territorial e da autoridade que seus conhecimentos tinham sobre o espaço.\n\nNa análise contida no texto, a representação cartográfica da América foi marcada por',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'asserção da cultura dos nativos.' },
+      { letra: 'B', texto: 'avanço dos estudos do ambiente.' },
+      { letra: 'C', texto: 'afirmação das formas de dominação.' },
+      { letra: 'D', texto: 'exatidão da demarcação das regiões.' },
+      { letra: 'E', texto: 'aprimoramento do conceito de fronteira.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 902,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Leis de sucessão nos EUA e democracia segundo Tocqueville',
+    enunciado: 'A principal característica da situação social dos anglo-americanos é seu caráter eminentemente democrático. Afirmei anteriormente que reinava uma igualdade muito grande entre os emigrantes que foram se estabelecer na Nova Inglaterra. Para isso contribuiu a influência das leis de sucessão. Estabelecidas de uma maneira, as leis de sucessão reúnem, concentram e agrupam em um só a propriedade e o poder. Estabelecidas por outros princípios, produzem o oposto: dividem, partilham e disseminam os bens e o poder.\n\nO texto tematiza o papel desempenhado por uma norma na criação de um ambiente propício ao(à)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'emprego do trabalho escravo.' },
+      { letra: 'B', texto: 'consolidação dos valores burgueses.' },
+      { letra: 'C', texto: 'banimento das dissidências religiosas.' },
+      { letra: 'D', texto: 'contenção da identificação nacionalista.' },
+      { letra: 'E', texto: 'hierarquização dos agentes econômicos.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 903,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Aristóteles, política e bem comum',
+    enunciado: '"Vemos que toda cidade é uma espécie de comunidade, e toda comunidade se forma com vistas a algum bem, pois todas as ações de todos os homens são praticadas com vistas ao que lhe parece um bem; se todas as comunidades visam algum bem, é evidente que a mais importante de todas elas e que inclui todas as outras tem mais que todas este objetivo e visa ao mais importante de todos os bens."\n\n(Aristóteles, Política)\n\nNo fragmento, Aristóteles promove uma reflexão que associa dois elementos essenciais à discussão sobre a vida em comunidade, a saber:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Ética e política, pois conduzem à eudaimonia.' },
+      { letra: 'B', texto: 'Retórica e linguagem, pois cuidam dos discursos na ágora.' },
+      { letra: 'C', texto: 'Metafísica e ontologia, pois tratam da filosofia primeira.' },
+      { letra: 'D', texto: 'Democracia e sociedade, pois se referem a relações sociais.' },
+      { letra: 'E', texto: 'Geração e corrupção, pois abarcam o campo da physis.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 904,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Toyotismo e adequação da produção à demanda',
+    enunciado: 'O toyotismo, a partir dos anos 1970, teve grande impacto no mundo ocidental, quando se mostrou para os países avançados como uma opção possível para a superação de uma crise de acumulação.\n\nA característica organizacional do modelo em questão, requerida no contexto de crise, foi o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'expansão dos grandes estoques.' },
+      { letra: 'B', texto: 'incremento da fabricação em massa.' },
+      { letra: 'C', texto: 'adequação da produção à demanda.' },
+      { letra: 'D', texto: 'aumento da mecanização do trabalho.' },
+      { letra: 'E', texto: 'centralização das etapas de planejamento.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 905,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Tráfico de coolies e trabalho coativo no século XIX',
+    enunciado: 'O fenômeno histórico conhecido como "tráfico de coolies" esteve associado diretamente ao período que vai do final da década de 1840 até o ano de 1874, quando milhares de chineses foram encaminhados principalmente para Cuba e Peru e muitos abusos no recrutamento de mão de obra foram identificados. O tráfico de coolies ou, em outros termos, o transporte por meios coativos de mão de obra de um lugar para outro, foi comparado ao tráfico africano de escravos por muitos periodistas e analistas do século XIX.\n\nA comparação mencionada no texto foi possível em razão da seguinte característica:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Oferta de contrato formal.' },
+      { letra: 'B', texto: 'Origem étnica dos grupos de trabalhadores.' },
+      { letra: 'C', texto: 'Conhecimento das tarefas desenvolvidas.' },
+      { letra: 'D', texto: 'Controle opressivo das vidas dos indivíduos.' },
+      { letra: 'E', texto: 'Investimento requerido dos empregadores.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 906,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Movimento seringueiro e reservas extrativistas',
+    enunciado: 'O poema "O cântico da terra", de Cora Coralina, evoca a relação entre a terra e o trabalhador rural: "Eu sou a terra, eu sou a vida. / A ti, ó lavrador, tudo quanto é meu. / Teu arado, tua foice, teu machado. / O berço pequenino de teu filho. / O algodão de tua veste / e o pão de tua casa. / E um dia bem distante / a mim tu voltarás."\n\nNo contexto das distintas formas de apropriação da terra, o poema de Cora Coralina valoriza a relação entre',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'grileiros e controle territorial.' },
+      { letra: 'B', texto: 'meeiros e divisão do trabalho.' },
+      { letra: 'C', texto: 'camponeses e uso da natureza.' },
+      { letra: 'D', texto: 'indígenas e manejo agroecológico.' },
+      { letra: 'E', texto: 'latifundiários e fertilização do solo.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 907,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Literatura - Montaigne e o gênero ensaio',
+    enunciado: 'Montaigne deu o nome para um novo gênero literário; foi dos primeiros a instituir na literatura moderna um espaço privado, o espaço do "eu", do texto íntimo. Ele cria um novo processo de escrita filosófica, no qual hesitações, autocríticas, correções entram no próprio texto.\n\nO novo gênero de escrita aludido no texto é o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'confissão, que relata experiências de transformação.' },
+      { letra: 'B', texto: 'ensaio, que expõe concepções subjetivas de um tema.' },
+      { letra: 'C', texto: 'carta, que comunica informações para um conhecido.' },
+      { letra: 'D', texto: 'meditação, que propõe preparações para o conhecimento.' },
+      { letra: 'E', texto: 'diálogo, que discute assuntos com diferentes interlocutores.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 908,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Educação - Declaração de Salamanca e educação inclusiva',
+    enunciado: '"Declaração de Salamanca – 1994\n\nAcreditamos e proclamamos que: toda criança tem direito fundamental à educação e deve ser dada a oportunidade de atingir e manter o nível adequado de aprendizagem; toda criança possui características, interesses, habilidades e necessidades de aprendizagem que são únicas; sistemas educacionais deveriam ser designados e programas educacionais deveriam ser implementados no sentido de se levar em conta a vasta diversidade de tais características e necessidades."\n\nComo signatário da Declaração citada, o Brasil comprometeu-se com a elaboração de políticas públicas educacionais que contemplem a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'criação de privilégios.' },
+      { letra: 'B', texto: 'contenção dos gastos.' },
+      { letra: 'C', texto: 'pluralidade dos sujeitos.' },
+      { letra: 'D', texto: 'padronização do currículo.' },
+      { letra: 'E', texto: 'valorização da meritocracia.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 909,
+    ano: 2020,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Fernando Pessoa, Merleau-Ponty e empirismo sensorial',
+    enunciado: 'TEXTO I:\n"Os meus pensamentos são todos sensações.\nPenso com os olhos e com os ouvidos\nE com as mãos e os pés\nE com o nariz e a boca."\n(Fernando Pessoa, O guardador de rebanhos, 1999)\n\nTEXTO II:\n"Tudo aquilo que sei do mundo, mesmo por ciência, eu o sei a partir de uma visão minha ou de uma experiência do mundo sem a qual os símbolos da ciência não poderiam dizer nada."\n(Merleau-Ponty, Fenomenologia da percepção, 1999)\n\nOs textos mostram-se alinhados a um entendimento acerca da ideia de conhecimento, numa perspectiva que ampara a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'anterioridade da razão no domínio cognitivo.' },
+      { letra: 'B', texto: 'confirmação da existência de saberes inatos.' },
+      { letra: 'C', texto: 'valorização do corpo na apreensão da realidade.' },
+      { letra: 'D', texto: 'verificabilidade de proposições no campo da lógica.' },
+      { letra: 'E', texto: 'possibilidade de contemplação de verdades atemporais.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 910,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Culto à celebridade e marketing',
+    enunciado: 'We are now a nation obsessed with the cult of celebrity. Celebrities have replaced the classic notion of the hero. But instead of being respected for talent, courage or intelligence, it is money, style and image the deciding factors in what commands respect. Image is everything. Their image is painstakingly constructed by a multitude of different image consultants to carve out the most profitable celebrity they can. Then society is right behind them, believing in everything that celebrity believes in. Companies know that people will buy a product if a celebrity has it too. It is as if the person buying the product feels that they now have some kind of connection with the celebrity and that some of their perceived happiness will now be passed onto the consumer. So to look at it one way, the cult of celebrity is really nothing more than a sophisticated marketing scheme. Celebrities though cannot be blamed for all negative aspects of society. In reality society is to blame. We are the people who seemed to have lost the ability to think for ourselves. I suppose it\'s easier to be told what to think, rather than challenging what we are told. The reason we are swamped by celebrity is because there is a demand for it.\n\nO texto, que aborda questões referentes ao tema do culto à celebridade, tem o objetivo de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'destacar os méritos das celebridades.' },
+      { letra: 'B', texto: 'criticar o consumismo das celebridades.' },
+      { letra: 'C', texto: 'ressaltar a necessidade de reflexão dos fãs.' },
+      { letra: 'D', texto: 'culpar as celebridades pela obsessão dos fãs.' },
+      { letra: 'E', texto: 'valorizar o marketing pessoal das celebridades.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 911,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Poema "The British" e multiculturalismo',
+    enunciado: 'The British (serves 60 million)\n\nTake some Picts, Celts and Silures / And let them settle, / Then overrun them with Roman conquerors. / Remove the Romans after approximately 400 years / Add lots of Norman French to some / Angles, Saxons, Jutes and Vikings, then stir vigorously. / [...] / Sprinkle some fresh Indians, Malaysians, Bosnians, / Iraqis and Bangladeshis together with some / Afghans, Spanish, Turkish, Kurdish, Japanese / And Palestinians / Then add to the melting pot. / Leave the ingredients to simmer. / As they mix and blend allow their languages to flourish / Binding them together with English. / Allow time to be cool. / Add some unity, understanding, and respect for the future, / Serve with justice / And enjoy. / Note: All the ingredients are equally important. Treating one ingredient better than another will leave a bitter unpleasant taste. / Warning: An unequal spread of justice will damage the people and cause pain. Give justice and equality to all.\n\nAo descrever o processo de formação da Inglaterra, o autor do poema recorre a características de outro gênero textual para evidenciar',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'a riqueza da mistura cultural.' },
+      { letra: 'B', texto: 'um legado de origem geográfica.' },
+      { letra: 'C', texto: 'um impacto de natureza histórica.' },
+      { letra: 'D', texto: 'um problema de estratificação social.' },
+      { letra: 'E', texto: 'a questão da intolerância linguística.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 912,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Resenha "Becoming" de Michelle Obama e racismo',
+    enunciado: '"Back in the ancestral homeland of Michelle Obama, black women were rarely granted the honorific Miss or Mrs., but were addressed by their first name, or simply as \'gal\' or \'auntie\' or worse. This so openly demeaned them that many black women, long after they had left the South, refused to answer if called by their first name. A mother and father in 1970s Texas named their newborn \'Miss\' so that white people would have no choice but to address their daughter by that title. Black women were meant for the field or the kitchen, or for use as they saw fit. They were, by definition, not ladies. The very idea of a black woman as first lady of the land, well, that would have been unthinkable."\n\nA crítica do livro de memórias de Michelle Obama, ex-primeira-dama dos EUA, aborda a história das relações humanas na cidade natal da autora. Nesse contexto, o uso do vocábulo "unthinkable" ressalta que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'a ascensão social era improvável.' },
+      { letra: 'B', texto: 'a mudança de nome era impensável.' },
+      { letra: 'C', texto: 'a origem do indivíduo era irrelevante.' },
+      { letra: 'D', texto: 'o trabalho feminino era inimaginável.' },
+      { letra: 'E', texto: 'o comportamento parental era irresponsável.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 913,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Cartum sobre comunicação não verbal',
+    enunciado: '[QUESTÃO COM IMAGEM — Cartum sobre comunicação não verbal]\n\n[IMAGEM: Cartum (Q04, opção inglês) sobre comunicação não verbal]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 914,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Inglês - Roteiro de filme "Before Sunrise" e avaliação de lugares',
+    enunciado: '"CELINE: Americans always think Europe is perfect. But such beauty and history can be really oppressive. It reduces the individual to nothing. It just reminds you all the time you are just a little speck in a long history, where in America you feel like you could be making history. That\'s why I like Los Angeles because it is so...\nJESSE: Ugly?\nCELINE: No, I was going to say \'neutral\'. It\'s like looking at a blank canvas. I think people go to places like Venice on their honeymoon to make sure they are not going to fight for the first two weeks of their marriage because they\'ll be too busy looking around at all the beautiful things. That\'s what people call a romantic place somewhere where the prettiness will contain your primary violent instinct. A real good honeymoon spot would be like somewhere in New Jersey."\n\n(Krizan e Linklater, Before Sunrise: screenplay, 2005)\n\nConsiderando-se o olhar dos personagens, esse trecho do roteiro de um filme permite reconhecer que a avaliação sobre um lugar depende do(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'beleza do próprio local.' },
+      { letra: 'B', texto: 'perspectiva do visitante.' },
+      { letra: 'C', texto: 'contexto histórico do local.' },
+      { letra: 'D', texto: 'tempo de permanência no local.' },
+      { letra: 'E', texto: 'finalidade da viagem do visitante.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 915,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Espanhol - Resenha de entrevistas de García Lorca',
+    enunciado: '"Se reunieron en un volumen todas las entrevistas dadas por el poeta y dramaturgo Federico García Lorca. Lorca concedió 133 entrevistas; leyéndolas se sabrá qué estaba por detrás de la poética del escritor andaluz. Sobre su obra declaró en una de ellas: \'No he sido nunca poeta de minoría. He tratado de poner en mis poemas lo de todos los tiempos, lo permanente, lo humano. A mí me ataca lo humano, es el elemento fundamental en toda obra de arte\'. Y en otra dijo: \'Hoy no interesa más que una problemática: lo social. La obra que no siga esa dirección está condenada al fracaso, aunque sea muy buena\'. En su última entrevista, de junio de 1936, Lorca se muestra profético: \'Ni el poeta ni nadie tiene la clave y el secreto del mundo. Quiero ser bueno. Sé que la poesía eleva y creo firmemente que si hay un más allá tendré la agradable sorpresa de encontrarme con él. Pero el dolor del hombre y la injusticia constante que mana del mundo, y mi propio cuerpo y mi propio pensamento, me evitan trasladar mi casa a las estrellas\'."\n\nEsse trecho da resenha de um livro de entrevistas concedidas por Federico García Lorca tem por finalidade',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ressaltar a atração do entrevistado por questões místicas.' },
+      { letra: 'B', texto: 'divulgar a comoção das elites com as obras do entrevistado.' },
+      { letra: 'C', texto: 'salientar o compromisso do entrevistado com as questões sociais.' },
+      { letra: 'D', texto: 'mostrar a atualidade das obras poéticas e teatrais do entrevistado.' },
+      { letra: 'E', texto: 'criticar o interesse do entrevistado por particularidades da vida humana.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 916,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Espanhol - Trecho de Amuleto de Roberto Bolaño e variação linguística',
+    enunciado: '"Lo único cierto es que llegué a México en 1965 y me planté en casa de León Felipe y en casa de Pedro Garfias y les dije aqui estoy para lo que gusten mandar. Y les debí de caer simpática, porque antipática no soy, aunque a veces soy pesada, pero antipática nunca. Y lo primero que hice fue coger una escoba y ponerme a barrer el suelo de sus casas y luego a limpiar las ventanas y cada vez que podía les pedía dinero y les hacía compra. Y ellos me decían con ese tono español tan peculiar, esa musiquilla distinta que no los abandonó nunca, como si encircularan las zetas y las ces y como si dejaran a las eses más huérfanas y libidinosas que nunca, Auxilio, me decían, deja ya de trasegar por el piso, Auxilio, deja esos papeles tranquilos, mujer, que el polvo siempre se ha avenido con la literatura."\n\n(Roberto Bolaño, Tres novelas, 2003)\n\nNo fragmento do romance, a uruguaia Auxilio narra a experiência que viveu no México ao trabalhar voluntariamente para dois escritores espanhóis. Com base na relação com os escritores, ela reflete sobre a(s)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'variação linguística do espanhol.' },
+      { letra: 'B', texto: 'sujeira dos livros de literatura.' },
+      { letra: 'C', texto: 'distintas maneiras de acolher do mexicano.' },
+      { letra: 'D', texto: 'orientações sobre a limpeza das casas dos espanhóis.' },
+      { letra: 'E', texto: 'dificuldades de comunicação entre patrão e empregada.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 917,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Espanhol - Celulares como "guillotina del siglo XXI"',
+    enunciado: '"Hoy, en cuestión de segundos uno es capaz de conocer la vida de un individuo o las actividades que lleva a cabo sin necesidad de contacto personal; las RRSS tienen la poderosa virtud de convocar concentraciones de gentes con idearios comunes y generar movimientos como la Primavera Árabe, por ejemplo. Bajo ese parámetro, cualquier incidente puede ser inmediatamente reportado por grabación o filmación, por lo que a los aparatos celulares, más allá de su utilidad en términos de conversación, habría que calificarlos como \'la guillotina del siglo XXI\'."\n\nO texto trata da evolução inerente às funcionalidades de recursos tecnológicos. A expressão "la guillotina del siglo XXI" destaca que os celulares de hoje podem',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'oferecer recursos com funções múltiplas.' },
+      { letra: 'B', texto: 'reunir usuários com ideias semelhantes.' },
+      { letra: 'C', texto: 'divulgar informação instantânea.' },
+      { letra: 'D', texto: 'organizar movimentos sociais.' },
+      { letra: 'E', texto: 'assumir utilidade jurídica.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 918,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Espanhol - Trecho de Artificios de Borges e ação do tempo',
+    enunciado: '"En el suelo, apoyado en el mostrador, se acurrucaba, inmóvil como una cosa, un hombre muy viejo. Los muchos años lo habían reducido y pulido como las aguas a una piedra o las generaciones de los hombres a una sentencia. Era oscuro, chico y reseco, y estaba como fuera del tiempo, en una eternidad."\n\n(Borges, Artificios, 1995)\n\nNo âmbito literário, são mobilizados diferentes recursos que visam à expressividade. No texto, a analogia estabelecida pela expressão "como las aguas a una piedra" tem a função de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'enfatizar a ação do tempo sobre a personagem.' },
+      { letra: 'B', texto: 'descrever a objetificação do ambiente.' },
+      { letra: 'C', texto: 'expor a anacronia da personagem.' },
+      { letra: 'D', texto: 'caracterizar o espaço do conto.' },
+      { letra: 'E', texto: 'narrar a perenidade da velhice.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 919,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Espanhol - Charge sobre tecnologia e redes sociais',
+    enunciado: '[QUESTÃO COM IMAGEM — Charge com personagens em uma mesa]\n\n[IMAGEM: Charge (Q05, opção espanhol) com personagens em torno de uma mesa discutindo tecnologia]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 920,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Notícia sobre asteroide e formulações hipotéticas',
+    enunciado: 'Um asteroide de cerca de um mil metros de diâmetro, viajando a 288 mil quilômetros por hora, passou a uma distância insignificante em termos cósmicos da Terra, pouco mais do dobro da distância que nos separa da Lua. Segundo os cálculos matemáticos, o asteroide cruzou a órbita da Terra e somente não colidiu porque ela não estava naquele ponto de interseção. Se ele tivesse sido capturado pelo campo gravitacional do nosso planeta e colidido, o impacto equivaleria a 40 bilhões de toneladas de TNT, ou o equivalente à explosão de 40 mil bombas de hidrogênio, conforme calcularam os computadores operados pelos astrônomos do programa de Exploração do Sistema Solar da Nasa; se caísse no continente, abriria uma cratera de cinco quilômetros, no mínimo, e destruiria tudo o que houvesse num raio de milhares de outros; se desabasse no oceano, provocaria maremotos que devastariam imensas regiões costeiras. Enfim, uma visão do Apocalipse.\n\nQual estratégia caracteriza o texto como uma notícia alarmante?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'A descrição da velocidade do asteroide.' },
+      { letra: 'B', texto: 'A recorrência de formulações hipotéticas.' },
+      { letra: 'C', texto: 'A referência à opinião dos astrônomos.' },
+      { letra: 'D', texto: 'A utilização da locução adverbial "no mínimo".' },
+      { letra: 'E', texto: 'A comparação com a distância da Lua à Terra.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 921,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - A draga de Manoel de Barros e variedades populares',
+    enunciado: '"A draga\n\nA gente não sabia se aquela draga tinha nascido ali, no Porto, como um pé de árvore ou uma duna. [...] Quando Mário morreu, um literato oficial, em necrológio caprichado, chamou-o de Mário-Captura-Sapo! Ai que dor! Ao literato cujo fazia-lhe nojo a forma coloquial. Queria captura em vez de pega para não macular (sic) a língua nacional lá dele... Da velha draga / Abrigo de vagabundos e de bêbados, / restaram as expressões: / estar na draga, viver na draga / por estar sem dinheiro, viver na miséria / Que ora ofereço ao filólogo Aurélio Buarque de Hollanda / Para que as registre em seus léxicos / Pois que o povo já as registrou."\n\n(Manoel de Barros, Gramática expositiva do chão, 1990)\n\nAo criticar o preciosismo linguístico do literato e ao sugerir a dicionarização de expressões locais, o poeta expressa uma concepção de língua que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'contrapõe características da escrita e da fala.' },
+      { letra: 'B', texto: 'ironiza a comunicação fora da norma-padrão.' },
+      { letra: 'C', texto: 'substitui regionalismos por registros formais.' },
+      { letra: 'D', texto: 'valoriza o uso de variedades populares.' },
+      { letra: 'E', texto: 'defende novas regras gramaticais.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 922,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Documentário O menino que fez um museu e estratégia argumentativa',
+    enunciado: '"O documentário O menino que fez um museu, direção de Sérgio Utsch, produção independente de brasileiros e britânicos, gravado no Nordeste em 2016, mais precisamente no distrito Dom Quintino, zona rural do Crato, foi premiado em Londres, pela Foreign Press Association (FPA), a associação de correspondentes estrangeiros mais antiga do mundo, fundada em 1888. De acordo com o diretor, O menino que fez um museu foi o único trabalho produzido por equipes fora do eixo Estados Unidos-Europa entre os finalistas. O documentário conta a história de um Brasil profundo, desconhecido até mesmo por muitos brasileiros. É apresentado com o carisma de Pedro Lucas Feitosa, 11 anos."\n\nNo segundo parágrafo, uma citação afirma que o documentário "foi o único trabalho produzido por equipes fora do eixo Estados Unidos-Europa entre os finalistas". No texto, esse recurso expressa uma estratégia argumentativa que reforça a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'originalidade da iniciativa de homenagem à vida e à obra de Luiz Gonzaga.' },
+      { letra: 'B', texto: 'falta de concorrentes ao prêmio de uma das associações mais antigas do mundo.' },
+      { letra: 'C', texto: 'proeza da premiação de uma história ambientada no interior do Nordeste brasileiro.' },
+      { letra: 'D', texto: 'escassez de investimentos para a produção cinematográfica independente no país.' },
+      { letra: 'E', texto: 'importância da parceria entre brasileiros e britânicos para a realização das filmagens.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 923,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - A volta do marido pródigo de Guimarães Rosa e ditados populares',
+    enunciado: '"A volta do marido pródigo\n\nBom dia, seu Marrinha! Como passou de ontem? Bem. Já sabe, não é? Só ganha meio dia. [...] Lá além, Generoso cotuca Tercino: [...] Vai em festa, dorme que-horas, e, quando chega, ainda é todo enfeitado e salamistrão!... Que é que hei de fazer, seu Marrinha... Amanheci com uma nevralgia... Fiquei com cisma de apanhar friagem... Hum... — Mas o senhor vai ver como eu toco o meu serviço e ainda faço este povo trabalhar... [...] \'P\'ra uns, as vacas morrem p\'ra outros até boi pega a parir...\'. Seu Marra já concordou: — Está bem, seu Laio, por hoje, como foi por doença, eu aponto o dia todo. Que é a última vez!... E agora, deixa de conversa fiada e vai pegando a ferramenta!"\n\n(Guimarães Rosa, Sagarana, 1967)\n\nEsse texto tem importância singular como patrimônio linguístico para a preservação da cultura nacional devido',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'à menção a enfermidades que indicam falta de cuidado pessoal.' },
+      { letra: 'B', texto: 'à referência a profissões já extintas que caracterizam a vida no campo.' },
+      { letra: 'C', texto: 'aos nomes de personagens que acentuam aspectos de sua personalidade.' },
+      { letra: 'D', texto: 'ao emprego de ditados populares que resgatam memórias e saberes coletivos.' },
+      { letra: 'E', texto: 'às descrições de costumes regionais que desmistificam crenças e superstições.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 924,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Resenha Son of Saul e opinião implícita',
+    enunciado: '"Intenso e original, Son of Saul retrata horror do holocausto\n\nCentenas de filmes sobre o holocausto já foram produzidos em diversos países do mundo, mas nenhum é tão intenso como o húngaro Son of Saul, do estreante em longa-metragens László Nemes, vencedor do Grande Prêmio do Júri no último Festival de Cannes. Ao contrário da grande maioria das produções do gênero, que costuma oferecer uma variedade de informações didáticas, o filme acompanha apenas um personagem. Ele é Saul (Géza Röhrig), um dos encarregados de conduzir as execuções de judeus como ele que, por um dia e meio, luta obsessivamente para que um menino já morto que pode ou não ser seu filho tenha um enterro digno [...]. O longa já está sendo apontado como o grande favorito ao Oscar de filme estrangeiro. Se levar a estatueta, certamente não faltará quem diga que a Academia tem uma preferência por quem aborda a 2ª Guerra. Por mais que exista uma dose de verdade na afirmação, premiar uma abordagem tão ousada e radical como Son of Saul não deixaria de ser um passo à frente dos votantes."\n\nA resenha é, normalmente, um texto de base argumentativa. Na resenha do filme Son of Saul, o trecho da sequência argumentativa que se constitui como opinião implícita é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '"[...] do estreante em longa-metragens László Nemes, vencedor do Grande Prêmio do Júri no último Festival de Cannes".' },
+      { letra: 'B', texto: '"Ele é Saul (Géza Röhrig), um dos encarregados de conduzir as execuções de judeus [...]".' },
+      { letra: 'C', texto: '"[...] a câmera está o tempo todo com o personagem, seja por sobre seus ombros, seja com um close [...]".' },
+      { letra: 'D', texto: '"Saul percorre diferentes divisões de Auschwitz à procura de um rabino que possa conduzir o enterro da criança [...]".' },
+      { letra: 'E', texto: '"[...] premiar uma abordagem tão ousada e radical como Son of Saul não deixaria de ser um passo à frente dos votantes".' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 925,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Canção Sinhá de Chico Buarque e patrimônio linguístico da escravidão',
+    enunciado: '"Sinhá\n\nSe a dona se banhou / Eu não estava lá / Por Deus Nosso Senhor / Eu não olhei Sinhá / Estava lá na roça / Sou de olhar ninguém / Não tenho mais cobiça / Nem enxergo bem / Para que me pôr no tronco / Para que me aleijar / Eu juro a vosmecê / Que nunca vi Sinhá / [...] / Por que talhar meu corpo / Eu não olhei Sinhá / Para que que vosmincê / Meus olhos vai furar / Eu choro em iorubá / Mas oro por Jesus / Para que que vassuncê / Me tira a luz."\n\n(Chico Buarque e João Bosco, 2011)\n\nNo fragmento da letra da canção, o vocabulário empregado e a situação retratada são relevantes para o patrimônio linguístico e identitário do país, na medida em que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'remetem à violência física e simbólica contra os povos escravizados.' },
+      { letra: 'B', texto: 'valorizam as influências da cultura africana sobre a música nacional.' },
+      { letra: 'C', texto: 'relativizam o sincretismo constitutivo das práticas religiosas brasileiras.' },
+      { letra: 'D', texto: 'narram os infortúnios da relação amorosa entre membros de classes sociais diferentes.' },
+      { letra: 'E', texto: 'problematizam as diferentes visões de mundo na sociedade durante o período colonial.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 926,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Campanha publicitária de abandono de animais',
+    enunciado: '[QUESTÃO COM IMAGEM — Campanha publicitária de abandono de animais com garrafa PET]\n\n[IMAGEM: Q12 — Campanha publicitária sobre abandono de animais usando garrafa PET]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 927,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Tirinha do Henfil e crítica social',
+    enunciado: '[QUESTÃO COM IMAGEM — Tirinha do Henfil]\n\n[IMAGEM: Q13 — Tirinha do cartunista Henfil com crítica social]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 928,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Esculturas subaquáticas e arte contemporânea',
+    enunciado: '[QUESTÃO COM IMAGEM — Foto das esculturas subaquáticas]\n\n[IMAGEM: Q14 — Fotografia de esculturas subaquáticas de Jason deCaires Taylor]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 929,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Um Homem Célebre de Machado de Assis e tensão erudito/popular',
+    enunciado: 'TEXTO I: "Correu à sala dos retratos, abriu o piano, sentou-se e espalmou as mãos no teclado. Começou a tocar alguma coisa própria, uma inspiração real e pronta, uma polca, uma polca buliçosa, como dizem os anúncios. Nenhuma repulsa da parte do compositor; os dedos iam arrancando as notas, ligando-as, meneando-as; dir-se-ia que a musa compunha e bailava a um tempo. [...] Compunha só, teclando ou escrevendo, sem os vãos esforços da véspera, sem exasperação, sem nada pedir ao céu, sem interrogar os olhos de Mozart. Nenhum tédio. Vida, graça, novidade, escorriam-lhe da alma como de uma fonte perene."\n\nTEXTO II: "Um homem célebre expõe o suplício do músico popular que busca atingir a sublimidade da obra-prima clássica, e com ela a galeria dos imortais, mas que é traído por uma disposição interior incontrolável que o empurra implacavelmente na direção oposta. Pestana, célebre nos saraus, salões, bailes e ruas do Rio de Janeiro por suas composições irresistivelmente dançantes, esconde-se dos rumores à sua volta num quarto povoado de ícones da grande música europeia, mergulha nas sonatas do classicismo vienense, prepara-se para o supremo salto criativo e, quando dá por si, é o autor de mais uma inelutável e saltitante polca."\n\nO conto de Machado de Assis faz uma referência velada ao maxixe, gênero musical inicialmente associado à escravidão e à mestiçagem. No Texto II, o conflito do personagem em compor obras do gênero é representativo da',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'pouca complexidade musical das composições ajustadas ao gosto do grande público.' },
+      { letra: 'B', texto: 'prevalência de referências musicais africanas no imaginário da população brasileira.' },
+      { letra: 'C', texto: 'incipiente atribuição de prestígio social a músicas instrumentais feitas para a dança.' },
+      { letra: 'D', texto: 'tensa relação entre o erudito e o popular na constituição da música brasileira.' },
+      { letra: 'E', texto: 'importância atribuída à música clássica na sociedade brasileira do século XIX.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 930,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Artigo Devagar devagarinho e estratégia argumentativa com canção',
+    enunciado: '"Desacelerar é preciso. Acelerar não é preciso. Afobados e voltados para o próprio umbigo, operamos, automatizados, falas robóticas e silêncios glaciais. Ilustra bem esse estado de espírito a música Sinal fechado (1969), de Paulinho da Viola. Trata-se da história de dois sujeitos que se encontram inesperadamente em um sinal de trânsito. A conversa entre ambos, porém, se deu rápida e rasteira. Logo, os personagens se despedem, com a promessa de se verem em outra oportunidade. Percebe-se um registro de comunicação vazia e superficial [...] O culto à velocidade, no contexto apresentado, se coloca como fruto de um imediatismo processual que celebra o alcance dos fins sem dimensionar a qualidade dos meios necessários para atingir determinado propósito."\n\nNesse artigo de opinião, a apresentação da letra da canção Sinal fechado é uma estratégia argumentativa que visa sensibilizar o leitor porque',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'adverte sobre os riscos que o ritmo acelerado da vida oferece.' },
+      { letra: 'B', texto: 'exemplifica o fato criticado no texto com uma situação concreta.' },
+      { letra: 'C', texto: 'contrapõe situações de aceleração e de serenidade na vida das pessoas.' },
+      { letra: 'D', texto: 'questiona o clichê sobre a rapidez e a aceleração da vida moderna.' },
+      { letra: 'E', texto: 'apresenta soluções para a cultura da correria que as pessoas vivenciam hoje.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 931,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Racismo no futebol brasileiro e democracia racial',
+    enunciado: '"A história do futebol brasileiro contém, ao longo de um século, registros de episódios racistas. Eis o paradoxo: se, de um lado, a atividade futebolística era depreciada aos olhos da \'boa sociedade\' como profissão destinada aos pobres, negros e marginais, de outro, achava-se investida do poder de representar e projetar a nação em escala mundial. A Copa do Mundo no Brasil, em 1950, viria a se constituir, nesse sentido, em uma rara oportunidade. Contudo, na decisão contra o Uruguai sobreveio o inesperado revés. As crônicas esportivas elegiam o goleiro Barbosa e o defensor Bigode como bodes expiatórios [...]. Nos anos 1970, por não atender às expectativas normativas suscitadas pelo estereótipo do \'bom negro\', Paulo César Lima foi classificado como \'jogador-problema\'."\n\nO texto atribui o enfraquecimento do mito da democracia racial no futebol à',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'responsabilização de jogadores negros pela derrota na final da Copa de 1950.' },
+      { letra: 'B', texto: 'projeção mundial da nação por um esporte antes destinado aos pobres.' },
+      { letra: 'C', texto: 'depreciação de um esporte associado à marginalidade.' },
+      { letra: 'D', texto: 'interdição da palavra "racismo" no contexto esportivo.' },
+      { letra: 'E', texto: 'atitude contestadora de um "jogador-problema".' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 932,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Pintura Moema de Victor Meirelles',
+    enunciado: '[QUESTÃO COM IMAGEM — Pintura "Moema" de Victor Meirelles]\n\n[IMAGEM: Q18 — Pintura "Moema" (1866) de Victor Meirelles, mostrando figura feminina indígena à beira-mar]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 933,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Lazer infantil e tecnologia: transformações nas brincadeiras',
+    enunciado: '"Coincidindo com o Dia Internacional dos Direitos da Infância, foram apresentados diversos trabalhos que mostram as mudanças que afetam a vida das crianças. Um desses estudos compara o que sonham e brincam as crianças hoje em relação às dos anos 1990. E o que se descobriu é que as crianças têm agora menos lazer e estão mais sobrecarregadas por deveres e atividades extracurriculares do que as de 25 anos atrás. As crianças de hoje não só dedicam menos tempo para brincar, como também, quando brincam, a maioria não o faz com outras crianças no parque, na rua ou na praça, mas em casa e muitas vezes sozinhas. E já não brincam tanto com brinquedos, mas com aparelhos eletrônicos, entre os quais predomina o jogo individual com a máquina."\n\nO texto indica que as transformações nas experiências lúdicas na infância',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'fomentaram as relações sociais entre as crianças.' },
+      { letra: 'B', texto: 'tornaram o lazer uma prática difundida entre as crianças.' },
+      { letra: 'C', texto: 'incentivaram a criação de novos espaços para se divertir.' },
+      { letra: 'D', texto: 'promoveram uma vivência corporal menos ativa.' },
+      { letra: 'E', texto: 'contribuíram para o aumento do tempo dedicado para brincar.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 934,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Dança contemporânea na web e manifestações culturais',
+    enunciado: '[QUESTÃO COM IMAGEM — Frames/cenas de dança contemporânea na web]\n\n[IMAGEM: Q20 — Sequência de imagens/frames de apresentação de dança contemporânea divulgada na internet]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 935,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Textos sobre reservatórios de água doce e divergência',
+    enunciado: 'TEXTO I: "O mito da estiagem em São Paulo. Os estoques de água doce são inesgotáveis, na medida em que são alimentados principalmente pelos oceanos, infinitos via evaporação e precipitação, ou seja, pelo ciclo hidrológico, que depende de forças físicas as quais o homem nunca poderá interromper. Enquanto existirem, o ciclo funcionará e os estoques de água doce nos continentes serão repostos indefinidamente."\n\nTEXTO II: "O processo de sedimentação no fundo do lago de um reservatório é um processo lento. Os sedimentos vão formando argila, que é uma rocha impermeável. Então, a água daquele lago não vai alimentar os aquíferos. Mesmo tendo muita quantidade de água superficial, ela não consegue penetrar no solo para alimentar os aquíferos. Se não for usada no consumo, ela vai simplesmente evaporar e vai cair em outro lugar, levada pelas correntes aéreas. Isso é outro motivo pelo qual os aquíferos não conseguem recuperar seu nível, porque não recebem água."\n\nOs textos I e II abordam a situação dos reservatórios de água doce do planeta. Entretanto, a divergência entre eles está na ideia de que é possível',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'manter os estoques de água doce.' },
+      { letra: 'B', texto: 'utilizar a água superficial para o consumo.' },
+      { letra: 'C', texto: 'repor os estoques de água doce em regiões áridas.' },
+      { letra: 'D', texto: 'reduzir as taxas de precipitação e evaporação da água.' },
+      { letra: 'E', texto: 'equalizar a distribuição de água doce nas diferentes regiões.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 936,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Pronomes "você" e "tu" e diversidade linguística regional',
+    enunciado: '"Os linguistas têm notado a expansão do tratamento informal. \'Tenho 78 anos e devia ser tratado por senhor, mas meus alunos mais jovens me tratam por você\', diz o professor Ataliba Castilho, aparentemente sem se incomodar com a informalidade, inconcebível em seus tempos de estudante. O você, porém, não reinará sozinho. O tu predomina em Porto Alegre e convive com o você no Rio de Janeiro e em Recife, enquanto você é o tratamento predominante em São Paulo, Curitiba, Belo Horizonte e Salvador."\n\nNo texto, constata-se que os usos de pronomes variaram ao longo do tempo e que atualmente têm empregos diversos pelas regiões do Brasil. Esse processo revela que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'a escolha de "você" ou de "tu" está condicionada à idade da pessoa que usa o pronome.' },
+      { letra: 'B', texto: 'a possibilidade de se usar tanto "tu" quanto "você" caracteriza a diversidade da língua.' },
+      { letra: 'C', texto: 'o pronome "tu" tem sido empregado em situações informais por todo o país.' },
+      { letra: 'D', texto: 'a ocorrência simultânea de "tu" e de "você" evidencia a inexistência da distinção entre níveis de formalidade.' },
+      { letra: 'E', texto: 'o emprego de "você" em documentos escritos demonstra que a língua tende a se manter inalterada.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 937,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - A morte do cisne e reinterpretação intercultural',
+    enunciado: '"O solo A morte do cisne, criado em 1905 pelo russo Mikhail Fokine a partir da música do compositor francês Camille Saint-Saens, retrata o último voo de um cisne antes de morrer. [...] Em 2012, John Lennon da Silva, de 20 anos, morador do bairro de São Mateus, na Zona Leste de São Paulo, elaborou um novo jeito de dançar a coreografia imortalizada pela bailarina Anna Pavlova. No lugar de um colã e das sapatilhas, vestiu calça jeans, camiseta e tênis. Em vez de balé, trouxe o estilo popping da street dance. Sua apresentação inovadora de A morte do cisne, que foi ao ar no programa Se ela dança, eu danço, virou hit no YouTube."\n\nA forma original de John Lennon da Silva reinterpretar a coreografia de A morte do cisne demonstra que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'a composição da coreografia foi influenciada pela escolha do figurino.' },
+      { letra: 'B', texto: 'a criação artística é beneficiada pelo encontro de modelos oriundos de diferentes realidades socioculturais.' },
+      { letra: 'C', texto: 'a variação entre os modos de dançar uma mesma música evidencia a hierarquia que marca manifestações artísticas.' },
+      { letra: 'D', texto: 'a formação erudita, à qual o dançarino não teve acesso, resulta em artistas que só conhecem a estética da arte popular.' },
+      { letra: 'E', texto: 'a interpretação, por homens, de coreografias originalmente concebidas para mulheres exige uma adaptação complexa.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 938,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Assim na terra como embaixo da terra e estado de exceção',
+    enunciado: '"Seus primeiros anos de detento foram difíceis; aos poucos entendeu como o sistema funciona. Apanhou dezenas de vezes, teve o crânio esmagado, o maxilar deslocado, braços e pernas quebrados; por fim, um dia ficou lesionado da perna quando foi jogado da laje de um pavilhão. Nem todas as vezes ele soube por que apanhou, muito menos da última, quando foi deixado para morrer, mas sobreviveu. Seu corpo, moído no inferno, aguarda o fim dos seus dias. Já não questiona mais. Obedece. Cumpre as ordens. Baixa a cabeça e se retira. Apanha, às vezes com motivo, às vezes sem."\n\n(Ana Paula Maia, Assim na terra como embaixo da terra, 2017)\n\nA narrativa concentra sua força expressiva no manejo de recursos formais e numa representação ficcional que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'buscam perpetuar visões do senso comum.' },
+      { letra: 'B', texto: 'trazem à tona atitudes de um estado de exceção.' },
+      { letra: 'C', texto: 'promovem a interlocução com grupos silenciados.' },
+      { letra: 'D', texto: 'inspiram o sentimento de justiça por meio da empatia.' },
+      { letra: 'E', texto: 'recorrem ao absurdo como forma de traduzir a realidade.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 939,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - A mulher do vizinho de Fernando Sabino e discurso intimidador',
+    enunciado: '"O senhor pensa que só porque o deixaram morar neste país pode logo ir fazendo o que quer? Nunca ouviu falar num troço chamado autoridades constituídas? [...] — Era tudo que o senhor tinha a dizer a meu marido? O delegado apenas olhou-a, espantado com o atrevimento. — Pois então fique sabendo que eu também sei tratar tipos como o senhor. Meu marido não é gringo nem meus filhos são moleques. [...] E fique sabendo que sou brasileira, sou prima de um Major do Exército, sobrinha de um Coronel, e filha de um General! Morou? Estarrecido, o delegado só teve força para engolir em seco e balbuciar humildemente: — Da ativa, minha senhora?."\n\n(Fernando Sabino, A mulher do vizinho, 1986)\n\nA representação do discurso intimidador engendrada no fragmento é responsável por',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ironizar atitudes e ideias xenofóbicas.' },
+      { letra: 'B', texto: 'conferir à narrativa um tom anedótico.' },
+      { letra: 'C', texto: 'dissimular o ponto de vista do narrador.' },
+      { letra: 'D', texto: 'acentuar a hostilidade das personagens.' },
+      { letra: 'E', texto: 'exaltar relações de poder estereotipadas.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 940,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Descoberta de hino de Machado de Assis e coesão textual',
+    enunciado: '"Os velhos papéis, quando não são consumidos pelo fogo, às vezes acordam de seu sono para contar notícias do passado. É assim que se descobre algo novo de um nome antigo, sobre o qual já se julgava saber tudo, como Machado de Assis. Por exemplo, você provavelmente não sabe que o autor carioca, morto in 1908, escreveu uma letra do hino nacional em 1867 - e não poderia saber mesmo, porque os versos seguiam inéditos. [...] \'Das florestas em que habito/ Solto um canto varonil:/ Em honra e glória de Pedro/ O gigante do Brasil\', diz o começo do hino, composto de sete estrofes em redondilhas maiores. O Pedro mencionado é o imperador Dom Pedro II. O bruxo do Cosme Velho compôs a letra para o aniversário de 42 anos do monarca."\n\nConsiderando-se as operações de retomada de informações na estruturação do texto, há interdependência entre as expressões',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '"Os velhos papéis" e "É assim".' },
+      { letra: 'B', texto: '"algo novo" e "sobre o qual".' },
+      { letra: 'C', texto: '"um nome antigo" e "Por exemplo".' },
+      { letra: 'D', texto: '"O gigante do Brasil" e "O Pedro mencionado".' },
+      { letra: 'E', texto: '"o imperador Dom Pedro II" e "O bruxo do Cosme Velho".' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 941,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Fotografias de cadeiras de Sérgio Rodrigues e design brasileiro',
+    enunciado: '[QUESTÃO COM IMAGEM — Fotografias de cadeiras de Sérgio Rodrigues]\n\n[IMAGEM: Q27 — Fotografias de cadeiras icônicas do designer brasileiro Sérgio Rodrigues]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 942,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Facebook e mudança de design: tecnologias assimilando comportamento',
+    enunciado: '"Thumbs Up\n\nPonto positivo para o Facebook, que vai dar uma ajeitada na casa para, quem sabe, não ser mais conhecido como o espaço da treta. Durante a F8, sua conferência anual, a empresa anunciou a maior mudança de design do serviço em 5 anos. Agora, o polêmico feed de notícias deixa de ser o protagonista, e o queridinho da rede social se torna o segmento de Grupos (é o Orkut fazendo escola?). [...] Com isso, parece que há um novo padrão se montando na rede social: sai o feed, entra a segmentação, que pode ser uma boa porta para monetização nos próximos anos."\n\nO texto relata que uma rede social virtual realizará sua maior mudança de design dos últimos anos. Esse fato revela que as tecnologias de informação e comunicação',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'buscam oferecer mais privacidade.' },
+      { letra: 'B', texto: 'assimilam os comportamentos dos usuários.' },
+      { letra: 'C', texto: 'promovem maior interação em ambientes virtuais.' },
+      { letra: 'D', texto: 'oferecem mais facilidades para obter cada vez mais lucro.' },
+      { letra: 'E', texto: 'evoluem para ficar mais parecidas umas com as outras.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 943,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Reaprender a ler notícias e postura crítica',
+    enunciado: '"Não dá mais para ler um jornal, revista ou assistir a um telejornal da mesma forma que fazíamos até o surgimento da rede mundial de computadores. O Observatório da Imprensa antecipou isso lá nos idos de 1996 quando cunhou o slogan \'Você nunca mais vai ler jornal do mesmo jeito\'. De fato, hoje já não basta mais ler o que está escrito ou falado para estar bem informado. É preciso conhecer as entrelinhas e saber que não há objetividade e nem isenção absolutas, porque cada ser humano vê o mundo de uma forma diferente. Ter um pé atrás passou a ser a regra básica número um de quem passa os olhos por uma primeira página [...] Há uma diferença importante entre desconfiar de tudo e procurar ver o maior número possível de lados de um mesmo fato, dado ou evento."\n\nNo texto, os argumentos apresentados permitem inferir que o objetivo do autor é convencer os leitores a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'buscarem fontes de informação comprometidas com a verdade.' },
+      { letra: 'B', texto: 'privilegiarem notícias veiculadas em jornais de grande circulação.' },
+      { letra: 'C', texto: 'adotarem uma postura crítica em relação às informações recebidas.' },
+      { letra: 'D', texto: 'questionarem a prática jornalística anterior ao surgimento da internet.' },
+      { letra: 'E', texto: 'valorizarem reportagens redigidas com imparcialidade diante dos fatos.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 944,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - A Nova Califórnia de Lima Barreto e norma-padrão',
+    enunciado: '"Famoso por ser o encantador de viúvas da cidade de Tubiacanga, Capitão Pelino corrigia e emendava as maiores glórias nacionais. [...] Quando, porém, dos lábios de alguém escapava a menor incorreção de linguagem, intervinha e emendava. \'Eu asseguro, dizia o agente do Correio, que...\' Por aí, o mestre-escola intervinha com mansuetude evangélica: \'Não diga \'asseguro\', Senhor Bernardes; em português é garanto\'. E a conversa continuava depois da emenda, para ser de novo interrompida por uma outra. Por essas e outras, houve muitos palestradores que se afastaram, mas Pelino, indiferente, seguro dos seus deveres, continuava o seu apostolado de vernaculismo."\n\n(Lima Barreto, A Nova Califórnia)\n\nDo ponto de vista linguístico, a defesa da norma-padrão pelo personagem caracteriza-se por',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'contestar o ensino de regras em detrimento do conteúdo das informações.' },
+      { letra: 'B', texto: 'resgatar valores patrióticos relacionados às tradições da língua portuguesa.' },
+      { letra: 'C', texto: 'adotar uma perspectiva complacente em relação aos desvios gramaticais.' },
+      { letra: 'D', texto: 'invalidar os usos da língua pautados pelos preceitos da gramática normativa.' },
+      { letra: 'E', texto: 'desconsiderar diferentes níveis de formalidade nas situações de comunicação.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 945,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Skate e democratização de modalidade esportiva',
+    enunciado: '"O skate apareceu como forma de vivência no lazer em períodos de baixa nas ondas e ficou conhecido como \'surfinho\'. No início foram utilizados eixos e rodinhas de patins pregados numa madeira qualquer, para sua composição, sendo as rodas de borracha ou ferro. O grande marco na história do skate ocorreu em 1974, quando o engenheiro químico chamado Frank Nasworthy descobriu o uretano, material mais flexível, que oferecia mais aderência às rodas. A dependência dos skatistas em relação a esse novo material igualmente alavancou o surgimento de novas manobras e possibilitou a um maior número de pessoas inexperientes começar a prática dessa modalidade. O resultado foi a criação de campeonatos, marcas, fábricas e lojas especializadas."\n\nDe acordo com o texto, diversos fatores ao longo do tempo',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'contribuíram para a democratização do skate.' },
+      { letra: 'B', texto: 'evidenciaram as demandas comerciais dos skatistas.' },
+      { letra: 'C', texto: 'definiram a carreira de skatista profissional.' },
+      { letra: 'D', texto: 'permitiram que a prática social do skate substituísse o surfe.' },
+      { letra: 'E', texto: 'indicaram a autonomia dos praticantes de skate.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 946,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Crônica Estojo Escolar de Carlos Heitor Cony e função emotiva',
+    enunciado: '"Rio de Janeiro / Estojo escolar\n\nNoite dessas, ciscando num desses canais a cabo, vi uns caras oferecendo maravilhas eletrônicas [...] Como pretendo viajar esses dias, habilitei-me a comprar aquilo que os caras anunciavam como o top do top em matéria de computador portátil. No sábado, recebi um embrulho complicado que necessitava de um manual de instruções para ser aberto. [...] De repente, como vem acontecendo nos últimos tempos, houve um corte na memória e vi diante de mim o meu primeiro estojo escolar. Tinha 5 anos e ia para o jardim de infância. Era uma caixinha comprida, envernizada [...] Da caixinha vinha um cheiro gostoso, cheiro que nunca esqueci e que me tonteava de prazer. [...] O notebook que agora abro é negro e, em matéria de cheiro, é abominável. Cheira vilmente a telefone celular, a cabine de avião [...] Acho que piorei de estojo e de vida."\n\nNo texto, há marcas da função da linguagem que nele predomina. Essas marcas são responsáveis por colocar em foco o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'mensagem, elevando-a à categoria de objeto estético do mundo das artes.' },
+      { letra: 'B', texto: 'código, transformando a linguagem utilizada no texto na própria temática abordada.' },
+      { letra: 'C', texto: 'contexto, fazendo das informações presentes no texto seu aspecto essencial.' },
+      { letra: 'D', texto: 'enunciador, buscando expressar sua atitude em relação ao conteúdo do enunciado.' },
+      { letra: 'E', texto: 'interlocutor, considerando-o responsável pelo direcionamento dado à narrativa pelo enunciador.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 947,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - História em quadrinhos sobre o processo do livro',
+    enunciado: '[QUESTÃO COM IMAGEM — História em quadrinhos sobre o prefácio/processo do livro]\n\n[IMAGEM: Q33 — Quadrinhos sobre o processo de criação/publicação de um livro]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 948,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Infográfico sobre celular antes de dormir e saúde infantil',
+    enunciado: 'Infográfico sobre os riscos para crianças do uso do celular antes de dormir. Estudo do King\'s College concluiu que essas crianças e adolescentes têm maior risco de obesidade, baixo sistema imunológico, crescimento atrofiado e depressão. A falta de sono no longo prazo reduz hormônios como Melatonina, Leptina, GH e Cortisol. A forte luz do celular penetra no olho e confunde o relógio biológico. Recomendação: ficar entre 30 minutos e 2 horas sem telas antes de dormir.\n\nNo texto, os recursos verbais e não verbais empregados têm por objetivo',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'divulgar informações científicas sobre o uso indiscriminado de aparelhos celulares.' },
+      { letra: 'B', texto: 'influenciar o leitor a mudar atitudes e hábitos considerados prejudiciais às crianças.' },
+      { letra: 'C', texto: 'relacionar o uso da tecnologia aos efeitos decorrentes da falta de exercícios físicos.' },
+      { letra: 'D', texto: 'indicar medidas eficazes para desestimular a utilização de telefones pelo público infantil.' },
+      { letra: 'E', texto: 'sugerir aos pais e responsáveis a substituição de dispositivos móveis por atividades lúdicas.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 949,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Singular ocorrência de Machado de Assis e condição da mulher no século XIX',
+    enunciado: '"Singular ocorrência\n\n— Há ocorrências bem singulares. Está vendo aquela dama que vai entrando na igreja da Cruz? Parou agora no adro para dar uma esmola. — De preto? — Justamente; lá vai entrando; entrou. [...] — Deve ter quarenta e seis anos. — Ah! conservada. [...] — Não é casada. — Solteira? — Assim, assim. Deve chamar-se hoje D. Maria de tal. Em 1860 florescia com o nome familiar de Marocas. Não era costureira, nem proprietária, nem mestra de meninas; vá excluindo as profissões e chegará lá."\n\n(Machado de Assis, Machado de Assis: seus 30 melhores contos, 1961)\n\nNo diálogo, descortinam-se aspectos da condição da mulher em meados do século XIX. O ponto de vista dos personagens manifesta conceitos segundo os quais a mulher',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'encontra um modo de dignificar-se na prática da caridade.' },
+      { letra: 'B', texto: 'preserva a aparência jovem conforme seu estilo de vida.' },
+      { letra: 'C', texto: 'condiciona seu bem-estar à estabilidade do casamento.' },
+      { letra: 'D', texto: 'tem sua identidade e seu lugar referendados pelo homem.' },
+      { letra: 'E', texto: 'renuncia à sua participação no mercado de trabalho.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 950,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Obra Nanawax e arte africana contemporânea',
+    enunciado: '[QUESTÃO COM IMAGEM — Obra "Nanawax" (máscara feita de plástico e tecido)]\n\n[IMAGEM: Q36 — Obra "Nanawax" do artista africano Joana Choumali: máscara feita de plástico reciclado e tecido wax]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 951,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Comportamento geral de Gonzaguinha e ironia ao conformismo',
+    enunciado: '"Comportamento geral\n\nVocê deve estampar sempre um ar de alegria / E dizer: tudo tem melhorado / Você deve rezar pelo bem do patrão / E esquecer que está desempregado / [...] / Você merece / Você merece / Tudo vai bem, tudo legal / Cerveja, samba, e amanhã, seu Zé / Se acabarem com teu carnaval / Você deve aprender a baixar a cabeça / E dizer sempre: muito obrigado / São palavras que ainda te deixam dizer / Por ser homem bem disciplinado / Deve pois só fazer pelo bem da nação / Tudo aquilo que for ordenado / Pra ganhar um fuscão no juízo final / E diploma de bem-comportado"\n\n(Gonzaguinha, 1973)\n\nPela análise do tema e dos procedimentos argumentativos utilizados na letra da canção composta por Gonzaguinha na década de 1970, infere-se o objetivo de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ironizar a incorporação de ideias e atitudes conformistas.' },
+      { letra: 'B', texto: 'convencer o público sobre a importância dos deveres cívicos.' },
+      { letra: 'C', texto: 'relacionar o discurso religioso à resolução de problemas sociais.' },
+      { letra: 'D', texto: 'questionar o valor atribuído pela população às festas populares.' },
+      { letra: 'E', texto: 'defender uma postura coletiva indiferente aos valores dominantes.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 952,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Poema de Hilda Hilst e desejo de reencontro',
+    enunciado: '"Se for possível, manda-me dizer: / É lua cheia. A casa está vazia / Manda-me dizer, e o paraíso / Há de ficar mais perto, e mais recente / Me há de parecer teu rosto incerto. / Manda-me buscar se tens o dia / Tão longo como a noite. Se é verdade / Que sem mim só vês monotonia. / E se te lembras do brilho das marés / De alguns peixes rosados / Numas águas / E dos meus pés molhados, manda-me dizer: / É lua nova / E revestida de luz te volto a ver."\n\n(Hilda Hilst, Júbilo, memória, noviciado da paixão, 2018)\n\nFalando ao outro, o eu lírico revela-se vocalizando um desejo que remete ao',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ceticismo quanto à possibilidade do reencontro.' },
+      { letra: 'B', texto: 'tédio provocado pela distância física do ser amado.' },
+      { letra: 'C', texto: 'sonho de autorrealização desenhado pela memória.' },
+      { letra: 'D', texto: 'julgamento implícito das atitudes de quem se afasta.' },
+      { letra: 'E', texto: 'questionamento sobre o significado do amor ausente.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 953,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Falso moralista de Nelson Sargento e marcas de informalidade',
+    enunciado: '"Falso moralista\n\nVocê condena o que a moçada anda fazendo / e não aceita o teatro de revista / arte moderna pra você não vale nada / e até vedete você diz não ser artista / Você se julga um tanto bom e até perfeito / Por qualquer coisa deita logo falação / Mas eu conheço bem o seu defeito / e não vou fazer segredo não / Você é visto toda sexta no Joá / e não é só no Carnaval que vai pros bailes se acabar / Fim de semana você deixa a companheira / e no bar com os amigos bebe bem a noite inteira / Segunda-feira chega na repartição / pede dispensa para ir ao oculista / e vai curar sua ressaca simplesmente / Você não passa de um falso moralista"\n\n(Nelson Sargento, 1979)\n\nAs letras de samba normalmente se caracterizam por apresentarem marcas informais do uso da língua. Nessa letra de Nelson Sargento, são exemplos dessas marcas',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '"falação" e "pros bailes".' },
+      { letra: 'B', texto: '"você" e "teatro de revista".' },
+      { letra: 'C', texto: '"perfeito" e "Carnaval".' },
+      { letra: 'D', texto: '"bebe bem" e "oculista".' },
+      { letra: 'E', texto: '"curar" e "falso moralista".' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 954,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Soneto O pavão vermelho de Sosígenes Costa e sinestesia',
+    enunciado: '"O pavão vermelho\n\nOra, a alegria, este pavão vermelho, / está morando em meu quintal agora. / Vem pousar como um sol em meu joelho / quando é estridente em meu quintal a aurora. / Clarim de lacre, este pavão vermelho / sobrepuja os pavões que estão lá fora. / É uma festa de púrpura. E o assemelho / a uma chama do lábaro da aurora. / É o próprio doge a se mirar no espelho. / E a cor vermelha chega a ser sonora / neste pavão pomposo e de chavelho. / Pavões lilases possuí outrora. / Depois que amei este pavão vermelho, / os meus outros pavões foram-se embora."\n\n(Sosígenes Costa, Poesia completa, 2001)\n\nNa construção do soneto, as cores representam um recurso poético que configura uma imagem com a qual o eu lírico',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'revela a intenção de isolar-se em seu espaço.' },
+      { letra: 'B', texto: 'simboliza a beleza e o esplendor da natureza.' },
+      { letra: 'C', texto: 'experimenta a fusão de percepções sensoriais.' },
+      { letra: 'D', texto: 'metaforiza a conquista de sua plena realização.' },
+      { letra: 'E', texto: 'expressa uma visão de mundo mística e espiritualizada.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 955,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Garota com bola de Roy Lichtenstein e pop art',
+    enunciado: '[QUESTÃO COM IMAGEM — Obra "Garota com bola" de Roy Lichtenstein]\n\n[IMAGEM: Q42 — Obra "Garota com bola" (1961) de Roy Lichtenstein, pintura pop art com jovem segurando bola na praia]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 956,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - Quadrinhos Cumbe e escravidão',
+    enunciado: '[QUESTÃO COM IMAGEM — Página de quadrinhos da obra "Cumbe"]\n\n[IMAGEM: Q43 — Página da HQ "Cumbe" de Marcelo D\'Salete, sobre a escravidão no Brasil]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 957,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagens - O sofredor do ver de Maura Lopes Cançado e internação psiquiátrica',
+    enunciado: '"Dizem que ninguém mais a ama. Dizem que foi uma boa pessoa. Sua filha de doze anos não a visita nunca e talvez raramente se lembre dela. Puseram-na numa cidade triste de uniformes azuis e jalecos brancos, de onde não pôde mais sair. Lá, todos gritam-lhe irritados, mal se aproxima, ou lhe batem, como se faz com sacos de areia para treinar os músculos. [...] Mas não é verdade que alguém não a possa mais amar. Eu amo-a. Amo-a quando a vejo por trás das grades de um palácio, onde se refugiou princesa, chegada pelos caminhos da dor."\n\n(Maura Lopes Cançado, O sofredor do ver, 2015)\n\nAo descrever uma mulher internada em um hospital psiquiátrico, o narrador compõe um quadro que expressa sua percepção',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'irônica quanto aos efeitos do abandono familiar.' },
+      { letra: 'B', texto: 'resignada em face dos métodos terapêuticos em vigor.' },
+      { letra: 'C', texto: 'alimentada pela imersão lírica no espaço da segregação.' },
+      { letra: 'D', texto: 'inspirada pelo universo pouco conhecido da mente humana.' },
+      { letra: 'E', texto: 'demarcada por uma linguagem alinhada à busca da lucidez.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 958,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Trabalho além do expediente e saúde',
+    enunciado: '"Seu turno de trabalho acabou, você já está em casa e é hora do jantar da família. Mas, em vez de relaxar, você começa a pensar na possibilidade de ter recebido alguma mensagem importante no e-mail profissional ou no grupo de WhatsApp da empresa. Imediatamente, você fica distante. Momentos depois, com alguns toques na tela do celular, você está de volta ao ambiente de trabalho. O jantar e a família ficaram em segundo plano. A simples vontade de checar mensagens do trabalho pós-expediente prejudica sua saúde e a de sua família."\n\nO texto indica práticas nas relações cotidianas do trabalho que causam para o indivíduo a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'proteção da vida privada.' },
+      { letra: 'B', texto: 'ampliação de atividades extras.' },
+      { letra: 'C', texto: 'elevação de etapas burocráticas.' },
+      { letra: 'D', texto: 'diversificação do lazer recreativo.' },
+      { letra: 'E', texto: 'desobrigação de afazeres domésticos.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 959,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Economia - Capital no século XXI de Piketty e desigualdade de riqueza',
+    enunciado: '"Quando a taxa de remuneração do capital excede substancialmente a taxa de crescimento da economia, pela lógica, a riqueza herdada aumenta mais rápido do que a renda e a produção. Então, basta aos herdeiros poupar uma parte limitada da renda de seu capital para que ele cresça mais rápido do que a economia como um todo. Sob essas condições, é quase inevitável que a riqueza herdada supere a riqueza constituída durante uma vida de trabalho, e que a concentração do capital atinja níveis muito altos."\n\n(Piketty, O capital no século XXI, 2014)\n\nConsiderando os princípios que legitimam as democracias liberais, a lógica econômica descrita no texto enfraquece o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ideologia do mérito.' },
+      { letra: 'B', texto: 'direito de nascimento.' },
+      { letra: 'C', texto: 'eficácia da legislação.' },
+      { letra: 'D', texto: 'ganho das financeiras.' },
+      { letra: 'E', texto: 'eficiência dos mercados.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 960,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Programa de melhoramento de uvas e elementos ambientais singulares',
+    enunciado: '"Atualmente, o Programa de Melhoramento \'Uvas do Brasil\' utiliza métodos clássicos de melhoramento, como seleção massal, seleção clonal e hibridações. [...] Ao longo dos seus 40 anos, uma grande equipe técnica trabalhou para executar projetos de pesquisa para atender às necessidades e às demandas de diferentes atores da vitivinicultura nacional, incluindo produtores de uvas de mesa para exportação do semiárido nordestino, viticultores interessados em produzir sucos em regiões tropicais ou pequenos produtores familiares da região da Serra Gaúcha, interessados em melhorar a qualidade do vinho artesanal que produzem."\n\nPara melhorar a produção agrícola nas regiões mencionadas, as técnicas referidas no texto buscaram adaptar o cultivo aos(às)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'espécies nativas ameaçadas.' },
+      { letra: 'B', texto: 'cadeias econômicas autônomas.' },
+      { letra: 'C', texto: 'estruturas fundiárias tradicionais.' },
+      { letra: 'D', texto: 'elementos ambientais singulares.' },
+      { letra: 'E', texto: 'mercados consumidores internos.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 961,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Carta de Veneza e políticas de conservação de bens culturais',
+    enunciado: 'TEXTO I: "Portadoras de mensagem espiritual do passado, as obras monumentais de cada povo perduram no presente como o testemunho vivo de suas tradições seculares. A humanidade, cada vez mais consciente da unidade dos valores humanos, as considera um bem comum e, perante as gerações futuras, se reconhece solidariamente responsável por preservá-las, impondo a si mesma o dever de transmiti-las na plenitude de sua autenticidade." (Carta de Veneza, 1964)\n\nTEXTO II: "Os sistemas tradicionais de proteção se mostram cada vez menos eficientes diante do processo acelerado de urbanização e transformação de nossa sociedade. A legislação de proteção peca por considerar o monumento, até certo ponto, desvinculado da realidade socioeconômica. O tombamento, ao decretar a imutabilidade do monumento, provoca a redução de seu valor venal e o abandono, o que é uma causa, ainda que lenta, de destruição inevitável." (Telles, 1977)\n\nEscritos em temporalidade histórica aproximada, os textos se distanciam ao apresentarem pontos de vista diferentes sobre a(s)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ampliação do comércio de imagens sacras.' },
+      { letra: 'B', texto: 'substituição de materiais de valor artístico.' },
+      { letra: 'C', texto: 'políticas de conservação de bens culturais.' },
+      { letra: 'D', texto: 'defesa da privatização de sítios arqueológicos.' },
+      { letra: 'E', texto: 'medidas de salvaguarda de peças museológicas.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 962,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Lixo eletrônico e divisão internacional do trabalho',
+    enunciado: 'TEXTO I: "Em 2016, foram gerados 44,7 milhões de toneladas de resíduos eletrônicos, um aumento de 8% na comparação com 2014. Especialistas previram um crescimento de mais 17%, para 52,2 milhões de toneladas, até 2021."\n\nTEXTO II: "Há ainda quem exporte deliberadamente lixo eletrônico para o Gana. É mais caro reciclar devidamente os resíduos no mundo industrializado, onde até existem os recursos e a tecnologia. Um negócio muito mais lucrativo é vender o lixo eletrônico a negociantes locais, que o importam alegando tratar-se de material usado. Os negociantes depois vendem o lixo aos jovens no mercado, [...] que o desmantelam e extraem os fios de cobre. Estes são derretidos em lareiras ao ar livre, poluindo o ar e, muitas vezes, intoxicando diretamente os próprios jovens."\n\nNo contexto das discussões ambientais, as práticas descritas nos textos refletem um padrão de relações derivado do(a):',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Exercício pleno da cidadania.' },
+      { letra: 'B', texto: 'Divisão internacional do trabalho.' },
+      { letra: 'C', texto: 'Gestão empresarial do toyotismo.' },
+      { letra: 'D', texto: 'Concepção sustentável da economia.' },
+      { letra: 'E', texto: 'Protecionismo alfandegário dos Estados.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 963,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Segurança hídrica e distribuição equitativa da água',
+    enunciado: '"Preços justos e autorizações de uso da água devem garantir de forma adequada que a retirada de água, bem como o retorno de efluentes, mantenham operações eficientes e ambientalmente sustentáveis, de maneira que sejam adaptáveis às peculiaridades e necessidades da indústria e da irrigação em larga escala, bem como às atividades da agricultura em pequena escala e de subsistência."\n\n(UNESCO, Relatório Mundial das Nações Unidas sobre Desenvolvimento dos Recursos Hídricos, 2015)\n\nConsiderando o debate sobre segurança hídrica, a proposta apresentada no texto está pautada no(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'distribuição equitativa do abastecimento.' },
+      { letra: 'B', texto: 'monitoramento do fornecimento urbano.' },
+      { letra: 'C', texto: 'racionamento da capacidade fluvial.' },
+      { letra: 'D', texto: 'revitalização gradativa de solos.' },
+      { letra: 'E', texto: 'geração de produtos recicláveis.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 964,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Lei Aberdeen e proibição do tráfico de escravos',
+    enunciado: '"Durante os anos de 1854-55, o governo brasileiro por meio de sua representação diplomática em Londres e os livre-cambistas ingleses nas colunas do Daily News e na Câmara dos Comuns aumentaram a pressão pela revogação da Lei Aberdeen. O governo britânico, entretanto, ainda receava que, sem um tratado anglo-brasileiro satisfatório para substituí-la, não haveria nada que impedisse os brasileiros de um dia voltarem aos seus velhos hábitos."\n\n(Bethell, A abolição do comércio brasileiro de escravos, 2002)\n\nAs tensões diplomáticas expressas no texto indicam o interesse britânico em',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'estabelecer jurisdição conciliadora.' },
+      { letra: 'B', texto: 'compartilhar negócios marítimos.' },
+      { letra: 'C', texto: 'fomentar políticas higienistas.' },
+      { letra: 'D', texto: 'manter a proibição comercial.' },
+      { letra: 'E', texto: 'promover o negócio familiar.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 965,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Contador de histórias nordestino e práticas místicas do patrimônio cultural',
+    enunciado: '"Famoso por ser o encantador de viúvas da cidade de Cabaceiras, na Paraíba, Zé de Sila é um contador de histórias parecido com o personagem Chicó, do Auto da Compadecida. Ele defende veementemente que a oração da avó sustentava mais a chuva. \'Quando era pequeno e chovia por aqui, ajudava minha avó colocando os pratos emborcados no terreiro para diminuir o vento. Ela fazia isso e rezava para a chuva durar mais\', diz Zé de Sila."\n\nAo destacar expressões e vivências populares do cotidiano, o texto mobiliza os seguintes aspectos da diversidade regional:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Alianças afetivas conectadas ao ritual matrimonial.' },
+      { letra: 'B', texto: 'Práticas místicas associadas ao patrimônio cultural.' },
+      { letra: 'C', texto: 'Manifestações teatrais atreladas ao imaginário político.' },
+      { letra: 'D', texto: 'Narrativas fílmicas relacionadas às intempéries climáticas.' },
+      { letra: 'E', texto: 'Argumentações literárias interligadas às catástrofes ambientais.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 966,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Novas tecnologias e precarização das relações de trabalho',
+    enunciado: '"O uso de novas tecnologias envolve a assimilação de uma cultura empresarial na qual haja a integração entre as propostas de modernização tecnológica e a racionalização. Nem sempre o uso de novas tecnologias é apenas um processo técnico na medida em que pressupõe uma nova orientação no controle do capital, no processo produtivo e na qualificação da mão de obra. Dos diversos efeitos que derivaram dessa orientação, a terceirização, a precarização e a flexibilização aparecem com constância como características do paradigma flexível, em substituição ao modelo taylorista-fordista."\n\nO uso de novas tecnologias relacionado ao controle empresarial é criticado no texto em razão da',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'operacionalização da tarefa laboral.' },
+      { letra: 'B', texto: 'capacitação de profissionais liberais.' },
+      { letra: 'C', texto: 'fragilização das relações de trabalho.' },
+      { letra: 'D', texto: 'hierarquização dos cargos executivos.' },
+      { letra: 'E', texto: 'aplicação dos conhecimentos da ciência.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 967,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Condição dos refugiados e desenraizamento cultural',
+    enunciado: '"A categoria de refugiado carrega em si as noções de transitoriedade, provisoriedade e temporalidade. Os refugiados situam-se entre o país de origem e o país de destino. Ao transitarem entre os dois universos, ocupam posição marginal, tanto em termos identitários — assentada na falta de pertencimento pleno enquanto membros da comunidade receptora e nos vínculos introjetados por códigos partilhados com a comunidade de origem — quanto em termos jurídicos, ao deixarem de exercitar, ao menos em caráter temporário, o status de cidadãos no país de origem e portar o status de refugiados no país receptor."\n\nA condição de transitoriedade dos refugiados no Brasil, conforme abordada no texto, é provocada pela associação entre',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ascensão social e burocracia estatal.' },
+      { letra: 'B', texto: 'miscigenação étnica e limites fronteiriços.' },
+      { letra: 'C', texto: 'desqualificação profissional e ação policial.' },
+      { letra: 'D', texto: 'instabilidade financeira e crises econômicas.' },
+      { letra: 'E', texto: 'desenraizamento cultural e insegurança legal.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 968,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Mulheres naturalistas no século XIX e estratificação social',
+    enunciado: '"Mulheres naturalistas raramente figuraram na corrida por conhecer terras exóticas. No século XIX, mulheres como Lady Charlotte Canning eventualmente coletavam espécimes botânicos, mas quase sempre no papel de esposas coloniais, viajando para locais onde seus maridos as levavam e não em busca de seus próprios projetos científicos."\n\nNo contexto do século XIX, a relação das mulheres com o campo científico, descrita no texto, é representativa da',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'afirmação da igualdade de gênero.' },
+      { letra: 'B', texto: 'transformação dos espaços de lazer.' },
+      { letra: 'C', texto: 'superação do pensamento patriarcal.' },
+      { letra: 'D', texto: 'incorporação das estratificações sociais.' },
+      { letra: 'E', texto: 'substituição das atividades domésticas.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 969,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Marcuse e identificação com mercadorias no capitalismo',
+    enunciado: '"Nos setores mais altamente desenvolvidos da sociedade contemporânea, o transplante de necessidades sociais para individuais é de tal modo eficaz que a diferença entre elas parece puramente teórica. As criaturas se reconhecem em suas mercadorias; encontram sua alma em seu automóvel, casa em patamares, utensílios de cozinha."\n\n(Marcuse, A ideologia da sociedade industrial, 1979)\n\nO texto indica que, no capitalismo, a satisfação dos desejos pessoais é influenciada por',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'políticas estatais de divulgação.' },
+      { letra: 'B', texto: 'incentivos controlados de consumo.' },
+      { letra: 'C', texto: 'prescrições coletivas de organização.' },
+      { letra: 'D', texto: 'mecanismos subjetivos de identificação.' },
+      { letra: 'E', texto: 'repressões racionalizadas do narcisismo.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 970,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Urbanização acelerada e degradação do espaço público',
+    enunciado: '"A vida das pessoas se modifica com a mesma rapidez com que se reproduz a cidade. O lugar da festa, do encontro quase desaparecem; o número de brincadeiras infantis nas ruas diminui [...] os pedaços da cidade são vendidos, no mercado, como mercadorias; árvores são destruídas, praças transformadas em concreto. Por outro lado, os habitantes parecem perder na cidade suas próprias referências. A imagem de uma grande cidade hoje é tão mutante que se assemelha à de um grande guindaste."\n\nNo contexto das grandes cidades brasileiras, a situação apresentada no texto vem ocorrendo como consequência da',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'manutenção dos modos de convívio social.' },
+      { letra: 'B', texto: 'preservação da essência do espaço público.' },
+      { letra: 'C', texto: 'ampliação das normas de controle ambiental.' },
+      { letra: 'D', texto: 'flexibilização das regras de participação política.' },
+      { letra: 'E', texto: 'alteração da organização da paisagem geográfica.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 971,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Saber tradicional do sertanejo e previsão climática',
+    enunciado: '"No semiárido brasileiro, o sertanejo desenvolveu uma acuidade detalhada para a observação dos fenômenos, ao longo dos tempos, presenciados na natureza, em especial para a previsão do tempo e do clima, utilizando como referência a posição dos astros, constelação e nuvens. Conforme os sertanejos, a estação vai ser chuvosa quando a primeira lua cheia de janeiro \'sair vermelha, por detrás de uma barra de nuvens\', mas \'se surgir prateada, é sinal de seca\'."\n\nO texto expõe a produção de um conhecimento que se constitui pela',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'técnica científica.' },
+      { letra: 'B', texto: 'experiência perceptiva.' },
+      { letra: 'C', texto: 'negação das tradições.' },
+      { letra: 'D', texto: 'padronização das culturas.' },
+      { letra: 'E', texto: 'uniformização das informações.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 972,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Canção Vida de gado de Zé Ramalho e passividade social',
+    enunciado: '"Vocês que fazem parte dessa massa / Que passa nos projetos do futuro / É duro tanto ter que caminhar / E dar muito mais do que receber / Ê, ô, ô, vida de gado / Povo marcado / Ê, povo feliz!"\n\n(Zé Ramalho, A peleja do diabo com o dono do céu, 1979)\n\nQual comportamento coletivo é criticado no trecho da letra da canção lançada em 1979?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Militância política.' },
+      { letra: 'B', texto: 'Passividade social.' },
+      { letra: 'C', texto: 'Altruísmo religioso.' },
+      { letra: 'D', texto: 'Autocontrole moral.' },
+      { letra: 'E', texto: 'Inconformismo eleitoral.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 973,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Porto Maravilha e gentrificação no Rio de Janeiro',
+    enunciado: '"Desde 2009, a área portuária carioca vem sofrendo grandes transformações realizadas no escopo da operação urbana consorciada conhecida como Porto Maravilha. Parte importante na tentativa de tornar o Rio de Janeiro um polo de serviços internacional, a \'revitalização\' urbana deveria deixar para trás uma paisagem geográfica que ainda recordava a cidade do início do século passado para abrir espaço, em seu lugar, à instalação de modernas torres comerciais, espaços de consumo e lazer inéditos e cerca de cem mil novos moradores."\n\nAs intervenções urbanas descritas derivam de um processo socioespacial que busca a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'intensificação da participação na competitividade global.' },
+      { letra: 'B', texto: 'contenção da especulação no mercado imobiliário.' },
+      { letra: 'C', texto: 'democratização da habitação popular.' },
+      { letra: 'D', texto: 'valorização das funções tradicionais.' },
+      { letra: 'E', texto: 'priorização da gestão participativa.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 974,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Economia - Desindustrialização brasileira e subordinação aos fluxos globais',
+    enunciado: '"Constatou-se uma ínfima inserção da indústria brasileira nas novas tecnologias ancoradas na microeletrônica, capazes de acarretar elevação da produtividade nacional de forma sustentada. Os motores do crescimento nacional, há décadas, são os grupos relacionados a commodities agroindustriais e à indústria representativa do antigo padrão fordista de produção, esta última também limitada pela baixa potencialidade futura de desencadear inovações tecnológicas capazes de proporcionar elevação sustentada da produtividade."\n\nUm efeito desse cenário para a sociedade brasileira tem sido o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'barateamento da cesta básica.' },
+      { letra: 'B', texto: 'retorno à estatização econômica.' },
+      { letra: 'C', texto: 'ampliação do poder de consumo.' },
+      { letra: 'D', texto: 'subordinação aos fluxos globais.' },
+      { letra: 'E', texto: 'incentivo à política de modernização.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 975,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Mineração na Amazônia e rompimento de vínculos locais',
+    enunciado: '"As atividades mineradoras têm criado conflitos com extrativistas, quilombolas, pequenos agricultores, ribeirinhos, pescadores artesanais e povos indígenas. Em geral, estes sujeitos têm encontrado grande dificuldade de reproduzir suas dinâmicas territoriais depois da instalação da atividade mineradora, nem sempre com reconhecimento do impacto ao seu território pelo Estado e pela empresa, ficando sem qualquer tipo de compensação econômica."\n\nO texto apresenta uma relação entre atividade econômica e organização social marcada pelo(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'escassez de incentivo cultural.' },
+      { letra: 'B', texto: 'rompimento de vínculos locais.' },
+      { letra: 'C', texto: 'carência de investimento financeiro.' },
+      { letra: 'D', texto: 'estabelecimento de práticas agroecológicas.' },
+      { letra: 'E', texto: 'enriquecimento das comunidades autóctones.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 976,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Deleuze e Guattari: conceito de minoria e relações de dominação',
+    enunciado: '"Por maioria, nós não entendemos uma quantidade relativa maior, mas a determinação de um estado ou de um padrão em relação ao qual tanto as quantidades maiores quanto as menores serão ditas minoritárias. Maioria supõe um estado de dominação. É nesse sentido que as mulheres, as crianças e também os animais são minoritários."\n\n(Deleuze e Guattari, Mil platôs, 2012)\n\nNo texto, a caracterização de uma minoria decorre da existência de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ameaças de extinção social.' },
+      { letra: 'B', texto: 'políticas de incentivos estatais.' },
+      { letra: 'C', texto: 'relações de natureza arbitrária.' },
+      { letra: 'D', texto: 'valorações de conexões simétricas.' },
+      { letra: 'E', texto: 'hierarquizações de origem biológica.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 977,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Engels e luta de classes',
+    enunciado: '"Ao mesmo tempo, graças às amplas possibilidades que tive de observar a classe média, vossa adversária, rapidamente concluí que vós tendes razão, inteira razão, em não esperar dela qualquer ajuda. Seus interesses são diametralmente opostos aos vossos, mesmo que ela procure incessantemente afirmar o contrário e vos queira persuadir que sente a maior simpatia por vossa sorte. Mas seus atos desmentem suas palavras."\n\n(Engels, A situação da classe trabalhadora na Inglaterra, 2010)\n\nNo texto, o autor apresenta delineamentos éticos que correspondem ao(s)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'conceito de luta de classes.' },
+      { letra: 'B', texto: 'alicerce da ideia de mais-valia.' },
+      { letra: 'C', texto: 'fundamentos do método científico.' },
+      { letra: 'D', texto: 'paradigmas do processo indagativo.' },
+      { letra: 'E', texto: 'domínios do fetichismo da mercadoria.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 978,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Encarceramento juvenil e inclusão social',
+    enunciado: '"Houve crescimento de 74% da população brasileira encarcerada entre 2005 e 2012. As análises possibilitaram identificar o perfil da população que está nas prisões do país: homens, jovens (abaixo de 29 anos), negros, com ensino fundamental incompleto, acusados de crimes patrimoniais e, no caso dos presos adultos, condenados e cumprindo regime fechado e, majoritariamente, com penas de quatro até oito anos."\n\n(Brasil, Mapa do encarceramento: os jovens do Brasil, 2015)\n\nNesse contexto, as políticas públicas para minimizar a programação descrita devem privilegiar a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'flexibilização do Código Civil.' },
+      { letra: 'B', texto: 'promoção da inclusão social.' },
+      { letra: 'C', texto: 'redução da maioridade penal.' },
+      { letra: 'D', texto: 'contenção da corrupção política.' },
+      { letra: 'E', texto: 'expansão do período de reclusão.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 979,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Incêndios medievais e reconfiguração dos espaços urbanos',
+    enunciado: '"Nem guerras, nem revoltas. Os incêndios eram o mais frequente tormento da vida urbana no Regnum Italicum. Entre 880 e 1080, as cidades estiveram constantemente entregues ao apetite das chamas. [...] Como um quinto cavaleiro apocalíptico, o incêndio agia ao feitio da peste ou da fome: vagando mundo afora, retornava de tempos em tempos e expurgava justos e pecadores num tormento derradeiro [...]. O impacto acarretado sobre as relações sociais era imediato e prolongava-se para além da destruição material. As medidas proclamadas pelas autoridades faziam mais do que reparar os danos e reconstruir a paisagem: elas convertiam a devastação em uma ocasião para alterar e expandir não só a topografia urbana, mas as práticas sociais até então vigentes."\n\nDe acordo com o texto, a catástrofe descrita impactava as sociedades medievais por proporcionar a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'correção dos métodos preventivos e das regras sanitárias.' },
+      { letra: 'B', texto: 'revelação do descaso público e das degradações ambientais.' },
+      { letra: 'C', texto: 'remodelação dos sistemas políticos e das administrações locais.' },
+      { letra: 'D', texto: 'reconfiguração dos espaços ocupados e das dinâmicas comunitárias.' },
+      { letra: 'E', texto: 'proposta de criação de novas unidades da federação.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 980,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Protagonismo indígena Guarani e redes sociais',
+    enunciado: '"O protagonismo indígena vem optando por uma estratégia de \'des-invisibilização\', valendo-se da dinâmica das novas tecnologias. Em outubro de 2012, após receberem uma liminar lhes negando o direito a permanecer em suas terras, os Guarani de Pyelito Kue divulgaram uma carta na qual se dispunham a morrer, mas não a sair de suas terras. Esse fato foi amplamente divulgado, gerando uma grande mobilização na internet, que levou milhares de pessoas a escolherem seu lado, divulgando a hashtag \'#somostodosGuarani-Kaiowá\'."\n\nA estratégia comunicativa adotada pelos indígenas, no contexto em pauta, teve por efeito',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'enfraquecer as formas de militância política.' },
+      { letra: 'B', texto: 'abalar a identidade de povos tradicionais.' },
+      { letra: 'C', texto: 'inserir as comunidades no mercado global.' },
+      { letra: 'D', texto: 'distanciar os grupos de culturas locais.' },
+      { letra: 'E', texto: 'angariar o apoio de segmentos étnicos externos.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 981,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Estado Novo de Vargas e criação do IBGE',
+    enunciado: '"O governo Vargas, principalmente durante o Estado Novo (1937-1945), pretendeu construir um Estado capaz de criar uma nova sociedade. Uma dimensão-chave desse projeto tinha no território seu foco principal. Não por acaso, foram criadas então instituições encarregadas de fornecer dados confiáveis para a ação do governo, como o Conselho Nacional de Geografia, o Conselho Nacional de Cartografia, o Conselho Nacional de Estatística e o Instituto Brasileiro de Geografia e Estatística (IBGE), este de 1938."\n\nA criação dessas instituições pelo governo Vargas representava uma estratégia política de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'levantar informações para a preservação da paisagem dos sertões.' },
+      { letra: 'B', texto: 'transformação do imaginário popular e das crenças religiosas.' },
+      { letra: 'C', texto: 'controlar o crescimento exponencial da população brasileira.' },
+      { letra: 'D', texto: 'obter conhecimento científico das diversidades regionais.' },
+      { letra: 'E', texto: 'conter o fluxo migratório do campo para a cidade.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 982,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Saberes indígenas Xavante e conservação ambiental do Cerrado',
+    enunciado: '"Foram esses cientistas Xavante que esclareceram os mistérios da germinação de cada uma das sementes. Eles tinham o conhecimento para quebrar a dormência. O fogo era fundamental para muitas; para outras, o caminho para despertar passava pelo sistema digestivo dos animais silvestres. \'Essa planta nasce depois que fazemos a caçada com fogo, diziam eles, esta outra quando a anta caga a semente, aquela precisa ser comida pelo lobo\'. Aliando os conhecimentos dos cientistas da aldeia e da cidade, essa área do Cerrado foi recuperada totalmente."\n\nNo texto, a relação socioespacial dos indígenas evidencia a importância do(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'prática agrícola para a logística nacional.' },
+      { letra: 'B', texto: 'cultivo de hortaliças para o consumo urbano.' },
+      { letra: 'C', texto: 'saber tradicional para a conservação ambiental.' },
+      { letra: 'D', texto: 'criação de gado para o aprimoramento genético.' },
+      { letra: 'E', texto: 'reflorestamento comercial para a produção orgânica.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 983,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Erosão e ciclo sedimentar',
+    enunciado: '"Desde os primórdios da formação da crosta terrestre até os dias de hoje, as rochas formadas vêm sendo continuamente destruídas. Os produtos resultantes da destruição das rochas são transportados pela água, vento e gelo a toda superfície terrestre, acionados pelo calor e pela gravidade. Cessada a energia transportadora, são depositados nas regiões mais baixas da crosta, podendo formar pacotes rochosos."\n\nAs transformações na superfície terrestre, conforme descritas no texto, compõem o seguinte processo geomorfológico:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Ciclo sedimentar.' },
+      { letra: 'B', texto: 'Instabilidade sísmica.' },
+      { letra: 'C', texto: 'Intemperismo biológico.' },
+      { letra: 'D', texto: 'Derramamento basáltico.' },
+      { letra: 'E', texto: 'Compactação superficial.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 984,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Estatuto da Cidade e participação social no planejamento urbano',
+    enunciado: '"A participação social no planejamento e na gestão urbanos ganhou impulso a partir do Estatuto da Cidade (Lei n. 10.257/2001), que estabeleceu condições para elaboração de planos diretores participativos, instrumentos esses indutores da expansão urbana e do ordenamento territorial que, a princípio, devem buscar representar os interesses dos diversos segmentos da sociedade. No entanto, é notório o limite à representação dos interesses das camadas sociais menos favorecidas nesse processo."\n\nQual medida promove a participação social descrita no texto?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Redução dos impostos municipais.' },
+      { letra: 'B', texto: 'Privatização dos espaços públicos.' },
+      { letra: 'C', texto: 'Adensamento das áreas de comércio.' },
+      { letra: 'D', texto: 'Valorização dos condomínios fechados.' },
+      { letra: 'E', texto: 'Fortalecimento das associações de bairro.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 985,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Suicídio de Vargas em 1954 e reação popular',
+    enunciado: '"Quando Getúlio Vargas se suicidou, em agosto de 1954, o país parecia à beira do caos. Acuado por uma grave crise política, o velho líder preferiu uma bala no peito à humilhação de aceitar uma nova deposição, como a que sofrera em outubro de 1945. Entretanto, ao contrário do que imaginavam os inimigos, ao ruído do estampido não se seguiu o silêncio que cerca a derrota."\n\nO evento analisado no texto teve como repercussão imediata na política nacional a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'reação popular.' },
+      { letra: 'B', texto: 'intervenção militar.' },
+      { letra: 'C', texto: 'abertura democrática.' },
+      { letra: 'D', texto: 'campanha anticomunista.' },
+      { letra: 'E', texto: 'radicalização oposicionista.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 986,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Deportação de ciganos para o Brasil em 1718 e supressão cultural',
+    enunciado: '"Eu, Dom João, pela graça de Deus, faço saber a V. Mercê que me aprouve banir para essa cidade vários ciganos homens, mulheres e crianças devido ao seu escandaloso procedimento neste reino. Tiveram ordem de seguir em diversos navios destinados a esse porto, e, tendo eu proibido, por lei recente, o uso da sua língua habitual, ordeno a V. Mercê que cumpra essa lei sob ameaça de penalidades, não permitindo que ensinem dita língua a seus filhos, de maneira que daqui por diante o seu uso desapareça."\n\n(Dom João, 1718, in Teixeira, História dos ciganos no Brasil, 2008)\n\nA ordem emanada da Coroa portuguesa para sua colônia americana, em 1718, apresentava um tratamento da identidade cultural pautado em',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'converter grupos infiéis à religião oficial.' },
+      { letra: 'B', texto: 'suprimir formas divergentes de interação social.' },
+      { letra: 'C', texto: 'evitar envolvimento estrangeiro na economia local.' },
+      { letra: 'D', texto: 'reprimir indivíduos engajados em revoltas nativistas.' },
+      { letra: 'E', texto: 'controlar manifestações artísticas de comunidades autóctones.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 987,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Medicina híbrida jesuítica no Brasil colonial',
+    enunciado: '"De um lado, ancorados pela prática médica europeia, por outro, pela terapêutica indígena, com seu amplo uso da flora nativa, os jesuítas foram os reais iniciadores do exercício de uma medicina híbrida que se tornou marca do Brasil colonial. Alguns religiosos vinham de Portugal já versados nas artes de curar, mas a maioria aprendeu na prática diária as funções que deveriam ser atribuídas a um físico, cirurgião, barbeiro ou boticário."\n\nConforme o texto, o que caracteriza a construção da prática medicinal descrita é a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'adoção de rituais místicos.' },
+      { letra: 'B', texto: 'rejeição dos dogmas cristãos.' },
+      { letra: 'C', texto: 'superação da tradição popular.' },
+      { letra: 'D', texto: 'imposição da farmacologia nativa.' },
+      { letra: 'E', texto: 'conjugação de saberes empíricos.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 988,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Francisco de Assis e movimentos heréticos medievais',
+    enunciado: '"Desde o século XII que a cristandade ocidental era agitada pelo desafio lançado pela cultura profana - a dos romances de cavalaria, mas também a cultura folclórica dos camponeses e igualmente a dos citadinos, de caráter mais jurídico à cultura eclesiástica, cujo veículo era o latim. Francisco de Assis veio alterar a situação, propondo aos seus ouvintes uma mensagem acessível a todos e, simultaneamente, enobrecendo a língua vulgar através do seu uso na religião."\n\nO comportamento desse religioso demonstra uma preocupação com as características assumidas pela Igreja e com as desigualdades sociais compartilhada no seu tempo pelos(as)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'senhores feudais.' },
+      { letra: 'B', texto: 'movimentos heréticos.' },
+      { letra: 'C', texto: 'integrantes das Cruzadas.' },
+      { letra: 'D', texto: 'corporações de ofícios.' },
+      { letra: 'E', texto: 'universidades medievais.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 989,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Unidade do Brasil vs fragmentação da América espanhola',
+    enunciado: '"Por que o Brasil continuou um só enquanto a América espanhola se dividiu em vários países? Para o historiador brasileiro José Murilo de Carvalho, no Brasil, parte da sociedade era muito mais coesa ideologicamente do que a espanhola. Carvalho argumenta que isso se deveu à tradição burocrática portuguesa. \'Portugal nunca permitiu a criação de universidades em sua colônia\'. Por outro lado, na América espanhola, entre 1772 e 1872, 150 mil estudantes se formaram em universidades locais. Para o historiador mexicano Alfredo Ávila Rueda, as universidades na América espanhola eram, em sua maioria, reacionárias. [...] a livre circulação de impressos na América espanhola [...] teve função muito mais importante na construção de regionalismos do que propriamente as universidades."\n\nOs pontos de vista dos historiadores referidos no texto são divergentes em relação ao',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'papel desempenhado pelas instituições de ensino na criação das múltiplas identidades.' },
+      { letra: 'B', texto: 'controle exercido pelos grupos de imprensa na centralização das esferas administrativas.' },
+      { letra: 'C', texto: 'abandono sofrido pelas comunidades de docentes na concepção de coletividades políticas.' },
+      { letra: 'D', texto: 'lugar ocupado pelas associações de acadêmicos no fortalecimento das agremiações estudantis.' },
+      { letra: 'E', texto: 'protagonismo assumido pelos meios de comunicação no desenvolvimento das nationes alfabetizadas.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 990,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Revolução Inglesa: pluralidade das demandas sociais',
+    enunciado: 'TEXTO I: "Macaulay enfatizou o glorioso acontecimento representado pela luta do Parlamento contra Carlos I em prol da liberdade política e religiosa do povo inglês; significou o primeiro confronto entre a liberdade e a tirania real, primeiro combate em favor do Iluminismo e do Liberalismo."\n\nTEXTO II: "A Revolução Inglesa, como todas as revoluções, foi causada pela ruptura da velha sociedade, e não pelos desejos da velha burguesia. Na década de 1640, camponeses se revoltaram contra os cercamentos, tecelões contra a miséria resultante da depressão e os crentes contra o Anticristo a fim de instalar o reino de Cristo na Terra."\n\nA concepção da Revolução Inglesa apresentada no Texto II diferencia-se da do Texto I ao destacar a existência de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'pluralidade das demandas sociais.' },
+      { letra: 'B', texto: 'homogeneidade das lutas religiosas.' },
+      { letra: 'C', texto: 'unicidade das abordagens históricas.' },
+      { letra: 'D', texto: 'superficialidade dos interesses políticos.' },
+      { letra: 'E', texto: 'superioridade dos aspectos econômicos.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 991,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Grandes empresas como enclaves e importação de mão de obra',
+    enunciado: '"As grandes empresas seriam, certamente, representação de um exercício de poder, ante o grau de autonomia de ação de que dispõem. O que se pretende salientar é a ideia de enclave: plantas industriais que estabelecem relações escassas com o entorno, mas exercem grande influência na economia extralocal."\n\nQue tipo de ação tomada por empresas reflete a forma de territorialização da produção industrial apresentada no texto?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Criação de vilas operárias.' },
+      { letra: 'B', texto: 'Promoção de eventos comunitários.' },
+      { letra: 'C', texto: 'Recuperação de áreas degradadas.' },
+      { letra: 'D', texto: 'Incorporação de saberes tradicionais.' },
+      { letra: 'E', texto: 'Importação de mão de obra qualificada.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 992,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Sociedades em transição e adiamento de decisões políticas',
+    enunciado: '"Numa sociedade em transição, a marcha da mudança, em diferentes graus, está impressa em todos os aspectos da ordem social, especialmente no jogo político, que nessas sociedades sempre apresenta padrões característicos de ambivalência, cujas raízes sociais se encontram na coexistência de dois padrões de estrutura social: o padrão tradicional, em declínio, e o novo, emergente, em expansão. [...] O padrão ambivalente do processo político, nas sociedades em desenvolvimento, é o que explica um dos seus traços mais salientes, e que consiste na tendência ao adiamento das grandes decisões."\n\nDe acordo com a perspectiva apresentada, central no pensamento social brasileiro dos anos 1950 e 1960, o desenvolvimento do país foi marcado por',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'radicalidade nas agendas de reforma das elites dirigentes.' },
+      { letra: 'B', texto: 'anomalias na execução dos planos econômicos ortodoxos.' },
+      { letra: 'C', texto: 'descompassos na construção de quadros institucionais modernos.' },
+      { letra: 'D', texto: 'ilegitimidade na atuação dos movimentos de representação classista.' },
+      { letra: 'E', texto: 'vagarosidade na dinâmica de aperfeiçoamento dos programas partidários.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 993,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Educação - Manifesto dos Pioneers de 1932 e acesso à escola pelo mérito',
+    enunciado: '"A Educação Nova, alargando a sua finalidade para além dos limites das classes, assume, com uma feição mais humana, a sua verdadeira função social, preparando-se para formar \'a hierarquia democrática\' pela \'hierarquia das capacidades\', recrutadas em todos os grupos sociais, a que se abrem as mesmas oportunidades de educação. Ela tem, por objeto, organizar e desenvolver os meios de ação durável com o fim de \'dirigir os desenvolvimentos natural e integral do ser humano em cada uma das etapas de seu crescimento\', de acordo com uma certa concepção do mundo."\n\n(Manifesto dos Pioneers da Educação Nova, 1932)\n\nOs autores do manifesto citado procuravam contrapor-se ao caráter oligárquico da sociedade brasileira. Nesse sentido, o trecho propõe uma relação necessária entre',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ensino técnico e mercado de trabalho.' },
+      { letra: 'B', texto: 'acesso à escola e valorização do mérito.' },
+      { letra: 'C', texto: 'ampliação de vagas e formação de gestores.' },
+      { letra: 'D', texto: 'disponibilidade de financiamento e pesquisa avançada.' },
+      { letra: 'E', texto: 'remuneração de professores e extinção do analfabetismo.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 994,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Platão, Mênon e método dialético socrático',
+    enunciado: '"Sócrates: \'Quem não sabe o que uma coisa é, como poderia saber de que tipo de coisa ela é? Ou te parece ser possível alguém que não conhece absolutamente quem é Mênon, esse alguém saber se ele é belo, se é rico e ainda se é nobre? Parece-te ser isso possível? Assim, Mênon, que coisa afirmas ser a virtude?\'."\n\n(Platão, Mênon, 2001)\n\nA atitude apresentada na interlocução do filósofo com Mênon é um exemplo da utilização do(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'escrita epistolar.' },
+      { letra: 'B', texto: 'método dialético.' },
+      { letra: 'C', texto: 'linguagem trágica.' },
+      { letra: 'D', texto: 'explicação fisicalista.' },
+      { letra: 'E', texto: 'suspensão judicativa.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 995,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Povo Woyo de Angola e pedagogia dos costumes sociais',
+    enunciado: '"No seio de diversos povos africanos, nomeadamente no antigo Reino do Congo, existem testemunhos gráficos de que a escrita tomava várias formas. Exemplo disso são as tampas de panela esculpidas em baixo-relevo do povo Woyo (região de Cabinda), com cenas e provérbios do cotidiano, desenhos na terra ou areia, imagens gravadas ou inscritas nos bastões de chefe ou em pedras sagradas [...]. Entre os Woyo existia o costume de os pais oferecerem aos filhos testos ou tampas de panelas entalhados, transmitindo uma espécie de recado, com signos codificados que traduziam orientações para conseguir uma boa relação conjugal."\n\nPara o povo Woyo, os artefatos culturais mencionados no texto cumprem a função de uma',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'pedagogia dos costumes sociais.' },
+      { letra: 'B', texto: 'imposição das formas de comunicação.' },
+      { letra: 'C', texto: 'desvalorização dos comportamentos da juventude.' },
+      { letra: 'D', texto: 'destituição dos valores do matrimônio.' },
+      { letra: 'E', texto: 'etnografia das celebrações religiosas.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 996,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Antropologia - Torém indígena do Ceará e coesão social',
+    enunciado: '"O torém dependia de organização familiar, sendo brincado por pessoas com vínculos de parentesco e afinidade que viviam no local. Era visto como uma brincadeira, um entretenimento feito para os próprios participantes e seus conhecidos. O tempo do caju era o pretexto para sua realização, sendo chamadas várias pessoas da região a fim de tomar mocororó, bebida fermentada do caju."\n\nO ritual mencionado no texto atribui à manifestação cultural de grupos indígenas do Nordeste brasileiro a função de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'celebrar a história oficial.' },
+      { letra: 'B', texto: 'estimular a coesão social.' },
+      { letra: 'C', texto: 'superar a atividade artesanal.' },
+      { letra: 'D', texto: 'manipular a memória individual.' },
+      { letra: 'E', texto: 'modernizar o comércio tradicional.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 997,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Anúncio de escravo fugido e estratégia de resistência',
+    enunciado: '"Escravo fugido\n\nNo dia 8 de Outubro do anno proximo passado fugio da fazenda do Bom Retiro, propriedade do dr. Francisco Antonio de Araújo, o escravo José, pardo claro, de 22 annos de idade, estatura regular, cheio de corpo, com a falta de um dente na frente do lado superior, cabellos avermelhados, orelha roxa, falla macia, e andar vagaroso. Intitula-se forro, e quando fugio a primeira vez esteve contratado como camarada em uma fazenda em Capivary. Quem o aprehender e entregar ao seu senhor no Amparo, ou o recolher a cadéa em qualquer parte será bem gratificado."\n\n(Jornal Correio Paulistano, 13 de abril de 1879)\n\nNo anúncio publicado na segunda metade do século XIX, qual a estratégia de resistência escrava apresentada?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Criação de relações de trabalho.' },
+      { letra: 'B', texto: 'Fundação de territórios quilombolas.' },
+      { letra: 'C', texto: 'Suavização da aplicação de normas.' },
+      { letra: 'D', texto: 'Regularização das funções remuneradas.' },
+      { letra: 'E', texto: 'Constituição de economia de subsistência.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 998,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Descartes e unidade do conhecimento',
+    enunciado: '"A filosofia é como uma árvore, cujas raízes são a metafísica; o tronco, a física, e os ramos que saem do tronco são todas as outras ciências, que se reduzem a três principais: a medicina, a mecânica e a moral, entendendo por moral a mais elevada e a mais perfeita porque pressupõe um saber integral das outras ciências, e é o último grau da sabedoria."\n\n(Descartes, Princípios da filosofia, 1997)\n\nEssa construção alegórica de Descartes, acerca da condição epistemológica da filosofia, tem como objetivo',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'sustentar a unidade essencial do conhecimento.' },
+      { letra: 'B', texto: 'refutar o elemento fundamental das crenças.' },
+      { letra: 'C', texto: 'impulsionar o pensamento especulativo.' },
+      { letra: 'D', texto: 'recepcionar o método experimental.' },
+      { letra: 'E', texto: 'incentivar a suspensão dos juízos.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 999,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Nietzsche e amor fati como crítica à tradição cristã',
+    enunciado: '"Minha fórmula para o que há de grande no indivíduo é amor fati: nada desejar além daquilo que é, nem diante de si, nem atrás de si, nem nos séculos dos séculos. Não se contentar em suportar o inelutável, e ainda menos dissimulá-lo, mas amá-lo."\n\n(Nietzsche, apud Ferry, Aprender a viver, 2010)\n\nEssa fórmula indicada por Nietzsche consiste em uma crítica à tradição cristã que',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'combate as práticas sociais de cunho afetivo.' },
+      { letra: 'B', texto: 'impede o avanço científico no contexto moderno.' },
+      { letra: 'C', texto: 'associa os cultos pagãos à sacralização da natureza.' },
+      { letra: 'D', texto: 'condena os modelos filosóficos da Antiguidade Clássica.' },
+      { letra: 'E', texto: 'consagra a realização humana ao campo transcendental.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1000,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia - Tomás de Kempis e ascetismo medieval',
+    enunciado: '"É preciso usar de violência e rebater varonilmente os apetites dos sentidos sem atender ao que a carne quer ou não quer, mas trabalhando por sujeitá-la ao espírito, ainda que se revolte. Cumpre castigá-la e curvá-la à sujeição, a tal ponto que esteja disposta para tudo, sabendo contentar-se com pouco e deleitar-se com a simplicidade, sem resmungar por qualquer incômodo."\n\n(Tomás de Kempis, Imitação de Cristo, 2015)\n\nQual característica do ascetismo medieval é destacada no texto?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Exaltação do ritualismo litúrgico.' },
+      { letra: 'B', texto: 'Afirmação do pensamento racional.' },
+      { letra: 'C', texto: 'Desqualificação da atividade laboral.' },
+      { letra: 'D', texto: 'Condenação da alimentação impura.' },
+      { letra: 'E', texto: 'Desvalorização da materialidade corpórea.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1001,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Diagrama do movimento de translação da Terra',
+    enunciado: '[QUESTÃO COM IMAGEM — Diagrama do movimento de translação da Terra]\n\n[IMAGEM: Q89 — Diagrama ilustrando o movimento de translação da Terra ao redor do Sol com indicação das estações do ano]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1002,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História - Gravura histórica de escravos carregando barris ("tigres")',
+    enunciado: '[QUESTÃO COM IMAGEM — Gravura histórica de escravos carregando barris ("tigres")]\n\n[IMAGEM: Q90 — Gravura histórica do século XIX mostrando escravos urbanos carregando barris de dejetos ("tigres") pelas ruas do Rio de Janeiro]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1003,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Hereditariedade recessiva e lipase ácida lisossômica',
+    enunciado: 'A deficiência de lipase ácida lisossômica é uma doença hereditária associada a um gene do cromossomo 10. Os pais dos pacientes podem não saber que são portadores dos genes da doença até o nascimento do primeiro filho afetado. Quando ambos os progenitores são portadores, existe uma chance, em quatro, de que seu bebê possa nascer com essa doença.\n\nEssa é uma doença hereditária de caráter',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'recessivo.' },
+      { letra: 'B', texto: 'dominante.' },
+      { letra: 'C', texto: 'codominante.' },
+      { letra: 'D', texto: 'poligênico.' },
+      { letra: 'E', texto: 'polialélico.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1004,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Tabela de força eletromotriz e diagramas eletroquímicos',
+    enunciado: '[QUESTÃO COM IMAGEM — Tabela de faixa de força eletromotriz acompanhada de diagramas químicos]\n\n[IMAGEM: Q92 — Tabela de potenciais de eletrodo e diagramas de células eletroquímicas]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1005,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física/Química - Alcoolômetro Gay Lussac e dilatação térmica',
+    enunciado: 'O alcoolômetro Gay Lussac é um instrumento destinado a medir o teor de álcool, em porcentagem de volume (v/v) de soluções de água e álcool na faixa de 0°GL a 100°GL. A concepção do alcoolômetro se baseia no princípio de flutuabilidade de Arquimedes, semelhante ao funcionamento de um densímetro. A escala do instrumento é aferida a 20°C, sendo necessária a correção da medida, caso a temperatura da solução não esteja na temperatura de aferição.\n\nTabela de correção (parcial):\n°GL 35 a 25°C: 33,0 | °GL 36 a 25°C: 34,0\n\nÉ necessária a correção da medida do instrumento, pois um aumento na temperatura promove o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'aumento da dissociação da água.' },
+      { letra: 'B', texto: 'aumento da densidade da água e do álcool.' },
+      { letra: 'C', texto: 'mudança do volume dos materiais por dilatação.' },
+      { letra: 'D', texto: 'aumento da concentração de álcool durante a medida.' },
+      { letra: 'E', texto: 'alteração das propriedades químicas da mistura álcool e água.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1006,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Estruturas de polímeros condutores',
+    enunciado: '[QUESTÃO COM IMAGEM — Estruturas de cadeias poliméricas lineares e aromáticas de polímeros condutores]\n\n[IMAGEM: Q94 — Estruturas químicas de polímeros condutores com colchetes de repetição]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1007,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Extinção de preguiças-gigantes e dispersão de sementes',
+    enunciado: 'Estudo aponta que a extinção de preguiças-gigantes, cuja base da dieta eram frutos e sementes, provocou impactos consideráveis na vegetação do Pantanal brasileiro. A flora, embora não tenha desaparecido, tornou-se menos abundante que no passado, além de ocupar áreas mais restritas.\n\nO prejuízo descrito com a flora ocorreu em razão da redução',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'da produção de flores.' },
+      { letra: 'B', texto: 'do tamanho das plantas.' },
+      { letra: 'C', texto: 'de fatores de disseminação das sementes.' },
+      { letra: 'D', texto: 'da quantidade de sementes por fruto.' },
+      { letra: 'E', texto: 'dos hábitats disponíveis para as plantas.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1008,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Recarga de carro elétrico e potência elétrica',
+    enunciado: 'Carros elétricos estão cada vez mais baratos, no entanto, os órgãos governamentais e a indústria se preocupam com o tempo de recarga das baterias, que é muito mais lento quando comparado ao tempo gasto para encher o tanque de combustível.\n\nApós realizar um percurso de 110 km, um motorista pretende recarregar as baterias de seu carro elétrico, que tem um desempenho médio de 5,0 km/kWh, usando um carregador ideal que opera a uma tensão de 220 V e é percorrido por uma corrente de 20 A.\n\nQuantas horas são necessárias para recarregar a energia utilizada nesse percurso?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '0,005' },
+      { letra: 'B', texto: '0,125' },
+      { letra: 'C', texto: '2,5' },
+      { letra: 'D', texto: '5,0' },
+      { letra: 'E', texto: '8,0' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1009,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Dupla fertilização nas angiospermas e endosperma',
+    enunciado: 'Nas angiospermas, além da fertilização da oosfera, existe uma segunda fertilização que resulta num tecido triploide.\n\nEssa segunda fertilização foi importante evolutivamente, pois viabilizou a formação de um tecido de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'nutrição para o fruto.' },
+      { letra: 'B', texto: 'reserva para o embrião.' },
+      { letra: 'C', texto: 'revestimento para a semente.' },
+      { letra: 'D', texto: 'proteção para o megagametófito.' },
+      { letra: 'E', texto: 'vascularização para a planta jovem.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1010,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Ésteres flavorizantes e ácido etanoico com cadeia saturada',
+    enunciado: 'Com o objetivo de proporcionar aroma e sabor a diversos alimentos, a indústria alimentícia se utiliza de flavorizantes. Em geral, essas substâncias são ésteres, como as apresentadas no quadro:\n\nBenzoato de metila (C6H5CO2CH3) — Kiwi\nAcetato de isoamila (CH3CO2(CH2)2CH(CH3)2) — Banana\nAcetato de benzila (CH3CO2CH2C6H5) — Pêssego\nPropanoato de isobutila (CH3CH2CO2CH2CH(CH3)2) — Rum\nAntranilato de metila (C6H4NH2CO2CH3) — Uva\n\nO aroma do flavorizante derivado do ácido etanoico e que apresenta cadeia carbônica saturada é de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'kiwi.' },
+      { letra: 'B', texto: 'banana.' },
+      { letra: 'C', texto: 'pêssego.' },
+      { letra: 'D', texto: 'rum.' },
+      { letra: 'E', texto: 'uva.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1011,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Gráfico de eletrocardiograma e ondas periódicas',
+    enunciado: '[QUESTÃO COM IMAGEM — Gráfico de ondas periódicas que ilustra um sinal típico de eletrocardiograma]\n\n[IMAGEM: Q99 — Gráfico de eletrocardiograma com ondas P, QRS e T]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1012,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Coevolução patógeno-hospedeiro: dengue vs ebola',
+    enunciado: 'Entre 2014 e 2016, as regiões central e oeste da África sofreram uma grave epidemia de febre hemorrágica causada pelo vírus ebola, que se manifesta em até 21 dias após a infecção e cuja taxa de letalidade pode chegar a 90%. Em regiões de clima tropical e subtropical, um outro vírus também pode causar febre hemorrágica: o vírus da dengue, que, embora tenha período de incubação menor (até 10 dias), apresenta taxa de letalidade abaixo de 1%.\n\nSegundo as informações do texto e aplicando princípios de evolução biológica às relações do tipo patógeno-hospedeiro, qual dos dois vírus infecta seres humanos há mais tempo?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Ebola, pois o maior período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.' },
+      { letra: 'B', texto: 'Dengue, pois o menor período de incubação reflete duração mais longa do processo de coevolução patógeno-hospedeiro.' },
+      { letra: 'C', texto: 'Ebola, cuja alta letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo de sua evolução.' },
+      { letra: 'D', texto: 'Ebola, cujos surtos epidêmicos concentram-se no continente africano, reconhecido como berço da origem evolutiva dos seres humanos.' },
+      { letra: 'E', texto: 'Dengue, cuja baixa letalidade indica maior eficiência do vírus em parasitar seus hospedeiros, estabelecida ao longo da coevolução patógeno-hospedeiro.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1013,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Estação individual de tratamento de esgoto residencial',
+    enunciado: '[QUESTÃO COM IMAGEM — Infográfico explicativo mostrando uma casa integrada aos encanamentos de uma estação individual de tratamento residencial]\n\n[IMAGEM: Q101 — Infográfico de sistema individual de tratamento de esgoto doméstico]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1014,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Auxinas e estaquia de roseiras',
+    enunciado: 'O plantio por estaquia é um método de propagação de plantas no qual partes de um espécime são colocadas no solo para produzir novas gerações. Na floricultura, é comum utilizar o caule das roseiras para estaquia, pois a propagação da planta é positiva em razão da aplicação de auxinas na porção inferior do caule.\n\nA utilização de auxinas no método de estaquia das roseiras contribui para',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'floração da planta.' },
+      { letra: 'B', texto: 'produção de gemas laterais.' },
+      { letra: 'C', texto: 'formação de folhas maiores.' },
+      { letra: 'D', texto: 'formação de raízes adventícias.' },
+      { letra: 'E', texto: 'produção de compostos energéticos.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1015,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Lumirrubina e bilirrubina sob radiação solar',
+    enunciado: '[QUESTÃO COM IMAGEM — Diagrama de transformações isométricas e reações químicas estruturais de lumirrubina e bilirrubina sob efeito de radiação solar]\n\n[IMAGEM: Q103 — Estruturas químicas e reações de isomerização da bilirrubina sob luz solar (fototerapia neonatal)]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1016,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Potência de motor a álcool vs gasolina',
+    enunciado: 'Analisando a ficha técnica de um automóvel popular, verificam-se algumas características em relação ao seu desempenho. Considerando o mesmo automóvel em duas versões, uma delas funcionando a álcool e outra, a gasolina:\n\nMotor a gasolina: 0 a 100 km/h em 13,4 s; velocidade máxima 165 km/h\nMotor a álcool: 0 a 100 km/h em 12,9 s; velocidade máxima 163 km/h\n\nConsiderando desprezível a resistência do ar, qual versão apresenta a maior potência?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Como a versão a gasolina consegue a maior aceleração, esta é a que desenvolve a maior potência.' },
+      { letra: 'B', texto: 'Como a versão a gasolina atinge o maior valor de energia cinética, esta é a que desenvolve a maior potência.' },
+      { letra: 'C', texto: 'Como a versão a álcool apresenta a maior taxa de variação de energia cinética, esta é a que desenvolve a maior potência.' },
+      { letra: 'D', texto: 'Como ambas as versões apresentam a mesma variação de velocidade no cálculo da aceleração, a potência desenvolvida é a mesma.' },
+      { letra: 'E', texto: 'Como a versão a gasolina fica com o motor trabalhando por mais tempo para atingir os 100 km/h, esta é a que desenvolve a maior potência.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1017,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Interruptores de três pontos e circuito de lâmpadas',
+    enunciado: '[QUESTÃO COM IMAGEM — Esquemas e diagramas alternativos contendo interruptores de três pontos com conexões A, B, C e três lâmpadas coloridas]\n\n[IMAGEM: Q105 — Circuito elétrico com interruptores three-way (três pontos) e lâmpadas]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1018,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Células de combustível a hidrogênio e PEM',
+    enunciado: 'O emprego de células de combustível a hidrogênio pode ser uma tecnologia adequada ao transporte automotivo. O quadro apresenta características de cinco tecnologias:\n\nAFC (90-100°C) — eletrólito: KOH aquoso — meio básico\nMSFC (600-1000°C) — eletrólito: carbonatos fundidos\nPEM (60-100°C) — eletrólito: ácido poliperfluorossulfônico sólido (polímero) — meio ácido\nPAFC (175-200°C) — eletrólito: ácido fosfórico líquido — meio ácido\nSOFC (600-1000°C) — eletrólito: óxido de zircônio sólido\n\nTestes operacionais indicam que as melhores alternativas para veículos são as que operam em baixos níveis de energia térmica, são formadas por membranas de eletrólitos poliméricos e ocorrem em meio ácido.\n\nA tecnologia testada mais adequada para o emprego em veículos automotivos é a célula de combustível',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'AFC.' },
+      { letra: 'B', texto: 'MSFC.' },
+      { letra: 'C', texto: 'PEM.' },
+      { letra: 'D', texto: 'PAFC.' },
+      { letra: 'E', texto: 'SOFC.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1019,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Tirinha Calvin e Haroldo e física do movimento',
+    enunciado: '[QUESTÃO COM IMAGEM — Tirinha em quadrinhos de quatro quadros contendo os personagens Calvin e Haroldo andando em um carrinho]\n\n[IMAGEM: Q107 — Tirinha do Calvin e Haroldo no carrinho descendo uma ladeira, com discussão sobre física do movimento]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1020,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Fórmulas estruturais de pesticidas organoclorados aromáticos',
+    enunciado: '[QUESTÃO COM IMAGEM — Cinco diagramas com fórmulas estruturais complexas correspondentes a compostos de pesticidas aromáticos/clorados]\n\n[IMAGEM: Q108 — Fórmulas estruturais de cinco pesticidas organoclorados aromáticos]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1021,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Biogás como biocombustível de resíduos suínos',
+    enunciado: 'Com o aumento da população de suínos no Brasil, torna-se necessária a adoção de métodos para reduzir o potencial poluidor dos resíduos dessa agroindústria, uma vez que, comparativamente ao esgoto doméstico, os dejetos suínos são 200 vezes mais poluentes. Sendo assim, a utilização desses resíduos como matéria-prima na obtenção de combustíveis é uma alternativa que permite diversificar a matriz energética nacional, ao mesmo tempo em que parte dos recursos hídricos do país são preservados.\n\nO biocombustível a que se refere o texto é o',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'etanol.' },
+      { letra: 'B', texto: 'biogás.' },
+      { letra: 'C', texto: 'butano.' },
+      { letra: 'D', texto: 'metanol.' },
+      { letra: 'E', texto: 'biodiesel.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1022,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Curcumina e combate à dengue por fotossensibilização',
+    enunciado: 'A curcumina, uma das substâncias que confere a cor alaranjada ao açafrão, pode auxiliar no combate à dengue quando adicionada à água de criadouros do mosquito transmissor. Essa substância acumula-se no intestino do inseto após ser ingerida com a água do criadouro e, quando ativada pela luz, induz a produção de espécies reativas de oxigênio que danificam de forma fatal o tecido do tubo digestório.\n\nA forma de combate relatada tem como atividade o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'morte do indivíduo adulto.' },
+      { letra: 'B', texto: 'redução da eclosão dos ovos.' },
+      { letra: 'C', texto: 'comprometimento da metamorfose.' },
+      { letra: 'D', texto: 'impedimento do desenvolvimento da larva.' },
+      { letra: 'E', texto: 'repelência da forma transmissora da doença.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1023,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Ilha de calor urbana e brisa marítima',
+    enunciado: '[QUESTÃO COM IMAGEM — Desenho geométrico esquematizando as linhas de fluxo e transferência de calor entre os sistemas Sol, Brisa Marítima e Ilha de Calor urbana]\n\n[IMAGEM: Q111 — Diagrama de circulação atmosférica mostrando ilha de calor urbana e brisa marítima]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1024,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Queda dos corpos e resistência do ar',
+    enunciado: 'No seu estudo sobre a queda dos corpos, Aristóteles afirmava que se abandonarmos corpos leves e pesados de uma mesma altura, o mais pesado chegaria mais rápido ao solo.\n\nApós uma aula de física, dois colegas estavam discutindo sobre a queda dos corpos:\nColega A: "O corpo mais pesado cai mais rápido que um menos pesado, quando largado de uma mesma altura. Eu provo, largando uma pedra e uma rolha. A pedra chega antes."\nColega B: "Eu não acho! Peguei uma folha de papel esticado e deixei cair. Quando amassei, ela caiu mais rápido. Como isso é possível? Se era a mesma folha de papel, deveria cair do mesmo jeito. Tem que ter outra explicação!"\n\nO aspecto físico comum que explica a diferença de comportamento dos corpos em queda nessa discussão é o(a)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'peso dos corpos.' },
+      { letra: 'B', texto: 'resistência do ar.' },
+      { letra: 'C', texto: 'massa dos corpos.' },
+      { letra: 'D', texto: 'densidade dos corpos.' },
+      { letra: 'E', texto: 'aceleração da gravidade.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1025,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Fermentação alcoólica da glicose e volume de etanol',
+    enunciado: 'A obtenção de etanol utilizando a cana-de-açúcar envolve a fermentação dos monossacarídeos formadores da sacarose contida no melaço. Um desses formadores é a glicose (C6H12O6), cuja fermentação produz cerca de 50 g de etanol a partir de 100 g de glicose:\n\nC6H12O6 → 2 CH3CH2OH + 2 CO2\n\nEm uma condição específica de fermentação, obtém-se 80% de conversão em etanol que, após sua purificação, apresenta densidade igual a 0,80 g/mL. O melaço utilizado apresentou 50 kg de monossacarídeos na forma de glicose.\n\nO volume de etanol, em litro, obtido nesse processo é mais próximo de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '16.' },
+      { letra: 'B', texto: '20.' },
+      { letra: 'C', texto: '25.' },
+      { letra: 'D', texto: '64.' },
+      { letra: 'E', texto: '100.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1026,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Anatomia vegetal e madeira de construção',
+    enunciado: 'Com o objetivo de identificar a melhor espécie produtora de madeira para construção (com resistência mecânica e à degradação), foram analisadas as estruturas anatômicas de cinco espécies:\n\nEspécie 1: Periderme(+), Esclerênquima periderme(+), Floema(+), Esclerênquima floema(-), Alburno(+), Cerne(+++)\nEspécie 2: Periderme(+), Esclerênquima(-), Floema(+), Esc. floema(-), Alburno(+++), Cerne(-)\nEspécie 3: Periderme(++), Esc.(-), Floema(+++), Esc. floema(+), Alburno(+), Cerne(-)\nEspécie 4: Periderme(+++), Esc.(+), Floema(+++), Esc. floema(-), Alburno(+), Cerne(-)\nEspécie 5: Periderme(+++), Esc.(+), Floema(+++), Esc. floema(+), Alburno(++), Cerne(+)\n\nQual espécie corresponde ao objetivo proposto?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1' },
+      { letra: 'B', texto: '2' },
+      { letra: 'C', texto: '3' },
+      { letra: 'D', texto: '4' },
+      { letra: 'E', texto: '5' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1027,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Espectro de absorção de clorofila e antocianina',
+    enunciado: '[QUESTÃO COM IMAGEM — Gráfico combinado relacionando o espectro contínuo de absorção do visível das moléculas de clorofila/antocianina junto a um círculo cromático de cores complementares]\n\n[IMAGEM: Q115 — Espectro de absorção de clorofila a, b e antocianina com círculo de cores complementares]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1028,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física/Astronomia - Cordel de astronomia e identificação de planeta por densidade',
+    enunciado: 'TEXTO I (Cordel — Senhor dos Anéis):\n"A distância em relação / Ao nosso planeta amado / Pouco menos que a do Sol / Ele está distanciado / E menos denso que a água / Quando no normal estado"\n\nTEXTO II (Tabela — Distâncias médias ao Sol e densidades relativas médias):\nMercúrio: 0,39 u.a., densidade 5,6\nVênus: 0,72 u.a., 5,2\nTerra: 1,0 u.a., 5,5\nMarte: 1,5 u.a., 4,0\nJúpiter: 5,2 u.a., 1,3\nSaturno: 9,6 u.a., 0,7\nUrano: 19 u.a., 1,2\nNetuno: 30 u.a., 1,7\n\nConsiderando os versos da sextilha e as informações da tabela, a qual planeta o cordel faz referência?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Mercúrio.' },
+      { letra: 'B', texto: 'Júpiter.' },
+      { letra: 'C', texto: 'Urano.' },
+      { letra: 'D', texto: 'Saturno.' },
+      { letra: 'E', texto: 'Netuno.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1029,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Lei de Ohm em escala atômica e resistência elétrica',
+    enunciado: 'Cientistas da Universidade de New South Wales demonstraram em 2012 que a Lei de Ohm é válida mesmo para fios finíssimos. A tabela apresenta as áreas e comprimentos de alguns dos fios construídos:\n\nFio 1: Área 9, Comprimento 312\nFio 2: Área 47, Comprimento 4\nFio 3: Área 54, Comprimento 2\nFio 4: Área 106, Comprimento 1\n\nConsidere que a resistividade mantém-se constante para todas as geometrias (R = ρ × L / A).\n\nAs resistências elétricas dos fios, em ordem crescente, são',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'R1 < R2 < R3 < R4' },
+      { letra: 'B', texto: 'R2 < R1 < R3 < R4' },
+      { letra: 'C', texto: 'R2 < R3 < R1 < R4' },
+      { letra: 'D', texto: 'R4 < R1 < R3 < R2' },
+      { letra: 'E', texto: 'R4 < R3 < R2 < R1' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1030,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Metabolismo e fermentação como combustível ambiental',
+    enunciado: 'Organismos autótrofos e heterótrofos realizam processos complementares que associam os ciclos do carbono e do oxigênio. O carbono fixado pela energia luminosa ou a partir de compostos inorgânicos é eventualmente degradado pelos organismos, resultando em fontes de carbono como metano ou gás carbônico. Ainda, outros compostos orgânicos são catabolizados pelos seres, com menor rendimento energético, produzindo compostos secundários (subprodutos) que podem funcionar como combustíveis ambientais.\n\nO processo metabólico associado à expressão combustíveis ambientais é a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'fotossíntese.' },
+      { letra: 'B', texto: 'fermentação.' },
+      { letra: 'C', texto: 'quimiossíntese.' },
+      { letra: 'D', texto: 'respiração aeróbica.' },
+      { letra: 'E', texto: 'fosforilação oxidativa.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1031,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Ácido acetilsalicílico e estrutura molecular',
+    enunciado: '[QUESTÃO COM IMAGEM — Estrutura molecular plana do Ácido Acetilsalicílico ligada a um anel benzênico]\n\n[IMAGEM: Q119 — Fórmula estrutural do ácido acetilsalicílico (AAS/Aspirina)]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1032,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Biomagnificação de compostos tóxicos na cadeia trófica do Rio Doce',
+    enunciado: 'O rompimento da barragem de rejeitos de mineração no município mineiro de Mariana e o derramamento de produtos tóxicos nas águas do Rio Doce, ocorridos em 2015, ainda têm consequências para os organismos que habitam o Parque Nacional Marinho de Abrolhos, localizado a mais de 1000 quilômetros de distância. Esse desastre ambiental afetou o fitoplâncton, as esponjas, as algas macroscópicas, os peixes herbívoros e os golfinhos.\n\nConcentrações mais elevadas dos compostos citados são encontradas em',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'esponjas.' },
+      { letra: 'B', texto: 'golfinhos.' },
+      { letra: 'C', texto: 'fitoplâncton.' },
+      { letra: 'D', texto: 'peixes herbívoros.' },
+      { letra: 'E', texto: 'algas macroscópicas.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1033,
+    ano: 2021,
+    prova: 'Ciências da Natureza',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Haltere em campo magnético uniforme',
+    enunciado: '[QUESTÃO COM IMAGEM — Diagrama vetorial tridimensional de um haltere imerso em campo magnético uniforme]\n\n[IMAGEM: Q121 — Diagrama vetorial 3D de haltere (dipolo magnético) em campo magnético uniforme, com forças e torques]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1034,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Coleta seletiva e destinação de recicláveis',
+    enunciado: 'Uma escola iniciou o processo educativo para implantação da coleta seletiva e destino de materiais recicláveis. Para atingir seus objetivos, a instituição planejou:\n1) sensibilizar a comunidade escolar, desenvolvendo atividades em sala e extraclasse de maneira contínua;\n2) capacitar o pessoal responsável pela limpeza da escola quanto aos novos procedimentos adotados;\n3) distribuir coletores de materiais recicláveis específicos nas salas, pátio e outros ambientes.\n\nPara completar a ação proposta no ambiente escolar, o que falta ser inserido no planejamento?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Realizar campanhas educativas de sensibilização em bairros vizinhos para fortalecer a coleta seletiva.' },
+      { letra: 'B', texto: 'Firmar parceria com a prefeitura ou cooperativa de catadores para recolhimento dos materiais recicláveis e destinação apropriada.' },
+      { letra: 'C', texto: 'Organizar visitas ao lixão ou aterro local para identificar aspectos importantes sobre a disposição final do lixo.' },
+      { letra: 'D', texto: 'Divulgar na rádio local, no jornal impresso e nas redes sociais que a escola está realizando a coleta seletiva.' },
+      { letra: 'E', texto: 'Colocar recipientes coletores de lixo reciclável fora da escola para entrega voluntária pela população.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1035,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Consanguinidade em búfalos e mapeamento genético',
+    enunciado: 'Os búfalos são animais considerados rústicos pelos criadores e, por isso, são deixados no campo sem controle reprodutivo. Por causa desse tipo de criação, a consanguinidade é favorecida, proporcionando o aparecimento de enfermidades, como o albinismo, defeitos cardíacos, entre outros. Separar os animais de forma adequada minimizaria a ocorrência desses problemas.\n\nQual procedimento biotecnológico prévio é recomendado nessa situação?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Transgenia.' },
+      { letra: 'B', texto: 'Terapia gênica.' },
+      { letra: 'C', texto: 'Vacina de DNA.' },
+      { letra: 'D', texto: 'Clonagem terapêutica.' },
+      { letra: 'E', texto: 'Mapeamento genético.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1036,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Ciclo do cobre e reação de redução',
+    enunciado: 'O ciclo do cobre é um experimento didático em que o cobre metálico é utilizado como reagente de partida. Após uma sequência de reações, o cobre retorna ao seu estado inicial:\n\nCu → (HNO3/I) → Cu(NO3)2 → (NaOH/II) → Cu(OH)2 → (Δ/III) → CuO → (H2SO4/IV) → CuSO4 → (Zn, HCl/V) → Cu\n\nA reação de redução do cobre ocorre na etapa',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'I.' },
+      { letra: 'B', texto: 'II.' },
+      { letra: 'C', texto: 'III.' },
+      { letra: 'D', texto: 'IV.' },
+      { letra: 'E', texto: 'V.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1037,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Reflexo patelar e sistema nervoso',
+    enunciado: 'Um dos exames clínicos mais tradicionais para medir a capacidade reflexa dos indivíduos é o exame do reflexo patelar. Esse exame consiste na estimulação da patela, um pequeno osso localizado na parte anterior da articulação do joelho, com um pequeno martelo. A resposta reflexa ao estímulo é caracterizada pelo levantamento da perna em que o estímulo foi aplicado.\n\nQual região específica do sistema nervoso coordena essa resposta?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Ponte.' },
+      { letra: 'B', texto: 'Medula.' },
+      { letra: 'C', texto: 'Cerebelo.' },
+      { letra: 'D', texto: 'Hipotálamo.' },
+      { letra: 'E', texto: 'Neuro-hipófise.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1038,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Condutividade térmica de panelas e economia de gás',
+    enunciado: 'Na montagem de uma cozinha para um restaurante, a escolha do material correto para as panelas é importante. A taxa de condução do calor é dada por ΔQ/Δt = k·A·(ΔT/d). Em panelas com dois materiais: ΔQ/Δt = A·ΔT / (d1/k1 + d2/k2).\n\nCondutividades: alumínio k=20, ferro k=8, aço k=5, cobre k=40 (W/m·K)\n\nCompara-se uma panela de ferro, uma de alumínio e uma composta de ½ em cobre e ½ em aço, todas com a mesma espessura total e área.\n\nA ordem crescente da mais econômica para a menos econômica é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'cobre-aço, alumínio e ferro.' },
+      { letra: 'B', texto: 'alumínio, cobre-aço e ferro.' },
+      { letra: 'C', texto: 'cobre-aço, ferro e alumínio.' },
+      { letra: 'D', texto: 'alumínio, ferro e cobre-aço.' },
+      { letra: 'E', texto: 'ferro, alumínio e cobre-aço.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1039,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Bancada laboratorial com béqueres e voltímetro',
+    enunciado: '[QUESTÃO COM IMAGEM — Ilustração esquemática de bancada laboratorial contendo béqueres interligados, um voltímetro digital e um cronômetro gerando corrente elétrica]\n\n[IMAGEM: Q127 — Bancada laboratorial de eletroquímica com célula galvânica, voltímetro e cronômetro]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1040,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Lançamento oblíquo entre dois canhões sobre montanha',
+    enunciado: '[QUESTÃO COM IMAGEM — Cenário bidimensional simulando a trajetória balística de lançamento oblíquo entre os canhões A e B contornando uma montanha de ponto P]\n\n[IMAGEM: Q128 — Diagrama de lançamento oblíquo com dois canhões e montanha entre eles]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1041,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Pesticidas organoclorados e meia-vida no solo',
+    enunciado: 'Os pesticidas organoclorados foram amplamente empregados na agricultura, contudo, em razão das suas elevadas toxicidades e persistências no meio ambiente, eles foram banidos. Considere a aplicação de 500 g de um pesticida organoclorado em uma cultura e que, em certas condições, o tempo de meia-vida do pesticida no solo seja de 5 anos.\n\nA massa do pesticida no decorrer de 35 anos será mais próxima de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '3,9 g.' },
+      { letra: 'B', texto: '31,2 g.' },
+      { letra: 'C', texto: '62,5 g.' },
+      { letra: 'D', texto: '125,0 g.' },
+      { letra: 'E', texto: '250,0 g.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1042,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Mutação em códon e tamanho da proteína produzida',
+    enunciado: 'A sequência de nucleotídeos do RNA mensageiro presentes em um gene de um fungo, constituída de sete códons:\n1:AUG | 2:UUU | 3:GUU | 4:CAA | 5:UGU | 6:AGU | 7:UAG\n\nSabe-se que os códons UAG e UAA são terminais. Pesquisadores submeteram a sequência a mutações independentes.\n\nQual mutação produzirá a menor proteína?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Deleção de G no códon 3.' },
+      { letra: 'B', texto: 'Substituição de C por U no códon 4.' },
+      { letra: 'C', texto: 'Substituição de G por C no códon 6.' },
+      { letra: 'D', texto: 'Substituição de A por G no códon 7.' },
+      { letra: 'E', texto: 'Deleção dos dois primeiros nucleotídeos no códon 5.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1043,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Saponificação do óleo vegetal com soda cáustica',
+    enunciado: 'A simples atitude de não jogar direto no lixo ou no ralo da pia o óleo de cozinha usado pode contribuir para a redução da poluição ambiental. Mas o que fazer com o óleo vegetal que não será mais usado? Uma alternativa simples tem sido reaproveitá-lo para fazer sabão. Para isso, são necessários, além do próprio óleo, água e soda cáustica.\n\nCom base no texto, a reação química que permite o reaproveitamento do óleo vegetal é denominada',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'redução.' },
+      { letra: 'B', texto: 'epoxidação.' },
+      { letra: 'C', texto: 'substituição.' },
+      { letra: 'D', texto: 'esterificação.' },
+      { letra: 'E', texto: 'saponificação.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1044,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Forame oval no embrião humano e circulação fetal',
+    enunciado: 'Durante o desenvolvimento embrionário humano ocorre uma comunicação entre os átrios direito e esquerdo através do forame oval (ou forame de Botal). Essa comunicação não causa prejuízos à circulação do bebê em formação, exceto se ela perdurar após o nascimento.\n\nOs prejuízos no período embrionário são evitados porque a circulação fetal se assemelha à dos(as)',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'aves, porque a pequena circulação e a grande circulação estão presentes.' },
+      { letra: 'B', texto: 'répteis, porque a mistura de sangue é minimizada por um metabolismo lento.' },
+      { letra: 'C', texto: 'crocodilianos, porque a separação dos ventrículos impede a mistura sanguínea.' },
+      { letra: 'D', texto: 'peixes, porque a circulação é simples, ocorrendo uma passagem única pelo coração.' },
+      { letra: 'E', texto: 'anfíbios, porque pressões diferenciais isolam temporalmente o sangue venoso do arterial.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1045,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Hidroponia e correção de pH com hidróxido de potássio',
+    enunciado: 'No cultivo por hidroponia, são utilizadas soluções nutritivas contendo macronutrientes e micronutrientes essenciais. Para o cultivo de alface, valores de pH entre 5,5 e 6,5 são ideais. Um produtor preparou uma solução com pH = 4,3 (muito ácido).\n\nPara correção do pH da solução nutritiva preparada, esse produtor pode empregar uma solução de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'ácido fosfórico, H3PO4.' },
+      { letra: 'B', texto: 'sulfato de cálcio, CaSO4.' },
+      { letra: 'C', texto: 'óxido de alumínio, Al2O3.' },
+      { letra: 'D', texto: 'cloreto de ferro(II), FeCl2.' },
+      { letra: 'E', texto: 'hidróxido de potássio, KOH.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1046,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Sino dos ventos e hastes cilíndricas',
+    enunciado: '[QUESTÃO COM IMAGEM — Fotografia digital detalhando um objeto do tipo "sino dos ventos" formado por hastes cilíndricas suspensas verticais]\n\n[IMAGEM: Q134 — Fotografia de sino dos ventos com hastes cilíndricas de diferentes comprimentos]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1047,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Polvos mimetizando outras espécies marinhas',
+    enunciado: '[QUESTÃO COM IMAGEM — Conjunto composto por 6 fotografias biológicas mostrando espécimes marinhos reais de polvos mimetizando outras espécies locais]\n\n[IMAGEM: Q135 — Seis fotografias de polvos (Thaumoctopus mimicus) mimetizando diferentes espécies marinhas]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1048,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Numeração romana e anos de fundação de cidade',
+    enunciado: 'O sistema de numeração romano ainda é utilizado na indicação de capítulos e volumes de livros, na designação de séculos e, em ordem cronológica, de papas e reis de mesmo nome. São utilizadas sete letras: I=1, V=5, X=10, L=50, C=100, D=500, M=1000. Regras: letras iguais repetem até três vezes (adição); letra à esquerda de outra maior indica subtração; à direita indica adição.\n\nEm uma cidade europeia há uma placa indicando o ano de sua fundação: MCDLXIX.\n\nQuantos anos de fundação essa cidade comemorará em 2050?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '379' },
+      { letra: 'B', texto: '381' },
+      { letra: 'C', texto: '579' },
+      { letra: 'D', texto: '581' },
+      { letra: 'E', texto: '601' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1049,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Sistema binário e adição de 9 + 12',
+    enunciado: 'Os computadores trabalham com números na base binária. Nessa base, qualquer número natural é representado usando apenas os algarismos 0 e 1. Os números 9 e 12, na base binária, são 1001 e 1100, respectivamente. A operação de adição na base binária: 0+0=0; 0+1=1; 1+0=1; 1+1=10.\n\nConsiderando as informações do texto, o resultado da adição 9 + 12 será representado, na base binária, por',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '101.' },
+      { letra: 'B', texto: '1101.' },
+      { letra: 'C', texto: '1111.' },
+      { letra: 'D', texto: '10101.' },
+      { letra: 'E', texto: '11001.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1050,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Loteamento e valor total de venda de terrenos',
+    enunciado: 'Um fazendeiro decide fazer um loteamento utilizando 3 hectares de sua fazenda, dos quais 0,9 hectare será usado para a construção de ruas e calçadas e o restante será dividido em terrenos com área de 300 m² cada um. Os 20 primeiros terrenos vendidos terão preços promocionais de R$ 20 000,00 cada, e os demais, R$ 30 000,00 cada. (1 hectare = 10 000 m²)\n\nO valor total, em real, obtido pelo fazendeiro com a venda de todos os terrenos será igual a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '700 000.' },
+      { letra: 'B', texto: '1 600 000.' },
+      { letra: 'C', texto: '1 900 000.' },
+      { letra: 'D', texto: '2 200 000.' },
+      { letra: 'E', texto: '2 800 000.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1051,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Combinatória - Quantidade de fantasias possíveis com tecidos e pedras',
+    enunciado: 'Uma pessoa produzirá uma fantasia utilizando como materiais: 2 tipos de tecidos diferentes e 5 tipos distintos de pedras ornamentais. Essa pessoa tem à sua disposição 6 tecidos diferentes e 15 pedras ornamentais distintas.\n\nA quantidade de fantasias com materiais diferentes que podem ser produzidas é representada pela expressão',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'C(6,2) × C(15,5)' },
+      { letra: 'B', texto: 'C(6,2) + C(15,5)' },
+      { letra: 'C', texto: '6!/2! + 15!/5!' },
+      { letra: 'D', texto: '6!/2! × 15!/5!' },
+      { letra: 'E', texto: 'C(21,7)' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1052,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática financeira - Economia por usuário entre laboratório tipo A e B',
+    enunciado: 'Há duas possibilidades de laboratório para uma escola:\n(i) Laboratório tipo A: capacidade 100 usuários, custo R$ 180 mil, manutenção R$ 60 mil/ano;\n(ii) Laboratório tipo B: capacidade 80 usuários, custo R$ 120 mil, manutenção R$ 16 mil/ano.\n\nO laboratório implantado será utilizado na totalidade de sua capacidade.\n\nA economia da escola, na utilização de um laboratório tipo B, em vez de um laboratório tipo A, num período de 4 anos, por usuário, será de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1,31 mil reais.' },
+      { letra: 'B', texto: '1,90 mil reais.' },
+      { letra: 'C', texto: '2,30 mil reais.' },
+      { letra: 'D', texto: '2,36 mil reais.' },
+      { letra: 'E', texto: '2,95 mil reais.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1053,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Frequência cardíaca e faixa aeróbica ideal',
+    enunciado: 'Um ciclista amador de 61 anos de idade utilizou um monitor cardíaco para medir suas frequências cardíacas em quatro trechos:\n- Leve no plano: 90 bpm\n- Forte no plano: 120 bpm\n- Subida moderada: 130 bpm\n- Subida forte: 140 bpm\n\nFc máx. = 220 - idade. A faixa aeróbica ideal é entre 65% e 85% da Fc máx.\n\nOs trechos do percurso nos quais esse ciclista se mantém dentro de sua faixa aeróbica ideal são',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'leve no plano, forte no plano, subida moderada e subida forte.' },
+      { letra: 'B', texto: 'leve no plano, forte no plano e subida moderada.' },
+      { letra: 'C', texto: 'forte no plano, subida moderada e subida forte.' },
+      { letra: 'D', texto: 'forte no plano e subida moderada.' },
+      { letra: 'E', texto: 'leve no plano e subida forte.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1054,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Lava-rápido e receita mínima diária sem prejuízo',
+    enunciado: 'Um lava-rápido oferece dois tipos de lavagem: lavagem simples (R$ 20,00) e lavagem completa (R$ 35,00). Para cobrir as despesas, o lava-rápido deve ter uma receita diária de, pelo menos, R$ 300,00.\n\nPara não ter prejuízo, o menor número de lavagens diárias que o lava-rápido deve efetuar é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '6.' },
+      { letra: 'B', texto: '8.' },
+      { letra: 'C', texto: '9.' },
+      { letra: 'D', texto: '15.' },
+      { letra: 'E', texto: '20.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1055,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática financeira - Compra de medicamentos com descontos',
+    enunciado: 'Um paciente deve comprar três medicamentos X, Y e Z:\n\nFarmácia 1: X=R$45, Y=R$40, Z=R$50\nFarmácia 2: X=R$50, Y=R$50, Z=R$40 (desconto 20% em X e Y se comprar X e Y juntos)\nFarmácia 3: X=R$45, Y=R$65, Z=R$35 (desconto 20% no total se comprar os 3)\n\nO paciente deseja minimizar sua despesa. De acordo com as informações, o paciente deve comprar os medicamentos da seguinte forma:',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'X, Y e Z na Farmácia 1.' },
+      { letra: 'B', texto: 'X e Y na Farmácia 1, e Z na Farmácia 3.' },
+      { letra: 'C', texto: 'X e Y na Farmácia 2, e Z na Farmácia 3.' },
+      { letra: 'D', texto: 'X na Farmácia 2, e Y e Z na Farmácia 3.' },
+      { letra: 'E', texto: 'X, Y e Z na Farmácia 3.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1056,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Cubo com haste interna e cubo menor',
+    enunciado: '[QUESTÃO COM IMAGEM — Representação tridimensional estruturada de um cubo geométrico com hastes acopladas internamente a um cubo menor congruente]\n\n[IMAGEM: Q144 — Cubo maior com estrutura interna mostrando cubo menor inscrito]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1057,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Octaedro regular e planificação',
+    enunciado: '[QUESTÃO COM IMAGEM — Desenho espacial de um octaedro regular de faces triangulares adjacente à sua respectiva planificação numerada de 1 a 4]\n\n[IMAGEM: Q145 — Octaedro regular e sua planificação com faces numeradas]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1058,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Instrumento triângulo e representação geométrica',
+    enunciado: '[QUESTÃO COM IMAGEM — Figuras mostrando o instrumento de metal "triângulo" com sua haste e uma representação geométrica de triângulo equilátero reto com altura h]\n\n[IMAGEM: Q146 — Instrumento musical triângulo e triângulo equilátero com altura h indicada]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1059,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Tronco de cone como caneca de sopa',
+    enunciado: '[QUESTÃO COM IMAGEM — Desenho esquemático de um tronco de cone circular invertido com alça representando geometricamente uma caneca de sopa]\n\n[IMAGEM: Q147 — Caneca representada geometricamente como tronco de cone com alça]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1060,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria plana - Área de figuras e custo de cartão imantado',
+    enunciado: 'O dono de uma loja pretende usar cartões imantados para a divulgação de sua loja. O custo de fabricação é de R$ 0,01 por cm². Os modelos disponíveis:\n- Triângulo equilátero de lado 12 cm\n- Quadrado de lado 8 cm\n- Retângulo 11 cm × 8 cm\n- Hexágono regular de lado 6 cm\n- Círculo de diâmetro 10 cm\n\nO dono está disposto a pagar no máximo R$ 0,80 por cartão e escolherá, dentro desse limite, o modelo com maior área. Use π ≈ 3 e √3 ≈ 1,7.\n\nO modelo que deverá ser escolhido tem como face útil para impressão um',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'triângulo.' },
+      { letra: 'B', texto: 'quadrado.' },
+      { letra: 'C', texto: 'retângulo.' },
+      { letra: 'D', texto: 'hexágono.' },
+      { letra: 'E', texto: 'círculo.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1061,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Relação de Newton-Laplace e unidade do módulo volumétrico',
+    enunciado: 'A relação de Newton-Laplace estabelece que o módulo volumétrico de um fluido é diretamente proporcional ao quadrado da velocidade do som (em m/s) no fluido e à sua densidade (em kg/m³), com uma constante de proporcionalidade adimensional.\n\nNessa relação, a unidade de medida adequada para o módulo volumétrico é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'kg · m⁻² · s⁻¹' },
+      { letra: 'B', texto: 'kg · m⁻¹ · s⁻²' },
+      { letra: 'C', texto: 'kg · m⁻⁵ · s²' },
+      { letra: 'D', texto: 'kg⁻¹ · m · s²' },
+      { letra: 'E', texto: 'kg⁻¹ · m⁵ · s⁻²' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1062,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Álgebra - Sistema de equações e quantidade de camisetas na bagagem',
+    enunciado: 'Uma pessoa pretende viajar por uma companhia aérea que despacha gratuitamente uma mala com até 10 kg. Em duas viagens, ela utilizou a mesma mala e conseguiu 10 kg com as seguintes combinações:\nViagem 1: 12 camisetas, 4 calças e 3 sapatos.\nViagem 2: 18 camisetas, 3 calças e 2 sapatos.\n\nPara ter certeza de que sua bagagem terá massa de 10 kg, ela decide levar essa mala com duas calças, um sapato e o máximo de camisetas, admitindo que itens do mesmo tipo têm a mesma massa.\n\nQual a quantidade máxima de camisetas que essa pessoa poderá levar?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '22' },
+      { letra: 'B', texto: '24' },
+      { letra: 'C', texto: '26' },
+      { letra: 'D', texto: '33' },
+      { letra: 'E', texto: '39' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1063,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Novo motor e desempenho médio em km/L',
+    enunciado: 'Um automóvel apresenta um desempenho médio de 16 km/L. Um engenheiro desenvolveu um novo motor a combustão que economiza, em relação ao consumo do motor anterior, 0,1 L de combustível a cada 20 km percorridos.\n\nO valor do desempenho médio do automóvel com o novo motor, em quilômetro por litro, expresso com uma casa decimal, é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '15,9.' },
+      { letra: 'B', texto: '16,1.' },
+      { letra: 'C', texto: '16,4.' },
+      { letra: 'D', texto: '17,4.' },
+      { letra: 'E', texto: '18,0.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1064,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Contêiner e quantidade de tinta após mudança de dimensões',
+    enunciado: 'O projeto de um contêiner, em forma de paralelepípedo reto retangular, previa a pintura dos dois lados (interno e externo) de cada uma das quatro paredes com tinta acrílica e a pintura do piso interno com tinta epóxi. O construtor resolveu mudar o projeto original, alterando o comprimento e a largura para o dobro do originalmente previsto, mantendo inalterada a altura.\n\nQual dos fornecedores prestou as informações adequadas?\n- I: O dobro tanto para as paredes quanto para o piso.\n- II: O dobro para as paredes e quatro vezes para o piso.\n- III: Quatro vezes tanto para as paredes quanto para o piso.\n- IV: Quatro vezes para as paredes e o dobro para o piso.\n- V: Oito vezes para as paredes e quatro vezes para o piso.',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'I' },
+      { letra: 'B', texto: 'II' },
+      { letra: 'C', texto: 'III' },
+      { letra: 'D', texto: 'IV' },
+      { letra: 'E', texto: 'V' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1065,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Reservatório cilíndrico e consumo de água',
+    enunciado: 'Um povoado com 100 habitantes está passando por uma situação de seca prolongada. O reservatório deverá ter a forma de um cilindro circular reto, cuja base tenha 5 metros de diâmetro interno, e atender à demanda de água da população por um período de exatamente sete dias consecutivos. O consumo médio diário por habitante é de 120 litros de água. Use π ≈ 3.\n\nO reservatório deverá ser construído com uma altura interna mínima, em metro, igual a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1,12.' },
+      { letra: 'B', texto: '3,10.' },
+      { letra: 'C', texto: '4,35.' },
+      { letra: 'D', texto: '4,48.' },
+      { letra: 'E', texto: '5,60.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1066,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Gráficos de imposto e preço de produtos',
+    enunciado: '[QUESTÃO COM IMAGEM — Gráficos poligonais definidos por partes relacionando eixos de imposto devido (I) e preço de produtos (R)]\n\n[IMAGEM: Q154 — Gráfico por partes de imposto progressivo em função do preço do produto]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1067,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Gráficos cartesianos de arrecadação por desconto',
+    enunciado: '[QUESTÃO COM IMAGEM — Cinco gráficos cartesianos ortogonais alternativos de pontos discretos modelando eixos de Arrecadação por Desconto]\n\n[IMAGEM: Q155 — Cinco gráficos alternativos mostrando relação entre arrecadação e desconto]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1068,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Álgebra/Matrizes - Fluxo migratório entre regiões e matriz de dados',
+    enunciado: 'Uma construtora fez uma pesquisa sobre a quantidade de famílias que mudaram de uma região para outra em uma metrópole com cinco grandes regiões, para determinar qual região foi o destino do maior fluxo de famílias. Os valores estão dispostos em uma matriz A = [aij] onde aij é o total de famílias (em dezenas) que se mudaram da região i para a região j:\n\n       [0  4  2  2  5]\n       [0  0  6  2  3]\nA =   [2  2  0  3  0]\n       [1  0  2  0  4]\n       [1  2  0  4  0]\n\nQual região foi selecionada para o investimento da construtora?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '1' },
+      { letra: 'B', texto: '2' },
+      { letra: 'C', texto: '3' },
+      { letra: 'D', texto: '4' },
+      { letra: 'E', texto: '5' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1069,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Consumo de combustível de aeronave A vs B',
+    enunciado: 'Para realizar um voo entre duas cidades que distam 2 000 km, uma companhia aérea utilizava a aeronave A, capaz de transportar até 200 passageiros, com consumo de 0,02 L/km por passageiro. A nova aeronave B transporta 10% a mais de passageiros, mas consome 10% menos combustível por km por passageiro.\n\nA quantidade de combustível consumida pelo modelo B, em relação ao modelo A, em um voo lotado entre as duas cidades, é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '10% menor.' },
+      { letra: 'B', texto: '1% menor.' },
+      { letra: 'C', texto: 'igual.' },
+      { letra: 'D', texto: '1% maior.' },
+      { letra: 'E', texto: '11% maior.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1070,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Troca de pneus em corrida com trabalhador faltante',
+    enunciado: 'Em uma corrida automobilística, as trocas de pneus são feitas por um grupo de três pessoas em cada pneu. Com os quatro grupos completos, são necessários 4 segundos para que a troca seja efetuada. O tempo gasto por um grupo para trocar um pneu é inversamente proporcional ao número de pessoas trabalhando nele. Em uma parada específica, um trabalhador passou mal e um dos grupos ficou reduzido (apenas 2 pessoas).\n\nNessa parada específica, com um dos grupos reduzido, qual foi o tempo gasto, em segundo, para trocar os quatro pneus?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '6,0' },
+      { letra: 'B', texto: '5,7' },
+      { letra: 'C', texto: '5,0' },
+      { letra: 'D', texto: '4,5' },
+      { letra: 'E', texto: '4,4' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1071,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Suplemento alimentar com menor custo para suprir minerais',
+    enunciado: 'Um nutricionista verificou, na dieta diária do seu cliente, a falta de 800 mg do mineral A, de 1 000 mg do mineral B e de 1 200 mg do mineral C. O cliente encontrou cinco suplementos:\n\nSuplemento I: A=50mg, B=100mg, C=200mg — R$2,00\nSuplemento II: A=800mg, B=250mg, C=200mg — R$3,00\nSuplemento III: A=250mg, B=1000mg, C=300mg — R$5,00\nSuplemento IV: A=600mg, B=500mg, C=1000mg — R$6,00\nSuplemento V: A=400mg, B=800mg, C=1200mg — R$8,00\n\nO cliente decidiu comprar sachês de um único suplemento no qual gastasse menos dinheiro e ainda suprisse a falta de minerais, mesmo que consumisse alguns além de sua necessidade.\n\nO cliente deverá comprar sachês do suplemento',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'I.' },
+      { letra: 'B', texto: 'II.' },
+      { letra: 'C', texto: 'III.' },
+      { letra: 'D', texto: 'IV.' },
+      { letra: 'E', texto: 'V.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1072,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática financeira - Atleta e redução percentual da quantidade de frango',
+    enunciado: 'Um atleta produz sua própria refeição com custo fixo de R$ 10,00. Ela é composta por 400 g de frango, 600 g de batata-doce e uma hortaliça. Preços atuais: frango R$12,50/kg, batata-doce R$5,00/kg, hortaliça R$2,00/unidade. Haverá um aumento de 50% no preço da batata-doce. O atleta deseja manter o custo da refeição, a quantidade de batata-doce e a hortaliça, tendo que reduzir a quantidade de frango.\n\nQual deve ser a redução percentual da quantidade de frango para que o atleta alcance seu objetivo?',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '12,5' },
+      { letra: 'B', texto: '28,0' },
+      { letra: 'C', texto: '30,0' },
+      { letra: 'D', texto: '50,0' },
+      { letra: 'E', texto: '70,0' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1073,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Sistema massa-mola e gráfico senoidal',
+    enunciado: '[QUESTÃO COM IMAGEM — Desenho mecânico ilustrando um sistema massa-mola em posição de equilíbrio e estendido, acompanhado de gráfico senoidal trigonométrico cartesiano]\n\n[IMAGEM: Q161 — Sistema massa-mola com gráfico de movimento harmônico simples]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1074,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Álgebra - Operações triângulo e estrela: código entre navios',
+    enunciado: 'Para a comunicação entre dois navios é utilizado um sistema de codificação com operações: x Δ y = x² + xy − y² e x ★ y = xy + x. O valor de saída é a soma das duas maiores soluções da equação (a Δ b) ★ (b Δ a) = 0, onde b é o valor de entrada. Para enviar a mensagem "ATENÇÃO!", deve-se utilizar o valor de entrada b = 1.\n\nO valor recebido pelo navio receptor será',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '√5' },
+      { letra: 'B', texto: '√3' },
+      { letra: 'C', texto: '1' },
+      { letra: 'D', texto: '(−1 + √5)/2' },
+      { letra: 'E', texto: '(3 + √5)/2' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1075,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Fotografia do Castelo de Liechtenstein',
+    enunciado: '[QUESTÃO COM IMAGEM — Fotografia realista do Castelo de Liechtenstein original construído sobre rochedos elevados]\n\n[IMAGEM: Q163 — Fotografia do Castelo de Liechtenstein sobre rochedos, com questão sobre geometria/escala]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1076,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Matemática - Projeção de médicos por mil habitantes em 2020',
+    enunciado: 'Um estudo gerou um conjunto de dados sobre médicos e população:\n\n1990: 219 000 médicos, 147 000 mil hab.\n2000: 292 000 médicos, 170 000 mil hab.\n2010: 365 000 médicos, 191 000 mil hab.\n\nSegundo uma projeção estatística, a variação de 2010 para 2020 será a média entre a variação de 1990 para 2000 e a de 2000 para 2010.\n\nO número, com duas casas decimais, mais próximo do número de médicos por mil habitantes no ano de 2020 seria de',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '0,17.' },
+      { letra: 'B', texto: '0,49.' },
+      { letra: 'C', texto: '1,71.' },
+      { letra: 'D', texto: '2,06.' },
+      { letra: 'E', texto: '3,32.' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1077,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Gráfico de linhas de receita e despesa ao longo de meses',
+    enunciado: '[QUESTÃO COM IMAGEM — Gráfico de linhas contendo duas curvas distintas cruzando marcadores circulares e em cruz para monitorar Receita e Despesa ao longo de meses]\n\n[IMAGEM: Q165 — Gráfico com duas curvas (Receita e Despesa) ao longo de meses, com ponto de equilíbrio]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1078,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Gráfico de volume de vendas de medicamentos 2005-2009',
+    enunciado: '[QUESTÃO COM IMAGEM — Gráfico contínuo poligonal com marcadores discretos que detalha o volume de vendas de medicamentos nos anos de 2005 a 2009]\n\n[IMAGEM: Q166 — Gráfico de linha com volume de vendas de medicamentos de 2005 a 2009]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1079,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Histograma de imóveis por faixas de preço',
+    enunciado: '[QUESTÃO COM IMAGEM — Histograma de frequências acumuladas em colunas verticais agrupadas mostrando o número de imóveis versus preços em faixas de milhares de reais]\n\n[IMAGEM: Q167 — Histograma de número de imóveis por faixa de preço em milhares de reais]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1080,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Frequência de letras no romance O Guarani',
+    enunciado: '[QUESTÃO COM IMAGEM — Histograma geral por barras verticais independentes que aponta as frequências absolutas de repetição das letras de "A" a "Z" no romance literário "O Guarani"]\n\n[IMAGEM: Q168 — Histograma de frequência de letras A-Z no romance O Guarani de José de Alencar]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1081,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Mediana de terremotos de magnitude ≥ 7 entre 2000 e 2011',
+    enunciado: 'O quadro apresenta o número de terremotos de magnitude maior ou igual a 7 (escala Richter) ocorridos de 2000 a 2011:\n2000:15 | 2001:16 | 2002:13 | 2003:15 | 2004:16 | 2005:11 | 2006:11 | 2007:18 | 2008:12 | 2009:17 | 2010:24 | 2011:20\n\nUm pesquisador acredita que a mediana representa bem o número anual típico de terremotos.\n\nSegundo esse pesquisador, o número anual típico de terremotos de magnitude maior ou igual a 7 é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '11.' },
+      { letra: 'B', texto: '15.' },
+      { letra: 'C', texto: '15,5.' },
+      { letra: 'D', texto: '15,7.' },
+      { letra: 'E', texto: '17,5.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1082,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Gráfico de volume de reservatórios por nível de ocupação',
+    enunciado: '[QUESTÃO COM IMAGEM — Gráfico de colunas verticais separadas associando faixas de nível de ocupação percentual e capacidade volumétrica em bilhões de litros para cinco reservatórios (I a V)]\n\n[IMAGEM: Q170 — Gráfico de cinco reservatórios com volume e nível de ocupação]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'D'
+  },
+  {
+    id: 1083,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Frequências absolutas para idades de 9, 18 e 27 anos',
+    enunciado: '[QUESTÃO COM IMAGEM — Gráfico estatístico simples por colunas indicando frequências absolutas para as idades de 9, 18 e 27 anos]\n\n[IMAGEM: Q171 — Gráfico de barras com frequências absolutas de uma variável para 3 faixas etárias]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1084,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Pesquisa IBGE sobre tempo de leitura diária por faixa etária',
+    enunciado: 'Em um estudo realizado pelo IBGE com mais de 5 mil pessoas com 10 anos ou mais, observou-se que a leitura ocupa, em média, apenas seis minutos do dia de cada pessoa. Na faixa de 10 a 24 anos: 3 min/dia. Entre 24 e 60 anos: 5 min/dia. Com 60 anos ou mais: 12 min/dia. A distribuição percentual dos entrevistados:\n\nDe 10 a 24 anos: x%\nEntre 24 e 60 anos: y%\nA partir de 60 anos: x%\n\nOs valores de x e y do quadro são, respectivamente, iguais a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '10 e 80.' },
+      { letra: 'B', texto: '10 e 90.' },
+      { letra: 'C', texto: '20 e 60.' },
+      { letra: 'D', texto: '20 e 80.' },
+      { letra: 'E', texto: '25 e 50.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1085,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Coeficiente de variação e substituição de ração para coelhos',
+    enunciado: 'Um zootecnista pretende testar se uma nova ração para coelhos é mais eficiente. A ração atual proporciona massa média de 10 kg/coelho, com desvio padrão de 1 kg. Com a nova ração, obteve-se desvio padrão de 1,5 kg. O coeficiente de variação é CV = s/x̄. O zootecnista substituirá a ração se o CV da nova ração for menor que o da ração atual.\n\nA substituição da ração ocorrerá se a média da distribuição das massas dos coelhos da amostra, em quilograma, for superior a',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '5,0.' },
+      { letra: 'B', texto: '9,5.' },
+      { letra: 'C', texto: '10,0.' },
+      { letra: 'D', texto: '10,5.' },
+      { letra: 'E', texto: '15,0.' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1086,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Lanche com maior média por franquia em hamburgueria',
+    enunciado: 'Uma rede de hamburgueria tem três franquias. Foram colocados à venda cinco novos tipos de lanche em edições especiais, pelo mesmo período em todos os franqueados. O tipo com maior média por franquia seria incluído definitivamente no cardápio.\n\nQuantidades vendidas:\nFranquia I: I=415, II=395, III=425, IV=430, V=435\nFranquia II: I=415, II=445, III=370, IV=370, V=425\nFranquia III: I=415, II=390, III=425, IV=433, V=420\n\nA gerência decidiu incluir no cardápio o lanche de tipo',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'I.' },
+      { letra: 'B', texto: 'II.' },
+      { letra: 'C', texto: 'III.' },
+      { letra: 'D', texto: 'IV.' },
+      { letra: 'E', texto: 'V.' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1087,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Faturamento mensal de supermercado e comissão',
+    enunciado: 'Uma grande rede de supermercados adota um sistema de avaliação dos faturamentos com comissões baseadas na média mensal M (em milhão de R$):\n\nComissão I: 1 ≤ M < 2\nComissão II: 2 ≤ M < 4\nComissão III: 4 ≤ M < 5\nComissão IV: 5 ≤ M < 6\nComissão V: M ≥ 6\n\nUm supermercado obteve os faturamentos: 3,5 por 3 meses; 2,5 por 2 meses; 5 por 2 meses; 3 por 4 meses; 7,5 por 1 mês.\n\nOs representantes desse supermercado avaliam que receberão a comissão de tipo',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'I.' },
+      { letra: 'B', texto: 'II.' },
+      { letra: 'C', texto: 'III.' },
+      { letra: 'D', texto: 'IV.' },
+      { letra: 'E', texto: 'V.' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1088,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Álgebra - Expressão do preço de hospedagem em aplicativo',
+    enunciado: 'Em um aplicativo de hospedagem, o preço P a ser pago pela hospedagem é calculado considerando um preço por diária d, acrescido de uma taxa fixa de limpeza L e de uma taxa de serviço. Essa taxa de serviço é um valor percentual s calculado sobre o valor pago pelo total das diárias.\n\nNessa situação, o preço a ser pago ao aplicativo para uma hospedagem de n diárias pode ser obtido pela expressão',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'P = d·n + L + d·n·s' },
+      { letra: 'B', texto: 'P = d·n + L + d·s' },
+      { letra: 'C', texto: 'P = d + L + s' },
+      { letra: 'D', texto: 'P = d·n·s + L' },
+      { letra: 'E', texto: 'P = d·n + L + s' }
+    ],
+    correta: 'A'
+  },
+  {
+    id: 1089,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Probabilidade - Quantidade mínima de dardos para probabilidade ≥ 9/10',
+    enunciado: 'O organizador de uma competição de lançamento de dardos considera que os jogadores têm 1/2 de probabilidade de acertar um dardo no alvo em cada lançamento. Pelas regras atuais, o jogador lança 3 dardos e pontua se acertar pelo menos um. O organizador deseja modificar as regras para que a probabilidade de um jogador pontuar em uma rodada seja igual ou superior a 9/10, aumentando a quantidade de dardos a serem lançados.\n\nA quantidade mínima de dardos que devem ser disponibilizados em uma rodada para tornar o jogo mais atrativo é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '2.' },
+      { letra: 'B', texto: '4.' },
+      { letra: 'C', texto: '6.' },
+      { letra: 'D', texto: '9.' },
+      { letra: 'E', texto: '10.' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1090,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Estatística - Brasões de clubes vencedores da Copa do Brasil',
+    enunciado: '[QUESTÃO COM IMAGEM — Painel ilustrativo composto pelas 15 imagens digitais correspondentes aos brasões e escudos oficiais de clubes de futebol brasileiros vencedores da Copa do Brasil]\n\n[IMAGEM: Q178 — Brasões dos 15 clubes vencedores da Copa do Brasil]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'B'
+  },
+  {
+    id: 1091,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Álgebra - Razão áurea e potências de phi na forma a·phi + b',
+    enunciado: 'Um segmento de reta está dividido em duas partes na proporção áurea quando o todo está para uma das partes na mesma razão em que essa parte está para a outra. Essa constante é phi, solução positiva de phi² = phi + 1. As potências de phi:\nphi² = phi + 1\nphi³ = 2·phi + 1\nphi⁴ = 3·phi + 2\nphi⁵ = 5·phi + 3\nphi⁶ = 8·phi + 5\n\nA potência phi⁷ escrita na forma a·phi + b (a e b inteiros positivos) é',
+    temImagem: false,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: '5·phi + 3' },
+      { letra: 'B', texto: '7·phi + 2' },
+      { letra: 'C', texto: '9·phi + 6' },
+      { letra: 'D', texto: '11·phi + 7' },
+      { letra: 'E', texto: '13·phi + 8' }
+    ],
+    correta: 'E'
+  },
+  {
+    id: 1092,
+    ano: 2021,
+    prova: 'ENEM',
+    area: 'Matemática',
+    assunto: 'Geometria espacial - Atomium de Bruxelas e projeções ortogonais',
+    enunciado: '[QUESTÃO COM IMAGEM — Fotografia arquitetônica da estrutura monumental metálica do "Atomium" em Bruxelas, acompanhada de cinco desenhos esquemáticos alternativos tridimensionais de projeções ortogonais no plano do solo]\n\n[IMAGEM: Q180 — Fotografia do Atomium e cinco opções de projeção ortogonal da estrutura]',
+    temImagem: true,
+    imagem: null,
+    opcoes: [
+      { letra: 'A', texto: 'Opção A' },
+      { letra: 'B', texto: 'Opção B' },
+      { letra: 'C', texto: 'Opção C' },
+      { letra: 'D', texto: 'Opção D' },
+      { letra: 'E', texto: 'Opção E' }
+    ],
+    correta: 'C'
+  },
+  {
+    id: 1093,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura / Identidade Cultural',
+    enunciado: 'As my official bio reads, I was made in Cuba, assembled in Spain, and imported to the United States meaning my mother, seven months pregnant, and the rest of my family arrived as exiles from Cuba to Madrid, where I was born. Less than two months later, we emigrated once more and settled in New York City, then eventually in Miami, where I was raised and educated. Although technically we lived in the United States, the Cuban community was culturally insular in Miami during the 1970s, bonded together by the trauma of exile. What\'s more, it seemed that practically everyone was Cuban: my teachers, my classmates, the mechanic, the bus driver. I didn\'t grow up feeling different or treated as a minority. The few kids who got picked on in my grade school were the ones with freckles and funny last names like Dawson and O\'Neil.\n(BLANCO, R. Disponível em: http://edition.cnn.com. Acesso em: 9 dez. 2017 (adaptado).)\n\nAo relatar suas vivências, o autor destaca o(a)',
+    opcoes: [
+      { letra: 'A', texto: 'qualidade da educação formal in Miami.' },
+      { letra: 'B', texto: 'prestígio da cultura cubana nos Estados Unidos.' },
+      { letra: 'C', texto: 'oportunidade de qualificação profissional em Miami.' },
+      { letra: 'D', texto: 'cenário da integração de cubanos nos Estados Unidos.' },
+      { letra: 'E', texto: 'fortalecimento do elo familiar em comunidades estadunidenses.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1094,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Interpretação de Texto / Relações Interpessoais',
+    enunciado: 'Two hundred years ago, Jane Austen lived in a world where single men boasted vast estates; single ladies were expected to speak several languages, sing and play the piano. In both cases, it was, of course, advantageous if you looked good too. So, how much has or hasn\'t changed? Dating apps opaquely outline the demands of today\'s relationship market; users ruminate long and hard over their choice of pictures and what they write in their biographies to hook in potential lovers, and that\'s just your own profile. What do you look for in a future partner\'s profile potential signifiers of a popular personality, a good job, a nice car? These apps are a poignant reminder of the often classist attitudes we still adopt, as well as the financial and aesthetic expectations we demand from potential partners.\n(GALER, S. Disponível em: www.bbc.com. Acesso em: 8 dez. 2017 (adaptado).)\n\nO texto aborda relações interpessoais com o objetivo de',
+    opcoes: [
+      { letra: 'A', texto: 'problematizar o papel de gênero em casamentos modernos.' },
+      { letra: 'B', texto: 'apontar a relevância da educação formal na escolha de parceiros.' },
+      { letra: 'C', texto: 'comparar a expectativa de parceiros amorosos em épocas distintas.' },
+      { letra: 'D', texto: 'discutir o uso de aplicativos para proporcionar encontros românticos.' },
+      { letra: 'E', texto: 'valorizar a importância da aparência física na seleção de pretendentes.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1095,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Interpretação de Texto / Redes Sociais',
+    enunciado: 'A Teen\'s View of Social Media\nInstagram is made up of all photos and videos. There is the home page that showcases the posts from people you follow, an explore tab which offers posts from accounts all over the world, and your own page, with a notification tab to show who likes and comments on your posts. It has some downsides though. It is known to make many people feel insecure or down about themselves because the platform showcases the highlights of everyone\'s lives, while rarely showing the negatives. This can make one feel like their life is not going as well as others, contributing to the growing rates of anxiety or depression in many teens today. There is an underlying desire for acceptance through the number of likes or followers one has.\n(Disponível em: https://cyberbullying.org. Acesso em: 29 out 2021.)\n\nO termo "downsides" introduz a ideia de que o Instagram é responsável por',
+    opcoes: [
+      { letra: 'A', texto: 'oferecer recursos de fotografia.' },
+      { letra: 'B', texto: 'divulgar problemas dos usuários.' },
+      { letra: 'C', texto: 'estimular aceitação dos seguidores.' },
+      { letra: 'D', texto: 'provocar ansiedade nos adolescentes.' },
+      { letra: 'E', texto: 'aproximar pessoas ao redor do mundo.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1096,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Interpretação de Texto / Poesia',
+    enunciado: 'I tend the mobile now\nlike an injured bird\nWe text, text, text\nour significant words.\nI re-read your first,\nyour second, your third,\nLook for your small xx,\nfeeling absurd.\nThe codes we send\narrive with a broken chord.\nI try to picture your hands,\ntheir image is blurred.\nNothing my thumbs press\nwill ever be heard.\n(DUFFY, C. Disponível em: www.independent.co.uk. Acesso em: 27 out. 2021.)\n\nNesse poema, o eu lírico evidencia um sentimento de',
+    opcoes: [
+      { letra: 'A', texto: 'contentamento com a interação virtual.' },
+      { letra: 'B', texto: 'zelo com o envio de mensagens.' },
+      { letra: 'C', texto: 'preocupação com a composição de textos.' },
+      { letra: 'D', texto: 'mágoa com o comportamento de alguém.' },
+      { letra: 'E', texto: 'insatisfação com uma forma de comunicação.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1097,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Interpretação de Texto / Crítica ao Celular',
+    enunciado: 'Pequeño hermano\nEs, no cabe duda, el instrumento más presente y más poderoso de todos los que entraron en nuestras vidas. Ni la televisión ni el ordenador, no hablemos ya del obsoleto fax o de las agendas o los libros electrónicos, ha tenido tal influencia, tal predicamento sobre nosotros. El móvil somos nosotros mismos. Todo desactivado e inerte, inocuo, ya les digo. Y de repente, tras un viaje y tres o cuatro imprudentes fotos, salta un aviso en la pantalla. Con sonido, además, pese a que tengo también todas las alertas desactivadas. Y mi monstruo doméstico me dice: tienes un recuerdo nuevo. Lo repetiré: tienes un recuerdo nuevo. ¿Y tú qué sabes? ¿Y a ti, máquina demoníaca, qué te importa? ¿Cómo te atreves a decirme qué son o no son mis recuerdos? ¿Qué es esta intromisión, este descaro? El pequeño hermano lo sabe casi todo. Sólo hay una esperanza: que la obsolescencia programada mate antes al pequeño hermano y que nosotros sigamos vivos, con los recuerdos que nos dé la gana.\n(FERNÁNDEZ, D. Disponível em: www.lavanguardia.com. Acesso em: 5 dez. 2018 (adaptado).)\n\nNo texto, o autor faz uma crítica ao(à)',
+    opcoes: [
+      { letra: 'A', texto: 'conhecimento das pessoas sobre as tecnologias.' },
+      { letra: 'B', texto: 'uso do celular alheio por pessoas desautorizadas.' },
+      { letra: 'C', texto: 'funcionamento de recursos tecnológicos obsoletos.' },
+      { letra: 'D', texto: 'ingerência do celular sobre as escolhas dos usuários.' },
+      { letra: 'E', texto: 'falta de informação sobre a configuração de alertas no celular.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1098,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Interpretação de Texto / Amizade e Linguagem',
+    enunciado: 'En los suburbios de La Habana, llaman al amigo mi tierra o mi sangre. En Caracas, el amigo es mi pana o mi llave: pana, por panadería, la fuente del buen pan para las hambres del alma; y llave por... Llave, por llave me dice Mario Benedetti. Y me conta que cuando vivía en Buenos Aires, en los tiempos del terror, él llevaba cinco llaves ajenas en su llavero: cinco llaves, de cinco casas, de cinco amigos: las llaves que lo salvaron.\n(GALEANO, E. El libro de los abrazos. Madri: Siglo Veintiuno, 2015.)\n\nNesse texto, o autor demonstra como as diferentes expressões existentes em espanhol para se referir a "amigo" variam em função',
+    opcoes: [
+      { letra: 'A', texto: 'das peculiaridades dos suburbios hispano-americanos.' },
+      { letra: 'B', texto: 'da força da conexão espiritual entre os amigos.' },
+      { letra: 'C', texto: 'do papel da amizade em diferentes contextos.' },
+      { letra: 'D', texto: 'do hábito de reunir amigos em torno da mesa.' },
+      { letra: 'E', texto: 'dos graus de intimidade entre os amigos.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1099,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Interpretação de Texto / Poesia e Crítica Social',
+    enunciado: 'Los niños de nuestro olvido\nEscribo sobre un destino\nque apenas posso tocar\nen tanto un niño se inventa\ncon pegamento un hogar\nMientras busco las palabras\npara hacer esta canción\nun niño esquiva las balas\nque buscan su corazón\nAcurrucado en mi calle\nduerme un niño y la piedad\narma lejos un pesebre\ny juega a la navidad\nLa niñez de nuestro olvido\npide limosna en un bar\ny lava tu parabrisas\npor un peso, por un pan\nSi las flores del futuro\ncrecen con tanto dolor\nseguramente mañana\nserá un mañana sin sol\n(SOSA, M. In: Corazón livre. Argentina: E.D.G.E, 2004 (fragmento).)\n\nNo texto, a expressão "un mañana sin sol" é usada para concluir uma crítica ao(à)',
+    opcoes: [
+      { letra: 'A', texto: 'descaso diante da problemática de crianças em situação de rua.' },
+      { letra: 'B', texto: 'violência característica do cotidiano das grandes metrópoles.' },
+      { letra: 'C', texto: 'estímulo à mendicância nos centros urbanos.' },
+      { letra: 'D', texto: 'tendência de informalização do trabalho.' },
+      { letra: 'E', texto: 'falta de serviços de saúde adequados.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1100,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagem e Registro / Informalidade',
+    enunciado: 'Urgência emocional\nSe tudo é para ontem, se a vida engata uma primeira e sai em disparada, se não há mais tempo para paradas estratégicas, caímos fatalmente no vício de querer que os amores sejam igualmente resolvidos num átimo de segundo. Temos pressa para ouvir "eu te amo". Não vemos a hora de que fiquem estabelecidas as regras de convívio: somos namorados, ficantes, casados, amantes? Urgência emocional. Uma cilada. Associamos diversas palavras ao AMOR: paixão, romance, sexo, adrenalina, palpitação. Esquecemos, no entanto, da palavra que viabiliza esse sentimento: "paciência". Amor sem paciência não vinga. Amor não pode ser mastigado e engolido com emergência, com fome desesperada. É uma refeição que pode durar uma vida.\n(MEDEIROS, M. Disponível em: http://porumavidasimples.blogspot.com.br. Acesso em: 20 ago. 2017 (adaptado).)\n\nNesse texto de opinião, as marcas linguísticas revelam uma situação distensa e de pouca formalidade, o que se evidencia pelo(a)',
+    opcoes: [
+      { letra: 'A', texto: 'impessoalização ao longo do texto, como em: "se não há mais tempo".' },
+      { letra: 'B', texto: 'construção de uma atmosfera de urgência, em palavras como: "pressa".' },
+      { letra: 'C', texto: 'repetição de uma determinada estrutura sintática, como em: "Se tudo é para ontem".' },
+      { letra: 'D', texto: 'ênfase no emprego da hipérbole, como em: "uma refeição que pode durar uma vida".' },
+      { letra: 'E', texto: 'emprego de metáforas, como em: "a vida engata uma primeira e sai em disparada".' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1101,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Gêneros Textuais / Representatividade Feminina',
+    enunciado: 'É ruivo? Tem olhos azuis? É homem ou mulher? Usa chapéu? Quem jogou Cara a Cara na infância sabe de cor o roteiro de perguntas para adivinhar quem é o personagem misterioso do seu oponente. Agora, o jogo está prestes a ganhar uma nova versão. A designer polonesa Zuzia Kozerska-Girard está desenvolvendo uma variação do Guess Who? (nome do Cara a Cara em inglês), em que as personalidades do tabuleiro são, na verdade, mulheres notáveis da história e da atualidade, como a artista Frida Kahlo, a ativista Malala Yousafzai, a astronauta Valentina Tereshkova e a aviadora Amelia Earhart. O Who\'s She? ("Quem é ela?", em português) traz, no total, 28 mulheres que representam diversas profissões, nacionalidades e idades. A ideia é que, em vez de perguntar sobre a aparência das personagens, as questões sejam direcionadas aos feitos delas: ganhou algum Nobel, fez alguma descoberta? Para cada personagem há um cartão com fatos divertidos e interessantes sobre sua vida. Uma campanha entrou no ar com o objetivo de arrecadar dinheiro para desenvolver o Who\'s She?. A meta inicial era reunir 17 mil dólares. Oito dias antes de a campanha acabar, o projeto já angariou quase 350 mil dólares.\n(Disponível em: www.super.abril.com.br. Acesso em: 4 dez. 2018 (adaptado).)\n\nAo divulgar a adaptação do jogo para questões relativas a ações e habilidades de mulheres notáveis, o texto busca',
+    opcoes: [
+      { letra: 'A', texto: 'contribuir para a formação cidadã dos jogadores.' },
+      { letra: 'B', texto: 'refutar modelos estereotipados de beleza e elegância.' },
+      { letra: 'C', texto: 'estimular a competitividade entre potenciais compradores.' },
+      { letra: 'D', texto: 'exemplificar estratégias de arrecadação financeira pela internet.' },
+      { letra: 'E', texto: 'desenvolver conhecimentos lúdicos específicos dos tempos atuais.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1102,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Tecnologia e Arte / Direitos Autorais',
+    enunciado: 'Ciente de que, no campo da criação, as inovações tecnológicas abrem amplo leque de possibilidades ao permitir, e mesmo estimular, que o artista explore a fundo, em seu processo criativo, questões como a aleatoriedade, o acaso, a não linearidade e a hipermídia, Leo Cunha comenta que, no que tange ao campo da divulgação, as alternativas são ainda mais evidentes: "Afinal, é imensa a capacidade de reprodução, multiplicação e compartilhamento das obras artísticas/culturais. Ao mesmo tempo, ganham dimensão os dilemas envolvidos com a questão da autoria, dos direitos autorais, da reprodução e intervenção não autorizadas, entre outras questões". Já segundo a professora Yacy-Ara Froner, o uso de ferramentas tecnológicas não pode ser visto como um fim em si mesmo. Isso porque computadores, samplers, programas de imersão, internet e intranet, vídeo, televisão, rádio, GPD etc. são apenas suportes com os quais os artistas exercem sua imaginação.\n(SILVA JR., M. G. Movidas pela dúvida. Minas faz Ciências. n. 52, dez-fev. 2013 (adaptado).)\n\nSegundo os autores citados no texto, a expansão de possibilidades no campo das manifestações artísticas promovida pela internet pode pôr em risco o(a)',
+    opcoes: [
+      { letra: 'A', texto: 'sucesso dos artistas.' },
+      { letra: 'B', texto: 'valorização dos suportes.' },
+      { letra: 'C', texto: 'proteção da produção estética.' },
+      { letra: 'D', texto: 'modo de distribuição de obras.' },
+      { letra: 'E', texto: 'compartilhamento das obras artísticas.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1103,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagem e Tecnologia / Novas Técnicas',
+    enunciado: 'Ora, sempre que surge uma nova técnica, ela quer demonstrar que revogará as regras e coerções que presidiram o nascimento de todas as outras invenções do passado. Ela se pretende orgulhosa e única. Como se a nova técnica carreasse com ela, automaticamente, para seus novos usuários, uma propensão natural a fazer economia de qualquer aprendizagem. Como se ela se preparasse para varrer tudo que a precedeu, ao mesmo tempo transformando em analfabetos todos os que ousassem repeli-la. Fui testemunha dessa mudança ao longo de toda a minha vida. Ao passo que, na realidade, é o contrário que acontece. Cada nova técnica exige uma longa iniciação numa nova linguagem, ainda mais longa na medida em que nosso espírito é formatado pela utilização das linguagens que precederam o nascimento da recém-chegada.\n(ECO, U., CARRIERE, J.-C. Não contem com o fim do livro. Rio de Janeiro: Record, 2010 (adaptado).)\n\nO texto revela que, quando a sociedade promove o desenvolvimento de uma nova técnica, o que mais impacta seus usuários é a',
+    opcoes: [
+      { letra: 'A', texto: 'dificuldade na apropriação da nova linguagem.' },
+      { letra: 'B', texto: 'valorização da utilização da nova tecnologia.' },
+      { letra: 'C', texto: 'recorrência das mudanças tecnológicas.' },
+      { letra: 'D', texto: 'suplantação imediata dos conhecimentos prévios.' },
+      { letra: 'E', texto: 'rapidez no aprendizado do manuseio das novas invenções.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1104,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Variação Linguística / Norma Padrão',
+    enunciado: 'Papos\n- Me disseram...\n- Disseram-me.\n- Hein?\n- O correto é "disseram-me". Não "me disseram".\n- Eu falo como quero. E te digo mais... Ou é "digo-te"?\n- O quê?\n- Digo-te que você...\n- O "te" e o "você" não combinam.\n- Lhe digo?\n- Também não. O que você ia me dizer?\n- Que você está sendo grosseiro, pedante e chato. [...] Dispenso as suas correções. Vê se esquece-me. Falo como bem entender. Mais uma correção e eu...\n- O quê?\n- O mato.\n- Que mato?\n- Mato-o. Mato-lhe. Mato você. Matar-lhe-ei-te. Ouviu bem? Pois esqueça-o e para-te. Pronome no lugar certo é elitismo!\n- Se você prefere falar errado...\n- Falo como todo mundo fala. O importante é me entenderem. Ou entenderem-me?\n(VERISSIMO, L. F. Comédias para se ler na escola. Rio de Janeiro: Objetiva, 2001 (adaptado).)\n\nNesse texto, o uso da norma-padrão defendido por um dos personagens torna-se inadequado em razão do(a)',
+    opcoes: [
+      { letra: 'A', texto: 'falta de compreensão causada pelo choque entre gerações.' },
+      { letra: 'B', texto: 'contexto de comunicação em que a conversa se dá.' },
+      { letra: 'C', texto: 'grau de polidez distinto entre os interlocutores.' },
+      { letra: 'D', texto: 'diferença de escolaridade entre os falantes.' },
+      { letra: 'E', texto: 'nível social dos participantes da situação.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1105,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Tecnologia e Inclusão / Desigualdade Digital',
+    enunciado: 'São vários os fatores, internos e externos, que influenciam os hábitos das pessoas no acesso à internet, assim como nas práticas culturais realizadas na rede. A utilização das tecnologias de informação e comunicação está diretamente relacionada aos aspectos como: conhecimento de seu uso, acesso à linguagem letrada, nível de instrução, escolaridade, letramento digital etc. Os que detêm tais recursos (os mais escolarizados) são os que mais acessam a rede e também os que possuem maior índice de acumulatividade das práticas. A análise dos dados nos possibilita dizer que a falta de acesso à rede repete as mesmas adversidades e exclusões já verificadas na sociedade brasileira no que se refere a analfabetos, menos escolarizados, negros, população indígena e desempregados. Isso significa dizer que a internet, se não produz diretamente a exclusão, certamente a reproduz, tendo em vista que os que mais a acessam são justamente os mais jovens, escolarizados, remunerados, trabalhadores qualificados, homens e brancos.\n(SILVA, F. A. B., ZIVIANE, P.; GHEZZI, D. R. As tecnologias digitais e seus usos. Brasilia; Rio de Janeiro: Ipea, 2019 (adaptado).)\n\nAo analisarem a correlação entre os hábitos e o perfil socioeconômico dos usuários da internet no Brasil, os pesquisadores',
+    opcoes: [
+      { letra: 'A', texto: 'apontam o desenvolvimento econômico como solução para ampliar o uso da rede.' },
+      { letra: 'B', texto: 'questionam a crença de que o acesso à informação é igualitário e democrático.' },
+      { letra: 'C', texto: 'afirmam que o uso comercial da rede é a causa da exclusão de minorias.' },
+      { letra: 'D', texto: 'refutam o vínculo entre níveis de escolaridade e dificuldade de acesso.' },
+      { letra: 'E', texto: 'condicionam a expansão da rede à elaboração de políticas inclusivas.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1106,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagem e Sociedade / Léxico e Identidade',
+    enunciado: 'TEXTO I\nA língua não é uma nomenclatura, que se apõe a uma realidade pré-categorizada, ela é que classifica a realidade. No léxico, percebe-se, de maneira mais imediata, o fato de que a língua condensa as experiências de um dado povo.\n(FIORIN, J. L. Língua, modernidade e tradição. Diversitas, n. 2, mar.-set. 2014.)\n\nTEXTO II\nAs expressões coloquiais ainda estão impregnadas de discriminação contra os negros. Basta recordar algumas delas, como passar um "dia negro", ter um "lado negro", ser a "ovelha negra" da família ou praticar "magia negra".\n(Disponível em: https://brasil.elpais.com. Acesso em: 22 maio 2018.)\n\nO Texto II exemplifica o que se afirma no Texto I, na medida em que defende a ideia de que as escolhas lexicais são resultantes de um',
+    opcoes: [
+      { letra: 'A', texto: 'expediente próprio do sistema linguístico que nos apresenta diferentes possibilidades para traduzir estados de coisas.' },
+      { letra: 'B', texto: 'ato inventivo de nomear novas realidades que surgem diante de uma comunidade de falantes de uma língua.' },
+      { letra: 'C', texto: 'mecanismo de apropriação de formas linguísticas que estão no acervo da formação do idioma nacional.' },
+      { letra: 'D', texto: 'processo de configuração de preconceitos que são recorrentes na história de uma sociedade.' },
+      { letra: 'E', texto: 'recurso de expressão marcado pela objetividade que se requer na comunicação diária.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1107,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Romantismo',
+    enunciado: '- Admira-me -, disse uma senhora de sentimentos sinceramente abolicionistas; faz-me até pasmar como se possa sentir, e expressar sentimentos escravocratas, no presente século, no século dezenove! A moral religiosa e a moral cívica aí se erguem, e falam bem alto esmagando a hidra que envenena a família no mais sagrado santuário seu, e desmoraliza, e avilta a nação inteira! Levantai os olhos ao Gólgota, ou percorrei-os em torno da sociedade, e dizei-me: Para que se deu em sacrifício o Homem Deus, que ali exalou seu derradeiro alento? Ah! Então não é verdade que seu sangue era o resgate do homem! É então uma mentira abominável ter esse sangue comprado a liberdade!? E depois, olhai a sociedade... Não vedes o abutre que a corrói constantemente!... Não sentis a desmoralização que a enerva, o cancro que a destrói? Por qualquer modo que encaremos a escravidão, ela é, e será sempre um grande mal. Dela a decadência do comércio; porque o comércio e a lavoura caminham de mãos dadas, e o escravo não pode fazer florescer a lavoura; porque o seu trabalho é forçado.\n(REIS, M. F. Úrsula e outras obras. Brasilia: Câmara dos Deputados, 2018.)\n\nInscrito na estética romântica da literatura brasileira, o conto descortina aspectos da realidade nacional no século XIX ao',
+    opcoes: [
+      { letra: 'A', texto: 'revelar a imposição de crenças religiosas a pessoas escravizadas.' },
+      { letra: 'B', texto: 'apontar a hipocrisia do discurso conservador na defesa da escravidão.' },
+      { letra: 'C', texto: 'sugerir práticas de violência física e moral em nome do progresso material.' },
+      { letra: 'D', texto: 'relacionar a produção agrícola e comercial a questões raciais.' },
+      { letra: 'E', texto: 'ironizar o comportamento dos proprietários de terra na exploração do trabalho.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1108,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Tecnologia e Acessibilidade',
+    enunciado: 'TEXTO I\nA inclusão de pessoas com deficiência se constituiu um dos principais desafios e preocupações para a sociedade ao longo das últimas décadas. E o uso da tecnologia tem se revelado um aliado fundamental em muitas iniciativas voltadas para essa área. Exemplo disso é uma das recentes criações do Instituto Nacional de Tecnologia (INT). O Mural Eletrônico nasceu da necessidade de promover a inclusão nas escolas. Com interface multimídia e interativa, todos têm a possibilidade de acessar o Mural Eletrônico. Por meio do equipamento, podem ser disponibilizados vídeos com Libras, leitura sonora de textos, que também estarão acessíveis em uma plataforma de braille dinâmico, ao lado do teclado.\n(KIFFER, D. Unidade ampla e irrestrita. Rio Pesquisa, n. 36, set. 2016 (adaptado).)\n\nTEXTO II\nPara não permitir que a falta de informação seja um fator para o isolamento e a inacessibilidade da comunidade surda, a jornalista e pesquisadora Roberta Savedra Schiaffino criou o projeto "Surdonews: montando os quebra-cabeças das notícias para o surdo". Trata-se de uma página no Facebook, com notícias constantemente atualizadas e apresentadas por surdos em Libras, e veiculadas por meio de vídeos.\n(KIFFER, D. Comunicação sem barreiras. Rio Pesquisa, n. 37, dez. 2016 (adaptado).)\n\nConsiderando-se o tema tecnologias e acessibilidade, os textos I e II aproximam-se porque apresentam projetos que',
+    opcoes: [
+      { letra: 'A', texto: 'garantem a igualdade entre as pessoas.' },
+      { letra: 'B', texto: 'foram criados por uma pesquisadora surda.' },
+      { letra: 'C', texto: 'tiveram origem em um curso de pós-graduação.' },
+      { letra: 'D', texto: 'estão circunscritos ao espaço institucional da escola.' },
+      { letra: 'E', texto: 'têm como objetivo a disseminação do conhecimento.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1109,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Regionalismo',
+    enunciado: 'Mas seu olhar verde, inconfundível, impressionante, iluminava com sua luz misteriosa as sombrias arcadas superciliares, que pareciam queimadas por ela, dizia logo a sua origem cruzada e decantada através das misérias e dos orgulhos de homens de aventura, contadores de histórias fantásticas, e de mulheres caladas e sofredoras, que acompanhavam os maridos e amantes através das matas intermináveis, expostas às febres, às feras, às cobras do sertão indecifrável, ameaçador e sem fim, que elas percorriam com a ambição única de um "pouso" onde pudessem viver, por alguns dias, a vida ilusória de família e de lar, sempre no encalço dos homens, enfebrados pela procura do ouro e do diamante.\n(PENNA, C. Fronteira. Rio de Janeiro: Tecnoprint, s/d.)\n\nAo descrever os olhos de Maria Santa, o narrador estabelece correlações que refletem a',
+    opcoes: [
+      { letra: 'A', texto: 'caracterização da personagem como mestiça.' },
+      { letra: 'B', texto: 'construção do enredo de conquistas da família.' },
+      { letra: 'C', texto: 'relação conflituosa das mulheres e seus maridos.' },
+      { letra: 'D', texto: 'nostalgia do desejo de viver como os antepassados.' },
+      { letra: 'E', texto: 'marca de antigos sofrimentos no fluxo de consciência.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1110,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Linguagem Jurídica / Adequação ao Contexto',
+    enunciado: 'O complexo de falar difícil\nO que importa realmente é que o(a) detentor(a) do notável saber jurídico saiba quando e como deve fazer uso desse português versão 2.0, até porque não tem necessidade de alguém entrar numa padaria de manhã com aquela cara de sono falando o seguinte: "Por obséquio, Vossa Senhoria teria a hipotética possibilidade de estabelecer com minha pessoa uma relação de compra e venda, mediante as imposições dos códigos Civil e do Consumidor, para que seja possível a obtenção de 10 pãezinhos em temperatura estável para que a relação pecuniária no valor de R$ 5,00 seja plenamente legítima e capaz de saciar minha fome matinal?". O problema é que temos uma cultura de valorizar quem demonstra ser inteligente ao invés de valorizar quem é. Pela nossa lógica, todo mundo que fala difícil tende a ser mais inteligente do que quem valoriza o simples.\n(ARAÚJO, H. Disponível em: www.diariojurista.com. Acesso em: 20 nov. 2021 (adaptado).)\n\nNesse artigo de opinião, ao fazer uso de uma fala rebuscada no exemplo da compra do pão, o autor evidencia a importância do(a)',
+    opcoes: [
+      { letra: 'A', texto: 'se ter um notável saber jurídico.' },
+      { letra: 'B', texto: 'valorização da inteligência do falante.' },
+      { letra: 'C', texto: 'falar difícil para demonstrar inteligência.' },
+      { letra: 'D', texto: 'coesão e da coerência em documentos jurídicos.' },
+      { letra: 'E', texto: 'adequação da linguagem à situação de comunicação.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1111,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Esporte e Representatividade / Skate',
+    enunciado: 'A conquista da medalha de prata por Rayssa Leal, no skate street nos Jogos Olímpicos, é exemplo da representatividade feminina no esporte, avalia a âncora do jornal da rede de televisão da CNN. A apresentadora, que também anda de skate, celebrou a vitória da brasileira, que entrou para a história como a atleta mais nova a subir num pódio defendendo o Brasil. "Essa representatividade do esporte nos Jogos faz pensarmos que não temos que ficar nos encaixando em nenhum lugar. Posso gostar de passar notícia e, mesmo assim, gostar de skate, subir montanha, mergulhar, andar de bike, fazer yoga. Temos que parar de ficar enquadrando as pessoas dentro de regras. A gente vive num padrão no qual a menina ganha boneca, mas por que também não fazer um esporte de aventura? Por que o homem pode se machucar, cair de joelhos, e a menina tem que estar sempre lindinha dentro de um padrão? Acabamos limitando os talentos das pessoas", afirmou a jornalista, sobre a prática do skate por mulheres.\n(Disponível em: www.cnnbrasil.com.br. Acesso em: 31 out. 2021 (adaptado).)\n\nO discurso da jornalista traz questionamentos sobre a relação da conquista da skatista com a',
+    opcoes: [
+      { letra: 'A', texto: 'conciliação do jornalismo com a prática do skate.' },
+      { letra: 'B', texto: 'inserção das mulheres na modalidade skate street.' },
+      { letra: 'C', texto: 'desconstrução da noção do skate como modalidade masculina.' },
+      { letra: 'D', texto: 'vanguarda de ser a atleta mais jovem a subir no pódio olímpico.' },
+      { letra: 'E', texto: 'conquista de medalha nos Jogos Olímpicos de Tóquio.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1112,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Funções da Linguagem / Poesia',
+    enunciado: 'Assentamento\nZanza daqui\nZanza pra acolá\nFim de feira, periferia afora\nA cidade não mora mais em mim\nFrancisco, Serafim\nVamos embora\nVer o capim\nVer o baobá\nVamos ver a campina quando flora\nA piracema, rios contravim\nBinho, Bel, Bia, Quim\nVamos embora\nQuando eu morrer\nCansado de guerra\nMorro de bem\nCom a minha terra:\nCana, caqui\nInhame, abóbora\nOnde só vento se semeava outrora\nAmplidão, nação, sertão sem fim\nÓ Manuel, Miguilim\nVamos embora\n(BUARQUE, C. As cidades. Rio de Janeiro: RCA, 1998 (fragmento).)\n\nNesse texto, predomina a função poética da linguagem. Entretanto, a função emotiva pode ser identificada no verso:',
+    opcoes: [
+      { letra: 'A', texto: '"Zanza pra acolá".' },
+      { letra: 'B', texto: '"Fim de feira, periferia afora".' },
+      { letra: 'C', texto: '"A cidade não mora mais em mim".' },
+      { letra: 'D', texto: '"Onde só vento se semeava outrora".' },
+      { letra: 'E', texto: '"Ó Manuel, Miguilim".' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1113,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Línguas Indígenas / Identidade Cultural',
+    enunciado: 'As línguas silenciadas do Brasil\nPara aprender a língua de seu povo, o professor Txaywa Pataxó, de 29 anos, precisou estudar os fatores que, por diversas vezes, quase provocaram a extinção da língua patxôhã. Mergulhou na história do Brasil e descobriu fatos violentos que dispersaram os pataxós, forçados a abandonar a própria língua para escapar da perseguição. "Os pataxós se espalharam, principalmente, depois do Fogo de 1951. Queimaram tudo e expulsaram a gente das nossas terras. Isso constrange o nosso povo até hoje", conta Txaywa, estudante da Universidade Federal de Minas Gerais e professor na aldeia Barra Velha, região de Porto Seguro (BA). Mais de quatro décadas depois, membros da etnia retornaram ao antigo local e iniciaram um movimento de recuperação da língua patxôhã. "É a nossa identidade. Você diz quem você é por meio da sua língua", afirma a professora de ensino fundamental sobre a importância de restaurar a língua dos pataxós.\n(Disponível em: https://brasil.elpais.com. Acesso em: 11 jun. 2019 (adaptado).)\n\nO movimento de recuperação da língua patxôhã assume um caráter identitário peculiar na medida em que',
+    opcoes: [
+      { letra: 'A', texto: 'denuncia o processo de perseguição histórica sofrida pelos povos indígenas.' },
+      { letra: 'B', texto: 'conjuga o ato de resistência étnica à preservação da memória cultural.' },
+      { letra: 'C', texto: 'associa a preservação linguística ao campo da pesquisa acadêmica.' },
+      { letra: 'D', texto: 'estimula o retorno de povos indígenas a suas terras de origem.' },
+      { letra: 'E', texto: 'aumenta o número de línguas indígenas faladas no Brasil.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1114,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Machado de Assis / Realismo',
+    enunciado: 'Esaú e Jacó\nBárbara entrou, enquanto o pai pegou da viola e passou ao patamar de pedra, à porta da esquerda. Era uma criaturinha leve e breve, saia bordada, chinelinha no pé. Não se lhe podia negar um corpo airoso. Os cabelos, apanhados no alto da cabeça por um pedaço de fita enxovalhada, faziam-lhe um solidéu natural, cuja borla era suprida por um raminho de arruda. Já vai nisto um pouco de sacerdotisa. O mistério estava nos olhos. Estes eram opacos, não sempre nem tanto que não fossem também lúcidos e agudos, e neste último estado eram igualmente compridos; tão compridos e tão agudos que entravam pela gente abaixo, revolviam o coração e tornavam cá fora, prontos para nova entrada e outro revolvimento. Não te minto dizendo que as duas sentiram tal ou qual fascinação. Bárbara interrogou-as; Natividade disse ao que vinha e entregou-lhe os retratos dos filhos e os cabelos cortados, por lhe haverem dito que bastava.\n- Basta, confirmou Bárbara. Os meninos são seus filhos?\n- São.\n(ASSIS, M. Obra completa. Rio de Janeiro: Nova Aguilar, 1994.)\n\nNo relato da visita de duas mulheres ricas a uma vidente no Morro do Castelo, a ironia — um dos traços mais representativos da narrativa machadiana — consiste no',
+    opcoes: [
+      { letra: 'A', texto: 'modo de vestir dos moradores do morro carioca.' },
+      { letra: 'B', texto: 'senso prático em relação às oportunidades de renda.' },
+      { letra: 'C', texto: 'mistério que cerca as clientes de práticas de vidência.' },
+      { letra: 'D', texto: 'misto de singeleza e astúcia dos gestos da personagem.' },
+      { letra: 'E', texto: 'interesse do narrador pelas figuras femininas ambíguas.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1115,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Naturalismo',
+    enunciado: 'A senhora manifestava-se por atos, por gestos, e sobretudo por um certo silêncio, que amargava, que esfolava. Porém desmoralizar escancaradamente o marido, não era com ela. [...] As negras receberam ordem para meter no serviço a gente do tal compadre Silveira: as cunhadas, ao fuso; os cunhados, ao campo, tratar do gado com os vaqueiros; a mulher e as irmãs, que se ocupassem da ninhada. Margarida não tivera filhos, e como os desejasse com a força de suas vontades, tratava sempre bem aos pequenitos e às mães que os estavam criando. Não era isso uma sentimentalidade cristã, uma ternura, era o egoísta e cru instinto da maternidade, obrando por mera simpatia carnal. Quanto ao pai do lote (referia-se ao Antônio), esse que fosse ajudar ao vaqueiro das bestas. Ordens dadas, o Quinquim referendava. Cada um moralizava o outro, para moralizar-se.\n(PAIVA, M. O. Dona Guidinha do Poço. Rio de Janeiro: Tecnoprint, s/d.)\n\nNo trecho do romance naturalista, a forma como o narrador julga comportamentos e emoções das personagens femininas revela influência do pensamento',
+    opcoes: [
+      { letra: 'A', texto: 'capitalista, marcado pela distribuição funcional do trabalho.' },
+      { letra: 'B', texto: 'liberal, buscando a igualdade entre pessoas escravizadas e livres.' },
+      { letra: 'C', texto: 'científico, considerando o ser humano como um fenômeno biológico.' },
+      { letra: 'D', texto: 'religioso, fundamentado na fé e na aceitação dos dogmas do cristianismo.' },
+      { letra: 'E', texto: 'afetivo, manifesto na determinação de acolher familiares e no respeito mútuo.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1116,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Regionalismo / Seca',
+    enunciado: 'Era o êxodo da seca de 1898. Uma ressurreição de cemitérios antigos — esqueletos redivivos, com o aspecto terroso e o fedor das covas podres. Os fantasmas estropiados como que iam dançando, de tão trôpegos e trêmulos, num passo arrastado de quem leva as pernas, em vez de ser levado por elas. Andavam devagar, olhando para trás, como quem quer voltar. Não tinham pressa em chegar, porque não sabiam aonde iam. Expulsos de seu paraíso por espadas de fogo, iam, ao acaso, em descaminhos, no arrastão dos maus fados. Fugiam do sol e o sol guiava-os nesse forçado nomadismo. Adelgaçados na magreira cômica, cresciam, como se o vento os levantasse. E os braços afinados desciam-lhes aos joelhos, de mãos abanando. Vinham escoteiros. Menos os hidrópicos de ascite com os fardos das barrigas alarmantes, consecutiva à alimentação tóxica. Não tinham sexo, nem idade, nem condição nenhuma. Eram os retirantes. Nada mais.\n(ALMEIDA, J. A. A bagaceira. Rio de Janeiro: J. Olympio, 1978.)\n\nOs recursos composicionais que inserem a obra no chamado "Romance de 30" da literatura brasileira manifestam-se aqui no(a)',
+    opcoes: [
+      { letra: 'A', texto: 'desenho cru da realidade dramática dos retirantes.' },
+      { letra: 'B', texto: 'indefinição dos espaços para efeito de generalização.' },
+      { letra: 'C', texto: 'análise psicológica da reação dos personagens à seca.' },
+      { letra: 'D', texto: 'engajamento político do narrador ante as desigualdades.' },
+      { letra: 'E', texto: 'contemplação lírica da paisagem transformada em alegoria.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1117,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Gêneros Textuais / Manual de Orientação',
+    enunciado: 'MANUAL DE ORIENTAÇÃO\nO primeiro guia prático da Sociedade Brasileira de Pediatria para ajudar pais e pediatras no desafio de educar nativos digitais\n- TRABALHO DE BASE\nAté 2 anos: A criança não deve ser exposta passivamente às telas — TV, tablet, celular etc., principalmente durante as refeições e até 2 horas antes de dormir.\nDe 2 a 5 anos: O tempo de exposição às telas deve ser limitado a 1 hora por dia. Crianças dessa faixa etária devem ser mais protegidas da violência virtual, pois não sabem separar fantasia de realidade.\nAté 10 anos: Devem ter acesso controlado a computadores e dispositivos móveis. Crianças de até 10 anos não devem usar TV ou computador no próprio quarto.\n(Disponível em: https://tab.uol.com.br. Acesso em: 25 ago. 2017 (adaptado).)\n\nO texto sobre os chamados nativos digitais traz informações com a função de',
+    opcoes: [
+      { letra: 'A', texto: 'propor ações específicas para cada etapa da infância.' },
+      { letra: 'B', texto: 'estabelecer regras que devem ser seguidas à risca.' },
+      { letra: 'C', texto: 'explicar os efeitos do acesso precoce à internet.' },
+      { letra: 'D', texto: 'determinar a incorporação de rituais à educação dos filhos.' },
+      { letra: 'E', texto: 'educar com base em um conjunto de estratégias formativas.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1118,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Machado de Assis / Estrutura Textual',
+    enunciado: 'Notas\nSoluços, lágrimas, casa armada, veludo preto nos portais, um homem que veio vestir o cadáver, outro que tomou a medida do caixão, caixão, essa, tocheiros, convites, convidados que entravam, lentamente, a passo surdo, e apertavam a mão à família, alguns tristes, todos sérios e calados, padre e sacristão, rezas, aspersões d\'água benta, o fechar do caixão, a prego e martelo, seis pessoas que o tomam da essa, e o levantam, e o descem a custo pela escada, não obstante os gritos, soluços e novas lágrimas da família, e vão até o coche fúnebre, e o colocam em cima e traspassam e apertam as correias, o rodar do coche, o rodar dos carros, um a um... Isto que parece um simples inventário eram notas que eu havia tomado para um capítulo triste e vulgar que não escrevo.\n(ASSIS, M. Memórias póstumas de Brás Cubas.)\n\nO recurso linguístico que permite a Machado de Assis considerar um capítulo de Memórias póstumas de Brás Cubas como inventário é a',
+    opcoes: [
+      { letra: 'A', texto: 'enumeração de objetos e fatos.' },
+      { letra: 'B', texto: 'predominância de linguagem objetiva.' },
+      { letra: 'C', texto: 'ocorrência de período longo no trecho.' },
+      { letra: 'D', texto: 'combinação de verbos no presente e no pretérito.' },
+      { letra: 'E', texto: 'presença de léxico do campo semântico de funerais.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1119,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Esportes de Aventura / Mountainboard',
+    enunciado: 'Criado há cerca de 20 anos na Califórnia, o mountainboard é um esporte de aventura que utiliza uma espécie de skate off-road para realizar manobras similares às das modalidades de snowboard, surf e do próprio skate. A atividade chegou ao Brasil em 1997 e hoje possui centenas de praticantes, um circuito nacional respeitável e mais de uma dezena de pistas espalhadas pelo país. Segundo consta na história oficial, o mountainboard foi criado por praticantes de snowboard que sentiam falta de praticar o esporte nos períodos sem neve. Para isso, eles desenvolveram um equipamento bem simples: uma prancha semelhante ao modelo utilizado na neve, com dois eixos bem resistentes, alças para encaixar os pés e quatro pneus com câmaras de ar para regular a velocidade que pode ser alcançada em diferentes condições. Com essa configuração, o esporte se mostrou possível em diversos tipos de terreno: grama, terra, pedras, asfalto e areia.\n(Disponível em: www.webventure.com.br. Acesso em: 19 jun. 2019.)\n\nA história da prática do mountainboard representa uma das principais marcas das atividades de aventura, caracterizada pela',
+    opcoes: [
+      { letra: 'A', texto: 'competitividade entre seus praticantes.' },
+      { letra: 'B', texto: 'atividade com padrões técnicos definidos.' },
+      { letra: 'C', texto: 'modalidade com regras predeterminadas.' },
+      { letra: 'D', texto: 'criatividade para adaptações a novos espaços.' },
+      { letra: 'E', texto: 'necessidade de espaços definidos para a sua realização.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1120,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Gêneros Textuais / Crônica',
+    enunciado: 'Ser cronista\nSei que não sou, mas tenho meditado ligeiramente no assunto. Crônica é um relato? É uma conversa? É um resumo de um estado de espírito? Não sei, pois antes de começar a escrever para o Jornal do Brasil, eu só tinha escrito romances e contos. E também sem perceber, à medida que escrevia para aqui, ia me tornando pessoal demais, correndo o risco de em breve publicar minha vida passada e presente, o que não pretendo. Outra coisa notei: basta eu saber que estou escrevendo para o jornal, isto é, para algo aberto facilmente por todo o mundo, e não para um livro, que só é aberto por quem realmente quer, para que, sem mesmo sentir, o modo de escrever se transforme. Mas mudar só porque isso é uma coluna ou uma crônica? Ser mais leve só porque o leitor assim o quer? Divertir? Fazer passar uns minutos de leitura? Nos meus livros quero profundamente a comunicação profunda comigo e com o leitor. Aqui no jornal apenas falo com o leitor e agrada-me que ele fique agradado. Vou dizer a verdade: não estou contente.\n(LISPECTOR, C. In: A descoberta do mundo. Rio de Janeiro: Rocco, 1999.)\n\nNo texto, ao refletir sobre a atividade de cronista, a autora questiona características do gênero crônica, como',
+    opcoes: [
+      { letra: 'A', texto: 'relação distanciada entre os interlocutores.' },
+      { letra: 'B', texto: 'articulação de vários núcleos narrativos.' },
+      { letra: 'C', texto: 'brevidade no tratamento da temática.' },
+      { letra: 'D', texto: 'descrição minuciosa dos personagens.' },
+      { letra: 'E', texto: 'público leitor exclusivo.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1121,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Saúde Pública / Gêneros Textuais / Notícia',
+    enunciado: 'Projeto na Câmara de BH quer a vacinação gratuita de cães contra a leishmaniose\nEla é uma doença grave, transmitida pela picada do mosquito-palha, e afeta tanto os seres humanos quanto os cachorros: a leishmaniose. Por ser um problema de saúde pública, a doença pode ganhar uma ação preventiva importante, caso um projeto de lei seja aprovado na Câmara Municipal de Belo Horizonte (CMBH). Diante do alto número de casos da doença na Grande BH, a Comissão de Saúde e Saneamento da CMBH aprovou a proposta de realização de campanhas públicas de vacinação gratuita de cães contra a leishmaniose, tema do PL 404/17, apreciado pelo colegiado em reunião ordinária, no dia 6 de dezembro.\n(Disponível em: https://revistaencontro.com.br. Acesso em: 11 dez. 2017.)\n\nEssa notícia, além de cumprir sua função informativa, assume o papel de',
+    opcoes: [
+      { letra: 'A', texto: 'fiscalizar as ações de saúde e saneamento da cidade.' },
+      { letra: 'B', texto: 'defender os serviços gratuitos de atendimento à população.' },
+      { letra: 'C', texto: 'conscientizar a população sobre grave problema de saúde pública.' },
+      { letra: 'D', texto: 'propor campanhas para a ampliação de acesso aos serviços públicos.' },
+      { letra: 'E', texto: 'responsabilizar os agentes públicos pela demora na tomada de decisões.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1122,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Redes Sociais / Saúde Mental / Positividade Tóxica',
+    enunciado: '"Vida perfeita" em redes sociais pode afetar a saúde mental\nNas várias redes sociais que povoam a internet, os chamados digital influencers estão sempre felizes e pregam a felicidade como um estilo de vida. Essas pessoas espalham conteúdo para milhares de seguidores, ditando tendência e mostrando um estilo de vida sonhado por muitos, como o corpo esbelto, viagens incríveis, casas deslumbrantes, carros novos e alegria em tempo integral, algo bem improvável de ocorrer o tempo todo, aponta Carla Furtado, mestre em psicologia e fundadora do Instituto Feliciência. A problemática pode surgir com a busca incessante por essa felicidade, que gera efeitos colaterais em quem consome diariamente a "vida perfeita" de outros. Daí vem o conceito de positividade tóxica: a expressão tem sido usada para abordar uma espécie de pressão pela adoção de um discurso positivo, aliada a uma vida editada para as redes sociais.\n(Disponível em: https://agenciabrasil.ebc.com.br. Acesso em: 21 nov. 2021 (adaptado).)\n\nAssociada ao ideário de uma "vida perfeita", a positividade tóxica mencionada no texto é um fenômeno social recente, que se constitui com base em',
+    opcoes: [
+      { letra: 'A', texto: 'representações estereotipadas e superficiais de felicidade.' },
+      { letra: 'B', texto: 'ressignificações contemporâneas do conceito de alegria.' },
+      { letra: 'C', texto: 'estilos de vida inacessíveis para a sociedade brasileira.' },
+      { letra: 'D', texto: 'atitudes contraditórias de influenciadores digitais.' },
+      { letra: 'E', texto: 'padrões idealizados e nocivos de beleza física.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1123,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Conto Regionalista',
+    enunciado: 'Firmo, o vaqueiro\nNo dia seguinte, à hora em que saía o gado, estava eu debruçado à varanda quando vi o cafuzo que preparava o animal viajeiro:\n— Raimundinho, como vai ele?...\nDe longe apontou a palhoça.\n— Sim.\nO braço caiu-lhe, olhou-me algum tempo comovido; depois, saltando para o animal, levou o polegar à boca fazendo estalar a unha nos dentes: "As quatro horas da manhã... Atirei um verso e disse, para bulir com ele: Pega, velho! Não respondeu. Tio Firmo, mesmo velho e doente, não era homem para deixar um verso no chão... Fui ver, coitado!... estava morto". E deu de esporas para que eu não lhe visse as lágrimas.\n(NETTO, C. In: MARCHEZAN, L. G. (Org.). O conto regionalista. São Paulo: Martins Fontes, 2009.)\n\nA passagem registra um momento em que a expressividade lírica é reforçada pela',
+    opcoes: [
+      { letra: 'A', texto: 'plasticidade da imagem do rebanho reunido.' },
+      { letra: 'B', texto: 'sugestão da firmeza do sertanejo ao arrear o cavalo.' },
+      { letra: 'C', texto: 'situação de pobreza encontrada nos sertões brasileiros.' },
+      { letra: 'D', texto: 'afetividade demonstrada ao noticiar a morte do cantador.' },
+      { letra: 'E', texto: 'preocupação do vaqueiro em demonstrar sua virilidade.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1124,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Pré-Modernismo / Carnaval',
+    enunciado: 'O bebê de tarlatana rosa\n[...] — Na terça desliguei-me do grupo e caí no mar alto da depravação, só, com uma roupa leve por cima da pele e todos os maus instintos fustigados. De resto a cidade inteira estava assim. É o momento em que por trás das máscaras as meninas confessam paixões aos rapazes, é o instante em que as ligações mais secretas transparecem, em que a virgindade é dúbia, e todos nós a achamos inútil, a honra uma caceteação, o bom senso uma fadiga. Nesse momento tudo é possível, os maiores absurdos, os maiores crimes; nesse momento há um riso que galvaniza os sentidos e o beijo se desata naturalmente. Eu estava trepidante, com uma ânsia de acanalhar-me, quase mórbida. Nada de raparigas do galarim perfumadas e por demais conhecidas, nada do contato familiar, mas o deboche anônimo, o deboche ritual de chegar, pegar, acabar, continuar. Era ignóbil. Felizmente muita gente sofre do mesmo mal no carnaval.\n(RIO, J. Dentro da noite. São Paulo: Antiqua, 2002.)\n\nNo texto, o personagem vincula ao carnaval atitudes e reações coletivas diante das quais expressa',
+    opcoes: [
+      { letra: 'A', texto: 'consagração da alegria do povo.' },
+      { letra: 'B', texto: 'atração e asco perante atitudes libertinas.' },
+      { letra: 'C', texto: 'espanto com a quantidade de foliões nas ruas.' },
+      { letra: 'D', texto: 'intenção de confraternizar com desconhecidos.' },
+      { letra: 'E', texto: 'reconhecimento da festa como manifestação cultural.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1125,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Carolina Maria de Jesus / Diário',
+    enunciado: '10 de maio\nFui na delegacia e falei com o tenente. Que homem amavel! Se eu soubesse que ele era tão amavel, eu teria ido na delegacia na primeira intimação. [...] O tenente interessou-se pela educação dos meus filhos. Disse-me que a favela é um ambiente propenso, que as pessoas tem mais possibilidade de delinquir do que tornar-se util a patria e ao país. Pensei: se ele sabe disto, porque não faz um relatorio e envia para os politicos? O senhor Janio Quadros, o Kubstchek e o Dr. Adhemar de Barros? Agora falar para mim, que sou uma pobre lixeira. Não posso resolver nem as minhas dificuldades. O Brasil precisa ser dirigido por uma pessoa que já passou fome. A fome tambem é professora. Quem passa fome aprende a pensar no próximo, e nas crianças.\n(JESUS, C. M. Quarto de despejo: diário de uma favelada. São Paulo: Ática, 2014.)\n\nA partir da intimação recebida pelo filho de 9 anos, a autora faz uma reflexão em que transparece a',
+    opcoes: [
+      { letra: 'A', texto: 'lição de vida comunicada pelo tenente.' },
+      { letra: 'B', texto: 'predisposição materna para se emocionar.' },
+      { letra: 'C', texto: 'atividade política marcante da comunidade.' },
+      { letra: 'D', texto: 'resposta irônica ante o discurso da autoridade.' },
+      { letra: 'E', texto: 'necessidade de revelar seus anseios mais íntimos.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1126,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira / Narrativa Contemporânea',
+    enunciado: 'Vanda vinha do interior de Minas Gerais e de dentro de um livro de Charles Dickens. Sem dinheiro para criá-la, sua mãe a dera, com seus sete anos, a uma conhecida. Ao recebê-la, a mulher perguntou o que a garotinha gostava de comer. Anotou tudo num papel. Mal a mãe virou as costas, no entanto, a fulana amassou a lista e, como uma vilã de folhetim, decretou: "A partir de hoje, você não vai mais nem sentir o cheiro dessas comidas!". Vanda trabalhou lá até os quinze anos, quando recebeu a carta de uma prima com uma nota de cem cruzeiros, saiu de casa com a roupa do corpo e fugiu num ônibus para São Paulo. Todas as vezes que eu e minha irmã a importunávamos com nossas demandas de criança mimada, ela nos contava histórias da infância de gata-borralheira, fazia-nos apertar seu nariz quebrado por uma das filhas da "patroa" com um rolo de amassar pão e nos expulsava da cozinha: "Sai pra lá, peste, e me deixa acabar essa janta".\n(PRATA, A. Nu de botas. São Paulo: Cia. das Letras, 2013 (adaptado).)\n\nPela ótica do narrador, a trajetória da empregada de sua casa assume um efeito expressivo decorrente da',
+    opcoes: [
+      { letra: 'A', texto: 'citação a referências literárias tradicionais.' },
+      { letra: 'B', texto: 'alusão à inocência das crianças da época.' },
+      { letra: 'C', texto: 'estratégia de questionar a bondade humana.' },
+      { letra: 'D', texto: 'descrição detalhada das pessoas do interior.' },
+      { letra: 'E', texto: 'representação anedótica de atos de violência.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1127,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Linguagens',
+    assunto: 'Música Brasileira / Manguebeat',
+    enunciado: 'O Recife fervilhava no começo da década de 1990, e os artistas trabalhavam para resgatar o prestígio da cultura pernambucana. Era preciso se inspirar, literalmente, nas raízes sobre as quais a cidade se construiu. Foi aí que, em 1992, com a publicação de um manifesto escrito pelo músico e jornalista Fred Zero Quatro, da banda Mundo Livre S/A, nasceu o manguebeat. O nome vem de "mangue", vegetação típica da região, e "beat", para representar as batidas e as influências musicais que o movimento abraçaria a partir dali. Era a hora e a vez de os caranguejos aos quais os músicos recifenses gostavam de se comparar mostrarem as caras: o maracatu e suas alfaias se misturaram com as batidas do hip-hop, as guitarras do rock, elementos eletrônicos e o sotaque recifense de Chico Science. A busca pelo novo rendeu uma perspectiva diferente do Brasil ao olhar para o Recife.\n(FORCIONI, G. et al. O mangue está de volta. Revista Esquinas, n. 87, set. 2019 (adaptado).)\n\nChico Science foi fundamental para a renovação da música pernambucana, fato que se deu pela',
+    opcoes: [
+      { letra: 'A', texto: 'utilização de aparelhos musicais eletrônicos em lugar dos instrumentos tradicionais.' },
+      { letra: 'B', texto: 'ocupação de espaços da natureza local para a produção de eventos musicais memoráveis.' },
+      { letra: 'C', texto: 'substituição de antigas práticas musicais, como o frevo, por melodias e harmonias inovadoras.' },
+      { letra: 'D', texto: 'recuperação de composições tradicionais folclóricas e sua apresentação em grandes festivais.' },
+      { letra: 'E', texto: 'integração de referenciais culturais de diferentes origens, criando uma nova combinação estética.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1128,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia / Cultura Sertaneja / Seca',
+    enunciado: 'Espera, resignado, o dia 13 daquele mês porque, em tal data, usança avoenga lhe faculta sondar o futuro, interrogando a providência. É a experiência tradicional de Santa Luzia. No dia 12 ao anoitecer expõe ao relento, em linha, seis pedrinhas de sal, que representam, em ordem sucessiva da esquerda para a direita, os seis meses vindouros, de janeiro a junho. Ao alvorecer de 13 observa-as: se estão intactas, pressagiam a seca; se a primeira apenas se deliu, transmudada em aljôfar límpido, é certa a chuva em janeiro; se a segunda, em fevereiro; se a maioria ou todas, é inevitável o inverno benfazejo. Esta experiência é belíssima.\n(CUNHA, E. Os sertões. São Paulo: Editora Três, 1984.)\n\nNo experimento descrito, a relação com a paisagem e com a religiosidade permite que o sertanejo seja',
+    opcoes: [
+      { letra: 'A', texto: 'afeito à devoção ao aceitar destinos sacralizados.' },
+      { letra: 'B', texto: 'acostumado à pobreza ao admitir acasos naturais.' },
+      { letra: 'C', texto: 'habituado ao solo ao conhecer terrenos cultiváveis.' },
+      { letra: 'D', texto: 'íntimo à Caatinga ao interpretar condições ambientais.' },
+      { letra: 'E', texto: 'próximo à vegetação ao identificar espécies arbustivas.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1129,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia / Política / Hannah Arendt',
+    enunciado: 'Sempre que a relevância do discurso entra em jogo, a questão torna-se política por definição, pois é o discurso que faz do homem um ser político. E tudo que os homens fazem, sabem ou experimentam só tem sentido na medida em que pode ser discutido. Haverá, talvez, verdades que ficam além da linguagem e que podem ser de grande relevância para o homem no singular, isto é, para o homem que, seja o que for, não é um ser político. Mas homens no plural, isto é, os homens que vivem e se movem e agem neste mundo, só podem experimentar o significado das coisas por poderem falar e ser inteligíveis entre si e consigo mesmos.\n(ARENDT, H. A condição humana. Rio de Janeiro: Forense Universitária, 2004.)\n\nNo trecho, a filósofa Hannah Arendt mostra a importância da linguagem no processo de',
+    opcoes: [
+      { letra: 'A', texto: 'entendimento da cultura.' },
+      { letra: 'B', texto: 'aumento da criatividade.' },
+      { letra: 'C', texto: 'percepção da individualidade.' },
+      { letra: 'D', texto: 'melhoria da técnica.' },
+      { letra: 'E', texto: 'construção da sociabilidade.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1130,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Racismo Estrutural',
+    enunciado: 'Eu estava pagando o sapateiro e conversando com um preto que estava lendo um jornal. Ele estava revoltado com um guarda civil que espancou um preto e amarrou numa árvore. O guarda civil é branco. E há certos brancos que transforma preto em bode expiatório. Quem sabe se guarda civil ignora que já foi extinta a escravidão e ainda estamos no regime da chibata?\n(JESUS, C. M. Quarto de despejo: diário de uma favelada. São Paulo: Ática, 2014.)\n\nO texto, que guarda a grafia original da autora, expõe uma característica da sociedade brasileira, que é o(a):',
+    opcoes: [
+      { letra: 'A', texto: 'Racismo estrutural.' },
+      { letra: 'B', texto: 'Desemprego latente.' },
+      { letra: 'C', texto: 'Concentração de renda.' },
+      { letra: 'D', texto: 'Exclusão informacional.' },
+      { letra: 'E', texto: 'Precariedade da educação.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1131,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Ferrovia Madeira-Mamoré / Amazônia',
+    enunciado: 'Na construção da ferrovia Madeira-Mamoré, o que dizer dos doentes, eternos moribundos a vagar entre delírios febris, doses de quinino e corridors da morte? O Hospital da Candelária era santuário e túmulo, monumento ao progresso científico e preâmbulo da escuridão. Foi ali, com suas instalações moderníssimas, que médicos e sanitaristas dirigiram seu combate aos males tropicais. As maiores vítimas, contudo, permaneceriam na sombra à margem do palco, cobaias sem consolo, credores sem nome de uma sociedade que não lhes concedera tempo algum para ser decifrada.\n(FOOT HARDMAN, F. Trem fantasma: modernidade na selva. São Paulo: Cia. das Letras, 1988 (adaptado).)\n\nNo texto, há uma crítica ao modo de ocupação do espaço amazônico pautada na',
+    opcoes: [
+      { letra: 'A', texto: 'discrepância entre engenharia ambiental e equilíbrio da fauna.' },
+      { letra: 'B', texto: 'incoerência entre maquinaria estrangeira e controle da floresta.' },
+      { letra: 'C', texto: 'incompatibilidade entre investimento estatal e proteção aos nativos.' },
+      { letra: 'D', texto: 'competição entre farmacologia internacional e produtos da fitoterapia.' },
+      { letra: 'E', texto: 'contradição entre desenvolvimento nacional e respeito aos trabalhadores.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1132,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Economia Informacional / Globalização',
+    enunciado: 'Uma nova economia surgiu em escala global no último quartel do século XX. Chamo-a de informacional, global e em rede para identificar suas características fundamentais e diferenciadas e enfatizar sua interligação. É informacional porque depende basicamente de sua capacidade de gerar, processar e aplicar de forma eficiente a informação baseada em conhecimentos. É global porque seus componentes estão organizados em escala global, diretamente ou mediante uma rede de conexões entre agentes econômicos. É rede porque é feita em uma rede global de interação entre redes empresariais.\n(CASTELLS, M. A sociedade em rede a era da informação: economia, sociedade e cultura. São Paulo: Paz e Terra, 1999 (adaptado).)\n\nQual mudança estrutural é resultado da forma de organização econômica descrita no texto?',
+    opcoes: [
+      { letra: 'A', texto: 'Fabricação em série.' },
+      { letra: 'B', texto: 'Ampliação de estoques.' },
+      { letra: 'C', texto: 'Fragilização dos cartéis.' },
+      { letra: 'D', texto: 'Padronização de mercadorias.' },
+      { letra: 'E', texto: 'Desterritorialização da produção.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1133,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia / Espaço Rural e Urbano / Produção Alimentar',
+    enunciado: 'Olhar o Brasil e não ver o sertão\nÉ como negar o queijo com a faca na mão\nEsse gigante em movimento\nMovido a tijolo e cimento\nPrecisa de arroz com feijão\nQue tenha comida na mesa\nQue agradeça sempre a grandeza\nDe cada pedaço de pão\nAgradeça a Clemente\nQue leva a semente\nEm seu embornal\nZezé e o penoso balé\nDe pisar no cacau\nMaria que amanhece o dia\nLá no milharal\n(VANDER LEE. Do Brasil. In: Pensei que fosse o céu: ao vivo. Rio de Janeiro: Indie Records, 2006 (fragmento).)\n\nA letra da canção valoriza uma dimensão do espaço rural brasileiro em sua relação com a cidade ao ressaltar sua função de',
+    opcoes: [
+      { letra: 'A', texto: 'fornecer a mão de obra qualificada.' },
+      { letra: 'B', texto: 'incorporar a inovação tecnológica.' },
+      { letra: 'C', texto: 'preservar a diversidade biológica.' },
+      { letra: 'D', texto: 'promover a produção alimentar.' },
+      { letra: 'E', texto: 'garantir a moradia básica.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1134,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Segundo Reinado / Literatura Feminina',
+    enunciado: 'O número cada vez maior de mulheres letradas e interessadas pela literatura e pelas novelas, muitas divulgadas em capítulos, seções, classificadas comumente como folhetim, alçou a um gênero de ficção corrente já em 1840, fazendo parte do florescimento da literatura nacional brasileira, instigando a formação e a ampliação de um público leitor feminino, ávido por novidades, pelo apelo dos folhetins e "narrativas modernas" que encenavam "os dramas e os conflitos de uma mulher em processo de transformação patriarcal e provinciana". No Segundo Reinado, as mulheres foram se tornando público determinante na construção da literatura e da imprensa nacional. E não apenas público, porquanto crescerá o número de escritoras que colaboram para isso e emergirá uma imprensa feminina, editada, escrita e dirigida por e para mulheres.\n(ABRANTES, A. Do álbum de família à vitrine impressa: trajetos de retratos (PB, 1920). Revista Temas em Educação, n. 24, 2015 (adaptado).)\n\nO preço das atividades descritas associa a inserção da figura feminina nos espaços de leitura e escrita do Segundo Reinado ao(à)',
+    opcoes: [
+      { letra: 'A', texto: 'surgimento de novas práticas culturais.' },
+      { letra: 'B', texto: 'contestação de antigos hábitos masculinos.' },
+      { letra: 'C', texto: 'valorização de recentes publicações juvenis.' },
+      { letra: 'D', texto: 'circulação de variados manuais pedagógicos.' },
+      { letra: 'E', texto: 'aparecimento de diversas editoras comerciais.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1135,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Trabalho / Movimento Operário / Império',
+    enunciado: 'Os caixeiros do comércio a retalho do Rio de Janeiro estiveram entre as primeiras categorias de trabalhadores a se organizar em associações e a exigir a intervenção dos poderes públicos na mediação de suas lutas por direitos. Na década de 1880, os caixeiros participaram da arena política e ganharam as ruas com vários outros, como os republicanos e os abolicionistas.\n(POPINIGIS, F. "Todas as liberdades são ímãs": os caixeiros e as lutas dos trabalhadores por direitos entre o Império e a República. Estudos Históricos, n. 59, set.-dez. 2016 (adaptado).)\n\nA atuação dos trabalhadores mencionados no texto representou, na capital do Império, um momento de',
+    opcoes: [
+      { letra: 'A', texto: 'manutenção das regras patronais.' },
+      { letra: 'B', texto: 'desprendimento das ideias liberais.' },
+      { letra: 'C', texto: 'fortalecimento dos contratos laborais.' },
+      { letra: 'D', texto: 'consolidação das estruturas sindicais.' },
+      { letra: 'E', texto: 'contestação dos princípios monárquicos.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1136,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia / Solos / Salinização / Nordeste',
+    enunciado: 'Solos salinos ou alomórficos apresentam como característica comum uma concentração muito alta de sais solúveis e/ou de sódio trocável. Eles ocorrem nos locais mais baixos do relevo, em regiões áridas e semiáridas e próximas do mar. Em regiões semiáridas, por exemplo, o polígono das secas do Nordeste brasileiro, os locais menos elevados recebem água que se escoa dos declives adjacentes, durante as chuvas que caem em alguns meses do ano. Essa água traz soluções de sais minerais e evapora-se rapidamente antes de infiltrar-se totalmente, havendo então, cada vez que esse processo é repetido, um pequeno acúmulo de sais no horizonte superficial que, com o passar dos anos, provoca a salinização do solo. Nas últimas décadas, a expansão das atividades agrícolas na região tem ampliado esse processo.\n(LEPSCH, I. F. Solos: formação e conservação. São Paulo: Melhoramentos, 1993 (adaptado).)\n\nAs atividades agrícolas, desenvolvidas na região mencionada, intensificam o problema ambiental exposto ao',
+    opcoes: [
+      { letra: 'A', texto: 'realizar florestamentos de pinus, desrespeitando a prática do pousio.' },
+      { letra: 'B', texto: 'utilizar sistemas de irrigação, desprezando uma drenagem adequada.' },
+      { letra: 'C', texto: 'instalar açudes nos grotões, retardando a velocidade da vazão fluvial.' },
+      { letra: 'D', texto: 'desmatar áreas de preservação permanente, causando assoreamento.' },
+      { letra: 'E', texto: 'aplicar fertilizantes de origem orgânica, modificando a química da terra.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1137,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia / Foucault / Controle Social',
+    enunciado: 'O leproso é visto dentro de uma prática da rejeição, do exílio-cerca; deixa-se que se perca lá dentro como numa massa que não tem muita importância diferenciar; os pestilentos são considerados num policiamento tático meticuloso onde as diferenciações individuais são os efeitos limitantes de um poder que se multiplica, se articula e se subdivide. O grande fechamento por um lado; o bom treinamento por outro. A lepra e sua divisão; a peste e seus recortes. Uma é marcada; a outra, analisada e repartida. O exílio do leproso e a prisão da peste não trazem consigo o mesmo sonho político.\n(FOUCAULT, M. Vigiar e punir, nascimento da prisão. Petrópolis: Vozes, 1987.)\n\nOs modelos autoritários descritos no texto apontam para um sistema de controle que se baseia no(a):',
+    opcoes: [
+      { letra: 'A', texto: 'Formação de sociedade disciplinar.' },
+      { letra: 'B', texto: 'Flexibilização do regramento social.' },
+      { letra: 'C', texto: 'Banimento da autoridade repressora.' },
+      { letra: 'D', texto: 'Condenação da degradação humana.' },
+      { letra: 'E', texto: 'Hierarquização da burocracia estatal.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1138,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Religiosidade Popular / Juazeiro do Norte',
+    enunciado: 'TEXTO I\nEm março de 1889, quando apareceram as primeiras romarias atraídas pelos milagres da beata Maria de Araújo, Juazeiro inseriu-se no rol da fundação do espaço religioso. Construía-se mais um centro, como Aparecida do Norte, Canindé ou Lourdes.\n(RAMOS, F. R. L. O meio do mundo: território sagrado em Juazeiro do Padre Cícero. Fortaleza: Imprensa Universitária, 2014.)\n\nTEXTO II\nNão sabemos ao certo quantas pessoas estavam presentes na capela no momento em que a hóstia sangrou na boca de Maria de Araújo. O Padre Cícero nos conta que o fato surpreendeu não só aos presentes, mas a própria beata parecia atordoada com o ocorrido. O fenômeno continuou acontecendo todas as quartas e sextas na Capela de Nossa Senhora das Dores a partir daquele dia.\n(NOBRE, E. Incêndios da alma. Rio de Janeiro: Multifoco, 2016 (adaptado).)\n\nAs práticas religiosas mencionadas nos textos estão associadas, respectivamente, à:',
+    opcoes: [
+      { letra: 'A', texto: 'Delimitação de paisagens urbanas e abandono de componentes espiritualistas.' },
+      { letra: 'B', texto: 'Demarcação de patrimônios afetivos e apropriação de elementos judaizantes.' },
+      { letra: 'C', texto: 'Expansão de fronteiras regionais e subjetivação do cristianismo medieval.' },
+      { letra: 'D', texto: 'Circunscrição de bens simbólicos e admissão de cerimônias ecumênicas.' },
+      { letra: 'E', texto: 'Criação de lugares místicos e experiências do catolicismo popular.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1139,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Política Pública / Agricultura Familiar',
+    enunciado: 'Em 2003, teve início o Programa de Aquisição de Alimentos e, com ele, várias mudanças na perspectiva dos mercados institucionais. Trata-se do primeiro programa de compras públicas com uma orientação exclusiva para a agricultura familiar, articulando-a explicitamente com a segurança alimentar e nutricional. O Programa é destinado à aquisição de produtos agropecuários produzidos por agricultores enquadrados no Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf), incluídas aqui as categorias: assentados da reforma agrária, trabalhadores rurais sem terra, acampados, quilombolas, agroextrativistas, famílias atingidas por barragens e comunidades indígenas.\n(GRISA, C.; ISOPO, S. P. Dez anos de PAA: As contribuições e os desafios para o desenvolvimento rural. In: GRISA, C.; SCHNEIDER, S. (Org.). Políticas públicas de desenvolvimento rural no Brasil. Porto Alegre: UFRGS, 2015.)\n\nA ação governamental descrita constitui-se uma importante conquista para os pequenos produtores em virtude da:',
+    opcoes: [
+      { letra: 'A', texto: 'Inovação tecnológica.' },
+      { letra: 'B', texto: 'Reestruturação fundiária.' },
+      { letra: 'C', texto: 'Comercialização garantida.' },
+      { letra: 'D', texto: 'Eliminação no custo do frete.' },
+      { letra: 'E', texto: 'Negociação na bolsa de valores.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1140,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Tecnologia / Comportamento Social',
+    enunciado: 'Um experimento denominado FunFit foi desenvolvido com o objetivo de fazer com que os membros de uma comunidade local se tornassem mais ativos fisicamente. Todos os participantes do estudo foram vinculados a dois outros membros da comunidade que receberiam pequenos incentivos em dinheiro para serem estimulados a aumentar a sua atividade física, que era medida por acelerômetros nos celulares fornecidos pelo estado. Assim, se a pessoa andasse mais do que o habitual, seus conhecidos receberiam o dinheiro. Os resultados foram assombrosos: o esquema mostrou-se de quatro a oito vezes mais eficaz do que o método de oferecer incentivos individuais.\n(MOROZOV, E. Big Tech: a ascensão dos dados e a morte da política. São Paulo: Ubu, 2018 (adaptado).)\n\nContrariando a visão prevalente sobre o impacto tecnológico nas relações humanas, o texto revela que os celulares podem desempenhar uma função',
+    opcoes: [
+      { letra: 'A', texto: 'recreativa, promovendo o lazer em redes integradas.' },
+      { letra: 'B', texto: 'social, estimulando a reciprocidade por meios digitais.' },
+      { letra: 'C', texto: 'laboral, convertendo o desenvolvedor em usuário final.' },
+      { letra: 'D', texto: 'comercial, direcionando a escolha por produtos industrializados.' },
+      { letra: 'E', texto: 'cognitiva, favorecendo a aprendizagem pelas ferramentas virtuais.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1141,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Tecnologia / Desemprego Estrutural / Dublagem',
+    enunciado: 'A dublagem é o novo campo a ser explorado pela inteligência artificial, e há empresas dedicadas a fazer com que as vozes originais de atores sejam transpostas para outros idiomas. A novidade reforça a tendência da automação de postos de trabalho nas mais diversas áreas. Tem potencial para facilitar a vida de estúdios e produtoras e, ao mesmo tempo, tornar mais escassas as oportunidades para dubladores e atores que trabalham com isso.\n(GAGLIONI, C. Disponível em: www.nexojornal.com.br. Acesso em: 25 out. 2021.)\n\nA consequência da mudança tecnológica apresentada no texto é a',
+    opcoes: [
+      { letra: 'A', texto: 'proteção da economia nacional.' },
+      { letra: 'B', texto: 'valorização da cultura tradicional.' },
+      { letra: 'C', texto: 'diminuição da formação acadêmica.' },
+      { letra: 'D', texto: 'estagnação da manifestação artística.' },
+      { letra: 'E', texto: 'ampliação do desemprego estrutural.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1142,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia / Geopolítica / Mercosul',
+    enunciado: 'Brasil e Argentina chegaram a um acordo para a redução em 10% da Tarifa Externa Comum (TEC) do Mercosul. O consenso foi alcançado durante negociação entre o ministro das Relações Exteriores do Brasil e o seu equivalente argentino, no Palácio do Itamaraty, em Brasília, no início do mês de outubro de 2021. A redução da TEC é um antigo desejo do Brasil, que pretende abrir mais sua economia e, com isso, ajudar a controlar a inflação. Já a Argentina temia que a medida pudesse afetar sua produção industrial. O acordo vai abranger uma ampla gama de produtos e ainda será apresentado ao Paraguai e Uruguai, para que seja formalizado.\n(Brasil e Argentina fecham acordo para corte de 10% na tarifa do Mercosul. Disponível em: https://oglobo.globo.com. Acesso em: 8 out. 2021 (adaptado).)\n\nA necessidade de negociação diplomática para viabilizar o acordo tarifário mencionado é explicada pela seguinte característica do Mercosul:',
+    opcoes: [
+      { letra: 'A', texto: 'Limitação da circulação financeira.' },
+      { letra: 'B', texto: 'Padronização da política monetária.' },
+      { letra: 'C', texto: 'Funcionamento da união aduaneira.' },
+      { letra: 'D', texto: 'Dependência da exportação agrícola.' },
+      { letra: 'E', texto: 'Equivalência da legislação trabalhista.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1143,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Idade Média / Fome e Poder',
+    enunciado: 'Ainda que a fome ocorrida na Itália em 536 tenha origem nos eventos climáticos, suas implicações são tanto políticas quanto econômicas. Nos primeiros séculos da Idade Média, o auxílio aos famintos se inscreve no domínio da gestão pública, mesmo quando a ação de seus agentes é apresentada sob o ângulo da piedade e da caridade individuais, como é o caso da Gália merovíngia. Assim, o fato de que as respostas à fome são mostradas, na Gália, como o fruto de iniciativas pessoais fundadas no imperativo da caridade deriva da natureza das fontes do século VI.\n(SILVA, M. C. Os agentes públicos e a fome nos primeiros séculos da Idade Média. Varia Historia, n. 60, set.-dez. 2016 (adaptado).)\n\nNa conjuntura histórica destacada no texto, o dever de agir em face da situação de crise apresentada pertencia à jurisdição',
+    opcoes: [
+      { letra: 'A', texto: 'da nobreza, proveniente da obrigação de proteção ao campesinato livre.' },
+      { letra: 'B', texto: 'da realeza, decorrente do conceito de governo subjacente à monarquia cristã.' },
+      { letra: 'C', texto: 'dos mosteiros, resultante do caráter fraternal afirmado nas regras monásticas.' },
+      { letra: 'D', texto: 'dos bispados, consequente da participação dos clérigos nos assuntos comunitários.' },
+      { letra: 'E', texto: 'das corporações, procedente do padrão assistencialista previsto nas normas estatutárias.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1144,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia / Geomorfologia / Forças Tectônicas e Meteorológicas',
+    enunciado: 'As forças tectônicas dentro da litosfera, controladas pelo calor interno das profundezas, geram terremotos, erupções e soerguimento de montanhas. As forças meteorológicas dentro da atmosfera e da hidrosfera, controladas pelo calor do Sol, produzem tempestades, inundações, geleiras e outros agentes de erosão.\n(PRESS, F. et al. Para entender a Terra. Porto Alegre: Bookman, 2006 (adaptado).)\n\nA interação dinâmica entre as forças naturais citadas favorece a ocupação do espaço geográfico, na medida em que provoca a formação de',
+    opcoes: [
+      { letra: 'A', texto: 'solos vulcânicos.' },
+      { letra: 'B', texto: 'dorsais oceânicas.' },
+      { letra: 'C', texto: 'relevos escarpados.' },
+      { letra: 'D', texto: 'superfícies lateríticas.' },
+      { letra: 'E', texto: 'dobramentos modernos.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1145,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Educação / Gênero / Brasil Império',
+    enunciado: 'TEXTO I\nA primeira grande lei educacional do Brasil, de 1827, determinava que, nas "escolas de primeiras letras" do Império, meninos e meninas estudassem separados e tivessem currículos diferentes. No Senado, o Visconde de Cayru foi um dos defensores de que o currículo de matemática das garotas fosse o mais enxuto possível. Nas palavras dele, o "belo sexo" não tinha capacidade intelectual para ir muito longe.\n\nTEXTO II\nNo Senado, o único a defender publicamente que as meninas tivessem, em matemática, um currículo idêntico ao dos meninos foi o Marquês de Santo Amaro (RJ). Ele argumentou: "Não me parece conforme, às luzes do tempo em que vivemos, deixarmos de facilitar às brasileiras a aquisição desses conhecimentos [mais aprofundados de matemática]. A oposição que se manifesta não pode nascer senão do arraigado e péssimo costume em que estavam os antigos".\n(WESTIN, R. Senado Notícias. Disponível em: www12.senado.leg.br. Acesso em: 20 out. 2021 (adaptado).)\n\nOs discursos expressam pontos de vista divergentes respectivamente pela oposição entre',
+    opcoes: [
+      { letra: 'A', texto: 'liberdade de gênero e controle social.' },
+      { letra: 'B', texto: 'equidade de escolha e imposição cultural.' },
+      { letra: 'C', texto: 'dominação de corpos e igualdade humana.' },
+      { letra: 'D', texto: 'geração de oportunidade e restrição profissional.' },
+      { letra: 'E', texto: 'exclusão de competências e participação política.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1146,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Movimentos Sociais / Direito à Moradia',
+    enunciado: 'Após sete anos da ocupação de um terreno abandonado em Santo André, no ABC paulista, os condomínios Novo Pinheirinho e Santos Dias foram inaugurados, com a presença de representantes dos governos federal, estadual e municipal. A ocupação começou em 2012 e, desde então, o movimento vinha reivindicando o direito de usufruir do espaço para a construção de casas. A Carta Magna, em seu art. 6º, garante a todos os brasileiros o direito à moradia.\n(PUTTI, A. Disponível em: www.cartacapital.com.br. Acesso em: 13 nov. 2021 (adaptado).)\n\nO texto apresenta uma estratégia usada pelo movimento social para',
+    opcoes: [
+      { letra: 'A', texto: 'fragilizar o poder público.' },
+      { letra: 'B', texto: 'fomentar a economia solidária.' },
+      { letra: 'C', texto: 'controlar a propriedade estatal.' },
+      { letra: 'D', texto: 'garantir o preceito constitucional.' },
+      { letra: 'E', texto: 'incentivar a especulação imobiliária.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1147,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geopolítica / Rússia / Crimeia',
+    enunciado: 'Colegas, na mente e no coração do povo, a Crimeia sempre foi uma porção inseparável da Rússia. Essa firme convicção se baseia na verdade e na justiça e foi passada de geração em geração, ao longo do tempo, sob quaisquer circunstâncias, apesar de todas as drásticas mudanças que nosso país atravessou durante todo o século XX.\n(Disponível em: http://g1.globo.com. Acesso em: 28 jul. 2014.)\n\nConsiderando a dinâmica geopolítica subjacente ao texto, a justificativa utilizada por Vladimir Putin, em 2014, para anexação dessa península apela para o argumento de que',
+    opcoes: [
+      { letra: 'A', texto: 'as populações com idioma comum devem estar submetidas à mesma autoridade estatal.' },
+      { letra: 'B', texto: 'o imperialismo soviético havia se acomodado às pretensões das potências vizinhas.' },
+      { letra: 'C', texto: 'os organismos transnacionais são incapazes de solucionar disputas territoriais.' },
+      { letra: 'D', texto: 'a integração regional supõe a livre circulação de pessoas e mercadorias.' },
+      { letra: 'E', texto: 'a expulsão das forças navais ocidentais garantiria a soberania nacional.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1148,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia / Política / Estado de Direito',
+    enunciado: 'O princípio básico do Estado de direito é o da eliminação do arbítrio no exercício dos poderes públicos, com a consequente garantia de direitos dos indivíduos perante esses poderes. Estado de direito significa que nenhum indivíduo, presidente ou cidadão comum está acima da lei. Os governos democráticos exercem a autoridade por meio da lei e estão eles próprios sujeitos aos constrangimentos impostos pela lei.\n(CANOTILHO, J. J. G. Estado de direito. Lisboa: Gradiva, 1999 (adaptado).)\n\nNas sociedades contemporâneas, consiste em violação do princípio básico enunciado no texto:',
+    opcoes: [
+      { letra: 'A', texto: 'Supressão de eleições de representantes políticos.' },
+      { letra: 'B', texto: 'Intervenção em áreas de vulnerabilidade pela Igreja.' },
+      { letra: 'C', texto: 'Disseminação de projetos sociais em universidades.' },
+      { letra: 'D', texto: 'Ampliação dos processos de concentração de renda.' },
+      { letra: 'E', texto: 'Regulamentação das relações de trabalho pelo Legislativo.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1149,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia / Urbanização / Mobilidade Urbana',
+    enunciado: 'Brasileiros levam mais tempo de casa para o trabalho\nPesquisa do IBGE aponta que a situação é mais grave no Sudeste: 13% das pessoas levam mais de uma hora para chegar ao trabalho. Nas regiões metropolitanas de São Paulo e do Rio, o IBGE registrou os maiores percentuais de trabalhadores que levam mais de uma hora no trajeto até o emprego. Quem vê o Marcelo chegar ao trabalho nem imagina a maratona que ele enfrenta todos os dias antes das 5 h. "Acordo 4 h 30, saio de casa 5 h, pego trem 5 h 20, chego na Central umas 6 h 50, pego ônibus e chego no trabalho mais ou menos 7 h 10", conta. Segundo especialista, são os mais pobres os que moram mais longe do emprego.\n(Disponível em: www.portaldotransito.com.br. Acesso em: 23 nov. 2021 (adaptado).)\n\nA pesquisa desenvolvida retrata a seguinte dinâmica populacional:',
+    opcoes: [
+      { letra: 'A', texto: 'Fluxo de retorno.' },
+      { letra: 'B', texto: 'Migração interna.' },
+      { letra: 'C', texto: 'Mudança sazonal.' },
+      { letra: 'D', texto: 'Movimento pendular.' },
+      { letra: 'E', texto: 'Deslocamento forçado.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1150,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Movimento Operário / Primeiro de Maio',
+    enunciado: 'A história do Primeiro de Maio de 1890 — na França e na Europa, o primeiro de todos os Primeiros de Maio — é, sob vários aspectos, exemplar. Resultante de um ato político deliberado, essa manifestação ilustra o lado voluntário da construção de uma classe — a classe operária — à qual os socialistas tentam dar uma unidade política e cultural através daquela pedagogia da festa cujo princípio, eficácia e limites há muito tempo tinham sido experimentados pela Revolução Francesa.\n(PERROT, M. Os excluídos da história: operários, mulheres e prisioneiros. Rio de Janeiro: Paz e Terra, 1988.)\n\nCom base no texto, a fixação dessa data comemorativa tinha por objetivo',
+    opcoes: [
+      { letra: 'A', texto: 'valorizar um sentimento burguês.' },
+      { letra: 'B', texto: 'afirmar uma identidade coletiva.' },
+      { letra: 'C', texto: 'edificar uma memória nacional.' },
+      { letra: 'D', texto: 'criar uma comunidade cívica.' },
+      { letra: 'E', texto: 'definir uma tradição popular.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1151,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Cultura Indígena / Povo Kambeba',
+    enunciado: 'O povo Kambeba é o povo das águas. Os mais velhos costumam contar que o povo nasceu de uma gota-d\'água que caiu do céu em uma grande chuva. Nessa gota estavam duas gotículas: o homem e a mulher. "Por essa narrativa e cosmologia indígena de que nós somos o povo das águas é que o rio nos tem fundamental importância", diz Márcia Wayna Kambeba, mestre em Geografia e escritora. Todos os dias, ela ia com o pai observar o rio. Ia em silêncio e, antes que tomasse para si a palavra, era interrompida. "Ouça o rio", o pai dizia. Depois de cerca de duas horas a ouvir as águas do Solimões, ela mergulhava. "Confie no rio e aprenda com ele". "Fui entender mais tarde, com meus estudos e vivências, que meu pai estava me apresentando à sabedoria milenar do rio".\n(Disponível em: www.uol.com.br. Acesso em: 14 out. 2021.)\n\nPelo descrito no texto, o povo Kambeba tem o rio como um(a)',
+    opcoes: [
+      { letra: 'A', texto: 'objeto tombado e museográfico.' },
+      { letra: 'B', texto: 'herança religiosa e sacralizada.' },
+      { letra: 'C', texto: 'cenário bucólico e paisagístico.' },
+      { letra: 'D', texto: 'riqueza individual e efêmera.' },
+      { letra: 'E', texto: 'patrimônio cultural e afetivo.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1152,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Nordeste / Açudes / Seca',
+    enunciado: 'Lá embaixo está o Açude Itans, com seu formigueiro a cavar a terra. É mesmo impressionante o esforço daquele formigar de homens ao sol, lavados em suor, que não param, em longas filas pacientes acompanhando centenas de burricos que sobem e descem, numa ciranda comovente e silenciosa, cada burrico com duas caixas de terra no lombo. É o labor organizado para a salvação da terra e do homem. Depois do semideserto que tanto nos acabrunhou o espírito por falta de chuvas, o esforço destes milhares de sertanejos, todos vestidos de brim mescla e calçando alpercatas, no combate consciente à esterilidade da natureza, com as famílias alojadas em pequeninas casas de taipa e telha — embrião de futura cidade — impressionava-nos profundamente.\n(VALLE, F. M. História do Açude Itans, município de Caicó (RN). Brasília, 1994 (adaptado).)\n\nNa construção do empreendimento descrito, destaca-se a presença de',
+    opcoes: [
+      { letra: 'A', texto: 'engenheiros na execução de canais fluviais.' },
+      { letra: 'B', texto: 'coronéis na ampliação de antigas fazendas.' },
+      { letra: 'C', texto: 'operários na distribuição dos recursos hídricos.' },
+      { letra: 'D', texto: 'trabalhadores na formação de novos espaços.' },
+      { letra: 'E', texto: 'negociantes na organização de redes comerciais.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1153,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Colonialismo / Medicina / Escravidão',
+    enunciado: 'Para os Impérios Coloniais, o problema das doenças que atingiam os escravos era algo com que cotidianamente deparavam os senhores. Em vista disso, uma série de obras dedicadas à administração de escravos foi publicada com vista a implementar uma moderna gestão da mão de obra escravista em convergência com o Iluminismo. Nesse contexto, o saber médico adquiria um papel extremamente relevante. Este era encarado como um instrumento fundamental ao desenvolvimento colonial, dada a percepção do impacto que as doenças tropicais causavam na população branca e nos povos escravizados.\n(ABREU, J. L. N. A Colônia enferma e a saúde dos povos: a medicina das "luzes" e as informações sobre as enfermidades da América portuguesa. História, Ciências, Saúde - Manguinhos, n. 3, jul.-set. 2007 (adaptado).)\n\nDe acordo com o texto, a importância da medicina se justifica no âmbito dos objetivos',
+    opcoes: [
+      { letra: 'A', texto: 'econômicos das elites.' },
+      { letra: 'B', texto: 'naturalistas dos viajantes.' },
+      { letra: 'C', texto: 'abolicionistas dos letrados.' },
+      { letra: 'D', texto: 'tradicionalistas dos nativos.' },
+      { letra: 'E', texto: 'emancipadores das metrópoles.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1154,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia / Estética / Arte e Conhecimento',
+    enunciado: 'TEXTO I\nUma filosofia da percepção que queira reaprender a ver o mundo restituirá à pintura e às artes em geral seu lugar verdadeiro.\n(MERLEAU-PONTY, M. Conversas: 1948. São Paulo: Martins Fontes, 2004.)\n\nTEXTO II\nOs grandes autores de cinema nos pareceram confrontáveis não apenas com pintores, arquitetos, músicos, mas também com pensadores. Eles pensam com imagens, em vez de conceitos.\n(DELEUZE, G. Cinema 1: a imagem-movimento. São Paulo: Brasiliense, 1983 (adaptado).)\n\nDe que modo os textos sustentam a existência de um saber ancorado na sensibilidade?',
+    opcoes: [
+      { letra: 'A', texto: 'Admitindo o belo como fenômeno transcendental.' },
+      { letra: 'B', texto: 'Reafirmando a vivência estética como juízo de gosto.' },
+      { letra: 'C', texto: 'Considerando o olhar como experiência de conhecimento.' },
+      { letra: 'D', texto: 'Apontando as formas de expressão como auxiliares da razão.' },
+      { letra: 'E', texto: 'Estabelecendo a inteligência como implicação das representações.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1155,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Inquisição / Igreja / Controle Social',
+    enunciado: 'TEXTO I\nManda o Santo Ofício da Inquisição que ninguém, seja qual for seu estado, idade ou condição, pare com carroça, caleça ou montaria nem atrapalhe com mesas ou cadeiras o centro das ruas, que vão da Inquisição a São Domingos, nem atravesse a procissão em ponto algum da ida ou da volta, amanhã, 19 do corrente, em que se celebrará auto de fé. E também que nem nesse dia nem nos dos açoites ouse alguém atirar nos réus maçãs, pedras, laranjas nem outra coisa qualquer.\n(PALMA, R. Anais da Inquisição de Lima. São Paulo: Edusp; Giordano, 1992 (adaptado).)\n\nTEXTO II\nComo acontece em todos os ritos, o sentido do auto da fé é conferido pela sequência dos atos que o compõem. Os lugares, as posturas, os gestos, as palavras são fixados previamente em toda a sua complexidade. Por isso, o auto da fé apresenta momentos fortes — durante a preparação, a encenação, o ato e a recepção — que convém seguir em seus pormenores.\n(BETHENCOURT, F. História das Inquisições: Portugal, Espanha e Itália - séculos XV-XIX. São Paulo: Cia. das Letras, 2000.)\n\nO rito mencionado nos textos demonstra a capacidade da Igreja em',
+    opcoes: [
+      { letra: 'A', texto: 'abrandar cerimônias de punição.' },
+      { letra: 'B', texto: 'favorecer anseios de violência.' },
+      { letra: 'C', texto: 'criticar políticas de disciplina.' },
+      { letra: 'D', texto: 'produzir padrões de conduta.' },
+      { letra: 'E', texto: 'ordenar cultos de heresia.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1156,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia / Pré-Socráticos / Empédocles / Arché',
+    enunciado: 'Empédocles estabelece quatro elementos corporais — fogo, ar, água e terra, que são eternos e que mudam aumentando e diminuindo mediante mistura e separação; mas os princípios propriamente ditos, pelos quais aqueles são movidos, são o Amor e o Ódio. Pois é preciso que os elementos permaneçam alternadamente em movimento, sendo ora misturados pelo Amor, ora separados pelo Ódio.\n(SIMPLÍCIO. Física, 25, 21. In: Os pré-socráticos. São Paulo: Nova Cultural, 1996.)\n\nO texto propõe uma reflexão sobre o entendimento de Empédocles acerca da arché, uma preocupação típica do pensamento pré-socrático, porque',
+    opcoes: [
+      { letra: 'A', texto: 'exalta a investigação filosófica.' },
+      { letra: 'B', texto: 'transcende ao mundo sensível.' },
+      { letra: 'C', texto: 'evoca a discussão cosmogônica.' },
+      { letra: 'D', texto: 'fundamenta as paixões humanas.' },
+      { letra: 'E', texto: 'corresponde à explicação mitológica.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1157,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia / Urbanização / Macrocefalia Urbana',
+    enunciado: 'Macrocefalia urbana pode ser entendida como a massiva concentração das atividades econômicas em algumas metrópoles que propicia o desencadeamento de processos descompassados: redirecionamento e convergência de fluxos migratórios, déficit no número de empregos, ocupação desordenada de determinadas regiões da cidade e estigmatização de estratos sociais, que comprometem substancialmente a segurança pública urbana.\n(SANTOS, M. O espaço dividido: os dois circuitos da economia urbana dos países subdesenvolvidos. São Paulo: Edusp, 2004.)\n\nO processo de concentração espacial apresentado foi estimulado por qual fator geográfico?',
+    opcoes: [
+      { letra: 'A', texto: 'Limitação da área ocupada.' },
+      { letra: 'B', texto: 'Êxodo da população do campo.' },
+      { letra: 'C', texto: 'Ampliação do risco habitacional.' },
+      { letra: 'D', texto: 'Deficiência do transporte alternativo.' },
+      { letra: 'E', texto: 'Crescimento da taxa de fecundidade.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1158,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia / Estoicismo / Sêneca / Virtude',
+    enunciado: 'Entretanto, nosso amigo Basso tem o ânimo alegre. Isso resulta da filosofia: estar alegre diante da morte, forte e contente qualquer que seja o estado do corpo, sem desfalecer, ainda que desfaleça.\n(SENECA, L. Cartas morais. Lisboa: Calouste Gulbenkian, 1990.)\n\nO excerto refere-se a uma carta de Sêneca na qual se apresenta como um bem fundamental da filosofia promover a',
+    opcoes: [
+      { letra: 'A', texto: 'valorização de disputas dialógicas.' },
+      { letra: 'B', texto: 'rejeição das convenções sociais.' },
+      { letra: 'C', texto: 'inspiração de natureza religiosa.' },
+      { letra: 'D', texto: 'exaltação do sofrimento.' },
+      { letra: 'E', texto: 'moderação das paixões.' },
+    ],
+    correta: 'E',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1159,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / América Pré-Colombiana / Civilizações Indígenas',
+    enunciado: 'Quando os espanhóis chegaram à América, estava em seu apogeu o império teocrático dos Incas, que estendia seu poder sobre o que hoje chamamos Peru, Bolívia e Equador, abarcava parte da Colômbia e do Chile e alcançava até o norte argentino e a selva brasileira; a confederação dos Astecas tinha conquistado um alto nível de eficiência no vale do México, e no Yucatán, na América Central, a esplêndida civilização dos Maias persistia nos povos herdeiros, organizados para o trabalho e para a guerra. Os Maias tinham sido grandes astrônomos, mediram o tempo e o espaço com assombrosa precisão, e tinham descoberto o valor do número zero antes de qualquer povo da história.\n(GALEANO, E. As veias abertas da América Latina. Porto Alegre: L&PM, 2012.)\n\nAs sociedades mencionadas deixaram como legado uma diversidade de',
+    opcoes: [
+      { letra: 'A', texto: 'bens religiosos inspirados na matriz cristã.' },
+      { letra: 'B', texto: 'materiais bélicos pilhados em batalhas coloniais.' },
+      { letra: 'C', texto: 'heranças culturais constituídas em saberes próprios.' },
+      { letra: 'D', texto: 'costumes laborais moldados em estilos estrangeiros.' },
+      { letra: 'E', texto: 'práticas medicinais alicerçadas no conhecimento científico.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1160,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Cultura / Patrimônio Imaterial / Panelas de Barro',
+    enunciado: 'Em Vitória (ES), no bairro Goiabeiras, encontramos as paneleiras, mulheres que são conhecidas pelos saberes/fazeres das tradicionais panelas de barro, ícones da culinária capixaba. A tradição passada de mãe para filha é de origem indígena e sofreu influência de outras etnias, como a afro e a luso. Dessa mistura, acredita-se que a fabricação das panelas de barro já tenha 400 anos. A fabricação das panelas de barro se dá em várias etapas, desde a obtenção de matéria-prima à confecção das panelas. As matérias-primas tradicionalmente utilizadas são provenientes do meio natural, como: argila, retirada do barreiro no Vale do Mulembá; madeira, atualmente proveniente das sobras da construção civil; e tinta, extraída da casca do manguezal, o popular mangue-vermelho.\n(TRISTÃO, M. A educação ambiental e o pós-colonialismo. Revista de Educação, n. 53, ago. 2014.)\n\nUma característica de práticas tradicionais como a exemplificada no texto é a vinculação entre os recursos do mundo natural e a',
+    opcoes: [
+      { letra: 'A', texto: 'manutenção dos modos de vida.' },
+      { letra: 'B', texto: 'conservação dos plantios da roça.' },
+      { letra: 'C', texto: 'atualização do modelo de gestão.' },
+      { letra: 'D', texto: 'participação na sociedade de consumo.' },
+      { letra: 'E', texto: 'especialização nas etapas de produção.' },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1161,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia / Grécia Antiga / Sofistas / Polis',
+    enunciado: 'Advento da Polis, nascimento da filosofia: entre as duas ordens de fenômenos, os vínculos são demasiado estreitos para que o pensamento racional não apareça, em suas origens, solidário das estruturas sociais e mentais próprias da cidade grega. Assim recolocada na história, a filosofia despoja-se desse caráter de revelação absoluta que às vezes lhe foi atribuído, saudando, na jovem ciência dos jônios, a razão intemporal que veio encarnar-se no Tempo. A escola de Mileto não viu nascer a Razão; ela construiu uma Razão, uma primeira forma de racionalidade. Essa razão grega não é a razão experimental da ciência contemporânea.\n(VERNANT, J. P. Origens do pensamento grego. Rio de Janeiro: Difel, 2002.)\n\nOs vínculos entre os fenômenos indicados no trecho foram fortalecidos pelo surgimento de uma categoria de pensadores, a saber:',
+    opcoes: [
+      { letra: 'A', texto: 'Os epicuristas, envolvidos com o ideal de vida feliz.' },
+      { letra: 'B', texto: 'Os estoicos, dedicados à superação dos infortúnios.' },
+      { letra: 'C', texto: 'Os sofistas, comprometidos com o ensino da retórica.' },
+      { letra: 'D', texto: 'Os peripatéticos, empenhados na dinâmica do ensino.' },
+      { letra: 'E', texto: 'Os poetas rapsodos, responsáveis pela narrativa do mito.' },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1162,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'História / Brasil / Estado Novo / Censura / DIP',
+    enunciado: 'Decreto-Lei n. 1 949, de 27/12/1937\nArt. 1º Fica criado o Departamento de Imprensa e Propaganda (DIP), diretamente subordinado ao presidente da República.\nArt. 2º O DIP tem por fim:\nh) coordenar e incentivar as relações da imprensa com os poderes públicos no sentido de maior aproximação da mesma com os fatos que se ligam aos interesses nacionais;\nn) autorizar mensalmente a devolução dos depósitos efetuados pelas empresas jornalísticas para a importação de papel para imprensa, uma vez demonstrada, a seu juízo, a eficiência e a utilidade pública dos jornais ou periódicos por elas administrados ou dirigidos.\n(BRASIL apud CARONE, E. A Terceira República (1937-1945). São Paulo: Difel, 1982 (adaptado).)\n\nCom base nos trechos do decreto, as finalidades do órgão criado permitiram ao governo promover o(a)',
+    opcoes: [
+      { letra: 'A', texto: 'diversificação da opinião pública.' },
+      { letra: 'B', texto: 'mercantilização da cultura popular.' },
+      { letra: 'C', texto: 'controle das organizações sindicais.' },
+      { letra: 'D', texto: 'cerceamento da liberdade de expressão.' },
+      { letra: 'E', texto: 'privatização dos meios de comunicação.' },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1163,
+    ano: 2022,
+    prova: 'ENEM',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia / Direitos / Apatridia',
+    enunciado: 'Nascidas no Líbano, as duas irmãs não puderam ser registradas no país, porque lá é exigido que os nascidos sejam filhos de pais e mães libaneses. Seus pais, de nacionalidade síria, também não puderam registrá-las no país de origem. Na Síria, crianças só são registradas por pais oficialmente casados, o que não era o caso deles.\n(Disponível em: https://agenciabrasil.ebc.com.br. Acesso em: 7 nov. 2021.)\n\nEm situações como a apresentada no texto, as pessoas ao nascerem já se encontram na condição sociopolítica de',
+    opcoes: [
+      { letra: 'A', texto: 'exiladas.' },
+      { letra: 'B', texto: 'apátridas.' },
+      { letra: 'C', texto: 'foragidas.' },
+      { letra: 'D', texto: 'refugiadas.' },
+      { letra: 'E', texto: 'clandestinas.' },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
 ]
 
 export const AREAS = ["Todas", "Ciências da Natureza", "Ciências Humanas", "Matemática", "Linguagens"]
