@@ -15,6 +15,11 @@ function shuffle(arr) {
   return a
 }
 
+function capitalizar(texto) {
+  if (!texto) return texto
+  return texto.charAt(0).toUpperCase() + texto.slice(1)
+}
+
 function limparTexto(texto) {
   return texto
     .replace(/#{1,6}\s+/g, '')
@@ -144,11 +149,9 @@ export default function Questoes() {
   const [finished, setFinished] = useState(false)
   const [sessionStats, setSessionStats] = useState({ acertos: 0, erros: 0 })
 
-  // Trial: quantas questões já foram usadas no total (vem do Supabase)
   const [trialUsadas, setTrialUsadas] = useState(acesso.usadas || 0)
   const [trialEsgotado, setTrialEsgotado] = useState(false)
 
-  // Sincroniza o contador do trial quando o guard termina de checar
   useEffect(() => {
     if (acesso.tipo === 'trial') {
       setTrialUsadas(acesso.usadas || 0)
@@ -171,8 +174,6 @@ export default function Questoes() {
   async function handleAnswer() {
     if (!selected || !q) return
 
-    // Trial: registra o uso da questão de forma segura (RPC no servidor).
-    // Se já estava esgotado, nem deixa responder.
     if (isTrial) {
       if (trialEsgotado || trialUsadas >= 20) {
         setTrialEsgotado(true)
@@ -182,8 +183,6 @@ export default function Questoes() {
       if (!error && typeof novoTotal === 'number') {
         setTrialUsadas(novoTotal)
         if (novoTotal >= 20) {
-          // esta foi a 20ª: deixa responder e ver a explicação,
-          // mas marca que as próximas serão bloqueadas
           setTrialEsgotado(true)
         }
       }
@@ -221,7 +220,6 @@ export default function Questoes() {
   }
 
   function nextQuestion() {
-    // Trial esgotado: em vez da próxima questão, mostra a tela de upgrade
     if (isTrial && trialUsadas >= 20) {
       setTrialEsgotado(true)
       return
@@ -262,7 +260,6 @@ export default function Questoes() {
     resetSession()
   }
 
-  // ── Tela de trial esgotado ──
   if (isTrial && trialEsgotado && !answered) {
     return (
       <div className={styles.finishWrap}>
@@ -303,7 +300,6 @@ export default function Questoes() {
     )
   }
 
-  // ── Tela de conclusão ──
   if (finished) {
     const pct = total > 0 ? Math.round((sessionStats.acertos / total) * 100) : 0
     return (
@@ -346,7 +342,6 @@ export default function Questoes() {
 
   return (
     <div className={styles.page}>
-      {/* Banner do trial: mostra quantas questões restam */}
       {isTrial && (
         <div className={styles.trialBanner}>
           <i className="ti ti-gift" aria-hidden="true"></i>
@@ -357,7 +352,6 @@ export default function Questoes() {
         </div>
       )}
 
-      {/* Filtros */}
       <div className={styles.filtersBlock}>
         <div className={styles.filterGroup}>
           <span className={styles.filterLabel}>Área</span>
@@ -389,7 +383,6 @@ export default function Questoes() {
         </div>
       </div>
 
-      {/* Progresso */}
       {total > 0 && (
         <div className={styles.progressWrap}>
           <div className={styles.progressBar}>
@@ -418,7 +411,7 @@ export default function Questoes() {
             <span className={styles.badgeAssunto}>{q.assunto}</span>
           </div>
 
-          <p className={styles.enunciado}>{q.enunciado}</p>
+          <p className={styles.enunciado}>{capitalizar(q.enunciado)}</p>
 
           <div className={styles.options}>
             {q.opcoes.map(op => {
@@ -437,7 +430,7 @@ export default function Questoes() {
                   disabled={answered}
                 >
                   <span className={styles.letra}>{op.letra}</span>
-                  <span className={styles.opText}>{op.texto}</span>
+                  <span className={styles.opText}>{capitalizar(op.texto)}</span>
                   {answered && op.letra === q.correta && (
                     <i className={`ti ti-check ${styles.opIcon}`} style={{ color: 'var(--green-text)' }} aria-hidden="true"></i>
                   )}
