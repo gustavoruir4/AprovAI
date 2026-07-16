@@ -98,12 +98,15 @@ export default function Layout() {
               <i className="ti ti-chevron-up" aria-hidden="true" style={{ marginLeft: 'auto', fontSize: 15, transform: menuOpen ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }}></i>
             </button>
             {menuOpen && (
-              <div className={styles.userMenu}>
-                <button className={styles.userMenuItem} onClick={handleSignOut}>
-                  <i className="ti ti-logout" aria-hidden="true"></i> Sair
-                </button>
-              </div>
-            )}
+  <div className={styles.userMenu}>
+    <Link to="/app/perfil" className={styles.userMenuItem} onClick={() => setMenuOpen(false)}>
+      <i className="ti ti-user" aria-hidden="true"></i> Meu perfil
+    </Link>
+    <button className={styles.userMenuItem} onClick={handleSignOut}>
+      <i className="ti ti-logout" aria-hidden="true"></i> Sair
+    </button>
+  </div>
+)}
           </div>
         </div>
       </aside>
