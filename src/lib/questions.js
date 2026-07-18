@@ -27920,7 +27920,13 @@ A mudança no estado de oxidação do elemento carbono em cada reação e o tipo
     prova: 'FUVEST',
     area: 'Ciências Humanas',
     assunto: 'Acordo de Paris / G20 / Discurso de Angela Merkel',
-    enunciado: `Sobre o discurso de Angela Merkel no Parlamento alemão às vésperas da Cúpula do G20 (julho de 2017), analise as três afirmações:
+    enunciado: `Às vésperas da Cúpula do G20, que teve início em 07 de julho de 2017, em Hamburgo, na Alemanha, a chanceler alemã, Angela Merkel, discursou no Parlamento e referiu-se a atores políticos importantes no cenário mundial, conforme os trechos transcritos a seguir.
+
+"Quem pensa que os problemas deste mundo podem ser resolvidos com o isolacionismo e o protecionismo está cometendo um enorme erro. Somente juntos podemos encontrar as respostas certas às questões centrais dos nossos tempos (...) Não podemos esperar até que a última pessoa na Terra esteja convencida da evidência científica das mudanças climáticas. Em outras palavras: o acordo climático (de Paris) é irreversível e não negociável."
+
+(www.jb.com.br/pais/notícias.)
+
+Sobre o discurso de Angela Merkel no Parlamento alemão às vésperas da Cúpula do G20 (julho de 2017), analise as três afirmações:
 I. Podem ser entendidos como uma crítica à saída dos EUA do acordo sobre as mudanças climáticas (COP21, Paris, 2015), justificada pelo presidente Donald Trump.
 II. Trata-se de um elogio à recente postura de algumas autoridades do Reino Unido (Brexit), pretendendo proteger a economia britânica sem afetar seus compromissos com o Acordo de Paris.
 III. Faz-se uma crítica direta à França, que, mesmo tendo sido a sede da COP21 de 2015, vem continuamente desobedecendo a esse acordo.
@@ -27984,7 +27990,13 @@ Está correto apenas o que se afirma em`,
     prova: 'FUVEST',
     area: 'Ciências Humanas',
     assunto: 'Brasil / Cortiços e favelas / Século XIX',
-    enunciado: `Nas cidades brasileiras, particularmente no último quartel do século XIX, novas formas urbanas são constituídas, como os cortiços e as favelas. Sobre esse fenômeno, é correto afirmar:`,
+    enunciado: `As casinhas eram alugadas por mês e as tinas por dia; e tudo pago adiantado. O preço de cada tina, metendo a água, quinhentos réis; sabão à parte. As moradoras do cortiço tinham preferência e não pagavam nada para lavar.
+(...) E, mal vagava uma das casinhas, ou um quarto, um canto onde coubesse um colchão, surgia uma nuvem de pretendentes a disputá-los.
+E aquilo se foi constituindo numa grande lavanderia, agitada e barulhenta, com as suas cercas de varas, as suas hortaliças verdejantes e os seus jardinzinhos de três e quatro palmos, que apareciam como manchas alegres por entre a negrura das limosas tinas transbordantes e o revérbero das claras barracas de algodão cru, armadas sobre os lustrosos bancos de lavar.
+
+Aluísio Azevedo, O cortiço.
+
+Nas cidades brasileiras, particularmente no último quartel do século XIX, novas formas urbanas são constituídas, como os cortiços e as favelas. Sobre esse fenômeno, é correto afirmar:`,
     opcoes: [
       { letra: 'A', texto: `A expansão periférica no século XIX, na zona sul da cidade do Rio de Janeiro, teve significativa presença de cortiços, devido à chegada massiva de imigrantes japoneses.` },
       { letra: 'B', texto: `A primeira favela carioca teve sua origem no forte empobrecimento da população no contexto da crise cafeeira na região serrana do Rio de Janeiro.` },
@@ -28092,7 +28104,11 @@ Está correto apenas o que se afirma em`,
     prova: 'FUVEST',
     area: 'Ciências Humanas',
     assunto: 'Brasil / Correio Braziliense / Independência',
-    enunciado: `No excerto do Correio Braziliense (julho de 1818), de Hipólito José da Costa, o autor referia-se`,
+    enunciado: `Na edição de julho de 1818 do Correio Braziliense, o jornalista Hipólito José da Costa, residente em Londres, publicou a seguinte avaliação sobre os dilemas então enfrentados pelo Império português na América:
+
+"A presença de S.M. [Sua Majestade Imperial] no Brasil lhe dará ocasião para ter mais ou menos influência naqueles acontecimentos; a independência em que el-rei ali se acha das intrigas europeias o deixa em liberdade para decidir-se nas ocorrências, segundo melhor convier a seus interesses. Se volta para Lisboa, antes daquela crise se decidir, não poderá tomar parte nos arranjamentos que a nova ordem de coisas deve ocasionar na América."
+
+Nesse excerto do Correio Braziliense (julho de 1818), de Hipólito José da Costa, o autor referia-se`,
     opcoes: [
       { letra: 'A', texto: `aos desdobramentos da Revolução Pernambucana do ano anterior, que ameaçara o domínio português sobre o centro-sul do Brasil.` },
       { letra: 'B', texto: `às demandas da Revolução Constitucionalista do Porto, exigindo a volta imediata do monarca a Portugal.` },
@@ -28128,7 +28144,11 @@ Está correto apenas o que se afirma em`,
     prova: 'FUVEST',
     area: 'Ciências Humanas',
     assunto: 'Declaração Universal dos Direitos Humanos / ONU',
-    enunciado: `A Declaração Universal mencionada no texto de N. Bobbio (A era dos direitos)`,
+    enunciado: `[...] a Declaração Universal representa um fato novo na história, na medida em que, pela primeira vez, um sistema de princípios fundamentais da conduta humana foi livre e expressamente aceito, através de seus respectivos governos, pela maioria dos homens que vive na Terra. Com essa declaração, um sistema de valores é – pela primeira vez na história – universal, não em princípio, mas de fato, na medida em que o consenso sobre sua validade e sua capacidade de reger os destinos da comunidade futura de todos os homens foi explicitamente declarado. [...] Somente depois da Declaração Universal é que podemos ter a certeza histórica de que a humanidade – toda a humanidade – partilha alguns valores comuns; e podemos, finalmente, crer na universalidade dos valores, no único sentido em que tal crença é historicamente legítima, ou seja, no sentido em que universal significa não algo dado objetivamente, mas algo subjetivamente acolhido pelo universo dos homens.
+
+N. Bobbio. A era dos direitos. Rio de Janeiro: Campus, 1992.
+
+A Declaração Universal mencionada no texto de N. Bobbio (A era dos direitos)`,
     opcoes: [
       { letra: 'A', texto: `foi instituída no processo da Revolução Francesa e norteou os movimentos feministas, sufragistas e operários no decorrer do século XIX.` },
       { letra: 'B', texto: `assemelhou-se ao universalismo cristão, que também resultou no estabelecimento de um conjunto de valores partilhado pela humanidade.` },
@@ -28146,7 +28166,11 @@ Está correto apenas o que se afirma em`,
     prova: 'FUVEST',
     area: 'Ciências Humanas',
     assunto: 'Chile / Pablo Neruda / Allende / Unidade Popular',
-    enunciado: `No texto de Pablo Neruda ("Confesso que vivi. Memórias"), sobre o Chile,`,
+    enunciado: `Aqui no Chile estava se construindo, entre imensas dificuldades, uma sociedade verdadeiramente justa, erguida sobre a base de nossa soberania, de nosso orgulho nacional, do heroísmo dos melhores habitantes do Chile. Do nosso lado, do lado da revolução chilena, estavam a constituição e a lei, a democracia e a esperança.
+
+Pablo Neruda. Confesso que vivi. Memórias. Rio de Janeiro: Difel, 1980.
+
+Nesse texto de Pablo Neruda ("Confesso que vivi. Memórias"), sobre o Chile,`,
     opcoes: [
       { letra: 'A', texto: `"soberania" está relacionada às campanhas de privatização das minas de estanho e salitre, que até então eram mantidas por capitais anglo-americanos.` },
       { letra: 'B', texto: `"heroísmo" refere-se aos embates armados, travados com setores da democracia cristã e com as comunidades indígenas dos araucanos.` },
@@ -28224,7 +28248,15 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Interpretação de texto / Arte / Significado',
-    enunciado: `De acordo com o texto de Arnold Hauser (Teorias da arte), a compreensão do significado de uma obra de arte pressupõe`,
+    enunciado: `Uma obra de arte é um desafio; não a explicamos, ajustamo-nos a ela. Ao interpretá-la, fazemos uso dos nossos próprios objetivos e esforços, dotamo-la de um significado que tem sua origem nos nossos próprios modos de viver e de pensar.
+5 Numa palavra, qualquer gênero de arte que, de fato, nos afete, torna-se, deste modo, arte moderna.
+As obras de arte, porém, são como altitudes inacessíveis. Não nos dirigimos a elas diretamente, mas contornamo-las. Cada geração as vê sob um ângulo diferente e sob uma nova visão; nem se deve supor que um ponto de vista mais recente é
+10 mais eficiente do que um anterior. Cada aspecto surge na sua altura própria, que não pode ser antecipada nem prolongada; e, todavia, o seu significado não está perdido porque o significado que uma obra assume para uma geração posterior
+15 é o resultado de uma série completa de interpretações anteriores.
+
+Arnold Hauser, Teorias da arte. Adaptado.
+
+De acordo com o texto de Arnold Hauser (Teorias da arte), a compreensão do significado de uma obra de arte pressupõe`,
     opcoes: [
       { letra: 'A', texto: `o reconhecimento de seu significado intrínseco.` },
       { letra: 'B', texto: `a exclusividade do ponto de vista mais recente.` },
@@ -28242,7 +28274,15 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Gramática / Substituição de expressões / Conectivos',
-    enunciado: `No trecho de Arnold Hauser "Numa palavra, qualquer gênero de arte que, de fato, nos afete, torna-se, deste modo, arte moderna" (L. 5-6), as expressões sublinhadas podem ser substituídas, sem prejuízo do sentido do texto, respectivamente, por`,
+    enunciado: `Uma obra de arte é um desafio; não a explicamos, ajustamo-nos a ela. Ao interpretá-la, fazemos uso dos nossos próprios objetivos e esforços, dotamo-la de um significado que tem sua origem nos nossos próprios modos de viver e de pensar.
+5 Numa palavra, qualquer gênero de arte que, de fato, nos afete, torna-se, deste modo, arte moderna.
+As obras de arte, porém, são como altitudes inacessíveis. Não nos dirigimos a elas diretamente, mas contornamo-las. Cada geração as vê sob um ângulo diferente e sob uma nova visão; nem se deve supor que um ponto de vista mais recente é
+10 mais eficiente do que um anterior. Cada aspecto surge na sua altura própria, que não pode ser antecipada nem prolongada; e, todavia, o seu significado não está perdido porque o significado que uma obra assume para uma geração posterior
+15 é o resultado de uma série completa de interpretações anteriores.
+
+Arnold Hauser, Teorias da arte. Adaptado.
+
+No trecho de Arnold Hauser "Numa palavra, qualquer gênero de arte que, de fato, nos afete, torna-se, deste modo, arte moderna" (L. 5-6), as expressões sublinhadas podem ser substituídas, sem prejuízo do sentido do texto, respectivamente, por`,
     opcoes: [
       { letra: 'A', texto: `realmente; portanto.` },
       { letra: 'B', texto: `invariavelmente; ainda.` },
@@ -28260,7 +28300,15 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Memórias Póstumas e Minha vida de menina / Narradores',
-    enunciado: `São características dos narradores Brás Cubas (Memórias póstumas de Brás Cubas) e Helena (Minha vida de menina), respectivamente,`,
+    enunciado: `Este último capítulo é todo de negativas. Não alcancei a celebridade do emplasto, não fui ministro, não fui califa, não conheci o casamento. Verdade é que, ao lado dessas faltas, coube-me a boa fortuna de não comprar o pão com o suor do meu rosto. Mais; não padeci a morte de dona Plácida, nem a semidemência do Quincas Borba. Somadas umas coisas e outras, qualquer pessoa imaginará que não houve míngua nem sobra, e, conseguintemente, que saí quite com a vida. E imaginará mal; porque ao chegar a este outro lado do mistério, achei-me com um pequeno saldo, que é a derradeira negativa deste capítulo de negativas: Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria.
+
+Machado de Assis, Memórias póstumas de Brás Cubas.
+
+Não sei por que até hoje todo o mundo diz que tinha pena dos escravos. Eu não penso assim. Acho que se fosse obrigada a trabalhar o dia inteiro não seria infeliz. Ser obrigada a ficar à toa é que seria castigo para mim. Mamãe às vezes diz que ela até deseja que eu fique preguiçosa; a minha esperteza é que a amofina. Eu então respondo: "Se eu fosse preguiçosa não sei o que seria da senhora, meu pai e meus irmãos, sem uma empregada em casa".
+
+Helena Morley, Minha vida de menina.
+
+São características dos narradores Brás Cubas (Memórias póstumas de Brás Cubas) e Helena (Minha vida de menina), respectivamente,`,
     opcoes: [
       { letra: 'A', texto: `malícia e ingenuidade.` },
       { letra: 'B', texto: `solidariedade e egoísmo.` },
@@ -28278,7 +28326,15 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Recurso expressivo / Negação',
-    enunciado: `Nos dois textos (Memórias póstumas de Brás Cubas e Minha vida de menina), obtém-se ênfase por meio do emprego de um mesmo recurso expressivo. Os trechos que ilustram esse recurso são:`,
+    enunciado: `Este último capítulo é todo de negativas. Não alcancei a celebridade do emplasto, não fui ministro, não fui califa, não conheci o casamento. Verdade é que, ao lado dessas faltas, coube-me a boa fortuna de não comprar o pão com o suor do meu rosto. Mais; não padeci a morte de dona Plácida, nem a semidemência do Quincas Borba. Somadas umas coisas e outras, qualquer pessoa imaginará que não houve míngua nem sobra, e, conseguintemente, que saí quite com a vida. E imaginará mal; porque ao chegar a este outro lado do mistério, achei-me com um pequeno saldo, que é a derradeira negativa deste capítulo de negativas: Não tive filhos, não transmiti a nenhuma criatura o legado da nossa miséria.
+
+Machado de Assis, Memórias póstumas de Brás Cubas.
+
+Não sei por que até hoje todo o mundo diz que tinha pena dos escravos. Eu não penso assim. Acho que se fosse obrigada a trabalhar o dia inteiro não seria infeliz. Ser obrigada a ficar à toa é que seria castigo para mim. Mamãe às vezes diz que ela até deseja que eu fique preguiçosa; a minha esperteza é que a amofina. Eu então respondo: "Se eu fosse preguiçosa não sei o que seria da senhora, meu pai e meus irmãos, sem uma empregada em casa".
+
+Helena Morley, Minha vida de menina.
+
+Nos dois textos (Memórias póstumas de Brás Cubas e Minha vida de menina), obtém-se ênfase por meio do emprego de um mesmo recurso expressivo. Os trechos que ilustram esse recurso são:`,
     opcoes: [
       { letra: 'A', texto: `"Este último capítulo é todo de negativas" / "Eu não penso assim".` },
       { letra: 'B', texto: `"Não alcancei a celebridade do emplasto, não fui ministro, não fui califa, não conheci o casamento" / "Não sei por que até hoje todo o mundo diz que tinha pena dos escravos".` },
@@ -28296,7 +28352,19 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Minha vida de menina / Alexandre Eulálio',
-    enunciado: `O trecho do romance Minha vida de menina que ilustra de modo mais preciso o que, para o crítico Alexandre Eulálio, representa "a coexistência íntima de dois mundos culturais divergentes" é:`,
+    enunciado: `Voltada para o encanto da vida livre do pequeno núcleo aberto para o campo, a jovem Helena, familiar a todas as classes sociais daquele âmbito, estava colocada num invejável ponto de observação. (...)
+5 Sem querer forçar um conflito que, a bem dizer, apenas se esboça, podemos atribuir parte desta grande versatilidade psicológica da protagonista aos ecos de uma formação
+britânica, protestante, liberal, ressoando num ambiente de corte ibérico e católico, mal saído do regime de trabalho
+10 escravo. Colorindo a apaixonada esfera de independência da juventude, reveste-se de acentuado sabor sociológico este caso
+da menina ruiva que, embora inteiramente identificada com o meio de gente morena que é o seu, o único que conhece e ama,
+não vacila em o criticar com precisão e finura notáveis, se essa
+15 lucidez não traduzisse a coexistência íntima de dois mundos
+culturais divergentes, que se contemplam e se julgam no interior de um eu tornado harmonioso pelo equilíbrio mesmo de
+suas contradições.
+
+Alexandre Eulálio, "Livro que nasceu clássico". In: Helena Morley, Minha vida de menina.
+
+O trecho do romance Minha vida de menina que ilustra de modo mais preciso o que, para o crítico Alexandre Eulálio, representa "a coexistência íntima de dois mundos culturais divergentes" é:`,
     opcoes: [
       { letra: 'A', texto: `"Se há uma coisa que me faz muita tristeza é gostar muito de uma pessoa, pensando que ela é boa e depois ver que é ruim".` },
       { letra: 'B', texto: `"Eu tinha muita inveja de ver meus irmãos montarem no cavalo em pelo, mas agora estou curada e não montarei nunca mais na minha vida".` },
@@ -28314,7 +28382,19 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Minha vida de menina / Alexandre Eulálio / Protagonista',
-    enunciado: `De acordo com Alexandre Eulálio, a protagonista do romance Minha vida de menina`,
+    enunciado: `Voltada para o encanto da vida livre do pequeno núcleo aberto para o campo, a jovem Helena, familiar a todas as classes sociais daquele âmbito, estava colocada num invejável ponto de observação. (...)
+5 Sem querer forçar um conflito que, a bem dizer, apenas se esboça, podemos atribuir parte desta grande versatilidade psicológica da protagonista aos ecos de uma formação
+britânica, protestante, liberal, ressoando num ambiente de corte ibérico e católico, mal saído do regime de trabalho
+10 escravo. Colorindo a apaixonada esfera de independência da juventude, reveste-se de acentuado sabor sociológico este caso
+da menina ruiva que, embora inteiramente identificada com o meio de gente morena que é o seu, o único que conhece e ama,
+não vacila em o criticar com precisão e finura notáveis, se essa
+15 lucidez não traduzisse a coexistência íntima de dois mundos
+culturais divergentes, que se contemplam e se julgam no interior de um eu tornado harmonioso pelo equilíbrio mesmo de
+suas contradições.
+
+Alexandre Eulálio, "Livro que nasceu clássico". In: Helena Morley, Minha vida de menina.
+
+De acordo com Alexandre Eulálio, a protagonista do romance Minha vida de menina`,
     opcoes: [
       { letra: 'A', texto: `vivencia um conflito — uma ideia fortalecida por "a bem dizer" (L. 5).` },
       { letra: 'B', texto: `apresenta certo vínculo com o protestantismo — uma ideia sintetizada por "ecos de uma formação britânica" (L. 7-8).` },
@@ -28332,7 +28412,22 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / O cortiço / Naturalismo',
-    enunciado: `Uma característica do Naturalismo presente no texto de O cortiço (Aluísio Azevedo) é:`,
+    enunciado: `O rumor crescia, condensando-se; o zunzum de todos os dias acentuava-se; já se não destacavam vozes dispersas, mas
+um só ruído compacto que enchia todo o cortiço. Começavam a fazer compras na venda; ensarilhavam-se* discussões e
+5 rezingas**; ouviam-se gargalhadas e pragas; já se não falava, gritava-se. Sentia-se naquela fermentação sanguínea, naquela
+gula viçosa de plantas rasteiras que mergulham os pés
+vigorosos na lama preta e nutriente da vida, o prazer animal de
+existir, a triunfante satisfação de respirar sobre a terra.
+10 Da porta da venda que dava para o cortiço iam e vinham como formigas, fazendo compras.
+Duas janelas do Miranda abriram-se. Apareceu numa a Isaura, que se dispunha a começar a limpeza da casa.
+— Nhá Dunga! — gritou ela para baixo, a sacudir um pano
+15 de mesa; se você tem cuscuz de milho hoje, bata na porta, ouviu?
+
+Aluísio Azevedo, O cortiço.
+* ensarilhar-se: emaranhar-se.
+** rezinga: resmungo.
+
+Uma característica do Naturalismo presente no texto de O cortiço (Aluísio Azevedo) é:`,
     opcoes: [
       { letra: 'A', texto: `forte apelo aos sentidos.` },
       { letra: 'B', texto: `idealização do espaço.` },
@@ -28350,7 +28445,22 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Gramática / Registro informal / O cortiço',
-    enunciado: `Constitui marca do registro informal da língua o trecho de O cortiço:`,
+    enunciado: `O rumor crescia, condensando-se; o zunzum de todos os dias acentuava-se; já se não destacavam vozes dispersas, mas
+um só ruído compacto que enchia todo o cortiço. Começavam a fazer compras na venda; ensarilhavam-se* discussões e
+5 rezingas**; ouviam-se gargalhadas e pragas; já se não falava, gritava-se. Sentia-se naquela fermentação sanguínea, naquela
+gula viçosa de plantas rasteiras que mergulham os pés
+vigorosos na lama preta e nutriente da vida, o prazer animal de
+existir, a triunfante satisfação de respirar sobre a terra.
+10 Da porta da venda que dava para o cortiço iam e vinham como formigas, fazendo compras.
+Duas janelas do Miranda abriram-se. Apareceu numa a Isaura, que se dispunha a começar a limpeza da casa.
+— Nhá Dunga! — gritou ela para baixo, a sacudir um pano
+15 de mesa; se você tem cuscuz de milho hoje, bata na porta, ouviu?
+
+Aluísio Azevedo, O cortiço.
+* ensarilhar-se: emaranhar-se.
+** rezinga: resmungo.
+
+Constitui marca do registro informal da língua o trecho de O cortiço:`,
     opcoes: [
       { letra: 'A', texto: `"mas um só ruído compacto" (L. 2-3).` },
       { letra: 'B', texto: `"ouviam-se gargalhadas" (L. 5).` },
@@ -28368,7 +28478,19 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Vidas secas / Baleia / Graciliano Ramos',
-    enunciado: `As declarações de Graciliano Ramos na Carta e o excerto do romance Vidas secas permitem afirmar que a personagem Baleia representa`,
+    enunciado: `(...) procurei adivinhar o que se passa na alma duma cachorra. Será que há mesmo alma em cachorro? Não me importo. O meu bicho morre desejando acordar num mundo cheio de preás. Exatamente o que todos nós desejamos. A diferença é que eu quero que eles apareçam antes do sono, e padre Zé Leite pretende que eles nos venham em sonhos, mas no fundo todos somos como a minha cachorra Baleia e esperamos preás. (...)
+
+Carta de Graciliano Ramos a sua esposa.
+
+(...) Uma angústia apertou-lhe o pequeno coração. Precisava vigiar as cabras: àquela hora cheiros de suçuarana deviam andar pelas ribanceiras, rondar as moitas afastadas. Felizmente os meninos dormiam na esteira, por baixo do caritó onde sinha Vitória guardava o cachimbo.
+
+(...)
+
+Baleia queria dormir. Acordaria feliz, num mundo cheio de preás. E lamberia as mãos de Fabiano, um Fabiano enorme. As crianças se espojariam com ela, rolariam com ela num pátio enorme, num chiqueiro enorme. O mundo ficaria todo cheio de preás, gordos, enormes.
+
+Graciliano Ramos, Vidas secas.
+
+As declarações de Graciliano Ramos na Carta e o excerto do romance Vidas secas permitem afirmar que a personagem Baleia representa`,
     opcoes: [
       { letra: 'A', texto: `o conformismo dos sertanejos.` },
       { letra: 'B', texto: `os anseios comunitários de justiça social.` },
@@ -28386,7 +28508,19 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Gramática / Análise de expressões / Vidas secas',
-    enunciado: `A comparação entre os fragmentos, respectivamente, da Carta de Graciliano Ramos e de Vidas secas, permite afirmar que`,
+    enunciado: `(...) procurei adivinhar o que se passa na alma duma cachorra. Será que há mesmo alma em cachorro? Não me importo. O meu bicho morre desejando acordar num mundo cheio de preás. Exatamente o que todos nós desejamos. A diferença é que eu quero que eles apareçam antes do sono, e padre Zé Leite pretende que eles nos venham em sonhos, mas no fundo todos somos como a minha cachorra Baleia e esperamos preás. (...)
+
+Carta de Graciliano Ramos a sua esposa.
+
+(...) Uma angústia apertou-lhe o pequeno coração. Precisava vigiar as cabras: àquela hora cheiros de suçuarana deviam andar pelas ribanceiras, rondar as moitas afastadas. Felizmente os meninos dormiam na esteira, por baixo do caritó onde sinha Vitória guardava o cachimbo.
+
+(...)
+
+Baleia queria dormir. Acordaria feliz, num mundo cheio de preás. E lamberia as mãos de Fabiano, um Fabiano enorme. As crianças se espojariam com ela, rolariam com ela num pátio enorme, num chiqueiro enorme. O mundo ficaria todo cheio de preás, gordos, enormes.
+
+Graciliano Ramos, Vidas secas.
+
+A comparação entre os fragmentos, respectivamente, da Carta de Graciliano Ramos e de Vidas secas, permite afirmar que`,
     opcoes: [
       { letra: 'A', texto: `"será que há mesmo" e "acordaria feliz" sugerem dúvida.` },
       { letra: 'B', texto: `"procurei adivinhar" e "precisava vigiar" significam necessidade.` },
@@ -28404,7 +28538,60 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Sarapalha / Guimarães Rosa',
-    enunciado: `A novela Sarapalha (Guimarães Rosa) apresenta uma estória dentro de outra, por meio da qual a personagem masculina da narrativa principal (Primo Argemiro) alude a uma mulher da narrativa secundária (a moça levada pelo capeta). O mesmo procedimento ocorre em`,
+    enunciado: `Sarapalha
+
+— Ô calorão, Primo!... E que dor de cabeça excomungada!
+
+— É um instantinho e passa... É só ter paciência....
+
+— É... passa... passa... passa... Passam umas mulheres
+vestidas de cor de água, sem olhos na cara, para não terem de
+5 olhar a gente... Só ela é que não passa, Primo Argemiro!... E eu
+já estou cansado de procurar, no meio das outras... Não vem!...
+Foi, rio abaixo, com o outro... Foram p'r'os infernos!...
+
+— Não foi, Primo Ribeiro. Não foram pelo rio... Foi trem de
+ferro que levou...
+
+10 — Não foi no rio, eu sei... No rio ninguém não anda... Só a
+maleita é quem sobe e desce, olhando seus mosquitinhos e
+pondo neles a benção... Mas, na estória... Como é mesmo a
+estória, Primo? Como é?...
+
+— O senhor bem que sabe, Primo... Tem paciência, que não é
+15 bom variar...
+
+— Mas, a estória, Primo!... Como é?... Conta outra vez...
+
+— O senhor já sabe as palavras todas de cabeça... "Foi o
+moço bonito que apareceu, vestido com roupa de dia de
+domingo e com a viola enfeitada de fitas... E chamou a moça
+20 p'ra ir se fugir com ele"...
+
+— Espera, Primo, elas estão passando... Vão umas atrás das
+outras... Cada qual mais bonita... Mas eu não quero,
+nenhuma!... Quero só ela... Luísa...
+
+— Prima Luísa...
+
+25 — Espera um pouco, deixa ver se eu vejo... Me ajuda, Primo!
+Me ajuda a ver...
+
+— Não é nada, Primo Ribeiro... Deixa disso!
+
+— Não é mesmo não...
+
+— Pois então?!
+
+30 — Conta o resto da estória!...
+
+— ..."Então, a moça, que não sabia que o moço bonito era o
+capeta, ajuntou suas roupinhas melhores numa trouxa, e foi
+com ele na canoa, descendo o rio..."
+
+Guimarães Rosa, Sagarana.
+
+A novela Sarapalha (Guimarães Rosa) apresenta uma estória dentro de outra, por meio da qual a personagem masculina da narrativa principal (Primo Argemiro) alude a uma mulher da narrativa secundária (a moça levada pelo capeta). O mesmo procedimento ocorre em`,
     opcoes: [
       { letra: 'A', texto: `Duelo, com Cassiano e Silivana.` },
       { letra: 'B', texto: `Minha gente, com Ramiro e a filha de Emílio.` },
@@ -28422,7 +28609,60 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Sarapalha / Personificação',
-    enunciado: `No texto de Sarapalha, constitui exemplo de personificação o seguinte trecho:`,
+    enunciado: `Sarapalha
+
+— Ô calorão, Primo!... E que dor de cabeça excomungada!
+
+— É um instantinho e passa... É só ter paciência....
+
+— É... passa... passa... passa... Passam umas mulheres
+vestidas de cor de água, sem olhos na cara, para não terem de
+5 olhar a gente... Só ela é que não passa, Primo Argemiro!... E eu
+já estou cansado de procurar, no meio das outras... Não vem!...
+Foi, rio abaixo, com o outro... Foram p'r'os infernos!...
+
+— Não foi, Primo Ribeiro. Não foram pelo rio... Foi trem de
+ferro que levou...
+
+10 — Não foi no rio, eu sei... No rio ninguém não anda... Só a
+maleita é quem sobe e desce, olhando seus mosquitinhos e
+pondo neles a benção... Mas, na estória... Como é mesmo a
+estória, Primo? Como é?...
+
+— O senhor bem que sabe, Primo... Tem paciência, que não é
+15 bom variar...
+
+— Mas, a estória, Primo!... Como é?... Conta outra vez...
+
+— O senhor já sabe as palavras todas de cabeça... "Foi o
+moço bonito que apareceu, vestido com roupa de dia de
+domingo e com a viola enfeitada de fitas... E chamou a moça
+20 p'ra ir se fugir com ele"...
+
+— Espera, Primo, elas estão passando... Vão umas atrás das
+outras... Cada qual mais bonita... Mas eu não quero,
+nenhuma!... Quero só ela... Luísa...
+
+— Prima Luísa...
+
+25 — Espera um pouco, deixa ver se eu vejo... Me ajuda, Primo!
+Me ajuda a ver...
+
+— Não é nada, Primo Ribeiro... Deixa disso!
+
+— Não é mesmo não...
+
+— Pois então?!
+
+30 — Conta o resto da estória!...
+
+— ..."Então, a moça, que não sabia que o moço bonito era o
+capeta, ajuntou suas roupinhas melhores numa trouxa, e foi
+com ele na canoa, descendo o rio..."
+
+Guimarães Rosa, Sagarana.
+
+No texto de Sarapalha, constitui exemplo de personificação o seguinte trecho:`,
     opcoes: [
       { letra: 'A', texto: `"No rio ninguém não anda" (L. 10).` },
       { letra: 'B', texto: `"só a maleita é quem sobe e desce" (L. 10-11).` },
@@ -28440,7 +28680,60 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Sarapalha / Ironia / Maleita',
-    enunciado: `Tendo como base o trecho "só a maleita é quem sobe e desce, olhando seus mosquitinhos e pondo neles a benção...", o termo em destaque foi empregado ironicamente por aludir ao inseto`,
+    enunciado: `Sarapalha
+
+— Ô calorão, Primo!... E que dor de cabeça excomungada!
+
+— É um instantinho e passa... É só ter paciência....
+
+— É... passa... passa... passa... Passam umas mulheres
+vestidas de cor de água, sem olhos na cara, para não terem de
+5 olhar a gente... Só ela é que não passa, Primo Argemiro!... E eu
+já estou cansado de procurar, no meio das outras... Não vem!...
+Foi, rio abaixo, com o outro... Foram p'r'os infernos!...
+
+— Não foi, Primo Ribeiro. Não foram pelo rio... Foi trem de
+ferro que levou...
+
+10 — Não foi no rio, eu sei... No rio ninguém não anda... Só a
+maleita é quem sobe e desce, olhando seus mosquitinhos e
+pondo neles a benção... Mas, na estória... Como é mesmo a
+estória, Primo? Como é?...
+
+— O senhor bem que sabe, Primo... Tem paciência, que não é
+15 bom variar...
+
+— Mas, a estória, Primo!... Como é?... Conta outra vez...
+
+— O senhor já sabe as palavras todas de cabeça... "Foi o
+moço bonito que apareceu, vestido com roupa de dia de
+domingo e com a viola enfeitada de fitas... E chamou a moça
+20 p'ra ir se fugir com ele"...
+
+— Espera, Primo, elas estão passando... Vão umas atrás das
+outras... Cada qual mais bonita... Mas eu não quero,
+nenhuma!... Quero só ela... Luísa...
+
+— Prima Luísa...
+
+25 — Espera um pouco, deixa ver se eu vejo... Me ajuda, Primo!
+Me ajuda a ver...
+
+— Não é nada, Primo Ribeiro... Deixa disso!
+
+— Não é mesmo não...
+
+— Pois então?!
+
+30 — Conta o resto da estória!...
+
+— ..."Então, a moça, que não sabia que o moço bonito era o
+capeta, ajuntou suas roupinhas melhores numa trouxa, e foi
+com ele na canoa, descendo o rio..."
+
+Guimarães Rosa, Sagarana.
+
+Tendo como base o trecho "só a maleita é quem sobe e desce, olhando seus mosquitinhos e pondo neles a benção...", o termo em destaque foi empregado ironicamente por aludir ao inseto`,
     opcoes: [
       { letra: 'A', texto: `causador da malária.` },
       { letra: 'B', texto: `causador da febre amarela.` },
@@ -28458,7 +28751,33 @@ Estão corretas apenas as afirmações`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Literatura / Drummond / Claro enigma / Afirmações',
-    enunciado: `Sobre o poema de Carlos Drummond de Andrade ("Os bens e o sangue", VIII, de Claro enigma), considere as seguintes afirmações:
+    enunciado: `Os bens e o sangue
+
+VIII
+
+(...)
+Ó filho pobre, e descorçoado*, e finito
+ó inapto para as cavalhadas e os trabalhos brutais
+com a faca, o formão, o couro... Ó tal como quiséramos
+para tristeza nossa e consumação das eras,
+para o fim de tudo que foi grande!
+
+Ó desejado,
+ó poeta de uma poesia que se furta e se expande
+à maneira de um lago de pez** e resíduos letais...
+És nosso fim natural e somos teu adubo,
+tua explicação e tua mais singela virtude...
+Pois carecia que um de nós nos recusasse
+para melhor servir-nos. Face a face
+te contemplamos, e é teu esse primeiro
+e úmido beijo em nossa boca de barro e de sarro.
+
+Carlos Drummond de Andrade, Claro enigma.
+
+* "descorçoado": assim como "desacorçoado", é uma variante de uso popular da palavra "desacoroçoado", que significa "desanimado".
+** "pez": piche.
+
+Sobre o poema de Carlos Drummond de Andrade ("Os bens e o sangue", VIII, de Claro enigma), considere as seguintes afirmações:
 I. Os familiares, que falam no poema, ironizam a condição frágil do poeta.
 II. O passado é uma maldição da qual o poeta, como revela o título do poema, não consegue se desvencilhar.
 III. O trecho "o fim de tudo que foi grande" remete à ruína das oligarquias, das quais Drummond é tributário.
@@ -28482,7 +28801,33 @@ Estão corretas:`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Gramática / Preposição para / Finalidade',
-    enunciado: `Considere o tipo de relação estabelecida pela preposição "para" nos seguintes trechos do poema de Drummond:
+    enunciado: `Os bens e o sangue
+
+VIII
+
+(...)
+Ó filho pobre, e descorçoado*, e finito
+ó inapto para as cavalhadas e os trabalhos brutais
+com a faca, o formão, o couro... Ó tal como quiséramos
+para tristeza nossa e consumação das eras,
+para o fim de tudo que foi grande!
+
+Ó desejado,
+ó poeta de uma poesia que se furta e se expande
+à maneira de um lago de pez** e resíduos letais...
+És nosso fim natural e somos teu adubo,
+tua explicação e tua mais singela virtude...
+Pois carecia que um de nós nos recusasse
+para melhor servir-nos. Face a face
+te contemplamos, e é teu esse primeiro
+e úmido beijo em nossa boca de barro e de sarro.
+
+Carlos Drummond de Andrade, Claro enigma.
+
+* "descorçoado": assim como "desacorçoado", é uma variante de uso popular da palavra "desacoroçoado", que significa "desanimado".
+** "pez": piche.
+
+Considere o tipo de relação estabelecida pela preposição "para" nos seguintes trechos do poema de Drummond:
 I. "ó inapto para as cavalhadas e os trabalhos brutais".
 II. "Ó tal como quiséramos para tristeza nossa e consumação das eras".
 III. "para o fim de tudo que foi grande".
@@ -28506,7 +28851,21 @@ A preposição "para" introduz uma oração com ideia de finalidade apenas em`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Leitura em inglês / Estátuas / Rainha Vitória / Conceito',
-    enunciado: `No texto sobre estátuas, a figura da rainha Vitória é associada ao conceito de`,
+    enunciado: `It's a perilous time to be a statue. Not that it has ever been a particularly secure occupation, exposed as statues are to the elements, bird droppings and political winds.
+
+Just ask Queen Victoria, whose rounded frame perches atop hundreds of plinths across the Commonwealth, with an air of solemn, severe solidity. But in 1963 in Quebec, members of a separatist paramilitary group stuck dynamite under the dress of her local statue. It exploded with a force so great that her head was found 100 yards away.
+
+Today, the head is on display in a museum, with her body preserved in a room some miles away. The art historian Vincent Giguère said that "the fact it's damaged is what makes it so important."
+
+There's another reason to conserve the beheaded Victoria. Statues of women, standing alone and demanding attention in a public space, are extremely rare.
+
+To be made a statue, a woman had to be a naked muse, royalty or the mother of God. Or occasionally, an icon of war, justice or virtue: Boadicea in her chariot in London, the Statue of Liberty in New York.
+
+Still, of 925 public statues in Britain, only 158 are women standing on their own. Of those, 110 are allegorical or mythical, and 29 are of Queen Victoria.
+
+Julia Baird, The New York Times. September 4, 2017. Adaptado.
+
+No texto sobre estátuas, a figura da rainha Vitória é associada ao conceito de`,
     opcoes: [
       { letra: 'A', texto: `firmeza.` },
       { letra: 'B', texto: `eloquência.` },
@@ -28524,7 +28883,21 @@ A preposição "para" introduz uma oração com ideia de finalidade apenas em`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Leitura em inglês / Estátuas / Grã-Bretanha / Estatísticas',
-    enunciado: `No texto sobre estátuas, a referência ao número de estátuas expostas em espaços públicos na Grã-Bretanha indica`,
+    enunciado: `It's a perilous time to be a statue. Not that it has ever been a particularly secure occupation, exposed as statues are to the elements, bird droppings and political winds.
+
+Just ask Queen Victoria, whose rounded frame perches atop hundreds of plinths across the Commonwealth, with an air of solemn, severe solidity. But in 1963 in Quebec, members of a separatist paramilitary group stuck dynamite under the dress of her local statue. It exploded with a force so great that her head was found 100 yards away.
+
+Today, the head is on display in a museum, with her body preserved in a room some miles away. The art historian Vincent Giguère said that "the fact it's damaged is what makes it so important."
+
+There's another reason to conserve the beheaded Victoria. Statues of women, standing alone and demanding attention in a public space, are extremely rare.
+
+To be made a statue, a woman had to be a naked muse, royalty or the mother of God. Or occasionally, an icon of war, justice or virtue: Boadicea in her chariot in London, the Statue of Liberty in New York.
+
+Still, of 925 public statues in Britain, only 158 are women standing on their own. Of those, 110 are allegorical or mythical, and 29 are of Queen Victoria.
+
+Julia Baird, The New York Times. September 4, 2017. Adaptado.
+
+No texto sobre estátuas, a referência ao número de estátuas expostas em espaços públicos na Grã-Bretanha indica`,
     opcoes: [
       { letra: 'A', texto: `ênfase em personalidades alegóricas.` },
       { letra: 'B', texto: `escassez de monumentos do gênero feminino.` },
@@ -28542,7 +28915,15 @@ A preposição "para" introduz uma oração com ideia de finalidade apenas em`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Leitura em inglês / Algoritmos / Exemplos',
-    enunciado: `No texto do The Economist (August 30, 2017) sobre algoritmos, um exemplo associado ao fato de algoritmos estarem por toda parte é`,
+    enunciado: `Algorithms are everywhere. They play the stockmarket, decide whether you can have a mortgage and may one day drive your car for you. They search the internet when commanded, stick carefully chosen advertisements into the sites you visit and decide what prices to show you in online shops. (…) But what exactly are algorithms, and what makes them so powerful?
+
+An algorithm is, essentially, a brainless way of doing clever things. It is a set of precise steps that need no great mental effort to follow but which, if obeyed exactly and mechanically, will lead to some desirable outcome. Long division and column addition are examples that everyone is familiar with — if you follow the procedure, you are guaranteed to get the right answer. So is the strategy, rediscovered thousands of times every year by schoolchildren bored with learning mathematical algorithms, for playing a perfect game of noughts and crosses. The brainlessness is key: each step should be as simple and as free from ambiguity as possible. Cooking recipes and driving directions are algorithms of a sort. But instructions like "stew the meat until tender" or "it's a few miles down the road" are too vague to follow without at least some interpretation.
+
+(…)
+
+The Economist, August 30, 2017.
+
+No texto do The Economist (August 30, 2017) sobre algoritmos, um exemplo associado ao fato de algoritmos estarem por toda parte é`,
     opcoes: [
       { letra: 'A', texto: `o cartão de crédito.` },
       { letra: 'B', texto: `o livre mercado.` },
@@ -28560,7 +28941,15 @@ A preposição "para" introduz uma oração com ideia de finalidade apenas em`,
     prova: 'FUVEST',
     area: 'Linguagens',
     assunto: 'Leitura em inglês / Algoritmos / Definição',
-    enunciado: `Segundo o texto do The Economist sobre algoritmos, a execução de um algoritmo consiste em um processo que`,
+    enunciado: `Algorithms are everywhere. They play the stockmarket, decide whether you can have a mortgage and may one day drive your car for you. They search the internet when commanded, stick carefully chosen advertisements into the sites you visit and decide what prices to show you in online shops. (…) But what exactly are algorithms, and what makes them so powerful?
+
+An algorithm is, essentially, a brainless way of doing clever things. It is a set of precise steps that need no great mental effort to follow but which, if obeyed exactly and mechanically, will lead to some desirable outcome. Long division and column addition are examples that everyone is familiar with — if you follow the procedure, you are guaranteed to get the right answer. So is the strategy, rediscovered thousands of times every year by schoolchildren bored with learning mathematical algorithms, for playing a perfect game of noughts and crosses. The brainlessness is key: each step should be as simple and as free from ambiguity as possible. Cooking recipes and driving directions are algorithms of a sort. But instructions like "stew the meat until tender" or "it's a few miles down the road" are too vague to follow without at least some interpretation.
+
+(…)
+
+The Economist, August 30, 2017.
+
+Segundo o texto do The Economist sobre algoritmos, a execução de um algoritmo consiste em um processo que`,
     opcoes: [
       { letra: 'A', texto: `prevê a memorização de tabelas e fórmulas.` },
       { letra: 'B', texto: `envolve mecanismos de seleção e detecção de erros.` },
