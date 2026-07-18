@@ -40,6 +40,7 @@ function AppRoutes() {
         <Route path="historico" element={<Historico />} />
         <Route path="admin" element={<Admin />} />
       </Route>
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   )
 }
