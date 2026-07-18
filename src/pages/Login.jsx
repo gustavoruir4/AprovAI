@@ -146,11 +146,6 @@ export default function Login() {
             ) : mode === 'entrar' ? 'Entrar' : 'Criar conta'}
           </button>
         </div>
-
-        <p className={styles.footer}>
-          <i className="ti ti-infinity" aria-hidden="true"></i>
-          Acesso completo até o ENEM · pagamento único de R$39,90
-        </p>
       </div>
     </div>
   )

@@ -5,6 +5,7 @@ import { usePagamentoGuard } from '../lib/usePagamentoGuard'
 import { supabase } from '../lib/supabase'
 import { QUESTIONS, AREAS, PROVAS } from '../lib/questions'
 import { derivarMateria, MATERIAS_POR_AREA } from '../lib/materias'
+import ReportarQuestaoModal from '../components/ReportarQuestaoModal'
 import styles from './Questoes.module.css'
 
 // ── Shuffle determinístico (usa uma seed p/ manter a ordem estável na sessão) ──
@@ -162,6 +163,29 @@ function novaSeed() {
   return seed
 }
 
+// ── Persistência do progresso da rodada no sessionStorage ──
+// Evita perder a questão atual, o que já foi respondido nesta sessão e os
+// filtros ativos quando o componente é desmontado e remontado (troca de
+// aba, navegação dentro do app, refresh da página).
+const QUIZ_STATE_KEY = 'aprovai_quiz_progress'
+
+function loadQuizState() {
+  try {
+    const raw = sessionStorage.getItem(QUIZ_STATE_KEY)
+    return raw ? JSON.parse(raw) : null
+  } catch {
+    return null
+  }
+}
+
+function saveQuizState(state) {
+  try {
+    sessionStorage.setItem(QUIZ_STATE_KEY, JSON.stringify(state))
+  } catch {
+    // sessionStorage indisponível (modo privado, quota etc.) — segue sem persistir
+  }
+}
+
 // Anos disponíveis, derivados das questões
 const ANOS_DISPONIVEIS = [...new Set(QUESTIONS.map(q => q.ano))].sort((a, b) => b - a)
 
@@ -176,21 +200,25 @@ export default function Questoes() {
   const { acesso } = usePagamentoGuard()
   const isTrial = acesso.tipo === 'trial'
 
+  // Carregado uma única vez, na primeira renderização
+  const quizPersistido = useRef(loadQuizState()).current
+
   // ── Filtros de múltipla seleção (arrays de valores selecionados; vazio = todos) ──
-  const [areasSel, setAreasSel] = useState([])       // ex: ['Matemática']
-  const [materiasSel, setMateriasSel] = useState([]) // ex: ['Física', 'Química']
-  const [anosSel, setAnosSel] = useState([])         // ex: [2022, 2021]
-  const [provasSel, setProvasSel] = useState([])     // ex: ['ENEM']
+  const [areasSel, setAreasSel] = useState(() => quizPersistido?.areasSel || [])       // ex: ['Matemática']
+  const [materiasSel, setMateriasSel] = useState(() => quizPersistido?.materiasSel || []) // ex: ['Física', 'Química']
+  const [anosSel, setAnosSel] = useState(() => quizPersistido?.anosSel || [])         // ex: [2022, 2021]
+  const [provasSel, setProvasSel] = useState(() => quizPersistido?.provasSel || [])     // ex: ['ENEM']
   const [filtrosAbertos, setFiltrosAbertos] = useState(false)
 
-  const [qIndex, setQIndex] = useState(0)
+  const [qIndex, setQIndex] = useState(() => quizPersistido?.qIndex || 0)
   const [selected, setSelected] = useState(null)
   const [answered, setAnswered] = useState(false)
   const [aiText, setAiText] = useState('')
   const [aiLoading, setAiLoading] = useState(false)
-  const [respondidas, setRespondidas] = useState(new Set())
+  const [respondidas, setRespondidas] = useState(() => new Set(quizPersistido?.respondidas || []))
   const [finished, setFinished] = useState(false)
-  const [sessionStats, setSessionStats] = useState({ acertos: 0, erros: 0 })
+  const [sessionStats, setSessionStats] = useState(() => quizPersistido?.sessionStats || { acertos: 0, erros: 0 })
+  const [reportando, setReportando] = useState(false)
 
   const [pularRespondidas, setPularRespondidas] = useState(
     () => localStorage.getItem('aprovai_pular_respondidas') !== 'false'
@@ -213,10 +241,14 @@ export default function Questoes() {
     let ativo = true
     async function carregarHistorico() {
       if (!user) { setHistLoading(false); return }
+      // .limit() explícito: sem ele o PostgREST corta em 1000 linhas por
+      // padrão, o que subcontava "concluídas" assim que o total de
+      // respostas do usuário passava disso.
       const { data } = await supabase
         .from('respostas')
         .select('question_id')
         .eq('user_id', user.id)
+        .limit(20000)
       if (ativo) {
         setHistorico(new Set((data || []).map(r => r.question_id)))
         setHistLoading(false)
@@ -224,11 +256,25 @@ export default function Questoes() {
     }
     carregarHistorico()
     return () => { ativo = false }
-  }, [user])
+    // Depende só do id: ver comentário equivalente em usePagamentoGuard.js
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.id])
 
   useEffect(() => {
     localStorage.setItem('aprovai_pular_respondidas', String(pularRespondidas))
   }, [pularRespondidas])
+
+  // Persiste a rodada atual (filtros, questão atual, o que já foi
+  // respondido nesta sessão) para sobreviver a uma desmontagem do
+  // componente — troca de aba, navegação dentro do app, refresh.
+  useEffect(() => {
+    saveQuizState({
+      areasSel, materiasSel, anosSel, provasSel,
+      qIndex,
+      respondidas: [...respondidas],
+      sessionStats,
+    })
+  }, [areasSel, materiasSel, anosSel, provasSel, qIndex, respondidas, sessionStats])
 
   // Matérias disponíveis: se áreas estão selecionadas, mostra só as dessas áreas
   const materiasDisponiveis = useMemo(() => {
@@ -261,9 +307,16 @@ export default function Questoes() {
     return shuffleSeeded(qs, seed)
   }, [baseFiltrada, pularRespondidas, historico, seed])
 
+  // Corrige um qIndex fora do intervalo (ex.: veio de uma rodada persistida
+  // cujo filtro/lista mudou entre uma visita e outra).
+  useEffect(() => {
+    if (filteredQs.length > 0 && qIndex >= filteredQs.length) {
+      setQIndex(0)
+    }
+  }, [filteredQs, qIndex])
+
   const q = filteredQs[qIndex] || null
   const total = filteredQs.length
-  const feitas = respondidas.size
 
   const totalGeral = baseFiltrada.length
   const jaRespondidasGeral = useMemo(
@@ -331,6 +384,7 @@ export default function Questoes() {
     setAnswered(false)
     setAiText('')
     setAiLoading(false)
+    setReportando(false)
     if (proxIndex === -1) {
       setFinished(true)
       return
@@ -482,9 +536,25 @@ export default function Questoes() {
     <div className={styles.page}>
       {isTrial && (
         <div className={styles.trialBanner}>
-          <i className="ti ti-gift" aria-hidden="true"></i>
-          <span>Teste grátis: <strong>{Math.max(0, 20 - trialUsadas)}</strong> de 20 questões restantes</span>
-          <Link to="/pagamento" className={styles.trialUpgrade}>Liberar tudo por R$39,90</Link>
+          <div className={styles.trialBannerTop}>
+            <i className="ti ti-gift" aria-hidden="true"></i>
+            <span>Teste grátis: <strong>{trialUsadas}</strong> de 20 questões respondidas</span>
+            <Link to="/pagamento" className={styles.trialUpgrade}>Liberar tudo por R$39,90</Link>
+          </div>
+          <div className={styles.trialProgressBar}>
+            <div className={styles.trialProgressFill} style={{ width: `${Math.min(100, (trialUsadas / 20) * 100)}%` }}></div>
+          </div>
+          <div className={styles.trialStats}>
+            <span><i className="ti ti-check" aria-hidden="true"></i> Acertos: <strong>{sessionStats.acertos}</strong></span>
+            <span><i className="ti ti-percentage" aria-hidden="true"></i> Taxa de acerto: <strong>{trialUsadas > 0 ? Math.round((sessionStats.acertos / trialUsadas) * 100) : 0}%</strong></span>
+          </div>
+          {/*
+            TODO (futuro): painel de desempenho completo pré-paywall (evolução ao
+            longo do trial, comparação por área/assunto) entraria aqui, entre as
+            estatísticas rápidas acima e o CTA de upgrade — dando ao usuário do
+            trial um motivo concreto (ver o próprio progresso a fundo) para
+            assinar. Fora de escopo por ora, só o indicador em tempo real acima.
+          */}
         </div>
       )}
 
@@ -629,6 +699,13 @@ export default function Questoes() {
               <i className={`ti ${AREA_ICONS[q.area] || 'ti-book'}`} aria-hidden="true"></i> {q.materia}
             </span>
             <span className={styles.badgeAssunto}>{q.assunto}</span>
+            <button
+              className={styles.reportBtn}
+              onClick={() => setReportando(true)}
+              title="Reportar um problema nesta questão"
+            >
+              <i className="ti ti-flag" aria-hidden="true"></i> Reportar questão
+            </button>
           </div>
 
           <p className={styles.enunciado}>{capitalizar(q.enunciado)}</p>
@@ -697,8 +774,11 @@ export default function Questoes() {
                 )}
               </button>
             )}
-            <span className={styles.counter}>{feitas} / {total}</span>
           </div>
+
+          {reportando && (
+            <ReportarQuestaoModal questaoId={q.id} onClose={() => setReportando(false)} />
+          )}
         </div>
       )}
     </div>

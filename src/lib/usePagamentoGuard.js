@@ -68,7 +68,13 @@ export function usePagamentoGuard() {
 
     verificar()
     return () => { ativo = false }
-  }, [user, navigate])
+    // Depende só do id (não do objeto `user` inteiro): o Supabase troca a
+    // referência de `user` a cada refresh de token (inclusive ao voltar de
+    // uma aba em segundo plano), e recriar esse efeito nesses casos reabria
+    // "checking", desmontando toda a árvore de páginas privadas e zerando
+    // o estado local delas (ex.: progresso do quiz em Questoes.jsx).
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [user?.id, navigate])
 
   return { checking, acesso, TRIAL_LIMITE }
 }
