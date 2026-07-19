@@ -33,23 +33,30 @@ export default function TesteGratis() {
       const { data, error: signUpError } = await signUp(email, password, nome)
       if (signUpError) throw signUpError
 
-      // Cria a linha de trial (começa em 0). A RLS só deixa criar com 0.
-      const novoUserId = data?.user?.id
-      if (novoUserId) {
-        await supabase
-          .from('testes_gratis')
-          .insert({ user_id: novoUserId, questoes_usadas: 0 })
-      }
-
-      setSuccess('Conta criada! Redirecionando para suas 20 questões grátis...')
-
       // Se o projeto exigir confirmação de e-mail, a sessão pode não vir na hora.
-      // Tentamos entrar direto; se não der, avisamos para confirmar o e-mail.
-      const { error: signInError } = await signIn(email, password)
+      // Entramos explicitamente primeiro para garantir uma sessão autenticada
+      // antes de gravar a linha de trial: a RLS de testes_gratis exige
+      // auth.uid() = user_id, e sem sessão o insert falha (silenciosamente,
+      // se o erro não for checado) e o usuário cai sem trial dentro do app,
+      // sendo mandado pro /pagamento pelo usePagamentoGuard.
+      const { data: signInData, error: signInError } = await signIn(email, password)
       if (signInError) {
         setSuccess('Conta criada! Confirme seu e-mail para começar o teste grátis.')
         return
       }
+
+      // Cria a linha de trial (começa em 0). A RLS só deixa criar com 0.
+      const novoUserId = signInData?.user?.id ?? data?.user?.id
+      if (novoUserId) {
+        const { error: trialError } = await supabase
+          .from('testes_gratis')
+          .insert({ user_id: novoUserId, questoes_usadas: 0 })
+        // 23505 = linha já existe (ex.: clique duplo). Qualquer outro erro
+        // bloqueia o fluxo, senão o usuário seria mandado pro app sem trial.
+        if (trialError && trialError.code !== '23505') throw trialError
+      }
+
+      setSuccess('Conta criada! Redirecionando para suas 20 questões grátis...')
       setTimeout(() => navigate('/app/questoes'), 1000)
     } catch (err) {
       setError(traduzErro(err.message))
