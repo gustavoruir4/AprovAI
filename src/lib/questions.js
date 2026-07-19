@@ -32864,6 +32864,902 @@ Sobre a "casa burguesa" referida no texto, podemos concluir que`,
     temImagem: false,
     imagem: null,
   },
+
+  // ==== UNICAMP 2022 (1a fase) - adicionadas em 19/07/2026 ====
+  {
+    id: 1705,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura africana - Paulina Chiziane: Niketche',
+    enunciado: `Tudo na vida é mortal, tudo se apaga. Se a tua chama se apaga é em ti que está a falta. Faz o que te digo e magia nenhuma te derrubará nesta vida. Tu és feitiço por excelência e não deves procurar mais magia nenhuma. Corpo de mulher é magia. Força. Fraqueza. Salvação. Perdição. O universo inteiro cabe nas curvas de uma mulher.
+(Paulina Chiziane, Niketche: uma história de poligamia. São Paulo: Companhia das Letras, 2021. p. 38.)
+
+O excerto acima corresponde a uma das primeiras lições que a conselheira amorosa oferece a Rami, a personagem principal do romance. Tendo em vista as várias peripécias vividas por Rami, essa lição é`,
+    opcoes: [
+      { letra: 'A', texto: `aceita pela protagonista, mas sua trajetória lhe ensina que o corpo feminino é, no fim das contas, perdição.` },
+      { letra: 'B', texto: `abandonada pela personagem principal, uma vez que seu marido não se encanta com seus novos ardis.` },
+      { letra: 'C', texto: `frustrada, pois Rami, ao conhecer suas rivais, percebe que não possui todos os atributos desejáveis.` },
+      { letra: 'D', texto: `confrontada com a experiência pessoal de Rami e de suas rivais, transformando-as de modo significativo.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1706,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Portuguesa - Fernando Pessoa: O Marinheiro',
+    enunciado: `Tenho horror a de aqui a pouco vos ter já dito o que vos vou dizer. As minhas palavras presentes, mal eu as diga, pertencerão logo ao passado, ficarão fora de mim, não sei onde, rígidas e fatais... Falo, e penso nisto na minha garganta, e as minhas palavras parecem-me gente...
+(Fernando Pessoa, O marinheiro. Campinas: Editora da Unicamp, 2020, p. 51.)
+
+O que eu era outrora já não se lembra de quem sou... Às vezes, à beira dos lagos, debruçava-me e fitava-me... Quando eu sorria, os meus dentes eram misteriosos na água... Tinham um sorriso só deles, independentes do meu...
+(Idem, p. 52.)
+
+Nos excertos acima, dois fenômenos são apresentados ao leitor e constituem o principal problema dramático da peça de Fernando Pessoa. Assinale a alternativa que identifica e explica corretamente esses fenômenos.`,
+    opcoes: [
+      { letra: 'A', texto: `As palavras e as imagens tornam-se independentes da pessoa humana. Isso significa a cisão entre o sujeito e o mundo ou, ainda, a crise de identidade pessoal reiterada nos diálogos.` },
+      { letra: 'B', texto: `Proferir um discurso e ver-se refletido em um lago são situações dramáticas que sugerem a unidade entre ser e existir. A questão central, quem eu sou, é resolvida no desfecho da peça.` },
+      { letra: 'C', texto: `Lembrar e esquecer são dois aspectos inseparáveis da estrutura dramática da peça. Se a imagem refletida no lago não se assemelha à pessoa que a contempla, as palavras, por sua vez, garantem a conexão entre o eu e a realidade exterior.` },
+      { letra: 'D', texto: `O horror e o mistério das coisas são elementos básicos desse drama. Eles produzem, nas personagens, a convicção de que é útil narrar as experiências do passado porque assim se revela o seu verdadeiro significado.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1707,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Olavo Bilac: As Ondas (Parnasianismo)',
+    enunciado: `As Ondas
+Entre as trêmulas mornas ardentias,
+A noite no alto-mar anima as ondas.
+Sobem das fundas úmidas Golcondas,
+Pérolas vivas, as nereidas frias:
+Entrelaçam-se, correm fugidias,
+Voltam, cruzando-se; e, em lascivas rondas,
+Vestem as formas alvas e redondas
+De algas roxas e glaucas pedrarias.
+Coxas de vago Ônix, ventres polidos
+De alabastro, quadris de argentea espuma,
+Seios de dúbia opala ardem na treva;
+E bocas verdes, cheias de gemidos,
+Que o fósforo incendeia e o âmbar perfuma,
+Soluçam beijos vãos que o vento leva...
+(Olavo Bilac, Tarde. Rio de Janeiro: Francisco Alves, 1919, p.48)
+
+Ardentia: s.f. fosforescência sobre as ondas do mar, à noite.
+Golconda: s. f. (fig.) mina de riquezas.
+Nereida: s.f. cada uma das ninfas do mar, filhas de Nereu.
+
+Em relação ao soneto de Olavo Bilac (no contexto de sua época), é correto afirmar que a seleção lexical favorece a`,
+    opcoes: [
+      { letra: 'A', texto: `descrição objetiva que o eu lírico faz da fantasia amorosa recorrendo à riqueza mineral dos oceanos.` },
+      { letra: 'B', texto: `representação estética que o eu lírico faz do desejo amoroso associado a fenômenos naturais.` },
+      { letra: 'C', texto: `descrição científica que o eu lírico faz do corpo feminino recorrendo a fenômenos da natureza.` },
+      { letra: 'D', texto: `representação natural que o eu lírico faz do jogo de sensualidade associado à mitologia grega.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1708,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Portuguesa - Camões: soneto do Eufrates',
+    enunciado: `Na ribeira do Eufrates assentado,
+Discorrendo me achei pela memória
+Aquele breve bem, aquela glória,
+Que em ti, doce Sião, tinha passado.
+Da causa de meus males perguntado
+Me foi: Como não cantas a história
+De teu passado bem e da vitória
+Que sempre de teu mal hás alcançado?
+Não sabes, que a quem canta se lhe esquece
+O mal, inda que grave e rigoroso?
+Canta, pois, e não chores dessa sorte.
+Respondi com suspiros: Quando cresce
+A muita saudade, o piedoso
+Remédio é não cantar senão a morte.
+(Luis de Camões, 20 sonetos. Org. Sheila Hue. Campinas: Editora da Unicamp, 2018, p.113).
+
+Considerando as características formais e o núcleo temático, é correto afirmar que a poema retoma o dito popular`,
+    opcoes: [
+      { letra: 'A', texto: `"longe dos olhos, perto do coração".` },
+      { letra: 'B', texto: `"mais vale cantar mal que chorar bem".` },
+      { letra: 'C', texto: `"a cada canto seu Espírito Santo".` },
+      { letra: 'D', texto: `"quem canta seus males espanta".` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1709,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Machado de Assis: crônica do relojoeiro',
+    enunciado: `(...) eu sou um pobre relojoeiro que, cansado de ver que os relógios deste mundo não marcam a mesma hora, descri do ofício. (...) O Partido Liberal, segundo li, estava encasacado e pronto para sair, com o relógio na mão, porque a hora pingava. Faltava-lhe só o chapéu (...); era só pô-lo na cabeça, e sair. Nisto passa o carro do paço com outra pessoa, e ele descobre que ou o seu relógio está adiantado, ou o de Sua Alteza é que se atrasara. Quem os porá de acordo?
+(Machado de Assis, Bons dias. Introdução e notas John Gledson. 3. ed. Campinas: Editora da Unicamp, 2008, p. 79.)
+
+Com relação ao excerto da crônica de Machado de Assis, publicada em 05 de abril de 1888 na Gazeta de Notícias, é correto afirmar que a metáfora mecânica faz referência à passagem do tempo, aludindo à expectativa de mudança de`,
+    opcoes: [
+      { letra: 'A', texto: `regime a partir de discordâncias políticas que levaram à eleição do governo imperial.` },
+      { letra: 'B', texto: `século, marcada pela perspectiva da chegada do meteorito de Bendegó na corte imperial.` },
+      { letra: 'C', texto: `mentalidade escravagista, com um pacto político para suspensão de costumes imperiais.` },
+      { letra: 'D', texto: `legislação, com a alternância entre partidos para a formação de um novo ministério do governo imperial.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1710,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Raul Pompeia: O Ateneu',
+    enunciado: `No ano seguinte, o Ateneu revelou-se-me noutro aspecto. Conhecera-o interessante, com as seduções do que é novo, com as projeções obscuras de perspectiva, desafiando curiosidade e receio; conhecera-o insípido e banal como os mistérios resolvidos, caiado de tédio; conhecia-o agora intolerável como um cárcere, murado de desejos e privações.
+(Raul Pompeia, O Ateneu. 7ª. ed. São Paulo: Ática, 1980, p. 98.)
+
+Com base no excerto que inicia o capítulo VIII do romance de Raul Pompéia e no seu subtítulo - crônica de saudades -, é correto afirmar que a obra é`,
+    opcoes: [
+      { letra: 'A', texto: `um relato, em primeira pessoa, de experiências coletivas e íntimas, no qual o protagonista mostra aspectos da realidade social, valorizando o sistema escolar e prisional.` },
+      { letra: 'B', texto: `um romance de formação, no qual o protagonista revela condutas e intrigas no ambiente escolar, com elogios à pedagogia corretiva e aos valores morais da burguesia.` },
+      { letra: 'C', texto: `uma narrativa memorialista de experiências vividas num internato, na qual o protagonista revela aspectos do sistema educacional da época, com críticas à hipocrisia burguesa.` },
+      { letra: 'D', texto: `um relato saudosista de experiências vividas no internato, no qual o protagonista mostra o poder de sedução e corrupção das amizades, com críticas à falsidade da burguesia.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1713,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Neologismo "roça-office"',
+    enunciado: `Leia, a seguir, o título e subtítulo de uma reportagem.
+Roça-office: dobra procura por imóveis no interior baiano durante pandemia
+Reflexão sobre vivência urbana tem causado um novo êxodo urbano; conheça histórias e veja quando vale a pena se mudar
+(Fonte: Correio 24horas. 21/06/2021.)
+
+Ao longo da pandemia da Covid-19 tornou-se cada vez mais recorrente o uso da expressão de língua inglesa home office (em tradução literal, "escritório em casa") para se referir a trabalho a distância ou a teletrabalho. Indique a alternativa que descreve o processo de composição do neologismo "roça-office", conforme empregado no título da reportagem.`,
+    opcoes: [
+      { letra: 'A', texto: `A substituição do vocábulo em inglês "home" por "roça" torna o uso desse estrangeirismo mais adequado à grafia do português.` },
+      { letra: 'B', texto: `A justaposição de "roça" e "office" produz um efeito cômico pelo contraste entre os meios rural e urbano na formação do neologismo.` },
+      { letra: 'C', texto: `A justaposição de "roça" e do neologismo "office" baseia-se na similaridade fonético-fonológica entre os vocábulos "home" e "roça".` },
+      { letra: 'D', texto: `A aglutinação dos radicais "roça" e "office" adapta o neologismo aos imóveis brasileiros e produz o efeito de humor na manchete.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1715,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Interpretação de texto: os sentidos de "cultura"',
+    enunciado: `No conjunto de seus diferentes usos, a palavra "cultura" pode significar um valor individual do sujeito que "tem cultura"; um valor coletivo de povos, etnias e grupos sociais que produzem bens culturais que podem tornar-se propriedade de alguns; um valor de produto comercializado, como um livro, um quadro, uma peça teatral. (...) Nesse contexto, pergunta o autor, como defender uma cultura livre?
+(Adaptado de Leonardo Foleto, Introdução ao livro A cultura é livre: uma história da resistência antipropriedade.)
+
+Com base no que afirma o autor, a defesa de uma cultura livre dependeria`,
+    opcoes: [
+      { letra: 'A', texto: `da produção e circulação de bens culturais por grupos sociais.` },
+      { letra: 'B', texto: `da atenção dada aos valores individuais e aos direitos autorais.` },
+      { letra: 'C', texto: `da consideração de experiências e valores de outras culturas.` },
+      { letra: 'D', texto: `do compartilhamento de bens culturais via tecnologia digital.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1716,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Glossário ACNUR: refugiado e migrante',
+    enunciado: `O texto a seguir faz parte de um glossário publicado nas redes sociais do Alto-comissariado das Nações Unidas para os Refugiados (ACNUR).
+Refugiado
+Pessoas refugiadas são aquelas que estão fora de seu país de origem por medo de perseguição relacionada a questões de raça, religião, nacionalidade, opinião política ou pertencimento a determinado grupo social, como também à grave violação de direitos humanos e violência generalizada (...).
+Migrante
+Refere-se à pessoa que se desloca dentro de seu próprio país, mas também pode ser usada para falar dos deslocamentos internacionais, sobre quem busca melhores condições de vida, motivada por fatores econômicos ou educacionais, podendo retornar com segurança ao seu país de origem, caso assim desejem.
+(Fonte: Perfil de Instagram do ACNUR Brasil.)
+
+Sobre os verbetes do glossário do ACNUR, é correto dizer que`,
+    opcoes: [
+      { letra: 'A', texto: `contextualizam os usos dos dois termos pela agência.` },
+      { letra: 'B', texto: `enfatizam a sinonímia dos termos no uso pela agência.` },
+      { letra: 'C', texto: `evidenciam uma antonímia dos significados dos termos.` },
+      { letra: 'D', texto: `informam as acepções figuradas de cada um dos termos.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1717,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Sistema de equações: preço de vacinas',
+    enunciado: `Certo país adquiriu 5.000.000 de doses das vacinas Alfa, Beta e Gama, pagando um preço de $40.000.000,00 pelo total. Cada dose das vacinas Alfa, Beta e Gama custou $5,00, $10,00 e $20,00, respectivamente. Sabendo que o número de doses adquiridas da vacina Beta é o triplo do número de doses adquiridas da vacina Gama, o número de doses adquiridas da vacina Alfa foi de:`,
+    opcoes: [
+      { letra: 'A', texto: `1.500.000.` },
+      { letra: 'B', texto: `2.000.000.` },
+      { letra: 'C', texto: `2.500.000.` },
+      { letra: 'D', texto: `3.000.000.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1718,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Consumo de combustível: carro híbrido',
+    enunciado: `Certo modelo de carro é vendido em duas versões: uma a gasolina e outra híbrida. A versão a gasolina custa R$ 150.000,00 e a versão híbrida custa R$ 180.000,00. A tabela a seguir indica o consumo de combustível de cada uma das versões:
+
+| Uso na cidade | Uso na estrada |
+| Versão a gasolina | 12 km/l | 14 km/l |
+| Versão híbrida | 18 km/l | 16 km/l |
+
+Note que a versão híbrida é mais econômica, porém custa mais caro. Um motorista faz diariamente um percurso de 36 km na cidade e de 56 km na estrada. Considerando que cada litro de gasolina custa R$ 5,00 e que, ao longo do tempo, esse preço será constante e o percurso não se alterará, quantos anos de uso serão necessários para que a economia no abastecimento compense o preço mais alto pago inicialmente pelo carro híbrido?`,
+    opcoes: [
+      { letra: 'A', texto: `Mais que 8 e menos que 10 anos.` },
+      { letra: 'B', texto: `Mais que 10 e menos que 12 anos.` },
+      { letra: 'C', texto: `Mais que 12 e menos que 14 anos.` },
+      { letra: 'D', texto: `Mais que 14 e menos que 16 anos.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1720,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Média geométrica',
+    enunciado: `Dados os números reais positivos a1, a2, ..., an, a média geométrica M destes termos é calculada por:
+M = raiz-n-ésima(a1 · a2 · ... · an)
+A média geométrica de 1, 10, 100, ..., 10^22 é:`,
+    opcoes: [
+      { letra: 'A', texto: `10^11` },
+      { letra: 'B', texto: `10^12` },
+      { letra: 'C', texto: `10^13` },
+      { letra: 'D', texto: `10^14` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1721,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Função aplicada: eficácia de vacina',
+    enunciado: `Para conter uma certa epidemia viral, uma vacina será aplicada a uma população. Sabe-se que:
+- a efetividade de uma vacina pode ser entendida como sendo a porcentagem dos indivíduos vacinados que estarão imunes à doença; e
+- para controlar a epidemia, a porcentagem mínima de uma dada população a ser imunizada é dada pela fórmula I(R0) = 100(R0 - 1)/R0, em que R0 > 1 é um valor associado às características da epidemia.
+Assume-se, ainda, que uma eventual imunização somente é adquirida por meio da vacina.
+
+Em relação à epidemia e à vacinação, é correto afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `a porcentagem mínima da população que deve ser vacinada para controlar a epidemia é sempre maior que 50%.` },
+      { letra: 'B', texto: `para uma vacina, quanto maior R0 menor a porcentagem mínima da população que deve ser vacinada para controlar a epidemia.` },
+      { letra: 'C', texto: `para uma vacina, quanto maior R0, maior a porcentagem mínima da população que deve ser vacinada para controlar a epidemia.` },
+      { letra: 'D', texto: `para um dado R0, quanto maior a efetividade da vacina, maior a porcentagem mínima da população que deve ser vacinada para controlar a epidemia.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1722,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Porcentagem: vacinação e efetividade',
+    enunciado: `Assuma que R0 = 2. Sabendo que uma dada vacina tem 80% de efetividade, em qual dos intervalos se encontra a porcentagem mínima da população que deve ser vacinada para controlar a epidemia?`,
+    opcoes: [
+      { letra: 'A', texto: `Entre 46% e 55%.` },
+      { letra: 'B', texto: `Entre 56% e 65%.` },
+      { letra: 'C', texto: `Entre 66% e 75%.` },
+      { letra: 'D', texto: `Entre 76% e 85%.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1723,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Geometria: círculo inscrito em quadrilátero',
+    enunciado: `Um círculo está inscrito em um quadrilátero ABCD. Seja T o ponto de tangência do lado DA com o círculo. Sabe-se que as medidas dos lados AB, BC e CD formam, nesta ordem, uma progressão aritmética crescente de números inteiros e que a medida do lado DA é 3. Considerando que a medida do segmento TA é um número inteiro, as medidas dos lados AB, BC e CD são, respectivamente:`,
+    opcoes: [
+      { letra: 'A', texto: `1, 3, 5.` },
+      { letra: 'B', texto: `2, 3, 4.` },
+      { letra: 'C', texto: `2, 4, 6.` },
+      { letra: 'D', texto: `3, 4, 5.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1724,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Matrizes e sistemas lineares',
+    enunciado: `Considere a matriz A = [[1, k], [3, k^2]] e seja B = A + A^T, onde A^T é a transposta da matriz A.
+Sobre o sistema B · [x, y]^T = [2021, 2022]^T é correto afirmar que:`,
+    opcoes: [
+      { letra: 'A', texto: `se k = 0, o sistema não tem solução.` },
+      { letra: 'B', texto: `se k = -1, o sistema tem infinitas soluções.` },
+      { letra: 'C', texto: `se k = -1, o sistema não tem solução.` },
+      { letra: 'D', texto: `se k = 3, o sistema tem infinitas soluções.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1725,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Probabilidade: pedra-papel-tesoura',
+    enunciado: `Pedra-papel-tesoura, também chamado jankenpon ou jokempô, é um jogo recreativo para duas pessoas. Nesse jogo, os participantes usam as mãos para representar os símbolos de pedra, papel e tesoura. Pelas regras do jogo, o participante que escolher "pedra" ganha do que escolher tesoura; o participante que escolher tesoura ganha do que escolher papel; por fim, o que escolher papel ganha do que escolher pedra. Se ambos escolherem os mesmos símbolos, eles empatam.
+Admitindo que os participantes escolhem os símbolos com igual probabilidade, qual a chance de acontecer pelo menos um empate em três partidas?`,
+    opcoes: [
+      { letra: 'A', texto: `16/27.` },
+      { letra: 'B', texto: `17/27.` },
+      { letra: 'C', texto: `18/27.` },
+      { letra: 'D', texto: `19/27.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1726,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Parábola e retas tangentes',
+    enunciado: `A parábola y = -x^2 + bx + c intercepta o eixo x nos pontos (p,0) e (q,0). Sabe-se que ela intercepta uma única vez cada uma das retas dadas pelas equações y = 2x + 1 e y = 1 - x/2. O valor de p + q é:`,
+    opcoes: [
+      { letra: 'A', texto: `2/3` },
+      { letra: 'B', texto: `3/4` },
+      { letra: 'C', texto: `4/3` },
+      { letra: 'D', texto: `3/2` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1727,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Polinômios: divisibilidade',
+    enunciado: `O polinômio p(x) = 2x^3 + ax^2 + bx + c é divisível por 2x^2 - x + 4. O valor de c + 2b - a é:`,
+    opcoes: [
+      { letra: 'A', texto: `9.` },
+      { letra: 'B', texto: `15.` },
+      { letra: 'C', texto: `21.` },
+      { letra: 'D', texto: `25.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1729,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - A palavra "cringe"',
+    enunciado: `A palavra "cringe" viralizou nas redes sociais no Brasil em 2021. Observe sua definição, em português, apontada pelo "Dicionário Informal" on-line:
+- Vergonha alheia;
+
+Veja, agora, a definição da mesma palavra pelo "Cambridge Dictionary", também em versão on-line:
+- to suddenly move away from someone or something because you are frightened
+- to feel very embarrassed: I cringed at the sight of my dad dancing.
+
+Com base nessas duas definições, pode-se dizer que, em português, a palavra "cringe"`,
+    opcoes: [
+      { letra: 'A', texto: `é empregada numa classe gramatical diferente da empregada em inglês, apesar de os sentidos serem semelhantes nas duas línguas.` },
+      { letra: 'B', texto: `figura no mesmo tempo verbal que figura em inglês, apesar de assumir sentidos diferentes nas duas línguas.` },
+      { letra: 'C', texto: `é empregada na mesma classe gramatical em que é empregada em inglês, apesar de assumir sentidos diferentes nas duas línguas.` },
+      { letra: 'D', texto: `figura em um gênero textual diferente do gênero em que figura em inglês, apesar de os sentidos serem semelhantes nas duas línguas.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1733,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - Interpretação de texto: hidroxicloroquina',
+    enunciado: `There is no evidence that hydroxychloroquine helps Covid-19 patients. So why is Congress still discussing it?
+By Ashish Jha, Dean of the Brown University School of Public Health
+
+Last week, in the United States Senate, the conversation was all about the drug hydroxychloroquine. There has been no evidence that hydroxychloroquine improves outcomes for Covid-19 patients (...). The hearing and the theater around it reflect the disinformation campaigns that have undermined belief in science. (...)
+That's not how we practice medicine. (...) Science and evidence are the tools we use to know what is true. They are the foundation of modern medicine and public health.
+(Adaptado de nytimes.com, 24/11/2020.)
+
+Com base no texto, assinale a alternativa que responde à pergunta apresentada no título do artigo.`,
+    opcoes: [
+      { letra: 'A', texto: `Porque a propagação de notícias falsas confunde os especialistas e fomenta discussões prejudiciais ao avanço da medicina moderna.` },
+      { letra: 'B', texto: `Porque a grande mídia se sobrepõe às evidências da ciência, o que leva a tomada de decisões para um âmbito político.` },
+      { letra: 'C', texto: `Porque faltam estudos que comprovem a ineficácia da hidroxicloroquina como tratamento para Covid-19, o que demanda novas pesquisas.` },
+      { letra: 'D', texto: `Porque algumas discussões no âmbito político e administrativo são pautadas por aspectos subjetivos e não por dados empíricos.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1736,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - Poema de Rafeef Ziadah',
+    enunciado: `A poeta e ativista palestina Rafeef Ziadah estava participando da cobertura jornalística do massacre em Gaza quando um jornalista não-palestino perguntou-lhe se as coisas não seriam melhores se os palestinos parassem de ensinar o ódio às suas crianças. Em resposta, Ziadah compôs o poema "We teach life, sir":
+
+Today, my body was a TV'd massacre that had to fit into sound-bites and word limits. (...) And these are not two equal sides: occupier and occupied. And a hundred dead, two hundred dead, and a thousand dead. (...) No sound-bite will fix this. We teach life, sir.
+
+A partir da leitura do texto, depreende-se que`,
+    opcoes: [
+      { letra: 'A', texto: `a violência contra palestinos chega ao mundo reduzida a pequenas frases e a um certo limite de palavras.` },
+      { letra: 'B', texto: `os bombardeamentos em Gaza são motivados por imagens estereotipadas da população na televisão.` },
+      { letra: 'C', texto: `o ensino dos conflitos históricos em Gaza é baseado em sentimentos como o ódio e a insensibilidade.` },
+      { letra: 'D', texto: `o aprendizado de inglês e das resoluções da ONU está associado ao fim da violência na Palestina.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1741,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Estequiometria e pegada de carbono',
+    enunciado: `Resíduos de papel contribuem para que o clima mude mais do que a maioria das pessoas pensam. A Blue Planet Ink anunciou que sua tinta de impressora autoapagável Paper Saver® agora está disponível em cartuchos remanufaturados. A tinta autoapagável (economizadora de papel) é uma tinta roxa de base aquosa, que pode ser impressa em papel sulfite normal. Um cartucho rende a impressão de até 4000 folhas. Com a exposição ao ar, ao absorver dióxido de carbono e vapor de água, o componente ativo (corante) da tinta perde sua cor, a impressão torna-se não visível e o papel fica branco, tornando possível sua reutilização.
+
+A "pegada de carbono" de 120 folhas de papel é a mesma de um carro a gasolina que se move por 16 km. O Regulamento sobre Automóveis de Passageiros da Comissão Europeia estabeleceu como meta que as emissões dos veículos leves não poderão ultrapassar 95 g CO2/km a partir de 2020. Levando em conta a combustão completa da gasolina (considere a gasolina como sendo constituída unicamente por C8H18) e as informações do texto de referência, o uso de um cartucho da tinta Paper Saver, nas condições estabelecidas pela Comissão Europeia, permitiria reduzir a emissão de aproximadamente
+Massas molares em g.mol^-1: H = 1, C = 12, O = 16.`,
+    opcoes: [
+      { letra: 'A', texto: `1,5 kg de CO2, que é uma massa maior do que a massa de gasolina que foi queimada.` },
+      { letra: 'B', texto: `50 kg de CO2, que é uma massa menor do que a massa de gasolina que foi queimada.` },
+      { letra: 'C', texto: `1,5 kg de CO2, que é uma massa menor do que a massa de gasolina que foi queimada.` },
+      { letra: 'D', texto: `50 kg de CO2, que é uma massa maior do que a massa de gasolina que foi queimada.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1742,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Bioetanol de cana de açúcar e cana de energia',
+    enunciado: `O crescente interesse em combustíveis renováveis, derivados tanto da cana de açúcar quanto da cana de energia, tem impulsionado estudos no sentido de permitir o maior aproveitamento desses dois tipos de cana na produção de bioetanol de primeira e segunda geração, sendo este último um biocombustível produzido a partir de fibras presentes na cana. Em um simpósio brasileiro sobre bioetanol e biorrefino, realizado em 2017, foram apresentados dados relativos à produção de bioetanol a partir de cana de açúcar e cana de energia.
+
+| Característica | Cana de açúcar | Cana de energia |
+| Teor de fibra (%) | 14 | 25 |
+| Massa de fibra (t/ha) | 11 | 45 |
+| Teor de açúcar (%) | 14 | 8 |
+| Massa de açúcar (t/ha) | 11 | 14 |
+
+Comparando-se os dados, pode-se concluir que a vantagem da cana de energia em relação à cana de açúcar reside em uma maior produção de bioetanol de`,
+    opcoes: [
+      { letra: 'A', texto: `primeira e de segunda geração; o aumento maior se dá na produção de bioetanol de segunda geração, tendo como base a produtividade por hectare.` },
+      { letra: 'B', texto: `segunda geração, produção essa que compensa a diminuição na produção de bioetanol de primeira geração, tendo como base a produtividade por hectare.` },
+      { letra: 'C', texto: `primeira geração, produção essa que compensa a diminuição na produção de bioetanol de segunda geração, tendo como base os teores indicados.` },
+      { letra: 'D', texto: `primeira e de segunda geração; o aumento maior se dá na produção de bioetanol de primeira geração, tendo como base os teores indicados.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1747,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Formação socioespacial do Chile',
+    enunciado: `Na economia do Chile, entre outros aspectos, destacam-se as indústrias vitivinícola, agrícola, pesqueira e mineira. Houve um ciclo muito forte de exportação de matérias-primas que produziu um grande crescimento econômico, no chamado "milagre chileno", a partir dos anos 1980. Segundo o Banco Mundial, o paradoxo foi o aumento brutal da desigualdade. As consequências surgiram em 2019, com protestos sociais que culminaram com uma Assembleia Constituinte para rever a Constituição vigente, ainda um resquício do período da ditadura.
+(Adaptado de elpais.com, 04/07/2021.)
+
+Sobre a formação socioespacial chilena, é correto afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `pratica a vitivinicultura na Patagônia, extrai bauxita no Atacama, conta com uma economia bastante centrada no Estado e as privatizações foram generalizadas.` },
+      { letra: 'B', texto: `extrai cobre da Patagônia, pratica a salmonicultura no Atacama, conta com uma economia bastante centrada no mercado e as privatizações só atingiram o setor do petróleo.` },
+      { letra: 'C', texto: `pratica a carcinicultura na Patagônia, extrai ouro do Atacama, conta com uma economia centrada nas empresas estatais e as privatizações foram inexistentes.` },
+      { letra: 'D', texto: `extrai cobre do Atacama, pratica a salmonicultura na Patagônia, conta com uma economia bastante centrada no mercado e as privatizações foram generalizadas.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1750,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Quilombos: territórios e resistência',
+    enunciado: `Os quilombos, espaços da resistência e da insurgência negra desde a sua origem, foram criados como estratégia de enfrentamento ao sistema escravocrata. Nos processos de resistência e sobrevivência dos quilombos que chegam aos dias atuais, as relações culturais, as identidades e os conflitos têm como elemento central os territórios, tensionados por interesses ilegítimos e inconstitucionais de terceiros em disputa pela propriedade da terra. Pouco se divulga que existem, atualmente no território brasileiro, aproximadamente 3.500 comunidades quilombolas que guardam um sentimento de pertença a um grupo e a um lugar.
+(Adaptado de CONAQ; TERRA DE DIREITOS, Racismo e violência contra quilombos no Brasil.)
+
+Sobre a demarcação e titulação das terras quilombolas no Brasil, é correto afirmar que teve início com a`,
+    opcoes: [
+      { letra: 'A', texto: `lei de Terras de 1850; avançou na segunda metade do século XIX, especialmente após a abolição da escravatura e a institucionalização dos territórios quilombolas rurais.` },
+      { letra: 'B', texto: `Constituição de 1988; ainda está em curso o processo de demarcação e poucos territórios quilombolas (rurais e urbanos) receberam a titulação da propriedade até o momento.` },
+      { letra: 'C', texto: `lei de Terras de 1850; na ocasião, foram demarcados os territórios rurais quilombolas, uma vez que não havia trabalho para homens negros e mulheres negras nas cidades.` },
+      { letra: 'D', texto: `Constituição de 1988; na década passada, por meio de políticas públicas, foi finalizada a demarcação e a titulação dos territórios quilombolas rurais, ficando pendente a titulação dos quilombos urbanos.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1752,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia/Ciência Política - Governança versus soberania',
+    enunciado: `Pouco a pouco a noção de "governança" toma o lugar da categoria "soberania", tornada antiquada e desvalorizada segundo os princípios da disciplina neoliberal da globalização econômica. Para os defensores da governança, um Estado não deve mais ser julgado por sua capacidade de assegurar soberania sobre um território, mas pelo respeito às injunções de organismos internacionais que representam grandes interesses comerciais e financeiros globais.
+(Adaptado de Pierre Dardot e Christian Laval, A nova razão do mundo: ensaio sobre a sociedade neoliberal.)
+
+Sobre os conceitos de "governança" e "soberania", podemos afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `são sinônimos, pois fazem referência à melhor forma de ajustar a condução das empresas e dos Estados ao controle democrático das populações.` },
+      { letra: 'B', texto: `as legislações indiretas que beneficiam determinados interesses em detrimento do interesse público são declinantes, daí a menor importância das privatizações hoje.` },
+      { letra: 'C', texto: `os dois termos são contraditórios, na medida em que representam interesses opostos: de um lado os interesses públicos nacionais; de outro, as exigências da globalização.` },
+      { letra: 'D', texto: `implicam cogovernanças privado-públicas das políticas econômicas, levando à produção de medidas e dispositivos favoráveis às soberanias nacionais.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1754,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - O mito da terra plana e os Descobrimentos portugueses',
+    enunciado: `Na Antiguidade Clássica, os gregos sabiam que a terra era redonda. (...) O norte-americano Washington Irving e o francês Antoine-Jean Letronne, em finais do século XIX e princípios do XX, difundiram o mito da "terra plana", o que logo ganhou adeptos. De acordo com os autores desse mito, Colombo teria proposto a D. João II sua teoria supostamente revolucionária da esfericidade da terra. O rei teria reunido seus especialistas, que rejeitaram a proposta porque achavam que a terra era plana. A viagem de Colombo com a descoberta das Américas, todavia, confirmaria a redondeza da Terra. O mito, porém, prevaleceu.
+(Adaptado de Onésimo Teotónio Almeida, A ciência no Portugal da Expansão.)
+
+Baseado no enunciado acima, é correto afirmar:`,
+    opcoes: [
+      { letra: 'A', texto: `O mito da terra plana, disseminado em finais do século XIX, foi usado para interpretar os Descobrimentos portugueses, e até hoje cativa um público. Ainda assim, desde a Antiguidade, já se sabia que a Terra é redonda.` },
+      { letra: 'B', texto: `Os Descobrimentos portugueses subordinam-se à noção de Revolução Científica do século XVII, resultando em uma inovação tecnológica associada a uma mentalidade racionalista singular.` },
+      { letra: 'C', texto: `O texto propõe compreender os Descobrimentos portugueses como impulsionados por uma nova mentalidade empírica com implicações tecnológicas, o que reafirma a noção da Terra plana.` },
+      { letra: 'D', texto: `No domínio da modernidade científica, os Descobrimentos portugueses vão além do mito de Colombo e da Terra plana. Seus conhecimentos, porém, desembocaram em resultados de pouco significado histórico.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1755,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Rainha Nzinga do Ndongo (Angola)',
+    enunciado: `A rainha Nzinga (1624-1663), governante seiscentista do Ndongo, um reino da África Central situado na atual Angola, chegou ao poder graças à sua competência militar, à diplomacia bem sucedida, à manipulação da religião e de conflitos entre potências europeias. Ela criou as condições para a primeira sublevação popular mbundu contra a exploração portuguesa ao atrair para sua causa os chefes que estavam sob influência europeia. Depois conquistou o reino vizinho de Matamba e o governou por três décadas junto com o que restou do poderoso reino Ndongo; desafiou treze governadores portugueses que regeram Angola entre 1622 e 1633.
+(Adaptado de Linda Heywood, Nzinga de Angola: a rainha guerreira de África.)
+
+Com base no excerto e em seus conhecimentos, é correto afirmar que a rainha Nzinga:`,
+    opcoes: [
+      { letra: 'A', texto: `Utilizou, como estratégias políticas para conter o avanço português em seus territórios, a formação de alianças com reinos vizinhos (como Congo), a exploração dos conflitos entre Portugal e Holanda e a interferência nas redes do tráfico.` },
+      { letra: 'B', texto: `Expulsou os portugueses de Angola e reconstruiu o reino do Ndongo em sua extensão original através da política de distribuição de terras aos sobas que aceitaram a sua legitimidade no trono.` },
+      { letra: 'C', texto: `Aboliu o tráfico atlântico de escravizados, apesar da oposição de missionários e comerciantes portugueses que viviam em Luanda, e perseguiu os sobas envolvidos com o comércio.` },
+      { letra: 'D', texto: `Enfrentou um mundo onde o imaginário monárquico e o ideário político eram hegemonicamente masculinos e, assim como a Rainha Elizabeth I, não teve sucesso político e militar.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1756,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia/História - Thomas Paine: Common Sense',
+    enunciado: `A sociedade é uma bênção, mas o governo, mesmo em seu melhor estado, é apenas um mal necessário. No seu pior estado, é um mal intolerável (...). Há algo de muito ridículo na composição da monarquia; primeiro ela exclui um homem dos meios de informação, mas lhe permite agir em casos que requerem capacidade superior de julgamento. A posição de um rei o aparta do mundo; no entanto, a atividade de um rei exige que ele conheça perfeitamente o mundo.
+(Adaptado de Thomas Paine, Senso comum e os direitos do homem.)
+
+O trecho acima foi retirado do panfleto O Senso comum e os direitos do homem, publicado de forma anônima, em 1776. Com autoria assumida por Thomas Paine, a obra causou grande reação pública. A partir do texto e das informações fornecidas, é correto dizer que o autor`,
+    opcoes: [
+      { letra: 'A', texto: `apresenta a Monarquia como um mal necessário e a figura do rei absolutista como absurda e inútil, contudo inquestionável. Paine tornou-se o principal nome contrário à Revolução Americana.` },
+      { letra: 'B', texto: `estabelece uma relação direta entre a sociedade e o governo, abrindo espaço para debates acerca do mau governo. O panfleto escrito por Paine tornou-se uma base teórica para a Revolução Americana.` },
+      { letra: 'C', texto: `demonstra como regimes autoritários favorecem os meios de informação, para que os homens exerçam suas capacidades de julgamento. Paine usou jornais para combater a Revolução Americana.` },
+      { letra: 'D', texto: `considera que sociedades com e sem governos têm os mesmos benefícios, desenvolvendo-se de formas semelhantes. Paine desencorajou o engajamento dos colonos ingleses na Revolução Americana.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1757,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Independência do Brasil e cartografia',
+    enunciado: `Não parece ser obra do acaso a preservação da unidade territorial do Império do Brasil, quando comparada à fragmentação política experimentada pelos antigos vice-reinos hispano-americanos, entre 1810 e 1825. Em Lisboa, no âmbito da Sociedade Real Marítima e Militar (1798-1807), foram preparadas memórias históricas, corográficas e roteiros hidrográficos redigidos pelos engenheiros militares e navais. Esta documentação serviu à diplomacia do Império brasileiro nos tribunais internacionais; mas também, muniu, internamente, a organização das expedições de conquista territorial, levadas ao cabo pelas elites regionais antes e após a Independência.
+(Adaptado de Iris Kantor, Mapas em trânsito: projeções cartográficas e processo de emancipação política do Brasil (1779-1822).)
+
+Considerando o excerto acima e seus estudos, pode-se afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `o processo de fragmentação política da América hispânica durante o período da independência foi similar ao processo histórico da independência no Brasil.` },
+      { letra: 'B', texto: `na Sociedade Real Marítima e Militar, os estudos dos engenheiros militares e navais eram documentos públicos amplamente divulgados em livros didáticos da época.` },
+      { letra: 'C', texto: `a documentação da Sociedade Real Marítima e Militar foi usada, no Brasil, na fundação do Estado e no reconhecimento territorial da nação.` },
+      { letra: 'D', texto: `as elites regionais, formadas em Direito, atuaram na formação do território brasileiro, pouco dialogando com os estudos de engenharia militar.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1758,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Exposição do Centenário da Independência (1922)',
+    enunciado: `No início da década de 1920, o Brasil se preparou para celebrar os cem anos de sua independência na Exposição Internacional do Centenário da Independência do Brasil, um de seus momentos simbólicos mais significativos. Ocorrido na cidade do Rio de Janeiro, entre 7 de setembro de 1922 e 2 de julho de 1923, o evento mobilizou grandes recursos financeiros e foi responsável pela reordenação do espaço urbano. O Estado, por meio da comissão organizadora do evento, incentivou pela primeira vez a realização de documentários fílmicos.
+(Adaptado de Eduardo Morettin, Um apóstolo do modernismo na Exposição Internacional do Centenário: Armando Pamplona e a Independência.)
+
+A partir do texto, assinale a alternativa correta sobre o evento do centenário da independência.`,
+    opcoes: [
+      { letra: 'A', texto: `Este evento apostou no cinema e na exposição para exibir de modo tradicional, aos brasileiros, um país ibérico, associado às navegações modernas.` },
+      { letra: 'B', texto: `Esta política de celebração de centenários datava do século XIX, envolvendo esporadicamente os serviços diplomáticos do ocidente.` },
+      { letra: 'C', texto: `A política de associar o cinema à exposição do centenário da independência evidencia uma vontade do Estado em propagandear um país moderno.` },
+      { letra: 'D', texto: `O cinema e a exposição eram veículos de propaganda política, continuando um projeto de tornar o Rio de Janeiro o cartão postal da monarquia brasileira.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1759,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Periodização da História Contemporânea',
+    enunciado: `É uma tarefa difícil realizar um diagnóstico do tempo presente. Definir o presente como "época"? Os marcos canônicos (geralmente de natureza política) variam, sabidamente, ao gosto das experiências nacionais. Na França, na península Ibérica e no Brasil, o marco que define o início da história contemporânea é a Revolução Francesa. Na Alemanha e na Inglaterra, o historiador que se dedica à história contemporânea trabalha preferencialmente com eventos posteriores à II Guerra Mundial. Contemporânea, na Rússia, é a história posterior a 1918. Na Itália, por sua vez, trata-se do período que advém após o Congresso de Viena (1814-1815).
+(Adaptado de Helena Miranda Mollo et al., Tempo presente & usos do passado.)
+
+A partir da leitura do texto, é correto afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `o recorte temporal de História Contemporânea é natural e consensual entre as civilizações ocidentais e resume o que podemos definir como História do Tempo Presente.` },
+      { letra: 'B', texto: `experiências traumáticas marcadas, por exemplo, pelas duas grandes guerras mundiais, definem nossa experiência de tempo presente e delimitam o início da História Contemporânea.` },
+      { letra: 'C', texto: `as balizas cronológicas da História que definem as periodizações usadas pelas grandes narrativas históricas e livros escolares são de natureza política, variando de acordo com as experiências nacionais.` },
+      { letra: 'D', texto: `os riscos de se construir narrativas múltiplas sobre a história do tempo presente tornam urgente uma revisão histórica que estabeleça balizas cronológicas universais na linearidade do tempo histórico.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1760,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História/Sociologia - Movimentos LGBTQIA+ na ditadura civil-militar',
+    enunciado: `No Brasil, um exemplo de história que precisa ser narrada é a dos movimentos em defesa dos direitos que hoje reconhecemos como movimentos LGBTQIA+. Tais movimentos eclodiram como um ato de resistência em plena ditadura civil-militar, marcada pela repressão e por ideais conservadores. Naquele contexto, a busca por visibilidade passou a ser compreendida como um dos elementos fundamentais para a conquista da cidadania.
+(Baseado em Vinicius Ferreira e Igor Sacramento, Editorial: Movimento LGBT no Brasil: violências, memórias e lutas.)
+
+A partir da leitura do texto, assinale a alternativa correta acerca da historicidade dos movimentos políticos identitários e suas estratégias políticas de ação.`,
+    opcoes: [
+      { letra: 'A', texto: `Esses movimentos eclodiram na segunda metade do século XX, foram perseguidos e silenciados pela ditadura militar e retornaram à cena pública após a instauração de um regime democrático.` },
+      { letra: 'B', texto: `Por sua capacidade de obter alcance social, desde a década de 1970, as mídias são ferramentas para a construção de uma cidadania plena, sendo a busca por visibilidade, portanto, uma das estratégias de ação do movimento LGBTQIA+.` },
+      { letra: 'C', texto: `O Brasil do século XX construiu-se como uma democracia racial, o que garantiu aos movimentos políticos e identitários nacionais o acesso aos direitos civis, políticos e sociais, esvaziando as agendas dos militantes LGBTQIA+.` },
+      { letra: 'D', texto: `Na atualidade, a onda de crimes de homofobia e transfobia estimulam o movimento LGBTQIA+ a rever a pauta da visibilidade dos sujeitos, tornando a militância mais discreta e voltada para o espaço privado da ação dos indivíduos.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1761,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Sonda Solar Parker: velocidade orbital',
+    enunciado: `Em 2018, a NASA lançou a sonda Solar Parker com o objetivo de estudar o Sol. Em abril de 2021, a Solar Parker fez sua oitava aproximação, atingindo dois novos recordes: maior velocidade e máxima aproximação do Sol.
+Sempre que necessário aproxime π = 3
+
+Uma sonda viaja a uma velocidade de módulo constante igual a v = 5×10^5 km/h (aproximadamente a velocidade atingida pela sonda em abril de 2021), tangenciando a superfície da Terra ao longo da Linha do Equador. Em uma hora, aproximadamente quantas voltas a sonda dá em torno da Terra?
+Dado: Raio da Terra RTerra = 6,0×10^3 km.`,
+    opcoes: [
+      { letra: 'A', texto: `83.` },
+      { letra: 'B', texto: `30.` },
+      { letra: 'C', texto: `14.` },
+      { letra: 'D', texto: `0,5.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1762,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Força gravitacional na sonda Solar Parker',
+    enunciado: `A força gravitacional exercida pelo Sol sobre a sonda Solar Parker tem módulo dado por Fsol = GMm/r², sendo G = 6,7×10^-11 N·m²/kg² a constante gravitacional universal, M = 2,0×10^30 kg a massa do Sol, m a massa da sonda, e r a distância entre a sonda e o centro do Sol. Sendo r = 1,0×10^7 km (aproximadamente a distância atingida pela sonda em abril de 2021), qual é o módulo da aceleração gravitacional do Sol na referida posição?`,
+    opcoes: [
+      { letra: 'A', texto: `6,7×10^-29 m/s².` },
+      { letra: 'B', texto: `1,34 m/s².` },
+      { letra: 'C', texto: `9,8 m/s².` },
+      { letra: 'D', texto: `2,0×10^10 m/s².` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1763,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Órbita do módulo Columbia (Apolo 11)',
+    enunciado: `Em abril de 2021 faleceu o astronauta norte-americano Michael Collins, integrante da missão Apolo 11, que levou o primeiro homem à Lua. Enquanto os dois outros astronautas da missão, Neil Armstrong e Buzz Aldrin, desceram até a superfície lunar, Collins permaneceu em órbita lunar pilotando o Módulo de Comando Columbia.
+
+A órbita do Columbia era aproximadamente circular, e o módulo da aceleração gravitacional na órbita era g_orb = 1,4 m/s². A força resultante centrípeta é desempenhada pela força gravitacional exercida pela Lua, ou seja, F_cp = m_columbia · g_orb. Sendo o módulo da velocidade do Columbia v = 1600 m/s, qual foi aproximadamente o período T da órbita?`,
+    opcoes: [
+      { letra: 'A', texto: `T = 20 min.` },
+      { letra: 'B', texto: `T = 2,0 h.` },
+      { letra: 'C', texto: `T = 3,0 h.` },
+      { letra: 'D', texto: `T = 4,0 h.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1764,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Energia potencial gravitacional: Módulo Lunar Eagle',
+    enunciado: `A viagem desde o Columbia até a superfície da Lua foi realizada no Módulo Lunar Eagle, formado por dois estágios: um usado na descida e outro, na subida. A massa seca do estágio de subida, ou seja, sem contar a massa do combustível, era m ≈ 2500 kg. Considere que o módulo da aceleração gravitacional seja aproximadamente constante e dado por g = g_orb = 1,4 m/s² desde a superfície lunar até a órbita do Columbia, que se situava a uma altitude h = 110 km. Qual é a variação da energia potencial gravitacional do estágio de subida (massa seca que reencontra o Columbia) na viagem de volta?`,
+    opcoes: [
+      { letra: 'A', texto: `3,85×10^5 J.` },
+      { letra: 'B', texto: `2,75×10^8 J.` },
+      { letra: 'C', texto: `3,85×10^8 J.` },
+      { letra: 'D', texto: `2,75×10^9 J.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1769,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Nutrientes e saúde humana',
+    enunciado: `O Programa Mundial de Alimentos da Organização das Nações Unidas (PMA-ONU) foi agraciado com o prêmio Nobel da Paz em 2020. No Brasil, um dos maiores produtores de alimentos do mundo, quatro em cada 10 famílias não tiveram acesso diário, regular, e permanente à quantidade suficiente de comida em 2017 e 2018. A fome é declarada quando a desnutrição é generalizada e quando as pessoas começam a morrer por falta de alimentos nutritivos e suficientes. A diversidade dos alimentos ingeridos garante nutrientes para o desempenho ideal das funções do organismo.
+(Fonte: UN World Food Program. What is famine?)
+
+Assinale a alternativa correta sobre os nutrientes e sua importância para a saúde humana.`,
+    opcoes: [
+      { letra: 'A', texto: `A hidrólise dos carboidratos essenciais fornece aminoácidos para a formação das proteínas, as quais têm função construtora de diferentes tecidos.` },
+      { letra: 'B', texto: `Os lipídios contêm desoxirriboses e ácidos graxos, constituem as membranas plasmáticas e participam da síntese de colesterol no organismo.` },
+      { letra: 'C', texto: `Os sais minerais são substâncias inorgânicas essenciais para diversas funções do organismo, como a síntese de glicogênio, de proteínas e de vitaminas.` },
+      { letra: 'D', texto: `As vitaminas atuam como antioxidantes e são substâncias energéticas cuja composição fornece ao organismo glicídios utilizados na respiração celular.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1771,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Mexilhões e bioacumulação de metais',
+    enunciado: `"Eu estava tão fraca, meu corpo estava tão debilitado, que pensava: só quero terminar a obra antes de morrer", relatou a artista plástica Gillian Genser durante a confecção da escultura que representaria Adão. Nessa obra, a artista utilizou conchas de mexilhão azul, que vive nas águas da costa Atlântica do Canadá. Mas durante a criação da obra, a artista apresentou sintomas de demência severa, dores que a imobilizavam, problemas de fala, desorientação espacial, perda de memória. Foi diagnosticada com envenenamento por arsênico e por chumbo, apesar de dizer aos especialistas que não trabalhava com materiais tóxicos, apenas naturais.
+(Fonte: bbc.com/portuguese/geral-46908197.)
+
+Considerando o relato da reportagem e seus conhecimentos, assinale a alternativa correta sobre os mexilhões.`,
+    opcoes: [
+      { letra: 'A', texto: `São moluscos bivalves considerados predadores ativos das cadeias tróficas, capazes de metabolizar e excretar elevadas taxas de arsênico e chumbo.` },
+      { letra: 'B', texto: `São moluscos bivalves considerados bentônicos filtradores tolerantes à poluição e capazes de bioacumular elevadas taxas de arsênico e chumbo.` },
+      { letra: 'C', texto: `São crustáceos considerados predadores ativos das cadeias tróficas, capazes de metabolizar e excretar elevadas taxas de arsênico e chumbo.` },
+      { letra: 'D', texto: `São crustáceos considerados bentônicos filtradores tolerantes à poluição e capazes de bioacumular elevadas taxas de arsênico e chumbo.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1772,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Bioma Pantanal: produtividade e níveis tróficos',
+    enunciado: `A estiagem prolongada no Pantanal, devido às fracas temporadas de chuvas em 2019 e 2020, criou condições para a manutenção e propagação do fogo, e para o menor nível de inundação do Pantanal dos últimos 50 anos.
+Considerando as informações fornecidas e seu conhecimento sobre os biomas, é correto afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `a pluviosidade sobre os rios da bacia do rio Paraguai é determinante para as inundações do Pantanal, um bioma com misto de vegetações de floresta, cerrado e campo. A produtividade primária do bioma, devido à conversão de luz solar em energia e biomassa, dá suporte para os demais níveis tróficos.` },
+      { letra: 'B', texto: `a pluviosidade sobre os rios da bacia do rio Cuiabá é determinante para as inundações do Pantanal, um bioma com misto de vegetações de floresta, cerrado e caatinga. A produtividade primária do bioma, devido à conversão de luz solar em energia e matéria orgânica, dá suporte aos animais endêmicos.` },
+      { letra: 'C', texto: `as chuvas sobre os rios da bacia do rio Paraguai são importantes para o ciclo de alagamento do Pantanal, um bioma com misto de vegetações de floresta, cerrado e caatinga. A produtividade secundária do bioma, com a conversão de luz solar em energia e biomassa, dá suporte para os demais níveis tróficos.` },
+      { letra: 'D', texto: `as chuvas sobre os rios da bacia do rio Cuiabá são importantes para o ciclo de alagamento do Pantanal, um bioma com misto de vegetações de floresta, cerrado e campo. A produtividade secundária do bioma, com a conversão de luz solar em energia e matéria orgânica, dá suporte aos animais endêmicos.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1774,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Fungos bioluminescentes',
+    enunciado: `Dezenas de espécies de fungos bioluminescentes já foram descritas, sendo 12 encontradas no Brasil. As estruturas fúngicas são capazes de bioluminescer, capacidade esta que tem significância ecológica uma vez que pode atrair dispersores de esporos, repelir fungívoros fotofóbicos ou indicar toxicidade do fungo. O processo de emissão de luz envolve as enzimas redutase e luciferase. Sabe-se que a emissão de luz depende da presença das duas proteínas e as reações são apresentadas a seguir.
+
+L + NAD(P)H + H+ --(redutase)--> LH2 + NAD(P)+
+LH2 + O2 --(luciferase)--> LO + H2O + hv
+(L: luciferina; LH2: luciferina reduzida; LO: oxiluciferina; hv: luz)
+(Adaptado de Anderson Garbuglio Oliveira e outros. Química Nova, 2013.)
+
+Considerando as estruturas dos fungos e o processo de emissão de luz descrito, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `Corpos de frutificação são estruturas de fixação do fungo ao substrato; a emissão de luz nessas estruturas depende da presença de oxigênio.` },
+      { letra: 'B', texto: `Micélios são as estruturas reprodutivas dos fungos; a emissão de luz nessas estruturas dá-se no momento em que a luciferina é reduzida.` },
+      { letra: 'C', texto: `Hifas são filamentos ricos em quitina que permitem aos fungos obterem nutrientes; a emissão de luz nessas estruturas depende da presença de luciferina reduzida.` },
+      { letra: 'D', texto: `Esporos diploides são produzidos pelos gametângios; a emissão de luz nessas estruturas dá-se com a oxidação da oxiluciferina.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1775,
+    ano: 2022,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Vacinas contra o SARS-CoV-2',
+    enunciado: `Vacinar-se é um ato necessário para proteção individual e coletiva. Até o momento, quatro vacinas contra o novo coronavírus (SARS-CoV-2) receberam autorização da Agência Nacional de Vigilância Sanitária (Anvisa) para uso no Brasil e podem apresentar biotecnologia distinta para promover a resposta imune do organismo.
+
+Assinale a alternativa que apresenta corretamente a relação entre o princípio tecnológico da vacina e a resposta imune induzida no organismo vacinado.`,
+    opcoes: [
+      { letra: 'A', texto: `O DNA sintético induz a produção da proteína spike do SARS-CoV-2, o que estimula a produção de antígenos pelo sistema imune.` },
+      { letra: 'B', texto: `O adenovírus, como um vetor viral replicante, carrega o gene da proteína spike do SARS-CoV-2 e induz a produção de anticorpos pelo sistema imune.` },
+      { letra: 'C', texto: `A partícula viral ativa do SARS-CoV-2 possui no capsídeo a proteína spike, que induz a produção de antígenos pelo sistema imune.` },
+      { letra: 'D', texto: `O RNAm sintético fornece instruções ao organismo para a produção da proteína spike do SARS-CoV-2, o que estimula a produção de anticorpos pelo sistema imune.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
 ]
 export const AREAS = ["Todas", "Ciências da Natureza", "Ciências Humanas", "Matemática", "Linguagens"]
 export const PROVAS = ["Todas", "ENEM", "FUVEST", "UNICAMP", "UNESP"]
