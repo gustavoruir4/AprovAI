@@ -19,14 +19,18 @@ function mulberry32(seed) {
   }
 }
 
+// Dá a cada questão uma posição pseudo-aleatória fixa (função só do seed e
+// do próprio id) em vez de embaralhar o array com Fisher-Yates: um
+// Fisher-Yates reembaralha TUDO diferente sempre que o array muda de
+// tamanho, o que quebrava a ordem (e o índice da questão atual) toda vez
+// que uma questão era filtrada de fora do pool — por exemplo, respondida
+// nesta sessão. Aqui, tirar/adicionar itens nunca mexe na ordem relativa
+// dos que ficam.
 function shuffleSeeded(arr, seed) {
-  const a = [...arr]
-  const rand = mulberry32(seed)
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(rand() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]]
-  }
-  return a
+  return arr
+    .map(q => ({ q, key: mulberry32(seed ^ q.id)() }))
+    .sort((a, b) => a.key - b.key)
+    .map(x => x.q)
 }
 
 function capitalizar(texto) {
@@ -302,24 +306,46 @@ export default function Questoes() {
     })
   }, [areasSel, materiasSel, anosSel, provasSel])
 
+  // Pool em ordem estável: depende só do filtro de área/matéria/ano/prova e
+  // da seed, NUNCA de historico/pularRespondidas/respondidas. Excluir a
+  // questão já respondida daqui (como era antes) faz o array mudar de
+  // tamanho no instante em que handleAnswer roda — e como "q" é sempre
+  // filteredQs[qIndex], a questão exibida trocava sozinha bem quando o
+  // usuário via a tela de "resposta confirmada" da questão anterior.
   const filteredQs = useMemo(() => {
-    let qs = baseFiltrada
-    if (pularRespondidas) {
-      qs = qs.filter(q => !historico.has(q.id))
-    }
-    return shuffleSeeded(qs, seed)
-  }, [baseFiltrada, pularRespondidas, historico, seed])
+    return shuffleSeeded(baseFiltrada, seed)
+  }, [baseFiltrada, seed])
 
-  // Corrige um qIndex fora do intervalo (ex.: veio de uma rodada persistida
-  // cujo filtro/lista mudou entre uma visita e outra).
+  // Uma questão sai da rodada se já foi respondida agora (nesta sessão) ou,
+  // com "pular respondidas" ligado, se já foi respondida em qualquer sessão
+  // anterior (historico, vindo do banco).
+  const foiRespondida = useCallback(
+    (qq) => respondidas.has(qq.id) || (pularRespondidas && historico.has(qq.id)),
+    [respondidas, historico, pularRespondidas]
+  )
+
+  // Reposiciona qIndex pra primeira questão pendente sempre que o pool ou o
+  // progresso mudam — mas nunca enquanto a questão atual está com resposta
+  // confirmada na tela: reposicionar ali faria a rodada pular pra outra
+  // questão bem na hora em que o usuário acabou de responder.
   useEffect(() => {
-    if (filteredQs.length > 0 && qIndex >= filteredQs.length) {
-      setQIndex(0)
+    if (answered) return
+    if (filteredQs.length === 0) return
+    const atual = filteredQs[qIndex]
+    if (atual && !foiRespondida(atual)) return
+    const idx = filteredQs.findIndex(x => !foiRespondida(x))
+    if (idx === -1) {
+      setFinished(true)
+    } else if (idx !== qIndex) {
+      setQIndex(idx)
     }
-  }, [filteredQs, qIndex])
+  }, [filteredQs, qIndex, answered, foiRespondida])
 
   const q = filteredQs[qIndex] || null
-  const total = filteredQs.length
+  const total = useMemo(
+    () => filteredQs.filter(x => !foiRespondida(x)).length,
+    [filteredQs, foiRespondida]
+  )
 
   const totalGeral = baseFiltrada.length
   const jaRespondidasGeral = useMemo(
@@ -381,8 +407,7 @@ export default function Questoes() {
       setTrialEsgotado(true)
       return
     }
-    const novasRespondidas = new Set([...respondidas, q.id])
-    const proxIndex = filteredQs.findIndex(x => !novasRespondidas.has(x.id))
+    const proxIndex = filteredQs.findIndex(x => !foiRespondida(x))
     setSelected(null)
     setAnswered(false)
     setAiText('')
