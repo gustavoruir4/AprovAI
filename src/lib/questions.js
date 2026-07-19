@@ -37332,6 +37332,1116 @@ Os documentos descobertos em Vindolanda`,
     temImagem: false,
     imagem: null,
   },
+
+  // ==== UNICAMP 2018 (1a fase) - adicionadas em 19/07/2026 ====
+  {
+    id: 2029,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Estrangeirismos: adaptação de verbos do inglês',
+    enunciado: `Estrangeirismos são palavras e expressões de outras línguas usadas correntemente em nosso cotidiano. Sobre o emprego de palavras estrangeiras no português, o linguista Sírio Possenti comenta:
+Tomamos alguns verbinhos do inglês e os adaptamos a nosso sistema verbal exclusivamente segundo regras do português. Se adotarmos start, logo teremos estartar (e todas as suas flexões), pois nossa língua não tem sílabas iniciais como st-, que imediatamente se tornam est. A forma nunca será startar, nem ostartar ou ustartar, nem estarter ou estartir, nem printer ou printir, nem atacher ou atachir etc., etc., etc.
+(Adaptado de Sírio Possenti, "A questão dos estrangeirismos", em Carlos Alberto Faraco, Estrangeirismos: guerras em torno da língua. São Paulo: Parábola, 2001, p. 173-174.)
+
+As alternativas abaixo reproduzem trechos de um fórum de discussão na Internet sobre um jogo eletrônico. Nessa discussão, um jogador queixa-se por não ter conseguido se conectar a uma partida e ter perdido pontos. Escolha a alternativa que contém um exemplo do processo de adaptação de verbos do inglês para o sistema verbal do português, como descreve Sírio Possenti.
+
+Glossário:
+Bug: falha devido ao mau funcionamento em um programa de informática.
+Computar: contar, incluir.
+Dar load: carregar.
+Lolking: site da Internet sobre o jogo.
+Ranked: partida que dá pontos ao jogador.
+Server: servidor; em informática, é um programa ou um computador que fornece serviços a uma rede de computadores.
+Upar: subir de nível, recarregar.
+(Adaptado de http://forums.br.leagueoflegends.com/board/showthread.php?t=187120. Acessado em 15/07/2017.)`,
+    opcoes: [
+      { letra: 'A', texto: `"Aconteceu logo na manhã deste domingo, quando iniciei uma ranked."` },
+      { letra: 'B', texto: `"Ela não deu load e pensei que era um bug no site."` },
+      { letra: 'C', texto: `"Entrei no lolking para ver se a partida estava sendo computada."` },
+      { letra: 'D', texto: `"Nem upei meu personagem de tanto problema no server."` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2030,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Ferréz: manifesto "Terrorismo Literário"',
+    enunciado: `Leia, a seguir, um excerto de "Terrorismo Literário", um manifesto do escritor Ferréz.
+A capoeira não vem mais, agora reagimos com a palavra, porque pouca coisa mudou, principalmente para nós. A literatura marginal se faz presente para representar a cultura de um povo composto de minorias, mas em seu todo uma maioria.
+A Literatura Marginal, sempre é bom frisar, é uma literatura feita por minorias, sejam elas raciais ou socioeconômicas. Literatura feita à margem dos núcleos centrais do saber e da grande cultura nacional, isto é, de grande poder aquisitivo. Mas alguns dizem que sua principal característica é a linguagem, é o jeito que falamos, que contamos a história, bom, isso fica para os estudiosos.
+Cansei de ouvir: "Mas o que cês tão fazendo é separar a literatura, a do gueto e a do centro". E nunca cansarei de responder: "O barato já tá separado há muito tempo, foi feito todo um mundo de teses e de estudos do lado de lá, e do de cá mal terminamos o ensino dito básico."
+(Adaptado de Ferréz, "Terrorismo literário", em Ferréz (Org.), Literatura marginal: talentos da escrita periférica. Rio de Janeiro: Agir, 2005, p. 9,12,13.)
+
+Ferréz defende sua proposta literária como uma`,
+    opcoes: [
+      { letra: 'A', texto: `descoberta de que é preciso reagir com a palavra para que não haja separação entre a grande cultura nacional e a literatura feita por minorias.` },
+      { letra: 'B', texto: `comprovação de que, sendo as minorias de fato uma maioria, não faz sentido distinguir duas literaturas, uma do centro e outra da periferia.` },
+      { letra: 'C', texto: `manifestação de que a literatura marginal tem seu modo próprio de falar e de contar histórias, já conhecido pelos estudiosos.` },
+      { letra: 'D', texto: `constatação de que é preciso reagir com a palavra e mostrar-se nesse lugar marginal como literatura feita por minorias que juntas formam uma maioria.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2032,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Caco Barcellos: entrevista sobre jornalismo investigativo',
+    enunciado: `Numa entrevista ao jornal El País em 26 de agosto de 2016, o jornalista Caco Barcellos comenta uma afirmação sua anterior, feita em um congresso de jornalistas investigativos, de que novos profissionais não deveriam "atuar como porta-vozes de autoridades".
+"Tenho o maior encanto e admiração e respeito pelo jornalismo de opinião. O que critiquei lá é quando isso vai para a reportagem. Não acho legítimo. O repórter tem o dever de ser preciso. Pode ser até analítico, mas não emitir juízo. Na reportagem de rua, fico imbuído, inclusive, de melhor informar o meu colega de opinião. Se eu não fizer isso de modo preciso e correto, ele vai emitir um juízo errado sobre aquele universo que estou retratando. E não só ele, mas também o advogado, o sociólogo, o antropólogo e mais para frente o historiador (...) Por exemplo, essa matança que a polícia militar provoca no cotidiano das grandes cidades brasileiras isso é muito mal reportado pela mídia no seu conjunto. Quem sabe, lá no futuro, o historiador não passe em branco por esse momento da história. Não vai poder dizer 'olha, os negros pobres do estado mais rico da federação estão sendo eliminados com a frequência de três por dia, um a cada oito horas'. Se o repórter não fizer esse registro preciso e contundente, a cadeia toda pode falhar, a começar pelo jornalista de opinião."
+("Caco Barcelos: 'Erros históricos nascem da imprecisão jornalística'". El País. 26/08/2016. Entrevista concedida a Camila Moraes.)
+
+De acordo com a posição defendida por Caco Barcellos com relação a seus leitores, uma reportagem exige do jornalista`,
+    opcoes: [
+      { letra: 'A', texto: `conhecimento preciso do assunto, uma vez que seu objetivo é convencer o leitor a concordar com o que escreve para evitar que ele cometa erros.` },
+      { letra: 'B', texto: `investigação e precisão no tratamento do assunto, porque ela vai servir de base a outros artigos, permitindo que o leitor tire suas próprias conclusões.` },
+      { letra: 'C', texto: `investigação e precisão na abordagem dos fatos, já que ele também emite seu juízo sobre o assunto, conduzindo o leitor a aceitar a história que narra.` },
+      { letra: 'D', texto: `conhecimento preciso dos fatos tratados, para que, no futuro, o leitor seja levado a crer que o repórter registrou sua opinião de forma equilibrada.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2035,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Meritocracia: festa "Se nada der certo"',
+    enunciado: `Em maio deste ano, uma festa do 3º ano do Ensino Médio de uma escola do Rio Grande do Sul propôs aos alunos que se preparavam para o vestibular uma atividade chamada "Se nada der certo". O objetivo era "trabalhar o cenário de não aprovação no vestibular", e como "lidar melhor com essa fase". Os alunos compareceram à festa "fantasiados" de faxineiros, garis, domésticas, agricultores, entre outras profissões consideradas de pessoas "fracassadas". O evento teve repercussão nacional e acirrou o debate sobre a meritocracia. Para Luis Felipe Miguel, professor de ciência política, "o tom de chacota da festa-recreio era óbvio", e teria sido mais interessante "discutir como se constrói a hierarquia que define algumas ocupações como subalternas e outras como superiores; discutir como alguns podem desprezar os saberes incorporados nas práticas dessas profissões (subalternas apenas porque contam com quem as faça por eles); discutir como o que realmente 'deu certo' para eles foi a loteria do nascimento, que, na nossa sociedade, determina a parte do leão das trajetórias individuais".
+(Adaptado de Fernanda Valente, Dia do 'se nada der certo' acende debate sobre meritocracia e privilégio. Carta Capital, 06/06/2017.)
+
+As alternativas a seguir reproduzem trechos de uma entrevista do professor Sidney Chalhoub (Unicamp e Harvard) sobre o mito da meritocracia.
+(Manuel Alves Filho, A meritocracia é um mito que alimenta as desigualdades, diz Sidney Chalhoub. Jornal da Unicamp, 07/06/2017.)
+
+Assinale aquela que dialoga diretamente com a notícia acima.`,
+    opcoes: [
+      { letra: 'A', texto: `É preciso promover a segurança e a inclusão "e fazer com que o conhecimento que essas pessoas trarão à Universidade seja reconhecido e disseminado".` },
+      { letra: 'B', texto: `Com a adesão da Unicamp ao sistema de cotas, um "novo contingente de alunos colocará em cheque vários hábitos da universidade".` },
+      { letra: 'C', texto: `"As melhores universidades do mundo (que servem de referência) adotam a diversidade no ingresso dos estudantes há bastante tempo".` },
+      { letra: 'D', texto: `"O ideal seria que todos aqueles que tivessem condições intelectuais e interesse em entrar na universidade obtivessem uma vaga".` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2036,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Érico Veríssimo: Caminhos cruzados',
+    enunciado: `O título do romance Caminhos cruzados, de Érico Veríssimo,`,
+    opcoes: [
+      { letra: 'A', texto: `alude às dificuldades vividas pelas personagens mais representativas da elite urbana, além de sugerir que nenhum homem é uma ilha.` },
+      { letra: 'B', texto: `sugere que a vida social das personagens é constituída pelo conjunto de relações econômicas e psicológicas dos indivíduos.` },
+      { letra: 'C', texto: `remete à técnica narrativa do romance, no qual várias histórias são relacionadas, sem o estabelecimento de um protagonista principal.` },
+      { letra: 'D', texto: `simboliza as relações de poder da classe burguesa emergente e o seu desejo de controlar a conduta ética da sociedade.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2037,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Guimarães Rosa: Sagarana (Augusto Matraga)',
+    enunciado: `"Sapo não pula por boniteza, mas porém por percisão."
+("Provérbio capiau" citado em epígrafe no conto "A hora e a vez de Augusto Matraga", em João Guimarães Rosa, Sagarana. Rio de Janeiro: Nova Fronteira, 2015, p.287.)
+
+Elementos textuais que antecedem a narrativa como, por exemplo, o provérbio citado, funcionam, em alguns autores, como pista para se entender o sentido das ações ficcionais. No excerto acima, as ideias de beleza e necessidade são contrapostas com vistas à produção de um sentido de ordem moral. Considerando-se a jornada heroica de Augusto Matraga, é correto afirmar que a narrativa`,
+    opcoes: [
+      { letra: 'A', texto: `contradiz o sentido moral do provérbio, uma vez que o protagonista não é fiel ao seu propósito de mudar os hábitos antigos.` },
+      { letra: 'B', texto: `confirma o sentido moral do provérbio, uma vez que o protagonista realiza uma série de ações para corrigir seu caráter e reordenar eticamente sua vida.` },
+      { letra: 'C', texto: `ratifica o sentido moral do provérbio, uma vez que o protagonista é seduzido pelos encantos da natureza e pelos prazeres da bebida e do fumo.` },
+      { letra: 'D', texto: `refuta o sentido moral do provérbio, uma vez que o protagonista não consegue agir sem as motivações da beleza física e do afeto femininos.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2038,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Machado de Assis: "O espelho"',
+    enunciado: `A fim de dar exemplos de sua teoria da "alma exterior", o narrador-personagem do conto "O espelho", de Machado de Assis, refere-se a uma senhora conhecida sua "que muda de alma exterior cinco, seis vezes por ano". E, questionado sobre a identidade dessa mulher, afirma: "Essa senhora é parenta do diabo, e tem o mesmo nome: chama-se Legião..." Considerando o contexto dessa frase no conto, pode-se dizer que ela constitui`,
+    opcoes: [
+      { letra: 'A', texto: `uma crítica à noção de alma exterior como resultante da influência do mal.` },
+      { letra: 'B', texto: `uma consideração cômica que ressalta o nome inusitado da senhora.` },
+      { letra: 'C', texto: `uma condenação do comportamento moral da senhora em questão.` },
+      { letra: 'D', texto: `uma ironia com a inconstância dos valores sociais associados à alma exterior.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2039,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Jorge de Lima: "Olá! Negro"',
+    enunciado: `Leia abaixo duas passagens do poema "Olá! Negro", de Jorge de Lima.
+"A raça que te enforca, enforca-se de tédio, negro!
+E és tu que a alegras ainda com os teus jazzes,
+Com os teus songs, com os teus lundus!"
+(...)
+"Não basta iluminares hoje as noites dos brancos com teus jazzes.
+Olá, Negro! O dia está nascendo!
+O dia está nascendo ou será a tua gargalhada que vem vindo?"
+(Jorge de Lima, Poesias completas. v. I, Rio de Janeiro / Brasília: J. Aguilar/INL, 1974, p. 180-181.)
+
+Considerando o livro Poemas negros como um todo e a poética de Jorge de Lima, é correto afirmar que o último verso citado`,
+    opcoes: [
+      { letra: 'A', texto: `manifesta o desprezo do negro pela situação decadente da cultura do branco.` },
+      { letra: 'B', texto: `realiza a aproximação entre a alegria do negro e uma ideia de futuro.` },
+      { letra: 'C', texto: `remete à vingança do negro contra a violência a que foi submetido pelo branco.` },
+      { letra: 'D', texto: `funciona como um lamento, já que o nascer do dia não traz justiça social.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2040,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Portuguesa - Camões: soneto e o neoplatonismo',
+    enunciado: `Transforma-se o amador na coisa amada,
+Por virtude do muito imaginar;
+Não tenho, logo, mais que desejar,
+Pois em mim tenho a parte desejada.
+Se nela está minha alma transformada,
+Que mais deseja o corpo de alcançar?
+Em si somente pode descansar,
+Pois com ele tal alma está liada.
+Mas esta linda e pura semideia,
+Que, como o acidente em seu sujeito,
+Assim como a alma minha se conforma,
+Está no pensamento como ideia;
+E o vivo e puro amor de que sou feito,
+Como a matéria simples busca a forma.
+(Luís de Camões, Lírica: redondilhas e sonetos. Rio de Janeiro: Ediouro / São Paulo: Publifolha, 1997, p. 85.)
+
+Um dos aspectos mais importantes da lírica de Camões é a retomada renascentista de ideias do filósofo grego Platão. Considerando o soneto citado, pode-se dizer que o chamado "neoplatonismo" camoniano`,
+    opcoes: [
+      { letra: 'A', texto: `é afirmado nos dois primeiros quartetos, uma vez que a união entre amador e pessoa amada resulta em uma alma única e perfeita.` },
+      { letra: 'B', texto: `é confirmado nos dois últimos tercetos, uma vez que a beleza e a pureza reúnem-se finalmente na matéria simples que deseja.` },
+      { letra: 'C', texto: `é negado nos dois primeiros quartetos, uma vez que a consequência da união entre amador e coisa amada é a ausência de desejo.` },
+      { letra: 'D', texto: `é contrariado nos dois últimos tercetos, uma vez que a pureza e a beleza mantêm-se em harmonia na sua condição de ideia.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2041,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Aluísio Azevedo: O cortiço',
+    enunciado: `Durante dois anos o cortiço prosperou de dia para dia, ganhando forças, socando-se de gente. E ao lado o Miranda assustava-se, inquieto com aquela exuberância brutal de vida, aterrado defronte daquela floresta implacável que lhe crescia junto da casa (...).
+À noite e aos domingos ainda mais recrudescia o seu azedume, quando ele, recolhendo-se fatigado do serviço, deixava-se ficar estendido numa preguiçosa, junto à mesa da sala de jantar e ouvia, a contragosto, o grosseiro rumor que vinha da estalagem numa exalação forte de animais cansados. Não podia chegar à janela sem receber no rosto aquele bafo, quente e sensual, que o embebedava com o seu fartum de bestas no coito.
+(Aluísio de Azevedo, O cortiço. 14. ed. São Paulo: Ática, 1983, p. 22.)
+
+Levando em conta o excerto, bem como o texto integral do romance, é correto afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `o grosseiro rumor, a sexualidade desregrada e a exalação forte que provinham do cortiço decorriam, segundo Miranda, do abandono daquela população pelo governo.` },
+      { letra: 'B', texto: `os termos "grosseiro rumor", "animais", "bestas no coito", que fazem referência aos moradores do cortiço, funcionam como metáforas da vida pulsante dos seus habitantes.` },
+      { letra: 'C', texto: `o nivelamento sociológico na obra O Cortiço se dá não somente entre os moradores da habitação coletiva e o seu senhorio, mas também entre eles e o vizinho Miranda.` },
+      { letra: 'D', texto: `a presença portuguesa, exemplificada nas personagens João Romão e Miranda, não é relevante para o desenvolvimento da narrativa nem para a compreensão do sentido da obra.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2042,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura - Guimarães Rosa e James Joyce: neologismos',
+    enunciado: `O brasileiro João Guimarães Rosa e o irlandês James Joyce são autores reverenciados pela inventividade de sua linguagem literária, em que abundam neologismos. Muitas vezes, por essa razão, Guimarães Rosa e Joyce são citados como exemplos de autores "praticamente intraduzíveis". Mesmo sem ter lido os autores, é possível identificar alguns dos seus neologismos, pois são baseados em processos de formação de palavras comuns ao português e ao inglês.
+Entre os recursos comuns aos neologismos de Guimarães Rosa e de James Joyce, estão:
+i. Onomatopeia (formação de uma palavra a partir de uma reprodução aproximada de um som natural, utilizando-se os recursos da língua);
+ii. Derivação (formação de novas palavras pelo acréscimo de prefixos ou sufixos a palavras já existentes na língua).
+Os neologismos que aparecem nas opções abaixo foram extraídos de obras de Guimarães Rosa (GR) e James Joyce (JJ). Assinale a opção em que os processos (i) e (ii) estão presentes:`,
+    opcoes: [
+      { letra: 'A', texto: `Quinculinculim (GR, No Urubuquaquá, no Pinhém) e tattarrattat (JJ, Ulisses).` },
+      { letra: 'B', texto: `Transtrazer (GR, Grande sertão: veredas) e monoideal (JJ, Ulisses).` },
+      { letra: 'C', texto: `Rtststr (JJ, Ulisses) e quinculinculim (GR, No Urubuquaquá, no Pinhém).` },
+      { letra: 'D', texto: `Tattarrattat (JJ, Ulisses) e inesquecer-se (GR, Ave, Palavra).` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2044,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura/Teatro - Dias Gomes: O bem-amado',
+    enunciado: `"ODORICO – Eu sei. É um movimento subversivo procurando me intrigar com a opinião pública e criar problemas à minha administração. Sei, sim. É uma conspiração. Eles não queriam o cemitério. Desde o princípio foram contra. E agora que o cemitério está pronto caem de pau em cima de mim, me chamam de demagogo, de tudo.."
+(...)
+"ODORICO – Pois eu quero que depois o senhor soletre esta gazeta de ponta a ponta. Neco Pedreira o senhor conhece?
+ZECA – Conheço não sinhô.
+ODORICO – É o dono do jornal. Elemento perigoso. Sua primeira missão como delegado é dar uma batida na redação dessa gazeta subversiva e sacudir a marreta em nome da lei e da democracia..."
+(Dias Gomes, O bem-amado. 12.ed. Rio de Janeiro: Bertrand Brasil, 2014, p. 40 e 68.)
+
+A peça de Dias Gomes é uma crítica a um momento histórico e político da sociedade brasileira. Odorico Paraguassu tornou-se um personagem emblemático desse período porque por meio dele`,
+    opcoes: [
+      { letra: 'A', texto: `simbolizou-se a defesa da democracia a qualquer custo. Essa defesa resultou em uma sociedade cindida entre o respeito à lei e o seu uso particular, temas políticos comuns aos países latino-americanos nos anos de 1970.` },
+      { letra: 'B', texto: `representaram-se o atropelo da lei constitucional, a relativização da liberdade de imprensa e a construção de um inimigo interno que justificasse o arbítrio das decisões do executivo, próprios aos Anos de Chumbo.` },
+      { letra: 'C', texto: `explicitaram-se as leis que regiam a vida política e social de uma nação subdesenvolvida da América Latina na década de 1970, marcada pela inércia e pela cumplicidade dos cidadãos com a corrupção sistêmica do país.` },
+      { letra: 'D', texto: `fez-se a defesa da democracia e do respeito irrestrito à lei constitucional para um projeto de nação brasileira da década 1970, que enfrentava o espírito demagógico dos políticos latino-americanos.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2045,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Paridade de números inteiros',
+    enunciado: `Considere três números inteiros cuja soma é um número ímpar. Entre esses três números, a quantidade de números ímpares é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `0 ou 1.` },
+      { letra: 'B', texto: `1 ou 2.` },
+      { letra: 'C', texto: `2 ou 3.` },
+      { letra: 'D', texto: `1 ou 3.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2046,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Progressão geométrica: depreciação de carro',
+    enunciado: `Dois anos atrás certo carro valia R$ 50.000,00 e atualmente vale R$ 32.000,00. Supondo que o valor do carro decresça a uma taxa anual constante, daqui a um ano o valor do carro será igual a`,
+    opcoes: [
+      { letra: 'A', texto: `R$ 25.600,00.` },
+      { letra: 'B', texto: `R$ 24.400,00.` },
+      { letra: 'C', texto: `R$ 23.000,00.` },
+      { letra: 'D', texto: `R$ 18.000,00.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2047,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Probabilidade: moeda tendenciosa',
+    enunciado: `Lançando-se determinada moeda tendenciosa, a probabilidade de sair cara é o dobro da probabilidade de sair coroa. Em dois lançamentos dessa moeda, a probabilidade de sair o mesmo resultado é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `1/2.` },
+      { letra: 'B', texto: `5/9.` },
+      { letra: 'C', texto: `2/3.` },
+      { letra: 'D', texto: `3/5.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2048,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Função definida por partes',
+    enunciado: `Seja a função h(x) definida para todo número real x por:
+h(x) = 2^(x+1) se x ≤ 1, e h(x) = √(x-1) se x > 1.
+Então, h(h(h(0))) é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `0.` },
+      { letra: 'B', texto: `2.` },
+      { letra: 'C', texto: `4.` },
+      { letra: 'D', texto: `8.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2052,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Trigonometria: sen x + cos x',
+    enunciado: `Seja x um número real tal que sen x + cos x = 0,2. Logo, |sen x - cos x| é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `0,5.` },
+      { letra: 'B', texto: `0,8.` },
+      { letra: 'C', texto: `1,1.` },
+      { letra: 'D', texto: `1,4.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2053,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Matrizes: equação matricial A² = aA + bI',
+    enunciado: `Sejam a e b números reais tais que a matriz A = [[1, 2], [0, 1]] satisfaz a equação A² = aA + bI, em que I é a matriz identidade de ordem 2. Logo, o produto a·b é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `-2.` },
+      { letra: 'B', texto: `-1.` },
+      { letra: 'C', texto: `1.` },
+      { letra: 'D', texto: `2.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2054,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Sistema linear com parâmetro k',
+    enunciado: `Sabendo que k é um número real, considere o sistema linear nas variáveis reais x e y:
+{ x + ky = 1
+{ x + y = k
+É correto afirmar que esse sistema`,
+    opcoes: [
+      { letra: 'A', texto: `tem solução para todo k.` },
+      { letra: 'B', texto: `não tem solução única para nenhum k.` },
+      { letra: 'C', texto: `não tem solução se k = 1.` },
+      { letra: 'D', texto: `tem infinitas soluções se k ≠ 1.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2055,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Geometria analítica: reta e circunferência',
+    enunciado: `No plano cartesiano, sejam C a circunferência de centro na origem e raio r > 0, e s a reta de equação x + 3y = 10. A reta s intercepta a circunferência C em dois pontos distintos se e somente se`,
+    opcoes: [
+      { letra: 'A', texto: `r > 2.` },
+      { letra: 'B', texto: `r > √5.` },
+      { letra: 'C', texto: `r > 3.` },
+      { letra: 'D', texto: `r > √10.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2056,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Polinômios: divisão de p(x) por q(x)',
+    enunciado: `Sejam p(x) e q(x) polinômios com coeficientes reais. Dividindo-se p(x) por q(x), obtêm-se quociente e resto iguais a x² + 1. Nessas condições, é correto afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `o grau de p(x) é menor que 5.` },
+      { letra: 'B', texto: `o grau de q(x) é menor que 3.` },
+      { letra: 'C', texto: `p(x) tem raízes complexas.` },
+      { letra: 'D', texto: `q(x) tem raízes reais.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2057,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Números complexos: raiz de equação quadrática',
+    enunciado: `Sejam a e b números reais não nulos. Se o número complexo z = a + bi é uma raiz da equação quadrática x² + bx + a = 0, então`,
+    opcoes: [
+      { letra: 'A', texto: `|z| = 1/√3.` },
+      { letra: 'B', texto: `|z| = 1/√5.` },
+      { letra: 'C', texto: `|z| = √3.` },
+      { letra: 'D', texto: `|z| = √5.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2059,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - Notícia: passageira e moedas na turbina',
+    enunciado: `Elderly flight passenger throws coins into engine for 'luck', delays take-off for hours
+China Southern Airlines Flight 380 was held up at the Shanghai Pudong International Airport after an elderly woman passenger caused a disruption, according to the airline's official WeChat account. An investigation into the incident is under way.
+Passengers boarding the flight reportedly saw an elderly woman throwing coins at the engine for "blessings" from the middle of the boarding staircase and alerted the crew. Ground staff said the woman, who appeared to be about 80 and had limited mobility, was accompanied by her husband, daughter and son-in-law.
+The captain was quoted as saying the metal, if sucked up by the engine, could have caused serious damage, including failure.
+The flight was later given a green light and took off at 5.52pm, more than five hours late. It is scheduled to arrive in Guangzhou at 8.14pm.
+(Adaptado de Sarah Zheng, Elderly flight passenger throws coins into engine for 'luck', delays take-off for hours. South China Morning Post, 27/06/2017.)
+
+O que é correto afirmar sobre o incidente relatado na notícia anterior?`,
+    opcoes: [
+      { letra: 'A', texto: `Por causa do incidente, o avião chegou a seu destino com cinco horas de atraso, às 17h52.` },
+      { letra: 'B', texto: `Segundo o piloto, moedas atiradas na turbina do avião causaram sérios danos à aeronave.` },
+      { letra: 'C', texto: `Uma idosa chinesa, seu marido, sua filha e seu genro quase provocaram um acidente aéreo.` },
+      { letra: 'D', texto: `A ação de alguns passageiros evitou o risco de um grave acidente aéreo.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2061,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - "Zombie Neuroscience": vespas e baratas',
+    enunciado: `ZOMBIE NEUROSCIENCE
+I don't know if cockroaches dream, but I imagine if they do, jewel wasps feature prominently in their nightmares. These small, solitary tropical wasps are of little concern to us humans; after all, they don't manipulate our minds so that they can serve us up as willing, living meals to their newborns, as they do to unsuspecting cockroaches. The story is simple, if grotesque: the female wasp controls the minds of the cockroaches she feeds to her offspring, taking away their sense of fear or will to escape their fate. What turns a once healthy cockroach into a mindless zombie it's venom. Not just any venom, either: a specific venom that acts like a drug, targeting the cockroach's brain.
+(Adaptado de Christie Wilcox, Zombie Neuroscience. Scientific American, New York, v. 315, n. 2, p. 70-73, 2016.)
+
+De acordo com o autor,`,
+    opcoes: [
+      { letra: 'A', texto: `certas baratas conseguem escapar de ataques de vespas comportando-se como zumbis.` },
+      { letra: 'B', texto: `baratas são capazes de ações predatórias que mal podemos imaginar.` },
+      { letra: 'C', texto: `vespas fêmeas de uma certa espécie podem controlar a mente das baratas.` },
+      { letra: 'D', texto: `uma barata pode inocular um veneno que transforma uma outra barata em um zumbi.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2065,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - Coral reefs: ameaças aos recifes de coral',
+    enunciado: `Coral reefs are colorful underwater forests which teem with life and act as a natural protective barrier for coastal regions. The fishes and plants which call them home belong to some of the most diverse and fragile ecosystems on the planet. Higher sea temperatures from global warming have already caused major coral bleaching events. Bleaching occurs when corals respond to the stress of warmer temperatures by expelling the colorful algae that live within them. Increased levels of atmospheric carbon dioxide result in higher levels of CO2 in the water, leading to ocean acidification, which is also a threat to coral. As the oceans become more acidic, the corals' ability to form skeletons through calcification is inhibited, causing their growth to slow. Increasing sea levels caused by melting sea ice could also cause problems for some reefs by making them too deep to receive adequate sunlight, another factor important for survival.
+(Adaptado de Coral Reefs, The National Wildlife Federation.)
+
+Considerando o texto e seus conhecimentos, assinale a alternativa correta.
+Os recifes de corais estão seriamente ameaçados pela combinação dos seguintes fatores:`,
+    opcoes: [
+      { letra: 'A', texto: `branqueamento das esponjas calcáreas pela exalação de suas algas simbiontes; acidificação marinha em virtude da elevação do nível do mar; e menor taxa fotossintética pelo aumento do CO2 nos oceanos.` },
+      { letra: 'B', texto: `bloqueio das conchas dos cnidários pela expulsão de suas algas parasíticas; acidificação marinha em virtude dos maiores níveis de CO2 no ar; e maior incidência de luz solar por causa do degelo das calotas polares.` },
+      { letra: 'C', texto: `branqueamento dos pólipos de cnidários pela expulsão de suas algas simbiontes; acidificação marinha em virtude dos maiores níveis de CO2 no ar; e menor taxa fotossintética em razão dos níveis oceânicos elevados.` },
+      { letra: 'D', texto: `bloqueio das esponjas calcáreas pela aquisição de algas comensalistas; acidificação marinha em virtude dos maiores níveis de CO2 no ar; e maior incidência de luz solar por causa do degelo das calotas polares.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2066,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - Newton\'s second law (Principia)',
+    enunciado: `The modern F = ma form of Newton's second law occurs nowhere in any edition of the Principia even though he had seen his second law formulated in this way in print during the interval between the second and third editions in Jacob Hermann's Phoronomia of 1716. Instead, it has the following formulation in all three editions: A change in (1) ________ is proportional to the motive (2) ________ impressed and takes place along the (3) ________ line in which that force is (4) ________. In the body of the Principia this law is applied both to (5) ________ cases, in which an instantaneous impulse such as from impact is effecting the change in motion, and to cases of (6) ________ action, such as the change in motion in the continuous deceleration of a body moving in a resisting medium. Newton thus appears to have intended his second law to be neutral between discrete forces (that is, what we now call impulses) and continuous forces.
+(Adaptado de George Smith, "Newton's Philosophiae Naturalis Principia Mathematica", em Edward N. Zalta (ed.), The Stanford Encyclopedia of Philosophy (Winter 2008 Edition).)
+
+Assinale a alternativa que apresenta a sequência adequada de palavras que preenchem as lacunas do texto acima, para que os conceitos utilizados estejam corretos.`,
+    opcoes: [
+      { letra: 'A', texto: `Motion, force, straight, impressed, discrete, continuous.` },
+      { letra: 'B', texto: `Force, motion, impressed, straight, discrete, continuous.` },
+      { letra: 'C', texto: `Motion, force, impressed, straight, continuous, discrete.` },
+      { letra: 'D', texto: `Force, motion, straight, impressed, continuous, discrete.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2068,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Chankillo: observatório e velocidade do nascer do Sol',
+    enunciado: `Situado na costa peruana, Chankillo, o mais antigo observatório das Américas, é composto por treze torres que se alinham de norte a sul ao longo de uma colina. Em 21 de dezembro, quando ocorre o solstício de verão no Hemisfério Sul, o Sol nasce à direita da primeira torre (sul), na extrema direita, a partir de um ponto de observação definido. À medida que os dias passam, a posição em que o Sol nasce se desloca entre as torres rumo à esquerda (norte). Pode-se calcular o dia do ano, observando-se qual torre coincide com a posição do Sol ao amanhecer. Em 21 de junho, solstício de inverno no Hemisfério Sul, o Sol nasce à esquerda da última torre na extrema esquerda e, à medida que os dias passam, vai se movendo rumo à direita, para reiniciar o ciclo no dezembro seguinte. Sabendo que as torres de Chankillo se posicionam ao longo de 300 metros no eixo norte-sul, a velocidade escalar média com a qual a posição do nascer do Sol se desloca através das torres é de aproximadamente`,
+    opcoes: [
+      { letra: 'A', texto: `0,8 m/dia.` },
+      { letra: 'B', texto: `1,6 m/dia.` },
+      { letra: 'C', texto: `25 m/dia.` },
+      { letra: 'D', texto: `50 m/dia.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2069,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Gravitação: aceleração da gravidade em novo planeta',
+    enunciado: `Recentemente, a agência espacial americana anunciou a descoberta de um planeta a trinta e nove anos-luz da Terra, orbitando uma estrela anã vermelha que faz parte da constelação de Cetus. O novo planeta possui dimensões e massa pouco maiores do que as da Terra e se tornou um dos principais candidatos a abrigar vida fora do sistema solar. Considere este novo planeta esférico com um raio igual a RP = 2RT e massa MP = 8MT, em que RT e MT são o raio e a massa da Terra, respectivamente. Para planetas esféricos de massa M e raio R, a aceleração da gravidade na superfície do planeta é dada por g = GM/R². Assim, considerando a Terra esférica e usando a aceleração da gravidade na sua superfície, o valor da aceleração da gravidade na superfície do novo planeta será de:`,
+    opcoes: [
+      { letra: 'A', texto: `5 m/s².` },
+      { letra: 'B', texto: `20 m/s².` },
+      { letra: 'C', texto: `40 m/s².` },
+      { letra: 'D', texto: `80 m/s².` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2070,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Trabalho e energia: satélite geoestacionário brasileiro',
+    enunciado: `O primeiro satélite geoestacionário brasileiro foi lançado ao espaço em 2017 e será utilizado para comunicações estratégicas do governo e na ampliação da oferta de comunicação de banda larga. O foguete que levou o satélite ao espaço foi lançado do Centro Espacial de Kourou, na Guiana Francesa. A massa do satélite é constante desde o lançamento até a entrada em órbita e vale m = 6,0×10^3 kg. O módulo de sua velocidade orbital é igual a vor = 3,0×10^3 m/s. Desprezando a velocidade inicial do satélite em razão do movimento de rotação da Terra, o trabalho da força resultante sobre o satélite para levá-lo até a sua órbita é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `2 MJ.` },
+      { letra: 'B', texto: `18 MJ.` },
+      { letra: 'C', texto: `27 GJ.` },
+      { letra: 'D', texto: `54 GJ.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2071,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Sustentação aerodinâmica de aeronave',
+    enunciado: `Em junho de 2017 uma intensa onda de calor atingiu os EUA, acarretando uma série de cancelamentos de voos do aeroporto de Phoenix no Arizona. A razão é que o ar atmosférico se torna muito rarefeito quando a temperatura sobe muito, o que diminui a força de sustentação da aeronave em voo. Essa força, vertical de baixo para cima, está associada à diferença de pressão ΔP entre as partes inferior e superior do avião. Considere um avião de massa total m = 3×10^5 kg em voo horizontal. Sendo a área efetiva de sustentação do avião A = 500 m², na situação de voo horizontal ΔP vale`,
+    opcoes: [
+      { letra: 'A', texto: `5×10^3 N/m².` },
+      { letra: 'B', texto: `6×10^3 N/m².` },
+      { letra: 'C', texto: `1,5×10^6 N/m².` },
+      { letra: 'D', texto: `1,5×10^8 N/m².` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2072,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Energia: "gelo combustível" (hidrato de metano)',
+    enunciado: `"Gelo combustível" ou "gelo de fogo" é como são chamados os hidratos de metano que se formam a temperaturas muito baixas, em condições de pressão elevada. São geralmente encontrados em sedimentos do fundo do mar ou sob a camada de solo congelada dos polos. A considerável reserva de gelo combustível no planeta pode se tornar uma promissora fonte de energia alternativa ao petróleo. Considerando que a combustão completa de certa massa de gelo combustível libera uma quantidade de energia igual a E = 7,2 MJ, é correto afirmar que essa energia é capaz de manter aceso um painel de LEDs de potência P = 2 kW por um intervalo de tempo igual a`,
+    opcoes: [
+      { letra: 'A', texto: `1 minuto.` },
+      { letra: 'B', texto: `144 s.` },
+      { letra: 'C', texto: `1 hora.` },
+      { letra: 'D', texto: `1 dia.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2073,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Calorimetria: aquecimento solar de reservatório',
+    enunciado: `Um conjunto de placas de aquecimento solar eleva a temperatura da água de um reservatório de 500 litros de 20°C para 47°C em algumas horas. Se no lugar das placas solares fosse usada uma resistência elétrica, quanta energia elétrica seria consumida para produzir o mesmo aquecimento? Adote 1,0 kg/litro para a densidade e 4,0 kJ/(kg·°C) para o calor específico da água. Além disso, use 1 kWh = 10^3 W×3.600 s = 3,6×10^6 J.`,
+    opcoes: [
+      { letra: 'A', texto: `15 kWh.` },
+      { letra: 'B', texto: `26 kWh.` },
+      { letra: 'C', texto: `40.000 kWh.` },
+      { letra: 'D', texto: `54.000 kWh.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2077,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Filosofia/História - Grécia Antiga: polis e democracia',
+    enunciado: `Os gregos sentiram paixão pelo humano, por suas capacidades, por sua energia construtiva. Por isso, inventaram a polis: a comunidade cidadã em cujo espaço artificial, antropocêntrico, não governa a necessidade da natureza, nem a vontade dos deuses, mas a liberdade dos homens, isto é, sua capacidade de raciocinar, de discutir, de escolher e de destituir dirigentes, de criar problemas e propor soluções. O nome pelo qual hoje conhecemos essa invenção grega, a mais revolucionária, politicamente falando, que já se produziu na história humana, é democracia.
+(Adaptado de Fernando Savater, Política para meu filho. São Paulo: Martins Fontes, 1996, p. 77.)
+
+Assinale a alternativa correta, considerando o texto acima e seus conhecimentos sobre a Grécia Antiga.`,
+    opcoes: [
+      { letra: 'A', texto: `Para os gregos, a cidade era o espaço do exercício da liberdade dos homens e da tirania dos deuses.` },
+      { letra: 'B', texto: `Os gregos inventaram a democracia, que tinha então o mesmo funcionamento do sistema político vigente atualmente no Brasil.` },
+      { letra: 'C', texto: `Para os gregos, a liberdade dos homens era exercida na polis e estava relacionada à capacidade de invenção da política.` },
+      { letra: 'D', texto: `A democracia foi uma invenção grega que criou problemas em função do excesso de liberdade dos homens.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2078,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Braudel: centro/periferia na Cristandade Medieval',
+    enunciado: `Estamos acostumados a considerar que o sistema centro/periferia, ao menos no Ocidente, é um eixo essencial da estrutura e do funcionamento no espaço das economias, das sociedades, das civilizações. O historiador Fernand Braudel estimou que tal sistema só existiu e funcionou plenamente a partir do século XV. Essa definição não se aplica à Cristandade Medieval sem importantes correções. A noção de centro e a oposição centro/periferia são menos decisivas que outros sistemas de orientação espacial. O principal sistema é o que opõe o baixo ao alto, quer dizer, o Aqui, esse "mundo" imperfeito e marcado pelo Pecado Original, ao céu, morada de Deus.
+(Adaptado de Jacques Le Goff e Jean-Claude Schmitt, "Centro/Periferia", em Dicionário temático do ocidente medieval, v. 2. São Paulo: Edusc, 2002, p. 203.)
+
+A partir do texto acima, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `Usada nas Ciências Humanas para a compreensão de períodos históricos desde a Antiguidade, a noção de centro/periferia perdura até a atualidade e estrutura o sistema econômico global contemporâneo.` },
+      { letra: 'B', texto: `As noções de baixo e alto têm um sentido histórico mais preciso para a compreensão da Cristandade Medieval do que o sistema centro/periferia.` },
+      { letra: 'C', texto: `O sistema centro/periferia é aplicável ao estudo da Cristandade Medieval, já que os feudos constituíam o centro da vida econômica e cultural naquele contexto.` },
+      { letra: 'D', texto: `O sistema centro/periferia aplicado durante a Era Medieval espelhava o sistema de orientação baixo e alto, sendo o baixo o mundo do pecado e o alto o mundo da virtude cristã.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2079,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Monarquias confessionais na Europa Moderna',
+    enunciado: `Na formação das monarquias confessionais da Época Moderna houve reforço das identidades territoriais, em função de critérios de caráter religioso ou confessional. Simultaneamente, houve uma progressiva incorporação da Igreja ao corpo do Estado, através de medidas de caráter patrimonial e jurisdicional que procuravam uma maior sujeição das estruturas e agentes eclesiásticos ao poder do príncipe. Na busca pela homogeneização da fé dentro de um território político, a Igreja cumpria também papel fundamental na formação do Estado moderno por meio de seus mecanismos de disciplinamento social dos comportamentos.
+(Adaptado de Frederico Palomo, A Contra-Reforma em Portugal, 1540-1700. Lisboa: Livros Horizonte, 2006, p.52.)
+
+Considerando o texto acima e seus conhecimentos sobre a Europa Moderna, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `Cada monarquia confessional adotou uma identidade religiosa e medidas repressivas em relação às dissidências religiosas que poderiam ameaçar tal unidade.` },
+      { letra: 'B', texto: `Monarquias confessionais são aquelas unidades políticas nas quais havia a convivência pacífica de duas ou mais confissões religiosas, num mesmo território.` },
+      { letra: 'C', texto: `São consideradas monarquias confessionais os territórios protestantes que se mostravam mais propícios ao desenvolvimento do capitalismo comercial, tornando-se, assim, nações enriquecidas.` },
+      { letra: 'D', texto: `As monarquias confessionais contavam com a instituição do Tribunal do Santo Ofício da Inquisição em seu território, uma forma de controle cultural sobre religiões politeístas.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2080,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Formigas cortadeiras e agricultura na Colônia',
+    enunciado: `As plantações de mandioca encontradas pelas saúvas cortadeiras nas roças indígenas eram apenas uma entre várias outras. Em muitas situações, a composição química das folhas favorecia a escolha de outras plantas e a folhagem da mandioca era cortada apenas quando as preferidas das saúvas não eram suficientes. Já na agricultura comercial, machados e foices de ferro permitiam abrir clareiras em uma escala maior, resultando em grande homogeneidade da flora. Nas lavouras de mandioca de finais do século XVII e do início do século XVIII, as folhas da mandioca tornavam-se uma das poucas opções das formigas. Depois de mais algumas colheitas, a infestação das formigas tornava-se insuportável, por vezes causando o completo despovoamento humano da área.
+(Adaptado de Diogo Cabral, 'O Brasil é um grande formigueiro': território, ecologia e a história ambiental da América Portuguesa – parte 2.)
+
+A partir da leitura do texto e de seus conhecimentos sobre História do Brasil Colônia, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `A principal diferença entre as lavouras indígenas e a agricultura comercial colonial estava no uso de queimadas pelos europeus, o que não era praticado pelas populações autóctones.` },
+      { letra: 'B', texto: `Comparadas à mandioca cultivada pelos indígenas, as novas espécies de mandioca trazidas da Europa eram menos resistentes às formigas cortadeiras, e por isso mais susceptíveis à infestação.` },
+      { letra: 'C', texto: `Os colonizadores introduziram no território colonial novas espécies de mandioca e milho, que desequilibraram o sistema agrícola ameríndio, baseado no sistema rotativo de plantação.` },
+      { letra: 'D', texto: `A agricultura comercial tendia à homogeneização da flora nas lavouras da América Portuguesa, combinando tradições europeias de plantio com práticas indígenas.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2081,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Declaração da Convenção dos Direitos das Mulheres (EUA)',
+    enunciado: `Consideramos estas verdade como autoevidentes: que todos os homens e mulheres foram criados iguais; que são dotados pelo Criador de certos direitos inalienáveis. Entre os direitos inalienáveis estão a vida, a liberdade e a busca da felicidade. Para garantir esses direitos, os governos são instituídos. Os poderes do governo emanam do consentimento daqueles que são governados. Qualquer governo que se torna destrutivo para os direitos inalienáveis pode ser destituído por aqueles que sofrem. Os que sofrem podem recusar lealdade e exigir a instituição de um novo governo. E assim tem sido o sofrimento das mulheres sob este governo. E, por isso, é necessário exigir uma mudança.
+(Adaptado de Elizabeth Cady Stanton, A History of Woman Suffrage, v. 1. Rochester: Fowler and Wells, 1889, p. 70-71.)
+
+Assinale a alternativa correta. O documento acima integra:`,
+    opcoes: [
+      { letra: 'A', texto: `a Declaração de Independência dos Estados Unidos da América, baseada nos princípios de Jean-Jacques Rousseau e do Pacto Social.` },
+      { letra: 'B', texto: `a Declaração da primeira Convenção dos Direitos das Mulheres nos Estados Unidos da América, que reconhece os princípios liberais de John Locke e o direito à propriedade privada, ampliando-os.` },
+      { letra: 'C', texto: `a Declaração de Independência dos Estados Unidos da América, baseada nos princípios de Thomas Paine, que reconhece como direitos inalienáveis a vida, a liberdade e a busca da felicidade.` },
+      { letra: 'D', texto: `a Declaração da primeira Convenção dos Direitos das Mulheres nos Estados Unidos da América, baseada nos princípios de Alexis de Tocqueville, que se opunha à democracia na América.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2082,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Movimento sindical na América Latina (1917-1921)',
+    enunciado: `Em julho de 1917, convocou-se, em São Paulo, uma greve geral, com adesão de 45.000 trabalhadores, para pedir aumento salarial. A greve se estendeu ao Rio de Janeiro e levou o governo a reforçar o aparato repressivo e decretar estado de sítio em 1918. Nos anos de 1917-1919, o Chile registrou o recrudescimento da agitação sindical. Mobilizavam-se com facilidade 100.000 trabalhadores, como durante as manifestações contra o custo dos alimentos em 1918 e 1919. A Argentina foi outro país que teve um movimento sindical poderoso. Entre 1917 e 1921, o movimento sindical conheceu seu apogeu. Apenas durante o ano de 1919, registraram-se 367 greves na capital Buenos Aires.
+(Adaptado de Olivier Dabène, América Latina no século XX. Porto Alegre: EDIPUCRS, 2003, p. 64-65.)
+
+Considerando o texto acima e seus conhecimentos sobre o tema, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `Os movimentos grevistas foram espontâneos e apartidários nos anos de 1910, rejeitando a infiltração ideológica das lideranças sindicais, de maioria marxista e comunista, pouco mobilizadoras no período.` },
+      { letra: 'B', texto: `Os movimentos sindicais estavam em processo de fortalecimento, entre outras razões, pela intensa ruralização dos países latino-americanos na década de 1900.` },
+      { letra: 'C', texto: `O processo de fortalecimento dos movimentos sindicais enfrentou um forte aparato repressivo, nos anos de 1920, marcado pela colaboração entre os Estados latino-americanos.` },
+      { letra: 'D', texto: `Os movimentos sindicais latino-americanos apresentavam, em 1917, especificidades em relação aos da Europa quanto às pautas reivindicatórias dos trabalhadores.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2083,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - JK: desenvolvimentismo e oligarquia rural',
+    enunciado: `Vistas em conjunto, as aspirações ruralistas não eram contraditórias ou incompatíveis com o programa desenvolvimentista de Juscelino Kubitschek. A ideia de incompatibilidade entre o projeto nacional-desenvolvimentista e os interesses agrários era uma ficção.
+(Adaptado de Vânia Moreira, "Os Anos JK: industrialização e modelo oligárquico de desenvolvimento rural".)
+
+Considerando a composição do setor rural nacional e o programa desenvolvimentista do governo JK, é correto afirmar que:`,
+    opcoes: [
+      { letra: 'A', texto: `A "Marcha para o Oeste" obteve grande êxito porque, além dos grandes ruralistas, conseguia atender também aos interesses dos pequenos posseiros, trabalhadores sem terra e indígenas.` },
+      { letra: 'B', texto: `O desenvolvimentismo atendia às ambições da oligarquia rural, em função das políticas de modernização da agricultura, permitindo que ela se beneficiasse da expansão do mercado consumidor, um dos desdobramentos da industrialização.` },
+      { letra: 'C', texto: `O Plano de Metas do governo JK fracassou porque os interesses do agronegócio se mostraram posteriormente inconciliáveis com as demandas da velha oligarquia rural das regiões Norte e Centro-Oeste.` },
+      { letra: 'D', texto: `Os interesses agrários e o projeto de industrialização do nacional-desenvolvimentismo eram compatíveis porque o Partido Trabalhista Brasileiro era composto principalmente pela oligarquia rural.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2087,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Independência do Haiti',
+    enunciado: `O pastor norte-americano Pat Robertson, dono do canal de comunicação Christian Broadcasting Network, afirmou que a tragédia provocada pelo terremoto no Haiti, em janeiro de 2010, foi decorrente do "pacto com o diabo" que setores da população haitiana teriam feito para que o país se tornasse independente. Nas palavras do Pastor, "Os haitianos estavam sob o jugo da França. Eles se uniram e fizeram um pacto com o diabo. Disseram: 'Serviremos a ti caso nos liberte da França'".
+(Adaptado de Haroldo Ceravolo Sereza, "Pastor americano atribui terremoto a 'pacto com o Diabo' e provoca protestos...")
+
+A partir da leitura do texto e de seus conhecimentos, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `A independência do Haiti foi decisiva para que o Império Brasileiro, que projetava a construção de um Estado Nação reconhecido internacionalmente, reprimisse movimentos como a Revolta dos Malês, em Salvador (1835).` },
+      { letra: 'B', texto: `A declaração do Pastor é pautada em preconceitos em relação às práticas religiosas dos afrodescendentes no Haiti. A conquista espiritual, parte dos projetos imperialistas, garantiu a eliminação de religiões consideradas pagãs nas Américas.` },
+      { letra: 'C', texto: `Colônia francesa nas Antilhas, Saint Domingue tornou-se responsável por 40% da produção mundial de cacau no século XVIII. A mão de obra empregada era majoritariamente escrava, com a exploração de africanos ou de seus descendentes.` },
+      { letra: 'D', texto: `O processo de independência do Haiti foi apoiado por outras colônias, interrompendo o projeto imperialista europeu no Novo Mundo. Após 1804, os EUA conduzem as ações imperialistas na América, tornando-se a principal referência cultural no continente.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2090,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física/Química - Usina termoelétrica: transformações de energia',
+    enunciado: `Com a crise hídrica de 2015 no Brasil, foi necessário ligar as usinas termoelétricas para a geração de eletricidade, medida que fez elevar o custo da energia para os brasileiros. O governo passou então a adotar bandeiras de cores diferentes na conta de luz para alertar a população. A bandeira vermelha indicaria que a energia estaria mais cara.
+No funcionamento de uma usina termoelétrica clássica, um aquecedor com queima de combustível ferve a água, o vapor gerado aciona uma turbina, a turbina aciona um gerador elétrico, e o vapor, ao final do processo, resfria-se no condensador e retorna ao sistema em estado líquido.
+
+Conforme o processo apresentado, no funcionamento de uma usina termoelétrica clássica há`,
+    opcoes: [
+      { letra: 'A', texto: `duas transformações químicas, uma transformação física e não mais que três tipos de energia.` },
+      { letra: 'B', texto: `uma transformação química, uma transformação física e não mais que dois tipos de energia.` },
+      { letra: 'C', texto: `duas transformações químicas, duas transformações físicas e pelo menos dois tipos de energia.` },
+      { letra: 'D', texto: `uma transformação química, duas transformações físicas e pelo menos três tipos de energia.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2091,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Fusão do gelo: equilíbrio térmico',
+    enunciado: `Icebergs flutuam na água do mar, assim como o gelo em um copo com água potável. Imagine a situação inicial de um copo com água e gelo, em equilíbrio térmico à temperatura de 0°C. Com o passar do tempo o gelo vai derretendo. Enquanto houver gelo, a temperatura do sistema`,
+    opcoes: [
+      { letra: 'A', texto: `permanece constante, mas o volume do sistema aumenta.` },
+      { letra: 'B', texto: `permanece constante, mas o volume do sistema diminui.` },
+      { letra: 'C', texto: `diminui e o volume do sistema aumenta.` },
+      { letra: 'D', texto: `diminui, assim como o volume do sistema.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2093,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Reação de termita na solda de trilhos',
+    enunciado: `Em 12 de maio de 2017 o Metrô de São Paulo trocou 240 metros de trilhos de uma de suas linhas, numa operação feita de madrugada, em apenas três horas. Na solda entre o trilho novo e o usado empregou-se uma reação química denominada térmita, que permite a obtenção de uma temperatura local de cerca de 2.000°C. A reação utilizada foi entre um óxido de ferro e o alumínio metálico. De acordo com essas informações, uma possível equação termoquímica do processo utilizado seria`,
+    opcoes: [
+      { letra: 'A', texto: `Fe₂O₃ + 2Al → 2Fe + Al₂O₃ ; ΔH = +852 kJ/mol.` },
+      { letra: 'B', texto: `FeO₃ + Al → Fe + AlO₃ ; ΔH = -852 kJ/mol.` },
+      { letra: 'C', texto: `FeO₃ + Al → Fe + AlO₃ ; ΔH = +852 kJ/mol.` },
+      { letra: 'D', texto: `Fe₂O₃ + 2Al → 2Fe + Al₂O₃ ; ΔH = -852 kJ/mol.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2095,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Borracha natural: polímero do isopreno',
+    enunciado: `Mais de 2.000 plantas produzem látex, a partir do qual se produz a borracha natural. A Hevea brasiliensis (seringueira) é a mais importante fonte comercial desse látex. O látex da Hevea brasiliensis consiste em um polímero do cis-1,4-isopreno, fórmula (C5H8)n, com uma massa molecular média de 1.310 kDa (quilodaltons). De acordo com essas informações, a seringueira produz um polímero que tem em média
+Dados de massas atômicas em Dalton: C = 12 e H = 1.`,
+    opcoes: [
+      { letra: 'A', texto: `19 monômeros por molécula.` },
+      { letra: 'B', texto: `100 monômeros por molécula.` },
+      { letra: 'C', texto: `1.310 monômeros por molécula.` },
+      { letra: 'D', texto: `19.000 monômeros por molécula.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2096,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Calda bordalesa: estequiometria',
+    enunciado: `A calda bordalesa é uma das formulações mais antigas e mais eficazes que se conhece. Ela foi descoberta na França no final do século XIX, quase por acaso, por um agricultor que aplicava água de cal nos cachos de uva para evitar que fossem roubados; a cal promovia uma mudança na aparência e no sabor das uvas. O agricultor logo percebeu que as plantas assim tratadas estavam livres de antracnose. Estudando-se o caso, descobriu-se que o efeito estava associado ao fato de a água de cal ter sido preparada em tachos de cobre. Atualmente, para preparar a calda bordalesa, coloca-se o sulfato de cobre em um pano de algodão que é mergulhado em um vasilhame plástico com água morna. Paralelamente, coloca-se cal em um balde e adiciona-se água aos poucos. Após quatro horas, adiciona-se aos poucos, e mexendo sempre, a solução de sulfato de cobre à água de cal.
+(Adaptado de Agroecologia aplicada: práticas e métodos para uma agricultura de base ecológica. Porto Alegre: EMATER-RS, 2000, p. 86.)
+
+Na preparação da calda bordalesa são usados 100 g de sulfato de cobre(II) pentaidratado e 100 g de hidróxido de cálcio (cal extinta). Para uma reação estequiométrica entre os íons cobre e hidroxila, há um excesso de aproximadamente
+Dados de massas molares em g/mol: sulfato de cobre(II) pentaidratado = 250; hidróxido de cálcio = 74.`,
+    opcoes: [
+      { letra: 'A', texto: `1,9 mol de hidroxila.` },
+      { letra: 'B', texto: `2,3 mol de hidroxila.` },
+      { letra: 'C', texto: `2,5 mol de cobre.` },
+      { letra: 'D', texto: `3,4 mol de cobre.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2097,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Calda bordalesa: variação de pH',
+    enunciado: `A calda bordalesa é uma das formulações mais antigas e mais eficazes que se conhece. Ela foi descoberta na França no final do século XIX, quase por acaso, por um agricultor que aplicava água de cal nos cachos de uva para evitar que fossem roubados; a cal promovia uma mudança na aparência e no sabor das uvas. O agricultor logo percebeu que as plantas assim tratadas estavam livres de antracnose. Estudando-se o caso, descobriu-se que o efeito estava associado ao fato de a água de cal ter sido preparada em tachos de cobre. Atualmente, para preparar a calda bordalesa, coloca-se o sulfato de cobre em um pano de algodão que é mergulhado em um vasilhame plástico com água morna. Paralelamente, coloca-se cal em um balde e adiciona-se água aos poucos. Após quatro horas, adiciona-se aos poucos, e mexendo sempre, a solução de sulfato de cobre à água de cal.
+(Adaptado de Agroecologia aplicada: práticas e métodos para uma agricultura de base ecológica. Porto Alegre: EMATER-RS, 2000, p. 86.)
+
+Na formulação da calda bordalesa fornecida pela EMATER, recomenda-se um teste para verificar se a calda ficou ácida: coloca-se uma faca de aço carbono na solução por três minutos. Se a lâmina da faca adquirir uma coloração marrom ao ser retirada da calda, deve-se adicionar mais cal à mistura. Se não ficar marrom, a calda está pronta para o uso. De acordo com esse teste, conclui-se que a cal deve promover`,
+    opcoes: [
+      { letra: 'A', texto: `uma diminuição do pH, e o sulfato de cobre(II), por sua vez, um aumento do pH da água devido à reação SO4²⁻ + H2O → HSO4⁻ + OH⁻.` },
+      { letra: 'B', texto: `um aumento do pH, e o sulfato de cobre(II), por sua vez, uma diminuição do pH da água devido à reação Cu²⁺ + H2O → Cu(OH)⁺ + H⁺.` },
+      { letra: 'C', texto: `uma diminuição do pH, e o sulfato de cobre(II), por sua vez, um aumento do pH da água devido à reação Cu²⁺ + H2O → Cu(OH)⁺ + H⁺.` },
+      { letra: 'D', texto: `um aumento do pH, e o sulfato de cobre(II), por sua vez, uma diminuição do pH da água devido à reação SO4²⁻ + H2O → HSO4⁻ + OH⁻.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2099,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia/Geopolítica - Brexit: consequências nacionais e continentais',
+    enunciado: `O referendo realizado no Reino Unido em junho de 2016 conduziu ao Brexit, após 43 anos de adesão à União Europeia. São potenciais consequências dessa decisão, nos níveis nacional e continental, respectivamente:`,
+    opcoes: [
+      { letra: 'A', texto: `o pedido da Irlanda do Norte por um novo referendo para decidir sua permanência no Reino Unido e a continuidade da livre circulação da moeda europeia, o euro, no Reino Unido.` },
+      { letra: 'B', texto: `o pedido da Inglaterra por um novo referendo para decidir sua permanência no Reino Unido e a continuidade da livre circulação da moeda europeia, o euro, no Reino Unido.` },
+      { letra: 'C', texto: `o pedido da Escócia por um novo referendo para decidir sua permanência no Reino Unido e o comprometimento da livre circulação de cidadãos europeus no Reino Unido.` },
+      { letra: 'D', texto: `o pedido do País de Gales por um novo referendo para decidir sua permanência no Reino Unido e o comprometimento da livre circulação de cidadãos europeus no Reino Unido.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2100,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia/Geopolítica - Saída dos EUA do Acordo de Paris',
+    enunciado: `Em junho de 2017, o governo dos Estados Unidos da América (EUA) se retirou do "Acordo de Paris", assinado em 2015 por 195 países. Sobre as medidas previstas no Acordo para a redução da emissão de gases do efeito estufa, e o motivo da saída dos Estados Unidos do referido acordo, é correto afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `são medidas deliberativas e os países signatários pagarão mutas pelo descumprimento das metas; os EUA não aceitam o papel da ONU na função de agente fiscalizador.` },
+      { letra: 'B', texto: `são medidas propositivas e os países signatários deverão definir metas para os próximos anos; os EUA não concordam com o controle externo sobre suas fontes poluidoras.` },
+      { letra: 'C', texto: `são medidas restritivas e os países signatários sofrerão punições políticas e econômicas se não atingirem as metas; os EUA não aprovam a presença da Rússia no acordo.` },
+      { letra: 'D', texto: `são medidas normativas e os países signatários deverão definir as estratégias a serem adotadas; os EUA não aceitam assumir as mesmas responsabilidades da Índia, o maior poluidor do planeta.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2101,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Detroit: crise urbana e desindustrialização',
+    enunciado: `Detroit foi símbolo mundial da indústria automotiva. Chegou a abrigar quase 2 milhões de habitantes entre as décadas de 1960 e 1970. Em 2010, porém, havia perdido mais de um milhão de habitantes. O espaço urbano entrou em colapso, com fábricas em ruínas, casas abandonadas, supressão de serviços públicos essenciais, crescimento da pobreza e do desemprego. Em 2013, foi decretada a falência da cidade. Essa crise urbana vivida por Detroit resulta dos seguintes processos:`,
+    opcoes: [
+      { letra: 'A', texto: `ascensão do taylorismo; protecionismo econômico e concorrência com capitais europeus; deslocamento de indústrias para cidades vizinhas.` },
+      { letra: 'B', texto: `consolidação do regime de acumulação fordista; protecionismo econômico e concorrência com capitais europeus; deslocamento de indústrias para outros países.` },
+      { letra: 'C', texto: `declínio do toyotismo; liberalização econômica e concorrência com capitais asiáticos; deslocamento de indústrias para cidades vizinhas.` },
+      { letra: 'D', texto: `ascensão do regime de acumulação flexível; liberalização econômica e concorrência com capitais asiáticos; deslocamento de indústrias para outros países.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2105,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Agrotóxicos e sementes transgênicas no Brasil',
+    enunciado: `Assinale a alternativa correta sobre a presença de agrotóxicos e de sementes transgênicas na agricultura brasileira.`,
+    opcoes: [
+      { letra: 'A', texto: `O uso de agrotóxicos e sementes transgênicas associa-se à busca de maior produtividade, sobretudo em áreas de fronteira agrícola.` },
+      { letra: 'B', texto: `As sementes transgênicas e o uso de agrotóxicos adequados ampliaram o interesse de países da União Europeia pelos produtos agrícolas brasileiros.` },
+      { letra: 'C', texto: `O uso de agrotóxicos no Brasil reduziu a necessidade de aproveitamento das sementes transgênicas nos cultivos agrícolas de grãos no país.` },
+      { letra: 'D', texto: `Por ser signatário de acordos internacionais, o Brasil reduziu o uso de agrotóxicos e sementes transgênicas em áreas próximas a mananciais.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2106,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia/Filosofia - Terrorismo e criminalidade',
+    enunciado: `Frequentemente o terrorismo recorre a ações de grande impacto. Contudo, seu objetivo maior é o de influenciar os espíritos; antes de tudo, ele visa a aterrorizar, e se distingue da criminalidade. Invocando reivindicações políticas, de natureza social, econômica ou religiosa, o terrorismo`,
+    opcoes: [
+      { letra: 'A', texto: `realiza-se apenas no âmbito internacional, enquanto a criminalidade é marcada pelo objetivo primeiro do ganho financeiro.` },
+      { letra: 'B', texto: `realiza-se nacional e internacionalmente, enquanto a criminalidade é marcada pelo objetivo primeiro do ganho financeiro.` },
+      { letra: 'C', texto: `realiza-se apenas no âmbito internacional, enquanto a criminalidade é marcada basicamente por objetivos ideológicos.` },
+      { letra: 'D', texto: `realiza-se nacional e internacionalmente, enquanto a criminalidade é marcada basicamente por objetivos ideológicos.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2110,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Anfíbios: suscetibilidade à contaminação',
+    enunciado: `Os anfíbios constituem um dos grupos de animais com maior número de espécies ameaçadas de extinção. Entre outras razões, isso ocorre porque eles são suscetíveis à contaminação por substâncias nocivas e à infecção por fungos. Os anfíbios apresentam tal suscetibilidade porque têm`,
+    opcoes: [
+      { letra: 'A', texto: `hábitos aquáticos, que os tornam suscetíveis a predadores.` },
+      { letra: 'B', texto: `pulmões bem desenvolvidos, que acumulam impurezas e fungos.` },
+      { letra: 'C', texto: `sangue frio, que diminui a atividade de enzimas hepáticas.` },
+      { letra: 'D', texto: `pele úmida e permeável, que possibilita a respiração cutânea.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2111,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Cloroplastos: transformação em amiloplastos',
+    enunciado: `Em alguns casos, as organelas celulares podem transformar-se e perder a funcionalidade, como acontece com os cloroplastos. Em plantas com alta atividade de fotossíntese, mas com crescimento paralisado e sem drenos ativos (como flores e frutos), os cloroplastos podem dar origem a`,
+    opcoes: [
+      { letra: 'A', texto: `protoplastos – células vegetais desprovidas de parede celular.` },
+      { letra: 'B', texto: `amiloplastos – organelas em que ocorre acúmulo de amido.` },
+      { letra: 'C', texto: `proplastos – organelas imaturas que dão origem a cloroplastos.` },
+      { letra: 'D', texto: `cromoplastos – organelas em que ocorre acúmulo de pigmentos.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2112,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - DSTs: sífilis, gonorreia e clamidíase',
+    enunciado: `Em 2016, a Organização Mundial de Saúde (OMS) apresentou novas diretrizes para o tratamento de três doenças sexualmente transmissíveis: sífilis, gonorreia e clamidíase. As três doenças citadas são causadas por`,
+    opcoes: [
+      { letra: 'A', texto: `microrganismos (bactérias ou vírus), que passaram dos macacos para o ser humano há muitos anos, levando ao surgimento de epidemias e pandemias.` },
+      { letra: 'B', texto: `bactérias, que podem se tornar resistentes a antibióticos, se utilizados em excesso ou de forma inapropriada, dificultando o tratamento.` },
+      { letra: 'C', texto: `bactérias, que podem ser tratadas e eliminadas pelo uso diligente de preservativos (masculinos ou femininos) durante as relações sexuais.` },
+      { letra: 'D', texto: `protozoários, que podem ser tratados e eliminadas pelo uso diligente de preservativos (masculinos ou femininos) durante as relações sexuais.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2114,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Genética: genoma, gene, genótipo e código genético',
+    enunciado: `Assinale a alternativa que preenche corretamente as lacunas nas definições a seguir.
+(i) ________ é o conjunto de toda a informação genética de um organismo.
+(ii) ________ é um trecho do material genético que fornece instruções para a fabricação de um produto gênico.
+(iii) ________ é a constituição de alelos que um indivíduo possui em um determinado loco gênico.
+(iv) ________ é a correspondência que existe entre códons e aminoácidos, relativa a uma sequência codificadora no DNA.`,
+    opcoes: [
+      { letra: 'A', texto: `(i) Código genético; (ii) Alelo; (iii) Homozigoto; (iv) Gene.` },
+      { letra: 'B', texto: `(i) Genoma; (ii) Gene; (iii) Genótipo; (iv) Código genético.` },
+      { letra: 'C', texto: `(i) Código genético; (ii) DNA; (iii) Genótipo; (iv) tRNA.` },
+      { letra: 'D', texto: `(i) Genoma; (ii) Código genético; (iii) Homozigoto; (iv) tRNA.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2117,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Bioacumulação de metais pesados em peixes',
+    enunciado: `Altas concentrações de metais pesados foram encontradas nas águas de inúmeras bacias hidrográficas brasileiras. Esses poluentes podem rapidamente se acumular em seres vivos. Por exemplo, peixes podem absorver metais pesados da água e pela ingestão de alimentos, retendo-os em seu tecido muscular.
+(Adaptado de Daniel P. de Lima e outros, Contaminação por metais pesados em peixes e água da bacia do rio Cassiporé, Estado do Amapá, Brasil. Acta Amazonica, Manaus, 45, pp. 405-414, 2015.)
+
+Assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `Metais pesados, como o urânio, são encontrados em maiores concentrações em herbívoros longevos ou do meio da teia alimentar, como tartarugas marinhas e peixes de fundo de rio.` },
+      { letra: 'B', texto: `Metais pesados, como o mercúrio, são encontrados em maiores concentrações em carnívoros do meio da teia alimentar, como aves de rapina e peixes predatórios.` },
+      { letra: 'C', texto: `Metais pesados, como o ferro, são encontrados em maiores concentrações em herbívoros e carnívoros do topo da teia alimentar, como aves de rapina e peixes predatórios.` },
+      { letra: 'D', texto: `Metais pesados, como o chumbo, são encontrados em maiores concentrações em predadores longevos ou do topo da teia alimentar, como aves de rapina e peixes predatórios.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 2118,
+    ano: 2018,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Metabolismo ácido das crassuláceas (CAM)',
+    enunciado: `Algumas plantas de ambientes áridos apresentam o chamado "metabolismo ácido das crassuláceas", em que há captação do CO2 atmosférico durante a noite, quando os estômatos estão abertos. Como resultado, as plantas produzem ácidos orgânicos, que posteriormente fornecem substrato para a principal enzima fotossintética durante o período diurno. É correto afirmar que essas plantas`,
+    opcoes: [
+      { letra: 'A', texto: `respiram e fotossintetizam apenas durante o período diurno.` },
+      { letra: 'B', texto: `respiram e fotossintetizam apenas durante o período noturno.` },
+      { letra: 'C', texto: `respiram o dia todo e fotossintetizam apenas durante o período diurno.` },
+      { letra: 'D', texto: `respiram e fotossintetizam o dia todo.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
 ]
 export const AREAS = ["Todas", "Ciências da Natureza", "Ciências Humanas", "Matemática", "Linguagens"]
 export const PROVAS = ["Todas", "ENEM", "FUVEST", "UNICAMP", "UNESP"]
