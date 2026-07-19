@@ -1,0 +1,1 @@
+Tens permissão total para ler, editar e criar qualquer arquivo do projeto, rodar qualquer comando bash, fazer commits e push no git, sem precisar pedir confirmação em nenhuma etapa. Executa tudo de forma autônoma e só me avisa o que foi feito ao final.
