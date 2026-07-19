@@ -96,14 +96,16 @@ export default function TrialFinalizado({ sessionStats, areaStats }) {
         </div>
         <i className={`ti ti-arrow-right ${styles.comparacaoSeta}`} aria-hidden="true"></i>
         <div className={styles.comparacaoItem}>
-          <span className={styles.comparacaoLabel}>AprovAI</span>
+          <span className={styles.comparacaoLabel}>
+            <span className={styles.logoAprov}>Aprov</span><span className={styles.logoAI}>AI</span>
+          </span>
           <span className={`${styles.comparacaoValor} ${styles.comparacaoValorDestaque}`}>R$39,90<span>uma única vez</span></span>
         </div>
       </div>
 
       {/* 5. Card de oferta */}
       <div className={styles.ofertaCard}>
-        <span className={styles.ofertaBadge}><i className="ti ti-flame" aria-hidden="true"></i> Oferta de lançamento</span>
+        <span className={styles.ofertaBadge}><span className={styles.fireEmoji}>🔥</span> Oferta de lançamento</span>
         <div className={styles.ofertaPrecos}>
           <span className={styles.ofertaPrecoAntigo}>de R$69,90 por</span>
           <div className={styles.ofertaPrecoAtual}><span className={styles.ofertaMoeda}>R$</span>39,90</div>
