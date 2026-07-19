@@ -31977,6 +31977,893 @@ Considerando que água e etanol formam uma mistura ideal, para preencher correta
     temImagem: false,
     imagem: null,
   },
+
+  // ==== UNICAMP 2021 (1a fase) - adicionadas em 19/07/2026 ====
+  {
+    id: 1634,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Portuguesa - Camões e Fernando Pessoa: a imagem do marinheiro',
+    enunciado: `Certas imagens literárias podem tornar-se nucleares para uma cultura. Assim, por exemplo, a figura do marinheiro em Portugal. Ela adquire significados diferentes em períodos históricos distintos, mas conserva um elemento permanente. A semelhança entre a imagem do marinheiro em Camões e em Fernando Pessoa reside`,
+    opcoes: [
+      { letra: 'A', texto: `no realismo moral do povo português, resultado da era das grandes navegações e da expansão do catolicismo.` },
+      { letra: 'B', texto: `na representação de uma identidade coletiva e individual sob o signo da mudança, do risco e da travessia.` },
+      { letra: 'C', texto: `na alegoria da degradação moral dos amantes e dos aventureiros, movidos pelo desejo sexual e pela cobiça material.` },
+      { letra: 'D', texto: `na simbolização dos ideais econômicos de Portugal, com reflexos na vida espiritual.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1635,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Portuguesa - Camões: soneto sobre a mudança',
+    enunciado: `Mudam-se os tempos, mudam-se as vontades,
+Muda-se o ser, muda-se a confiança:
+Todo o mundo é composto de mudança,
+Tomando sempre novas qualidades.
+Continuamente vemos novidades,
+Diferentes em tudo da esperança:
+Do mal ficam as mágoas na lembrança,
+E do bem (se algum houve) as saudades.
+O tempo cobre o chão de verde manto,
+Que já coberto foi de neve fria,
+E em mim converte em choro o doce canto.
+E afora este mudar-se cada dia,
+Outra mudança faz de mor espanto,
+Que não se muda já como soía*.
+(Luís Vaz de Camões)
+*soía: terceira pessoa do pretérito imperfeito do indicativo do verbo "soer" (costumar, ser de costume).
+(Luís de Camões, 20 sonetos. Campinas: Editora da Unicamp, p.91.)
+
+Indique a afirmação que se aplica ao soneto escrito por Camões.`,
+    opcoes: [
+      { letra: 'A', texto: `O poema retoma o tema renascentista da mudança das coisas, que o poeta sente como motivo de esperança e de fé na vida.` },
+      { letra: 'B', texto: `A ideia de transformação refere-se às coisas do mundo, mas não afeta o estado de espírito do poeta, em razão de sua crença amorosa.` },
+      { letra: 'C', texto: `Tudo sempre se renova, diferentemente das esperanças do poeta, que acolhem suas mágoas e saudades.` },
+      { letra: 'D', texto: `Não apenas o estado de espírito do poeta se altera, mas também a experiência que ele tem da própria mudança.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1636,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Machado de Assis: O Espelho',
+    enunciado: `No conto "O espelho", de Machado de Assis, uma personagem assume a palavra e narra uma história. Assinale a alternativa que explicita sua interlocução com os cavalheiros presentes.
+(Machado de Assis, O espelho. Campinas: Editora da Unicamp, 2019.)`,
+    opcoes: [
+      { letra: 'A', texto: `"Lembra-me de alguns rapazes que se davam comigo, e passaram a olhar-me de revés, durante algum tempo."` },
+      { letra: 'B', texto: `"Ah! pérfidos! Mal podia eu suspeitar a intenção secreta dos malvados."` },
+      { letra: 'C', texto: `"Imaginai um homem que, pouco a pouco, emerge de um letargo, abre os olhos sem ver, depois começa a ver."` },
+      { letra: 'D', texto: `"O espelho estava naturalmente muito velho; mas via-se-lhe ainda o ouro, comido em parte pelo tempo."` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1637,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Júlia Lopes de Almeida: A Falência',
+    enunciado: `"Era Noca, que vinha toda alterada.
+Nossa Senhora! Quebrou-se o espelho grande do salão!
+Quem foi que o quebrou? Perguntou Nina, para dizer alguma coisa.
+- Ninguém sabe. Veja só, que desgraça estará para acontecer! Espelho quebrado: morte ou ruína.
+Morte! Se fosse a minha..."
+(Júlia Lopes de Almeida, A Falência, Campinas: Editora da Unicamp, 2018, p. 257.)
+
+O diálogo apresenta a reação das personagens femininas ao incidente doméstico com o objeto de decoração no palacete de Botafogo. Assinale a alternativa que justifica a fala final de Nina.`,
+    opcoes: [
+      { letra: 'A', texto: `A destruição do espelho a leva a desejar a morte, pois sugere o alívio para a frustração amorosa.` },
+      { letra: 'B', texto: `A quebra do espelho lhe provoca o temor da morte, uma vez que antecipa a ruína financeira.` },
+      { letra: 'C', texto: `A destruição do espelho traz a certeza da morte, pois sinaliza o suicídio do ser amado.` },
+      { letra: 'D', texto: `A quebra do espelho a faz desejar a morte, pois sugere a catástrofe amorosa do casamento.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1638,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Portuguesa - Padre Antônio Vieira: Sermão de Quarta-feira de Cinza',
+    enunciado: `"Repartimos a vida em idades, em anos, em meses, em dias, em horas, mas todas estas partes são tão duvidosas, e tão incertas, que não há idade tão florente, nem saúde tão robusta, nem vida tão bem regrada, que tenha um só momento seguro."
+(Antonio Vieira, "Sermão de Quarta-feira de Cinza ano de 1673", em A arte de morrer. São Paulo: Nova Alexandria, 1994, p. 79.)
+
+Nesta passagem de um sermão proferido em 1673, Antônio Vieira retomou os argumentos da pregação que fizera no ano anterior e acrescentou novas características à morte. Para comover os ouvintes, recorreu ao uso de anáforas.
+Assinale a alternativa que corresponde ao efeito produzido pelas repetições no sermão.`,
+    opcoes: [
+      { letra: 'A', texto: `A repetição busca sensibilizar os fiéis para o desengano da passagem do tempo.` },
+      { letra: 'B', texto: `A repetição busca demonstrar aos fiéis o temor de uma vida longeva.` },
+      { letra: 'C', texto: `A repetição busca sensibilizar os fiéis para o valor de cada etapa da vida.` },
+      { letra: 'D', texto: `A repetição busca demonstrar aos fiéis a insegurança de uma vida cristã.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1639,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Interpretação de texto: o conceito de sertão',
+    enunciado: `De acordo com Heloísa Starling, "Sertão é uma palavra carregada de ambiguidade. Sertão pode indicar a formação de um espaço interno, a fronteira aberta, ou um pedaço da geografia brasileira onde a terra se torna mais árida, o clima é seco, a vegetação escassa. Mas a palavra é igualmente utilizada para apontar uma realidade política: a inexistência de limites, o território do vazio, a ausência de leis, a precariedade dos direitos. Sertão é, paradoxalmente, o potencial de liberdade e o risco da barbárie - além de ser também uma paisagem fadada a desaparecer."
+(Adaptado de Heloisa Murgel Starling, A palavra "sertão" e uma história pouco edificante sobre o Brasil.)
+
+Assinale o excerto que corresponde à ideia de sertão desenvolvida pela autora.`,
+    opcoes: [
+      { letra: 'A', texto: `"Se achardes no Sertão muito sertão, lembrai-vos que ele é infinito, e a vida ali não tem esta variedade que não nos faz ver que as casas são as mesmas, e os homens não são outros." (Machado de Assis)` },
+      { letra: 'B', texto: `"Nessa época o sertão parece a terra combusta do profeta; dir-se-ia que por aí passou o fogo e consumiu toda a verdura, que é o sorriso dos campos e a gala das árvores, ou o seu manto, como chamavam poeticamente os indígenas." (José de Alencar)` },
+      { letra: 'C', texto: `"Lugar sertão se divulga: é onde os pastos carecem de fechos; onde um pode torar dez, quinze léguas, sem topar com casa de morador; e onde criminoso vive seu cristo-jesus, arredado do arrocho de autoridade." (Guimarães Rosa)` },
+      { letra: 'D', texto: `"Dilatam-se os horizontes. O firmamento, sem o azul carregado dos desertos, alteia-se, mais profundo, ante o expandir revivescente da terra. E o sertão é um vale fértil. É um pomar vastíssimo, sem dono." (Euclides da Cunha)` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1640,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Brasileira - Gilberto Gil: figuras de linguagem (paradoxo)',
+    enunciado: `Entre os versos de Gilberto Gil transcritos a seguir, podemos identificar uma relação paradoxal em:`,
+    opcoes: [
+      { letra: 'A', texto: `"Sou viramundo virado / pelo mundo do sertão."` },
+      { letra: 'B', texto: `"Louvo a luta repetida / da vida pra não morrer."` },
+      { letra: 'C', texto: `"De dia, Diadorim, / de noite, estrela sem fim."` },
+      { letra: 'D', texto: `"Toda saudade é presença / da ausência de alguém."` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1642,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Interpretação de texto: crônica sobre desigualdade',
+    enunciado: `Entre todas as palavras do momento, a mais flamejante talvez seja desigualdade. E nem é uma boa palavra, incomoda. Começa com des. Des de desalento, des de desespero, des de desesperança. Des, definitivamente, não é um bom prefixo.
+Desigualdade. A palavra do ano, talvez da década, não importa em que dicionário. Doravante ouviremos falar muito nela.
+(...)
+O patrão jardinesco vive 23 anos a mais, em média, do que um humaníssimo habitante da Cidade Tiradentes, por todas as razões sociais que a gente bem conhece.
+(...)
+(Adaptado de Xico Sá, A vidinha sururu da desigualdade brasileira. Em El País, 28/10/2019.)
+
+A crônica instiga o leitor a ficar atento à desigualdade na cidade de São Paulo. Assinale a alternativa que identifica corretamente os recursos expressivos (estilísticos e literários) de que se vale o autor.`,
+    opcoes: [
+      { letra: 'A', texto: `A desigualdade está escrita nas linhas de trens e resoa nos versos de Solano Trindade: onomatopeia.` },
+      { letra: 'B', texto: `No destino dos transportes coletivos no sentido centro subúrbio é possível viver a desigualdade: eufemismo.` },
+      { letra: 'C', texto: `A desigualdade se mostra na expectativa de vida dos moradores de bairros bem situados e periferias: alusão.` },
+      { letra: 'D', texto: `Na cobertura da imprensa, números da desigualdade perdem para pontos da bolsa de valores: ambiguidade.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1643,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Português - Recursos linguísticos em crônica',
+    enunciado: `Assinale a alternativa que identifica corretamente recursos linguísticos explorados pelo autor nessa crônica (sobre a desigualdade em São Paulo, de Xico Sá).`,
+    opcoes: [
+      { letra: 'A', texto: `Uso de verbos no imperativo, linguagem informal, texto impessoal.` },
+      { letra: 'B', texto: `Marcas de coloquialidade, uso de primeira pessoa, linguagem objetiva.` },
+      { letra: 'C', texto: `Marcas de oralidade, uso expressivo de recursos ortográficos, subjetividade do autor.` },
+      { letra: 'D', texto: `Uso de variação linguística, linguagem neutra, apelo ao tom coloquial.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1648,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - Interpretação de texto: burnout',
+    enunciado: `IS BURNOUT REAL?
+Last week, the World Health Organization upgraded burnout from a "state" of exhaustion to "a syndrome" resulting from "chronic workplace stress" in its International Disease Classification. That is such a broad definition that it could well apply to most people at some point in their working lives. When a disorder is reportedly so widespread, it makes me wonder whether we are at risk of medicalizing everyday distress. If almost everyone suffers from burnout, then no one does, and the concept loses all credibility.
+By Richard A. Friedman
+
+I'm sure the author's generation also experienced workplace stress. However, his generation also experienced real economic stability and socioeconomic gains. There was a light at the end of the tunnel. Currently, we are working tirelessly towards what ends? There doesn't seem to be a light at the end of the tunnel. The burnout is psychological and existential as much as it is physical.
+Anna B. New York, June 4, 2019
+(Adaptado de https://www.nytimes.com/2019/06/03/opinion/burnout-stress.html.)
+
+Em seu comentário, a leitora Anna B. discorda do autor do texto quanto à`,
+    opcoes: [
+      { letra: 'A', texto: `gravidade de burnout nas condições atuais.` },
+      { letra: 'B', texto: `existência de burnout em gerações passadas.` },
+      { letra: 'C', texto: `influência da economia no avanço de burnout.` },
+      { letra: 'D', texto: `prevalência de burnout no ambiente de trabalho.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1649,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - Interpretação de texto: flat earth cruise',
+    enunciado: `All aboard the flat earth cruise - just don't tell them about nautical navigation
+A group of people who believe the Earth is flat have announced their "boldest adventure yet": a Flat Earth cruise scheduled for 2020. (...) "Nautical charts are designed with that in mind: that the Earth is round. GPS relies on 24 main satellites which orbit the Earth to provide positional and navigational information. (...) Had the Earth been flat, a total of three satellites would have been enough to provide this information to everyone on Earth. But it is not enough, because the Earth is round."
+(Adaptado de https://www.theguardian.com/science/2019/jan/09/flat-earth-cruise-nautical-navigation.)
+
+A respeito do fato noticiado, o autor do texto ressalta`,
+    opcoes: [
+      { letra: 'A', texto: `uma contradição.` },
+      { letra: 'B', texto: `uma confirmação.` },
+      { letra: 'C', texto: `um equívoco da ciência.` },
+      { letra: 'D', texto: `uma inversão de valores.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1651,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Inglês - Interpretação de texto: carta de John Keats',
+    enunciado: `Reproduz-se abaixo uma carta do poeta inglês John Keats a sua amada Fanny Brawne.
+Sweetest Fanny,
+When you passed my window home yesterday, I was filled with as much admiration as if I had then seen you for the first time. (...) Even if you did not love me I could not help an entire devotion to you: how much more deeply then must I feel for you knowing you love me. My Mind has been the most discontented and restless one that ever was put into a body too small for it. (...)
+Your affectionate,
+J. Keats
+(Adaptado de http://www.john-keats.com/briefe/.)
+
+O autor da carta`,
+    opcoes: [
+      { letra: 'A', texto: `lamenta o fato de que a mulher que ele adora não o ama da mesma forma.` },
+      { letra: 'B', texto: `revela que o amor por essa mulher lhe trouxe intranquilidade e pensamentos negativos.` },
+      { letra: 'C', texto: `mostra sua admiração por uma mulher que, para ele, encarna a beleza em sua essência.` },
+      { letra: 'D', texto: `afirma que seus sentimentos pela mulher não mudariam mesmo se não fosse correspondido.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1653,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Análise combinatória: anagramas',
+    enunciado: `O número de anagramas da palavra REFLORESTAMENTO que começam com a sequência FLORES é`,
+    opcoes: [
+      { letra: 'A', texto: `9!.` },
+      { letra: 'B', texto: `9!/2!` },
+      { letra: 'C', texto: `9!/(2!2!).` },
+      { letra: 'D', texto: `9!/(2!2!2!).` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1654,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Equações racionais',
+    enunciado: `A soma dos valores de x que resolvem a equação
+((1/2) + (1/3)) / ((x/4) + (1/x)) = 1/2
+é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `14/3.` },
+      { letra: 'B', texto: `16/3` },
+      { letra: 'C', texto: `18/3` },
+      { letra: 'D', texto: `20/3` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1656,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Porcentagem: desmatamento na Amazônia',
+    enunciado: `O projeto PRODES – Monitoramento do desmatamento das formações florestais na Amazônia Legal, do INPE (Instituto Nacional de Pesquisas Espaciais), monitora as áreas desmatadas da Amazônia legal e mantém um registro da área desmatada por ano. Um levantamento sobre esses dados a partir de 2016 mostrou que em 2019 houve um acréscimo de 35% da área desmatada em relação a 2018, de 45% em relação a 2017 e de 28% em relação a 2016.
+(Fonte: http://terrabrasilis.dpi.inpe.br.)
+
+Sabendo que a soma das áreas desmatadas nos anos de 2017, 2018 e 2019 foi de 24.600 km², a área desmatada no ano de 2019 está entre`,
+    opcoes: [
+      { letra: 'A', texto: `8.601 km² e 9.200 km².` },
+      { letra: 'B', texto: `9.201 km² e 9.800 km²` },
+      { letra: 'C', texto: `8.801 km² e 10.400 km².` },
+      { letra: 'D', texto: `10.401 km² e 11.200 km²` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1657,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Interpretação de dados: desmatamento na Amazônia',
+    enunciado: `Considerando os dados apresentados, relativos ao período analisado (desmatamento na Amazônia Legal entre 2016 e 2019), é correto afirmar:`,
+    opcoes: [
+      { letra: 'A', texto: `O ano que teve a menor área desmatada foi 2016.` },
+      { letra: 'B', texto: `A área desmatada em 2019 corresponde a 80% da área total desmatada no período de 2017 a 2018.` },
+      { letra: 'C', texto: `A área desmatada em 2018 foi 35% menor do que em 2019.` },
+      { letra: 'D', texto: `A área desmatada em 2018 foi menor que a área desmatada em 2016.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1658,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Logaritmos',
+    enunciado: `Se f(x) = log_10(x) e x > 0, então f(1/x) + f(100x) é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `1.` },
+      { letra: 'B', texto: `2.` },
+      { letra: 'C', texto: `3.` },
+      { letra: 'D', texto: `4.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1659,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Progressão aritmética e triângulos',
+    enunciado: `Considere que os ângulos internos de um triângulo formam uma progressão aritmética. Dado que a, b, c são as medidas dos lados do triângulo, sendo a < b < c, é correto afirmar que`,
+    opcoes: [
+      { letra: 'A', texto: `b² + ac = a² + c².` },
+      { letra: 'B', texto: `a² + bc = b² + c².` },
+      { letra: 'C', texto: `a² - bc = b² + c².` },
+      { letra: 'D', texto: `b² - ac = a² + c².` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1661,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Progressão aritmética e determinantes',
+    enunciado: `Considere a, b, c, d termos consecutivos de uma progressão aritmética de números reais com razão r ≠ 0. Denote por D o determinante da matriz
+(a b)
+(c d),
+É correto afirmar que D / r² vale`,
+    opcoes: [
+      { letra: 'A', texto: `-1` },
+      { letra: 'B', texto: `-2.` },
+      { letra: 'C', texto: `-3.` },
+      { letra: 'D', texto: `-4.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1662,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Progressão geométrica infinita',
+    enunciado: `Seja x um número real tal que os primeiros três termos de uma progressão geométrica infinita são 1, 2x, -3x + 1, nesta ordem. Sabendo que todos os termos da progressão são positivos, a soma de todos eles é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `3/2` },
+      { letra: 'B', texto: `2.` },
+      { letra: 'C', texto: `5/2` },
+      { letra: 'D', texto: `3.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1663,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Geometria analítica: reta mediatriz',
+    enunciado: `No plano cartesiano, considere a reta de equação x + 2y = 4, sendo A, B os pontos de interseção dessa reta com os eixos coordenados. A equação da reta mediatriz do segmento de reta AB é dada por`,
+    opcoes: [
+      { letra: 'A', texto: `2x - y = 3` },
+      { letra: 'B', texto: `2x - y = 5.` },
+      { letra: 'C', texto: `2x + y = 3` },
+      { letra: 'D', texto: `2x + y = 5.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1664,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Matemática - Geometria: volume de cilindro',
+    enunciado: `No início do expediente do dia 16 de março de 2020, uma farmácia colocou à disposição dos clientes um frasco cilíndrico de 500 ml (500 cm³) de álcool em gel para higienização das mãos. No final do expediente, a coluna de álcool havia baixado 5 cm. Sabendo que a base do cilindro tem diâmetro de 6 cm e admitindo o mesmo consumo de álcool em gel nos dias seguintes, calcula-se que o frasco ficou vazio no dia`,
+    opcoes: [
+      { letra: 'A', texto: `17 de março.` },
+      { letra: 'B', texto: `18 de março.` },
+      { letra: 'C', texto: `19 de março.` },
+      { letra: 'D', texto: `20 de março.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1665,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Movimento circular: fita cassete',
+    enunciado: `Nas questões de 33 a 40, sempre que necessário, use pi = 3 e g = 10 m/s².
+Ao passar pelo sensor magnético, a velocidade linear de um ponto de uma fita cassete é v = 0,045 m/s. Depois de passar pelo sensor, a fita é enrolada em uma bobina circular de diâmetro d = 6,0 cm. Em quanto tempo a bobina completa uma volta?`,
+    opcoes: [
+      { letra: 'A', texto: `0,65 s.` },
+      { letra: 'B', texto: `1,3 s.` },
+      { letra: 'C', texto: `4,0 s.` },
+      { letra: 'D', texto: `0,27 s.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1667,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Pressão',
+    enunciado: `A força normal aplicada pela agulha de um toca-discos sobre o disco tem módulo igual a |N| = 2,0 x 10^-2 N. A área de contato entre a agulha e o disco é igual a 1,6 x 10^-3 mm². Qual é a pressão exercida pela agulha sobre o disco?
+Dado: 1,0 atm = 1,0 x 10^5 N/m²`,
+    opcoes: [
+      { letra: 'A', texto: `1,25 x 10^-4 atm.` },
+      { letra: 'B', texto: `3,20 x 10^-3 atm.` },
+      { letra: 'C', texto: `3,20 x 10^1 atm.` },
+      { letra: 'D', texto: `1,25 x 10^2 atm.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1668,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Atrito',
+    enunciado: `A força de atrito cinético entre a agulha e um disco de vinil tem módulo |Fat| = 8,0 x 10^-3 N. Sendo o módulo da força normal |N| = 2,0 x 10^-2 N, o coeficiente de atrito cinético, mu_c, entre a agulha e o disco é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `1,6 x 10^-5` },
+      { letra: 'B', texto: `5,0 x 10^-2.` },
+      { letra: 'C', texto: `4,0 x 10^-1.` },
+      { letra: 'D', texto: `2,5 x 10^0` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1669,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Energia cinética',
+    enunciado: `Em fevereiro de 2020, a estação meteorológica de Key West, na Flórida (EUA), registrou uma revoada de pássaros migrantes que se assemelhava a uma grande tempestade. Considere uma nuvem de pássaros de forma cilíndrica, de raio R0 = 145000 m e altura h = 100 m, e densidade de pássaros dp = 6,0 x 10^-7 pássaros/m³. Suponha ainda que cada pássaro tenha massa mp = 0,5 kg e velocidade v0 = 20 m/s todos voando na mesma direção e sentido. Assim, a energia cinética da revoada de pássaros é igual a`,
+    opcoes: [
+      { letra: 'A', texto: `3,8 x 10^8 J.` },
+      { letra: 'B', texto: `1,9 x 10^7 J` },
+      { letra: 'C', texto: `5,2 x 10^3 J.` },
+      { letra: 'D', texto: `1,3 x 10^7 J.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1670,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Calorimetria',
+    enunciado: `Um microchip de massa m = 2,0 x 10^-6 g é composto majoritariamente de silício. Durante um minuto de funcionamento, o circuito elétrico do dispositivo dissipa, na forma térmica, uma quantidade de energia Q = 0,96 mJ. Considere que o calor específico do silício é C_si = 800 J/kg°C. Caso não houvesse nenhum mecanismo de escoamento de calor para fora do dispositivo, em quanto sua temperatura aumentaria após esse tempo de funcionamento?`,
+    opcoes: [
+      { letra: 'A', texto: `4,8 x 10^1 °C.` },
+      { letra: 'B', texto: `1,6 x 10^2 °C.` },
+      { letra: 'C', texto: `6,0 x 10^2 °C.` },
+      { letra: 'D', texto: `1,2 x 10^3 °C` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1674,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Concentração e custo-benefício',
+    enunciado: `É comum encontrarmos, nos supermercados, produtos semelhantes em suas finalidades, porém em quantidades, concentrações de ingredientes e preços bem variados. Imagine três produtos com propriedades desinfetantes, com o mesmo princípio ativo. Os produtos têm as seguintes características:
+Produto A: 0,45% (massa/massa) do princípio ativo, conteúdo de 1 L, valor R$ 11,90;
+Produto B: 0,17% (massa/massa) do princípio ativo, conteúdo de 0,5 L, valor R$ 2,49;
+Produto C: 0,33% (massa/massa) do princípio ativo, conteúdo de 2 L, valor R$ 5,19.
+
+Os produtos que oferecem a melhor relação custo/benefício seriam, em ordem crescente,`,
+    opcoes: [
+      { letra: 'A', texto: `A, B, C.` },
+      { letra: 'B', texto: `C, A, B.` },
+      { letra: 'C', texto: `C, B, A.` },
+      { letra: 'D', texto: `B, C, A.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1676,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Substâncias e contaminação (dietilenoglicol)',
+    enunciado: `Em 2020, o Brasil foi impactado com a notícia de que muitas pessoas haviam se contaminado ao ingerir cerveja. Como se apurou mais tarde, a bebida havia sido contaminada por dietilenoglicol. O fabricante argumentou que havia comprado monoetilenoglicol, e que dietilenoglicol chegou ao produto por contaminação ou por engano. A respeito desse episódio, pode-se afirmar que, se o dietilenoglicol, que estava dissolvido em água, fosse utilizado no sistema de`,
+    opcoes: [
+      { letra: 'A', texto: `resfriamento na linha de produção de cerveja, esse material poderia ser substituído por etanol, mas não por sal de cozinha.` },
+      { letra: 'B', texto: `aquecimento na linha de produção de cerveja, esse material poderia ser substituído por etanol.` },
+      { letra: 'C', texto: `resfriamento na linha de produção de cerveja, esse material poderia ser substituído por sal de cozinha.` },
+      { letra: 'D', texto: `aquecimento na linha de produção de cerveja, esse material poderia ser substituído por etanol, mas não por sal de cozinha.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1678,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Química - Estequiometria',
+    enunciado: `A remoção de sulfeto de hidrogênio presente em amostras de biogás é essencial, já que ele é altamente corrosivo para tubulações metálicas. A queima desse H2S também é muito prejudicial ao meio ambiente, pois leva à formação de dióxido de enxofre. Um estudo de 2014 sugere que a remoção do H2S pode ser realizada pelo uso de esponjas de óxido de ferro, que reage com esse gás, mas pode ser regenerado. Segundo o estudo, no dispositivo utilizado, 1,00 kg de óxido de ferro foi capaz de remover entre 0,200 e 0,716 kg de sulfeto de hidrogênio. Considere que apenas a reação abaixo equacionada esteja ocorrendo nessa remoção.
+Fe2O3(s) + 3 H2S(g) -> Fe2S3(s) + 3 H2O(l)
+
+A partir desses dados, pode-se afirmar que, na condição de remoção máxima de sulfeto de hidrogênio relatada no estudo,
+Massas molares (g mol^-1): Fe = 56, H = 1, O = 16 e S = 32`,
+    opcoes: [
+      { letra: 'A', texto: `restaram cerca de 33% de óxido de ferro para reagir, tomando por base a estequiometria da equação química fornecida.` },
+      { letra: 'B', texto: `restaram cerca de 67% de óxido de ferro para reagir, tomando por base a estequiometria da equação química fornecida.` },
+      { letra: 'C', texto: `foi removida uma quantidade maior de H2S que a prevista pela estequiometria da equação química fornecida.` },
+      { letra: 'D', texto: `as quantidades reagiram na proporção estequiométrica da equação química fornecida.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1679,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Física - Gases: oxigenoterapia',
+    enunciado: `"Hospital Municipal de Juruti (PA) recebe mais de 70 cilindros de oxigênio para tratar pacientes com Covid-19" (site G1, 01/06/2020). A oxigenoterapia é indicada para todos os pacientes graves, inicialmente variando de 5 a 10 L de O2/min. Para uma vazão constante e máxima na faixa considerada, o cilindro de cada paciente deverá, necessariamente, ser trocado após aproximadamente
+Dados: volume interno do cilindro = 50 L; volume aproximado do gás a 1 atm de pressão em cada cilindro = 10 m³; pressão inicial no cilindro = ~200 atm.`,
+    opcoes: [
+      { letra: 'A', texto: `17 horas de uso, sendo o volume de gás restante no cilindro igual a 50 L e a pressão 1 atm.` },
+      { letra: 'B', texto: `33 horas de uso, sendo o volume de gás restante no cilindro igual a 50 L e a pressão 0 atm.` },
+      { letra: 'C', texto: `33 horas de uso, sendo o volume de gás restante no cilindro igual a 0 L e a pressão 0 atm.` },
+      { letra: 'D', texto: `17 horas de uso, sendo o volume de gás restante no cilindro igual a 0 L e a pressão 1 atm.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1682,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Reprodução de angiospermas: dupla fecundação',
+    enunciado: `A dupla fecundação é um processo característico em angiospermas, resultando na formação do zigoto e do núcleo triploide. As sementes com cotilédones, embrião, endosperma e casca são formadas e protegidas no interior dos frutos. Considerando a origem e a ploidia das estruturas citadas, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `O núcleo triploide (3n) é formado pela junção dos núcleos polares com o núcleo espermático.` },
+      { letra: 'B', texto: `O zigoto (2n) é formado a partir dos núcleos polares e da oosfera, oriundos dos sacos embrionário e polínico.` },
+      { letra: 'C', texto: `Os carpelos originam o ovário, que se transforma nos cotilédones (2n) e na casca da semente.` },
+      { letra: 'D', texto: `O endosperma (3n) origina-se do núcleo triploide, formando posteriormente os cotilédones da semente.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1683,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Genética: seleção em salmões',
+    enunciado: `A necrose pancreática infecciosa (NPi) é uma doença viral que causa elevada mortalidade em salmões de água doce e água salgada. Em 2007, descobriu-se que a resistência à doença era hereditária, e as empresas de criação começaram a implementar a seleção familiar. Em 2008, estudos genéticos identificaram um único locus no cromossomo 26 que poderia explicar de 80 a 100% da variação na resistência ao vírus da NPi. Desde 2009, a resistência à NPi do salmão pode ser avaliada por marcadores do alelo de resistência. O número de mortes dos salmões em decorrência dos surtos de NPi diminuiu significativamente de 2009 a 2015.
+(R. D. Houston e outros. Nature Reviews Genetics, Londres, v. 21, p. 381-409, abr. 2020.)
+
+Considerando as informações apresentadas no texto, assinale a alternativa que justifica corretamente a diminuição na mortalidade dos salmões.`,
+    opcoes: [
+      { letra: 'A', texto: `Por meio da transgenia, o alelo de resistência foi inserido no cromossomo 26 em salmões, sendo gerados organismos geneticamente modificados e mais resistentes.` },
+      { letra: 'B', texto: `Por meio do melhoramento genético, os salmões portadores do alelo de resistência foram selecionados e cruzados entre si, gerando maior proporção de indivíduos resistentes.` },
+      { letra: 'C', texto: `Por meio da seleção natural, os salmões com alelo de resistência foram os mais adaptados a transferir o gene às gerações seguintes por reprodução diferencial.` },
+      { letra: 'D', texto: `Por meio das mutações randômicas, o alelo de resistência foi selecionado por isolamento entre a população de salmão de água doce e de água salgada ao longo do tempo.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1684,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Arboviroses',
+    enunciado: `Arbovírus são assim designados porque parte de seu ciclo de replicação ocorre nos insetos; esses vírus podem ser transmitidos aos seres humanos. O Ministério da Saúde alertou para o controle das arboviroses e o risco de epidemias sazonais no Brasil em 2020.
+Assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `O vírus da febre amarela e o zika vírus podem ser transmitidos pela picada do mosquito Culex. Para ambos os casos não existe vacina, sendo considerada profilática a erradicação do inseto vetor e de suas larvas.` },
+      { letra: 'B', texto: `O vírus da dengue e o zika vírus podem ser transmitidos pela picada do mosquito Aedes aegypti. A eliminação do inseto vetor e a eliminação dos focos de criação das larvas são medidas profiláticas.` },
+      { letra: 'C', texto: `O vírus da febre amarela e o da chikungunya podem ser transmitidos pela picada do mosquito Aedes aegypti. Para ambos os casos, foram desenvolvidas vacinas e o controle do inseto vetor não é considerado uma medida profilática.` },
+      { letra: 'D', texto: `O vírus da chikungunya e o da dengue podem ser transmitidos pela picada do mosquito Culex. A erradicação do inseto vetor e a eliminação das larvas são consideradas medidas profiláticas.` },
+    ],
+    correta: 'B',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1686,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Zoologia: filos a partir de fósseis',
+    enunciado: `Na análise de dois fósseis de animais adultos coletados na região dos Campos Gerais (Paraná), destacaram-se as seguintes características:
+Fóssil 1: Simetria radiada, esqueleto com espinhos e sulco ambulacral.
+Fóssil 2: Simetria bilateral, esqueleto e dois pares de antena.
+
+Considerando as características descritas, assinale a alternativa que indica animais dos mesmos filos dos fósseis 1 e 2, respectivamente.`,
+    opcoes: [
+      { letra: 'A', texto: `Ouriço-do-mar e mexilhão.` },
+      { letra: 'B', texto: `Hidra e camarão.` },
+      { letra: 'C', texto: `Estrela-do-mar e caranguejo.` },
+      { letra: 'D', texto: `Lampreia e caramujo.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1688,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências da Natureza',
+    assunto: 'Biologia - Cnidários: corais',
+    enunciado: `Os recifes de coral constituem importantes ecossistemas do planeta, oferecendo abrigo, áreas de desova e proteção contra predadores, e são o habitat de organismos na base das cadeias alimentares oceânicas.
+Considerando os conhecimentos de biologia, é correto afirmar que os corais`,
+    opcoes: [
+      { letra: 'A', texto: `com organização corporal polipoide são animais fixos ao substrato, com reprodução sexuada, e os com organização medusoide correspondem aos animais móveis, com reprodução assexuada.` },
+      { letra: 'B', texto: `têm vários tentáculos junto à boca, compostos por cnidoblastos, os quais são células dotadas de flagelos que auxiliam na movimentação da água para favorecer a filtração do alimento e trocas gasosas.` },
+      { letra: 'C', texto: `são animais triblásticos, pois em sua fase embrionária distinguem-se três folhetos embrionários (endoderme, mesoderme e ectoderme), com ausência do celoma e presença de disco basal.` },
+      { letra: 'D', texto: `têm duas superfícies epiteliais, a epiderme, que reveste externamente o animal, e a gastroderme, que delimita a cavidade gastrovascular; entre elas, encontram-se células pertencentes à mesogleia.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1689,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Linguagens',
+    assunto: 'Literatura Universal - Safo: poesia grega antiga',
+    enunciado: `Leia o trecho do poema da poetisa grega Safo acerca da beleza de uma jovem chamada Anactória.
+uns dizem que é uma hoste de cavalaria, outros de infantaria;
+outros dizem ser uma frota de naus, na terra negra,
+a coisa mais bela: mas eu digo ser aquilo
+que se ama.
+(Adaptado de Luísa de Nazaré Ferreira, "Turismo e património na antiguidade clássica...")
+
+A partir da leitura do poema, assinale a alternativa correta sobre o conceito de beleza na Grécia Antiga.`,
+    opcoes: [
+      { letra: 'A', texto: `Safo reconhece a beleza como conceito universal e destaca a sua independência em relação ao amor.` },
+      { letra: 'B', texto: `Safo exemplifica o conceito de belo e o define como inerente às conquistas militares e territoriais.` },
+      { letra: 'C', texto: `Safo constata a diversidade dos gostos humanos e evidencia o valor do amor para o conceito de beleza.` },
+      { letra: 'D', texto: `Safo exemplifica os gostos humanos a partir do conceito de amor e o define como inerente às conquistas militares.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1690,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Monarquias católicas ibéricas: expansão ultramarina',
+    enunciado: `Segundos os historiadores, pela primeira vez, uma potência europeia desenvolveu um projeto planetário que abrangia quatro continentes, a fim de assentar as pretensões universais da monarquia. Para isso, os juristas espanhóis invocaram a noção de extensão geográfica sem precedentes de suas possessões. Com a monarquia católica surgiram a primeira economia mundial e um regime capitalista e comercial intercontinental.
+(Adaptado de Serge Gruzinski, "Babel no século XVI. A mundialização e Globalização das Línguas".)
+
+Com base no texto do historiador Serge Gruzinski sobre as monarquias católicas, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `A noção de monarquia católica inclui Portugal, Espanha e Inglaterra, que colocaram em marcha um processo de expansão marítima planetário, calcado no trabalho assalariado dos indígenas.` },
+      { letra: 'B', texto: `O projeto planetário da monarquia católica calcava-se na memória do Império Romano, sendo que Roma ambicionou estabelecer seu aparato burocrático ágil e repressivo nos quatro continentes.` },
+      { letra: 'C', texto: `O projeto planetário da monarquia católica fundava-se em um corpo jurídico criado com argumentos teológicos, em uma burocracia exercida a distância e no trabalho compulsório.` },
+      { letra: 'D', texto: `A monarquia católica expandiu seu projeto comercial baseado em estamentos feudais nos moldes das capitanias hereditárias implementadas na América, na África e na Ásia.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1691,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Revolução Francesa: mulheres e direitos políticos',
+    enunciado: `Seguindo a trajetória das ativistas, vemos que lutaram ao lado dos homens no movimento popular urbano e participaram de várias jornadas populares, como as de 9 de abril, 20 de junho e 10 de agosto de 1792, as quais resultaram na queda da monarquia. (...) As militantes adquiriram uma visibilidade nunca imaginada para mulheres do povo, despertando o interesse e a inquietação de integrantes do governo acerca da questão dos direitos civis e políticos femininos. Sua presença na cena política foi tolerada e até incentivada no início da Revolução Francesa, porém reprimida em outubro de 1793, e depois de forma definitiva em 1795.
+(Adaptado de Tania Machado Morin, Virtuosas e perigosas: as mulheres na Revolução Francesa.)
+
+Com base no excerto e em seus conhecimentos sobre a Revolução Francesa, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `A Revolução Francesa não garantiu o direito de voto às mulheres, mas a participação delas no movimento fez com que sua exclusão da vida pública ganhasse visibilidade e fosse debatida.` },
+      { letra: 'B', texto: `Os ideais de igualdade, liberdade e fraternidade da Revolução consolidaram os direitos civis e políticos das mulheres, igualando-os aos direitos dos homens de forma inédita na história da França e da Europa.` },
+      { letra: 'C', texto: `Os revolucionários consideravam que as tarefas desempenhadas pelas mulheres na Revolução eram irrelevantes e restritas às atividades domésticas, por isso elas não conquistaram os mesmos direitos civis que os homens.` },
+      { letra: 'D', texto: `A Revolução Francesa aboliu a desigualdade de gênero em todos os âmbitos da vida pública por meio da Declaração Universal dos Direitos Humanos, que estabelecia a igualdade e a cidadania.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1692,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Economia cafeeira no Império do Brasil',
+    enunciado: `A casa de morar nas fazendas ou o palacete foram em geral construídos a partir de 1870. Representavam o poderio econômico e político do proprietário, assim como o gênero da pintura de paisagem que, segundo o historiador Rafael Marquese, foi mobilizado pela classe senhorial do Vale do Paraíba como uma resposta direta à crise da escravidão negra no Império do Brasil.
+(Adaptado de Ana Luiza Martins, "Representações da economia cafeeira: dos barões aos 'Reis do café'".)
+
+A partir do texto acima, é correto afirmar:`,
+    opcoes: [
+      { letra: 'A', texto: `Os senhores do café incrementaram um sistema de produção cafeeiro moderno que atendia o mercado internacional. Desde a instalação da corte joanina no Brasil, eles investiram nas formas de morar como capital simbólico.` },
+      { letra: 'B', texto: `Na crise capitalista da década de 1870, os produtores de café no Brasil alavancaram o tráfico de escravizados vindos de África e investiram na riqueza simbólica de suas propriedades.` },
+      { letra: 'C', texto: `No Segundo Reinado, com a intensa crise na obtenção de escravizados para as plantações de café e a acirrada disputa na definição das políticas migratórias, os cafeicultores redefiniram seu capital simbólico.` },
+      { letra: 'D', texto: `O investimento nas casas de fazenda e na pintura de paisagem reafirmava a importância social da classe senhorial. Era uma reação política contra a reforma agrária estabelecida na Lei de Terras de 1850.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1694,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Imigração asiática em São Paulo (anos 1930)',
+    enunciado: `No plano da imaginação, os asiáticos, fossem chineses ou japoneses, geravam associações contraditórias: impassíveis, teimosos, irredutíveis no preço que fixavam nas feiras livres ou em suas casas comerciais, rompendo com o estilo de barganhas e pechinchas incorporado ao dia a dia dos portugueses, sírios, libaneses, judeus, espanhóis. Ao mesmo tempo, eram associados às imagens de delicadeza, de gueixa e cerejeiras em flor, que as estampas dos calendários, os cartazes de certas peças de teatro e das óperas encarregavam de divulgar.
+(Adaptado de Boris Fausto, O Crime do Restaurante Chinês: carnaval, futebol e justiça na São Paulo dos anos 30.)
+
+O texto do historiador Boris Fausto traz informações sobre São Paulo dos anos 1930. A partir do fragmento, assinale a alternativa correta.`,
+    opcoes: [
+      { letra: 'A', texto: `A história do Brasil registra a convivência de imigrantes europeus e asiáticos, marcada por dinâmicas de assimilação e preconceito.` },
+      { letra: 'B', texto: `Imigrantes europeus gozaram da mesma posição social que a população negra e ambos os grupos se adaptaram bem à vida urbana.` },
+      { letra: 'C', texto: `As atividades da greve de 1917 unificaram os interesses de imigrantes asiáticos e europeus no campo e na cidade.` },
+      { letra: 'D', texto: `Imigrantes asiáticos e europeus compuseram, junto com a população negra, o novo cenário cultural da democracia racial da Era Vargas.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1695,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'História - Discriminação racial e Lei Afonso Arinos',
+    enunciado: `As feridas da discriminação racial se exibem ao mais superficial olhar sobre a realidade social do país. Até 1950, a discriminação em empregos era uma prática corrente, sancionada pelas práticas sociais do país. Em geral, os anúncios de vagas de trabalho eram publicados com a explícita advertência: "não se aceitam pessoas de cor." Mesmo após a Lei Afonso Arinos, de 1951, proibindo categoricamente a discriminação racial, tudo continuou na mesma. Depois da lei, os anúncios se tornaram mais sofisticados que antes, e passaram a requerer: "pessoas de boa aparência". Basta substituir "pessoas de boa aparência" por "branco" para se obter a verdadeira significação do eufemismo.
+(Adaptado de Abdias do Nascimento, O genocídio do negro brasileiro, processo de um racismo mascarado.)
+
+A partir do excerto, é correto afirmar:`,
+    opcoes: [
+      { letra: 'A', texto: `Apesar da Lei Afonso Arinos de 1951, o racismo que existia há muitos anos no mercado de trabalho brasileiro permaneceu por meio de estratégias camufladas.` },
+      { letra: 'B', texto: `A Lei Afonso Arinos de 1951 possibilitou a eliminação do racismo no mercado de trabalho do mundo da moda, que exigia a boa aparência das pessoas brancas.` },
+      { letra: 'C', texto: `Em 1951, o conceito de "pessoas de boa aparência", ditado pelo mundo da moda e reproduzido nos anúncios de vagas de trabalho, privilegiava o asseio no vestir.` },
+      { letra: 'D', texto: `O racismo foi eliminado das relações sociais brasileiras somente na década de 1990, com a consolidação do conjunto de leis da democracia racial.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1699,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Infraestrutura urbana',
+    enunciado: `Em nosso planeta em rápida urbanização, a vida cotidiana da crescente população de urbanoides é cada vez mais sustentada por sistemas vastos e incrivelmente complexos de infraestrutura e tecnologia. Ainda que muitas vezes passem despercebidos – pelo menos quando funcionam –, esses sistemas permitem que a vida urbana moderna exista. Seus encanamentos, dutos, servidores, fios e túneis sustentam os fluxos, as conexões e os metabolismos que são intrínsecos às cidades contemporâneas.
+(Adaptado de Stephen Graham, Cidades sitiadas. O novo urbanismo militar.)
+
+Depreende-se do texto que`,
+    opcoes: [
+      { letra: 'A', texto: `a vida na cidade é composta por um conjunto de individualidades autossuficientes, sem a necessidade de interconexões e solidariedades.` },
+      { letra: 'B', texto: `as cidades contemporâneas são dependentes de sistemas técnicos infraestruturais, mas cada vez menos dependentes do trabalho técnico e social.` },
+      { letra: 'C', texto: `os bastidores infraestruturais e sociais da vida urbana cotidiana, em geral ocultos, tornam-se claros e palpáveis em momentos de interrupções sistêmicas.` },
+      { letra: 'D', texto: `a dependência das infraestruturas em rede existe apenas em cidades modernas e tecnologicamente avançadas, as chamadas cidades high-tech.` },
+    ],
+    correta: 'C',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1701,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Geografia - Golfo Pérsico e geopolítica do petróleo',
+    enunciado: `A região denominada Golfo Pérsico abrange, além do próprio golfo, os países que se situam inteira ou parcialmente no seu litoral, a saber: Kuwait, Bahrein, Qatar, Emirados Árabes Unidos e Omã. A Arábia Saudita também é considerada parte da região, pois, embora a maior parte de seu território seja continentalizada e as principais cidades se situem no interior ou próximas ao Mar Vermelho, ela tem mais de 600 quilômetros de litoral voltado para o Golfo, com algumas cidades costeiras (Ad-Dammam, Al-Jubail) e complexas ligações viárias com Qatar, Bahrein e Kuwait.
+(L. A. B. Venturi, Água no Oriente Médio: o fluxo da paz.)
+
+Litoral é uma faixa de terra emersa, banhada pelo mar, que pode apresentar diferentes configurações. Para os países mencionados no texto, a presença do litoral em formato de Golfo é fundamental para o escoamento por via marítima do petróleo, a principal commodity do Oriente Médio.
+Assinale a alternativa que define corretamente "Golfo".`,
+    opcoes: [
+      { letra: 'A', texto: `Reentrância do mar sobre o continente, possuindo grandes dimensões e com uma forma mais aberta para o mar.` },
+      { letra: 'B', texto: `Parte do continente que avança para o oceano, com grandes extensões e cercada de água por quase todos os lados.` },
+      { letra: 'C', texto: `Barreira formada no mar e localizada próxima da praia, podendo ser formada por rochas, corais e restos de animais marinhos.` },
+      { letra: 'D', texto: `Canais que ligam rios com o mar, onde ocorre muita sedimentação, com a formação de bancos de areia e a deposição de detritos.` },
+    ],
+    correta: 'A',
+    temImagem: false,
+    imagem: null,
+  },
+  {
+    id: 1704,
+    ano: 2021,
+    prova: 'UNICAMP',
+    area: 'Ciências Humanas',
+    assunto: 'Sociologia - Confinamento e classes sociais na pandemia',
+    enunciado: `Como a maior parte dos franceses, Hamza Esmili, professor de sociologia em uma Universidade parisiense, tem doravante muito tempo para olhar por sua janela. Habitando em Seine-Saint-Denis, periferia de Paris, ele observa a atividade da rua abaixo: o movimento de pessoas é grande e não se respeitam as medidas de confinamento geral impostas pelo governo para combater a pandemia da Covid-19. "Há menos gente que habitualmente, mas a rua permanece muito movimentada", constata Esmili. "O confinamento é um conceito burguês", explica o sociólogo. "Ele implica possuir uma casa burguesa na qual se retirar. Isso não corresponde de forma alguma à realidade daqui."
+(Adaptado de courrierinternational.com.)
+
+Sobre a "casa burguesa" referida no texto, podemos concluir que`,
+    opcoes: [
+      { letra: 'A', texto: `se trata de um conceito e de uma situação aplicados apenas à França.` },
+      { letra: 'B', texto: `o conceito de burguesia aplica-se apenas às classes sociais e não às habitações.` },
+      { letra: 'C', texto: `as habitações burguesas normalmente localizam-se nas periferias e não são sinal de prestígio.` },
+      { letra: 'D', texto: `a habitação é uma das expressões de poder entre as classes sociais.` },
+    ],
+    correta: 'D',
+    temImagem: false,
+    imagem: null,
+  },
 ]
 export const AREAS = ["Todas", "Ciências da Natureza", "Ciências Humanas", "Matemática", "Linguagens"]
 export const PROVAS = ["Todas", "ENEM", "FUVEST", "UNICAMP", "UNESP"]
